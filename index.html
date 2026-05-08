@@ -703,6 +703,8 @@ function popupHTML(f) {
   `;
 }
 
+let showGhosts = false;
+
 function applyFilters() {
   const stateFilter = document.getElementById('state-filter').value;
   const q = document.getElementById('search').value.trim().toLowerCase();
@@ -715,32 +717,43 @@ function applyFilters() {
     if (q && !(f.name.toLowerCase().includes(q) || f.city.toLowerCase().includes(q))) return;
     const hasSpecies = Array.isArray(f.species) && f.species.length;
     const inFilter = !speciesFiltered || activeSpeciesFacilities.has(f.name);
-    // When species-filtering, keep zoos with NO species data visible as ghost
-    // markers so they don't simply disappear (their inventory is just unknown).
-    if (speciesFiltered && !inFilter && hasSpecies) return;
-    let icon;
-    if (highlightFacilities.has(f.name)) icon = ICON_HIGHLIGHT;
-    else if (speciesFiltered && !hasSpecies) { icon = ICON_UNKNOWN; unknownCount++; }
-    else icon = ICON_AZA;
+    if (speciesFiltered && !inFilter) {
+      // Either hide entirely, or show as a distinct ghost marker if user toggled it on.
+      if (!hasSpecies && showGhosts) {
+        unknownCount++;
+        const m = L.marker([f.lat, f.lon], { icon: ICON_UNKNOWN });
+        m.bindPopup(popupHTML(f));
+        cluster.addLayer(m);
+      } else if (!hasSpecies) {
+        unknownCount++; // counted but not shown
+      }
+      return;
+    }
+    const icon = highlightFacilities.has(f.name) ? ICON_HIGHLIGHT : ICON_AZA;
     const m = L.marker([f.lat, f.lon], { icon });
     m.bindPopup(popupHTML(f));
     cluster.addLayer(m);
     count++;
   });
   document.getElementById('stat-total').textContent = count.toLocaleString();
-  // Surface the "unknown inventory" count when filtering
+  // Update the species-results note with the optional toggle to reveal ghosts
   const note = document.getElementById('species-results');
-  if (speciesFiltered && unknownCount && note && !note.dataset.locked) {
-    const existing = note.innerHTML;
-    if (!existing.includes('inventory unknown')) {
-      note.innerHTML = existing + ` <span style="color:var(--ink-muted);font-style:italic;">+ ${unknownCount} ${unknownCount === 1 ? 'zoo' : 'zoos'} with no published inventory (dashed marker)</span>`;
-    }
+  if (speciesFiltered && unknownCount && note) {
+    const html = note.innerHTML;
+    // Strip prior ghost-suffix
+    const stripped = html.replace(/<span class="ghost-toggle".*$/s, '').replace(/\s+\+ \d+ zoos? with no published inventory.*$/s, '');
+    const toggleLabel = showGhosts ? 'hide them' : `show on map`;
+    note.innerHTML = stripped +
+      ` <span class="ghost-toggle" style="display:block;margin-top:4px;color:var(--ink-muted);font-style:italic;">+ ${unknownCount} zoo${unknownCount === 1 ? '' : 's'} with no published inventory · <a href="#" id="ghost-toggle-link" style="color:var(--moss-deep);font-style:normal;border-bottom:1px dotted;">${toggleLabel}</a></span>`;
+    const link = document.getElementById('ghost-toggle-link');
+    if (link) link.onclick = (e) => { e.preventDefault(); showGhosts = !showGhosts; applyFilters(); };
   }
 }
 
 function clearSpeciesFilter() {
   activeSpeciesFacilities = null;
   highlightFacilities = new Set();
+  showGhosts = false;
   document.getElementById('species-results').textContent = '';
   document.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
   activeChip = null;
