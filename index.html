@@ -388,74 +388,6 @@
 
   .leaflet-popup-tip { background: var(--paper); }
 
-  /* Sound buttons */
-  .sound-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 18px; height: 18px;
-    border-radius: 50%;
-    background: var(--bg-deeper);
-    border: 1px solid var(--rule);
-    cursor: pointer;
-    margin-left: 4px;
-    vertical-align: middle;
-    color: var(--moss-deep);
-    transition: all 0.12s;
-    flex-shrink: 0;
-    line-height: 0;
-    padding: 0;
-    font-family: var(--sans);
-  }
-  .sound-btn:hover {
-    background: var(--moss-deep);
-    color: var(--paper);
-    border-color: var(--moss-deep);
-    transform: scale(1.08);
-  }
-  .sound-btn.playing {
-    background: var(--rust);
-    color: var(--paper);
-    border-color: var(--rust);
-    animation: pulse 1.2s ease-in-out infinite;
-  }
-  .sound-btn.loading {
-    background: var(--ochre);
-    color: var(--paper);
-    border-color: var(--ochre);
-  }
-  .sound-btn.loading svg { animation: spin 0.9s linear infinite; transform-origin: 50% 50%; }
-  @keyframes pulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(176, 72, 38, 0.5); }
-    50% { box-shadow: 0 0 0 6px rgba(176, 72, 38, 0); }
-  }
-  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-  .sound-btn svg { width: 10px; height: 10px; display: block; }
-  .species-tag {
-    display: inline-flex;
-    align-items: center;
-    background: var(--bg-deeper);
-    border: 1px solid var(--rule);
-    border-radius: 12px;
-    padding: 2px 4px 2px 10px;
-    margin: 0 4px 4px 0;
-    font-size: 12px;
-    line-height: 1.4;
-    color: var(--ink);
-  }
-  .species-tag-name { padding-right: 4px; }
-  .species-tag .sound-btn { margin-left: 2px; width: 16px; height: 16px; }
-  .species-tag .sound-btn svg { width: 9px; height: 9px; }
-  .audio-credit {
-    display: block;
-    font-size: 9.5px;
-    color: var(--ink-muted);
-    font-style: italic;
-    margin-top: 6px;
-    line-height: 1.3;
-  }
-  .audio-credit a { color: var(--moss-deep); }
-
   /* Marker cluster restyle */
   .marker-cluster-small { background: rgba(31, 94, 62, 0.35); }
   .marker-cluster-small div { background: var(--moss); color: white; font-family: var(--serif-num); font-weight: 600; }
@@ -589,152 +521,10 @@ function escapeHTML(s) {
   return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-// ---- Audio playback ----
-let soundsIndex = {};      // normalized name -> {url, license, credit, source_page}
-let soundsByDisplay = {};  // exact display key -> normalized
-let currentAudio = null;
-let currentPlayingButton = null;
-
-function normSpeciesName(s) {
-  return String(s || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim();
-}
-
-function findSound(speciesName) {
-  if (!speciesName) return null;
-  const norm = normSpeciesName(speciesName);
-  if (soundsIndex[norm]) return soundsIndex[norm];
-  // Fallback: try matching against the suffix word (e.g., "Amur Tiger" -> "tiger")
-  const tokens = norm.split(' ');
-  for (let i = 0; i < tokens.length; i++) {
-    const candidate = tokens.slice(i).join(' ');
-    if (soundsIndex[candidate]) return soundsIndex[candidate];
-  }
-  return null;
-}
-
-function detectAudioSupport() {
-  const a = document.createElement('audio');
-  return {
-    ogg: !!a.canPlayType('audio/ogg; codecs="vorbis"').replace('no', ''),
-    mp3: !!a.canPlayType('audio/mpeg').replace('no', ''),
-  };
-}
-const _audioSupport = detectAudioSupport();
-
-function pickAudioURL(sound) {
-  // Prefer MP3 transcode if browser supports MP3 (universal); fall back to
-  // original (often OGG) for browsers that prefer it.
-  // Safari can't play OGG natively, so always prefer MP3 there.
-  if (sound.url_mp3 && _audioSupport.mp3) return [sound.url_mp3, sound.url];
-  return [sound.url, sound.url_mp3].filter(Boolean);
-}
-
-// Cache of preloaded Audio objects keyed by species name. Started on hover.
-const _audioCache = new Map();
-
-function preloadSound(speciesName) {
-  const sound = findSound(speciesName);
-  if (!sound) return null;
-  if (_audioCache.has(speciesName)) return _audioCache.get(speciesName);
-  const candidates = pickAudioURL(sound);
-  // Pre-fetch the first candidate. The browser will start downloading.
-  const a = new Audio();
-  a.preload = 'auto';
-  a.src = candidates[0];
-  a.volume = 0.85;
-  const entry = { audio: a, candidates, sound };
-  _audioCache.set(speciesName, entry);
-  return entry;
-}
-
-function playSound(speciesName, btnEl) {
-  const sound = findSound(speciesName);
-  if (!sound) return;
-  if (currentAudio) {
-    currentAudio.pause();
-    currentAudio.currentTime = 0;
-    if (currentPlayingButton) currentPlayingButton.classList.remove('playing', 'loading');
-  }
-  if (currentPlayingButton === btnEl) {
-    currentAudio = null;
-    currentPlayingButton = null;
-    return;
-  }
-
-  // Use cached pre-loaded audio if available
-  const entry = preloadSound(speciesName);
-  const candidates = entry.candidates;
-  let audio = entry.audio;
-  let attemptIdx = 0;
-
-  // Visual state: loading until canplay/playing fires
-  btnEl.classList.add('loading');
-  currentPlayingButton = btnEl;
-
-  function attachListeners() {
-    audio.oncanplay = () => {
-      btnEl.classList.remove('loading');
-      btnEl.classList.add('playing');
-    };
-    audio.onplaying = () => {
-      btnEl.classList.remove('loading');
-      btnEl.classList.add('playing');
-    };
-    audio.onended = () => {
-      btnEl.classList.remove('playing', 'loading');
-      currentAudio = null; currentPlayingButton = null;
-    };
-    audio.onerror = () => {
-      attemptIdx++;
-      if (attemptIdx >= candidates.length) {
-        btnEl.classList.remove('playing', 'loading');
-        btnEl.title = 'Could not play this clip in your browser. Open the source link to listen on Wikimedia.';
-        currentAudio = null; currentPlayingButton = null;
-        return;
-      }
-      audio = new Audio(candidates[attemptIdx]);
-      audio.volume = 0.85;
-      attachListeners();
-      audio.play().catch(() => audio.dispatchEvent(new Event('error')));
-    };
-  }
-  attachListeners();
-  audio.currentTime = 0;
-  audio.play().then(() => {
-    currentAudio = audio;
-  }).catch((err) => {
-    // play() can reject for autoplay reasons or load errors; treat like onerror
-    audio.dispatchEvent(new Event('error'));
-  });
-}
-
-const SPEAKER_SVG = '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3 5h2.5L9 2v12L5.5 11H3V5z"/><path d="M11.5 4.5a4 4 0 0 1 0 7" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/></svg>';
-
-function soundBtnHTML(speciesName) {
-  if (!findSound(speciesName)) return '';
-  return `<button class="sound-btn" data-species="${escapeHTML(speciesName)}" title="Play ${escapeHTML(speciesName)} sound">${SPEAKER_SVG}</button>`;
-}
-
-// Delegate clicks on sound buttons across the whole document
-document.addEventListener('click', (e) => {
-  const btn = e.target.closest('.sound-btn');
-  if (!btn) return;
-  e.preventDefault();
-  e.stopPropagation();
-  playSound(btn.dataset.species, btn);
-});
-// Hover/focus preload: as soon as the user moves toward a sound button,
-// start downloading so playback is instant on click.
-document.addEventListener('mouseover', (e) => {
-  const btn = e.target.closest('.sound-btn');
-  if (!btn) return;
-  preloadSound(btn.dataset.species);
-}, true);
-document.addEventListener('focusin', (e) => {
-  const btn = e.target.closest('.sound-btn');
-  if (!btn) return;
-  preloadSound(btn.dataset.species);
-});
+// Audio playback was previously available here but has been removed because
+// browser playback of Wikimedia-hosted audio was unreliable across browsers.
+function soundBtnHTML() { return ''; }
+function findSound() { return null; }
 
 const SOURCE_LABELS = {
   self: "this zoo's own A–Z animals page",
@@ -745,13 +535,9 @@ const SOURCE_LABELS = {
 function popupHTML(f) {
   let speciesNote;
   if (Array.isArray(f.species) && f.species.length) {
-    const items = f.species.map(s => {
-      const btn = soundBtnHTML(s);
-      if (btn) {
-        return `<span class="species-tag"><span class="species-tag-name">${escapeHTML(s)}</span>${btn}</span>`;
-      }
-      return `<span style="display:inline-block;margin:0 4px 4px 0;">${escapeHTML(s)}</span>`;
-    }).join('');
+    const items = f.species.map(s =>
+      `<span style="display:inline-block;margin:0 4px 4px 0;">${escapeHTML(s)}</span>`
+    ).join('');
     const srcUrls = Array.isArray(f.species_source_urls) ? f.species_source_urls : [];
     let sourceLine;
     if (srcUrls.length) {
@@ -856,15 +642,12 @@ function showSuggestions(matches) {
     hideSuggestions();
     return;
   }
-  box.innerHTML = matches.slice(0, 12).map(s => {
-    const sb = soundBtnHTML(s.display);
-    return `<div class="sugg-item" data-key="${escapeHTML(s.key)}"><span style="display:inline-flex;align-items:center;">${escapeHTML(s.display)}${sb}</span> <span class="meta">— ${s.facilities.length} ${s.facilities.length === 1 ? 'zoo' : 'zoos'}</span></div>`;
-  }).join('');
+  box.innerHTML = matches.slice(0, 12).map(s =>
+    `<div class="sugg-item" data-key="${escapeHTML(s.key)}">${escapeHTML(s.display)} <span class="meta">— ${s.facilities.length} ${s.facilities.length === 1 ? 'zoo' : 'zoos'}</span></div>`
+  ).join('');
   box.classList.add('show');
   box.querySelectorAll('.sugg-item').forEach(el => {
-    el.onclick = (e) => {
-      // Sound button has its own listener; ignore those clicks here
-      if (e.target.closest('.sound-btn')) return;
+    el.onclick = () => {
       const sp = speciesIndex.find(s => s.key === el.dataset.key);
       if (sp) selectSpecies(sp);
     };
@@ -878,13 +661,8 @@ function selectSpecies(sp) {
   activeSpeciesFacilities = facSet;
   highlightFacilities = facSet;
   document.getElementById('species-search').value = sp.display;
-  const sb = soundBtnHTML(sp.display);
-  const credit = (() => {
-    const s = findSound(sp.display);
-    return s && s.credit ? `<span class="audio-credit">🔊 ${escapeHTML(s.credit)}${s.source_page ? ` <a href="${escapeHTML(s.source_page)}" target="_blank" rel="noopener">source</a>` : ''}</span>` : '';
-  })();
   document.getElementById('species-results').innerHTML =
-    `<strong>${escapeHTML(sp.display)}</strong>${sb} → <strong>${facSet.size}</strong> ${facSet.size === 1 ? 'zoo' : 'zoos'}${credit}`;
+    `<strong>${escapeHTML(sp.display)}</strong> → <strong>${facSet.size}</strong> ${facSet.size === 1 ? 'zoo' : 'zoos'}`;
   hideSuggestions();
   applyFilters();
 }
@@ -1088,14 +866,7 @@ Promise.all([
   fetch('data/individuals.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch('data/animal_news.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch('data/ssp_data.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null),
-  fetch('data/sounds.json?v=' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-]).then(([facData, speciesData, indData, newsData, sspData, soundsData]) => {
-  // Build normalized species -> sound lookup
-  Object.entries(soundsData || {}).forEach(([key, val]) => {
-    if (key.startsWith('_') || !val || !val.url) return;
-    soundsIndex[normSpeciesName(key)] = val;
-    soundsByDisplay[key] = val;
-  });
+]).then(([facData, speciesData, indData, newsData, sspData]) => {
   allFacilities = facData.facilities;
   speciesIndex = speciesData;
 
