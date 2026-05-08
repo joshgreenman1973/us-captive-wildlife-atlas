@@ -493,9 +493,15 @@ const ICON_AZA = L.divIcon({
 });
 const ICON_HIGHLIGHT = L.divIcon({
   className: '',
-  html: `<div style="width:14px;height:14px;border-radius:50%;background:${COLORS.aza};border:2px solid #ff5500;box-shadow:0 0 6px rgba(255,85,0,0.8);"></div>`,
+  html: `<div style="width:14px;height:14px;border-radius:50%;background:${COLORS.aza};border:2px solid #b04826;box-shadow:0 0 8px rgba(176,72,38,0.7);"></div>`,
   iconSize: [14, 14],
   iconAnchor: [7, 7],
+});
+const ICON_UNKNOWN = L.divIcon({
+  className: '',
+  html: `<div style="width:9px;height:9px;border-radius:50%;background:transparent;border:1.5px dashed ${COLORS.aza};opacity:0.55;"></div>`,
+  iconSize: [9, 9],
+  iconAnchor: [4.5, 4.5],
 });
 
 const cluster = L.markerClusterGroup({
@@ -535,19 +541,36 @@ function popupHTML(f) {
 function applyFilters() {
   const stateFilter = document.getElementById('state-filter').value;
   const q = document.getElementById('search').value.trim().toLowerCase();
+  const speciesFiltered = !!activeSpeciesFacilities;
   cluster.clearLayers();
   let count = 0;
+  let unknownCount = 0;
   allFacilities.forEach(f => {
     if (stateFilter && f.state !== stateFilter) return;
     if (q && !(f.name.toLowerCase().includes(q) || f.city.toLowerCase().includes(q))) return;
-    if (activeSpeciesFacilities && !activeSpeciesFacilities.has(f.name)) return;
-    const isHighlighted = highlightFacilities.has(f.name);
-    const m = L.marker([f.lat, f.lon], { icon: isHighlighted ? ICON_HIGHLIGHT : ICON_AZA });
+    const hasSpecies = Array.isArray(f.species) && f.species.length;
+    const inFilter = !speciesFiltered || activeSpeciesFacilities.has(f.name);
+    // When species-filtering, keep zoos with NO species data visible as ghost
+    // markers so they don't simply disappear (their inventory is just unknown).
+    if (speciesFiltered && !inFilter && hasSpecies) return;
+    let icon;
+    if (highlightFacilities.has(f.name)) icon = ICON_HIGHLIGHT;
+    else if (speciesFiltered && !hasSpecies) { icon = ICON_UNKNOWN; unknownCount++; }
+    else icon = ICON_AZA;
+    const m = L.marker([f.lat, f.lon], { icon });
     m.bindPopup(popupHTML(f));
     cluster.addLayer(m);
     count++;
   });
   document.getElementById('stat-total').textContent = count.toLocaleString();
+  // Surface the "unknown inventory" count when filtering
+  const note = document.getElementById('species-results');
+  if (speciesFiltered && unknownCount && note && !note.dataset.locked) {
+    const existing = note.innerHTML;
+    if (!existing.includes('inventory unknown')) {
+      note.innerHTML = existing + ` <span style="color:var(--ink-muted);font-style:italic;">+ ${unknownCount} ${unknownCount === 1 ? 'zoo' : 'zoos'} with no published inventory (dashed marker)</span>`;
+    }
+  }
 }
 
 function clearSpeciesFilter() {
