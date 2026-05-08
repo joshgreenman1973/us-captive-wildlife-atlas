@@ -1,61 +1,333 @@
 {
-  "_note": "Public-domain or CC-licensed audio recordings of zoo animal species. URLs use Wikimedia Commons' stable Special:FilePath redirect for resilience. Source date: 2026-05-08.",
-  "_license_legend": "CC0 = public domain, CC-BY = attribution required, CC-BY-SA = attribution + share-alike",
-
-  "African Lion": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion_raring-sound1TamilNadu178.ogg", "license": "Public domain", "credit": "Wikimedia Commons / Info-farmer", "source_page": "https://commons.wikimedia.org/wiki/File:Lion_raring-sound1TamilNadu178.ogg"},
-  "Lion": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion_raring-sound1TamilNadu178.ogg", "license": "Public domain", "credit": "Wikimedia Commons / Info-farmer", "source_page": "https://commons.wikimedia.org/wiki/File:Lion_raring-sound1TamilNadu178.ogg"},
-  "Cougar": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cougar1.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Cougar1.ogg"},
-  "Bobcat": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bobcat.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Bobcat.ogg"},
-  "Serval": {"url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Artis%2C_serval_kat_-_SoundCloud_-_Beeld_en_Geluid.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons / Beeld en Geluid", "source_page": "https://commons.wikimedia.org/wiki/File:Artis,_serval_kat_-_SoundCloud_-_Beeld_en_Geluid.ogg"},
-  "Cheetah": {"url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Acoustic-Structure-and-Contextual-Use-of-Calls-by-Captive-Male-and-Female-Cheetahs-%28Acinonyx-pone.0158546.s001.oga", "license": "CC-BY", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Acoustic-Structure-and-Contextual-Use-of-Calls-by-Captive-Male-and-Female-Cheetahs-(Acinonyx-pone.0158546.s001.oga"},
-
-  "Chimpanzee": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pant-hoot_call_made_by_a_male_chimpanzee.ogg", "license": "CC-BY", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Pant-hoot_call_made_by_a_male_chimpanzee.ogg"},
-  "Bonobo": {"url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Enduring-voice-recognition-in-bonobos-srep22046-s3.oga", "license": "CC-BY", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Enduring-voice-recognition-in-bonobos-srep22046-s3.oga"},
-  "Gibbon": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hylobates-pileatus-pileated-gibbon-calling-singing-1.oga", "license": "CC-BY", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Hylobates-pileatus-pileated-gibbon-calling-singing-1.oga"},
-
-  "Gray Wolf": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolf_howls.ogg", "license": "Public domain", "credit": "Wikimedia Commons / NPS", "source_page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg"},
-  "Wolf": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolf_howls.ogg", "license": "Public domain", "credit": "Wikimedia Commons / NPS", "source_page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg"},
-  "Mexican Wolf": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolf_howls.ogg", "license": "Public domain", "credit": "Wikimedia Commons / NPS", "source_page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg"},
-  "Red Wolf": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolf_howls.ogg", "license": "Public domain", "credit": "Wikimedia Commons / NPS", "source_page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg"},
-  "Coyote": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coyotl.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Coyotl.ogg"},
-  "African Wild Dog": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lycaon_pictus_hoo-sound.wav", "license": "CC-BY", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Lycaon_pictus_hoo-sound.wav"},
-  "African Painted Dog": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lycaon_pictus_hoo-sound.wav", "license": "CC-BY", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Lycaon_pictus_hoo-sound.wav"},
-  "Spotted Hyena": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rallying.ogg", "license": "Public domain", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Rallying.ogg"},
-
-  "American Alligator": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alligatorbellowedit.ogg", "license": "Public domain", "credit": "Wikimedia Commons / USFWS", "source_page": "https://commons.wikimedia.org/wiki/File:Alligatorbellowedit.ogg"},
-
-  "Beluga": {"url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beluga_vocalizations.ogg", "license": "Public domain", "credit": "Wikimedia Commons / NOAA", "source_page": "https://commons.wikimedia.org/wiki/File:Beluga_vocalizations.ogg"},
-  "Killer Whale": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Killer_whale.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Killer_whale.ogg"},
-  "Orca": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Killer_whale.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Killer_whale.ogg"},
-
-  "Andean Condor": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andean_Condor_call_(Vultur_gryphus).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Andean_Condor_call_(Vultur_gryphus).ogg"},
-  "Toco Toucan": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toco_Toucan_call_(Ramphastos_toco).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Toco_Toucan_call_(Ramphastos_toco).ogg"},
-  "Black Swan": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black_Swan_call_(Cygnus_atratus).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Black_Swan_call_(Cygnus_atratus).ogg"},
-  "Glossy Ibis": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Glossy_Ibis_(Plegadis_falcinellus)_call.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Glossy_Ibis_(Plegadis_falcinellus)_call.ogg"},
-  "Great Egret": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Egret_(Ardea_alba_alba)_call.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Great_Egret_(Ardea_alba_alba)_call.ogg"},
-  "Great White Pelican": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_White_Pelican_(Pelecanus_onocrotalus)_sounds.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Great_White_Pelican_(Pelecanus_onocrotalus)_sounds.ogg"},
-  "Red-breasted Goose": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red-breasted_Goose_call_(Branta_ruficollis).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Red-breasted_Goose_call_(Branta_ruficollis).ogg"},
-  "Resplendent Quetzal": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Resplendent_Quetzal_song_(Pharomachrus_mocinno).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Resplendent_Quetzal_song_(Pharomachrus_mocinno).ogg"},
-  "Costa Rican Pygmy Owl": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Costa_Rican_Pygmy_Owl_(Glaucidium_costaricanum)_call.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Costa_Rican_Pygmy_Owl_(Glaucidium_costaricanum)_call.ogg"},
-  "Pacific Pygmy Owl": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pacific_Pygmy_Owl_call_(Glaucidium_peruanum).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Pacific_Pygmy_Owl_call_(Glaucidium_peruanum).ogg"},
-  "Common Blackbird": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common_Blackbird_song_(Turdus_merula).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Common_Blackbird_song_(Turdus_merula).ogg"},
-  "Great Spotted Cuckoo": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Spotted_Cuckoo_call_(Clamator_glandarius).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Great_Spotted_Cuckoo_call_(Clamator_glandarius).ogg"},
-  "Red-necked Nightjar": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red-necked_Nightjar_call_(Caprimulgus_ruficollis).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Red-necked_Nightjar_call_(Caprimulgus_ruficollis).ogg"},
-
-  "Sandhill Crane": {"url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Grus_canadensis_-_Sandhill_Crane_-_XC111490.ogg", "license": "CC-BY-NC-SA", "credit": "xeno-canto via Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Grus_canadensis_-_Sandhill_Crane_-_XC111490.ogg"},
-  "Bald Eagle": {"url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Yellowstone_sound_library_-_Bald_Eagle_-_002.mp3", "license": "Public domain", "credit": "Yellowstone NPS sound library", "source_page": "https://commons.wikimedia.org/wiki/File:Yellowstone_sound_library_-_Bald_Eagle_-_002.mp3"},
-
-  "Moose": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moose_mate.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Moose_mate.ogg"},
-  "Springbok": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Springbok_grunt_(asthma).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Springbok_grunt_(asthma).ogg"},
-  "Wild Boar": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boar.Grwls(1).ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Boar.Grwls(1).ogg"},
-  "Smooth-coated Otter": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Smooth-coated_otter_sound.wav", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Smooth-coated_otter_sound.wav"},
-  "Stump-tailed Macaque": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sound-of-stump-tailed-macaque-(macaca-arctoides).ogg", "license": "CC-BY", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Sound-of-stump-tailed-macaque-(macaca-arctoides).ogg"},
-
-  "Donkey": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/157763_felix-blume_a-donkey-is-braying-in-his-enclosure-in-south-of-france.wav", "license": "CC0", "credit": "Wikimedia Commons / Felix Blume", "source_page": "https://commons.wikimedia.org/wiki/File:157763_felix-blume_a-donkey-is-braying-in-his-enclosure-in-south-of-france.wav"},
-  "Dolphin": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/161691_felixblume_dolphin-screaming-underwater-in-caribbean-sea-mexico.wav", "license": "CC0", "credit": "Wikimedia Commons / Felix Blume", "source_page": "https://commons.wikimedia.org/wiki/File:161691_felixblume_dolphin-screaming-underwater-in-caribbean-sea-mexico.wav"},
-  "Bottlenose Dolphin": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/161691_felixblume_dolphin-screaming-underwater-in-caribbean-sea-mexico.wav", "license": "CC0", "credit": "Wikimedia Commons / Felix Blume", "source_page": "https://commons.wikimedia.org/wiki/File:161691_felixblume_dolphin-screaming-underwater-in-caribbean-sea-mexico.wav"},
-  "Hedgehog": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedgehog_O.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Hedgehog_O.ogg"},
-  "White-crested Laughingthrush": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Garrulax-leucolophus-white-crested-laughingthrush-singing.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Garrulax-leucolophus-white-crested-laughingthrush-singing.ogg"},
-  "Long-finned Pilot Whale": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Long_finned_Pilot_Whales_orig.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Long_finned_Pilot_Whales_orig.ogg"},
-  "Roe Deer": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Male_roe_deer_growl.ogg", "license": "CC-BY-SA", "credit": "Wikimedia Commons", "source_page": "https://commons.wikimedia.org/wiki/File:Male_roe_deer_growl.ogg"}
+ "_note": "Public-domain or CC-licensed audio recordings of zoo animal species. URLs use Wikimedia Commons' stable Special:FilePath redirect for resilience. Source date: 2026-05-08.",
+ "_license_legend": "CC0 = public domain, CC-BY = attribution required, CC-BY-SA = attribution + share-alike",
+ "African Lion": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Lion_raring-sound1TamilNadu178.ogg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons / Info-farmer",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Lion_raring-sound1TamilNadu178.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Lion_raring-sound1TamilNadu178.ogg/Lion_raring-sound1TamilNadu178.ogg.mp3"
+ },
+ "Lion": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Lion_raring-sound1TamilNadu178.ogg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons / Info-farmer",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Lion_raring-sound1TamilNadu178.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Lion_raring-sound1TamilNadu178.ogg/Lion_raring-sound1TamilNadu178.ogg.mp3"
+ },
+ "Cougar": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Cougar1.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Cougar1.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/Cougar1.ogg/Cougar1.ogg.mp3"
+ },
+ "Bobcat": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Bobcat.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Bobcat.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Bobcat.ogg/Bobcat.ogg.mp3"
+ },
+ "Serval": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Artis%2C_serval_kat_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons / Beeld en Geluid",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Artis,_serval_kat_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Artis%2C_serval_kat_-_SoundCloud_-_Beeld_en_Geluid.ogg/Artis%2C_serval_kat_-_SoundCloud_-_Beeld_en_Geluid.ogg.mp3"
+ },
+ "Cheetah": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Acoustic-Structure-and-Contextual-Use-of-Calls-by-Captive-Male-and-Female-Cheetahs-%28Acinonyx-pone.0158546.s001.oga",
+  "license": "CC-BY",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Acoustic-Structure-and-Contextual-Use-of-Calls-by-Captive-Male-and-Female-Cheetahs-(Acinonyx-pone.0158546.s001.oga",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Acoustic-Structure-and-Contextual-Use-of-Calls-by-Captive-Male-and-Female-Cheetahs-%28Acinonyx-pone.0158546.s001.oga/Acoustic-Structure-and-Contextual-Use-of-Calls-by-Captive-Male-and-Female-Cheetahs-%28Acinonyx-pone.0158546.s001.oga.mp3"
+ },
+ "Chimpanzee": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Pant-hoot_call_made_by_a_male_chimpanzee.ogg",
+  "license": "CC-BY",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Pant-hoot_call_made_by_a_male_chimpanzee.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Pant-hoot_call_made_by_a_male_chimpanzee.ogg/Pant-hoot_call_made_by_a_male_chimpanzee.ogg.mp3"
+ },
+ "Bonobo": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Enduring-voice-recognition-in-bonobos-srep22046-s3.oga",
+  "license": "CC-BY",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Enduring-voice-recognition-in-bonobos-srep22046-s3.oga",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Enduring-voice-recognition-in-bonobos-srep22046-s3.oga/Enduring-voice-recognition-in-bonobos-srep22046-s3.oga.mp3"
+ },
+ "Gibbon": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hylobates-pileatus-pileated-gibbon-calling-singing-1.oga",
+  "license": "CC-BY",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Hylobates-pileatus-pileated-gibbon-calling-singing-1.oga",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4d/Hylobates-pileatus-pileated-gibbon-calling-singing-1.oga/Hylobates-pileatus-pileated-gibbon-calling-singing-1.oga.mp3"
+ },
+ "Gray Wolf": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wolf_howls.ogg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons / NPS",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Wolf_howls.ogg/Wolf_howls.ogg.mp3"
+ },
+ "Wolf": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wolf_howls.ogg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons / NPS",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Wolf_howls.ogg/Wolf_howls.ogg.mp3"
+ },
+ "Mexican Wolf": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wolf_howls.ogg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons / NPS",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Wolf_howls.ogg/Wolf_howls.ogg.mp3"
+ },
+ "Red Wolf": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wolf_howls.ogg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons / NPS",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Wolf_howls.ogg/Wolf_howls.ogg.mp3"
+ },
+ "Coyote": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Coyotl.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Coyotl.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6c/Coyotl.ogg/Coyotl.ogg.mp3"
+ },
+ "African Wild Dog": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Lycaon_pictus_hoo-sound.wav",
+  "license": "CC-BY",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Lycaon_pictus_hoo-sound.wav"
+ },
+ "African Painted Dog": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Lycaon_pictus_hoo-sound.wav",
+  "license": "CC-BY",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Lycaon_pictus_hoo-sound.wav"
+ },
+ "Spotted Hyena": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Rallying.ogg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rallying.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Rallying.ogg/Rallying.ogg.mp3"
+ },
+ "American Alligator": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Alligatorbellowedit.ogg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons / USFWS",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Alligatorbellowedit.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Alligatorbellowedit.ogg/Alligatorbellowedit.ogg.mp3"
+ },
+ "Beluga": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beluga_vocalizations.ogg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons / NOAA",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Beluga_vocalizations.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Beluga_vocalizations.ogg/Beluga_vocalizations.ogg.mp3"
+ },
+ "Killer Whale": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Killer_whale.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Killer_whale.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Killer_whale.ogg/Killer_whale.ogg.mp3"
+ },
+ "Orca": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Killer_whale.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Killer_whale.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Killer_whale.ogg/Killer_whale.ogg.mp3"
+ },
+ "Andean Condor": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Andean_Condor_call_%28Vultur_gryphus%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Andean_Condor_call_(Vultur_gryphus).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Andean_Condor_call_%28Vultur_gryphus%29.ogg/Andean_Condor_call_%28Vultur_gryphus%29.ogg.mp3"
+ },
+ "Toco Toucan": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Toco_Toucan_call_%28Ramphastos_toco%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Toco_Toucan_call_(Ramphastos_toco).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Toco_Toucan_call_%28Ramphastos_toco%29.ogg/Toco_Toucan_call_%28Ramphastos_toco%29.ogg.mp3"
+ },
+ "Black Swan": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Black_Swan_call_%28Cygnus_atratus%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Black_Swan_call_(Cygnus_atratus).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Black_Swan_call_%28Cygnus_atratus%29.ogg/Black_Swan_call_%28Cygnus_atratus%29.ogg.mp3"
+ },
+ "Glossy Ibis": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Glossy_Ibis_%28Plegadis_falcinellus%29_call.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Glossy_Ibis_(Plegadis_falcinellus)_call.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Glossy_Ibis_%28Plegadis_falcinellus%29_call.ogg/Glossy_Ibis_%28Plegadis_falcinellus%29_call.ogg.mp3"
+ },
+ "Great Egret": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Great_Egret_%28Ardea_alba_alba%29_call.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Great_Egret_(Ardea_alba_alba)_call.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Great_Egret_%28Ardea_alba_alba%29_call.ogg/Great_Egret_%28Ardea_alba_alba%29_call.ogg.mp3"
+ },
+ "Great White Pelican": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Great_White_Pelican_%28Pelecanus_onocrotalus%29_sounds.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Great_White_Pelican_(Pelecanus_onocrotalus)_sounds.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Great_White_Pelican_%28Pelecanus_onocrotalus%29_sounds.ogg/Great_White_Pelican_%28Pelecanus_onocrotalus%29_sounds.ogg.mp3"
+ },
+ "Red-breasted Goose": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Red-breasted_Goose_call_%28Branta_ruficollis%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Red-breasted_Goose_call_(Branta_ruficollis).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Red-breasted_Goose_call_%28Branta_ruficollis%29.ogg/Red-breasted_Goose_call_%28Branta_ruficollis%29.ogg.mp3"
+ },
+ "Resplendent Quetzal": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Resplendent_Quetzal_song_%28Pharomachrus_mocinno%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Resplendent_Quetzal_song_(Pharomachrus_mocinno).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Resplendent_Quetzal_song_%28Pharomachrus_mocinno%29.ogg/Resplendent_Quetzal_song_%28Pharomachrus_mocinno%29.ogg.mp3"
+ },
+ "Costa Rican Pygmy Owl": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Costa_Rican_Pygmy_Owl_%28Glaucidium_costaricanum%29_call.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Costa_Rican_Pygmy_Owl_(Glaucidium_costaricanum)_call.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Costa_Rican_Pygmy_Owl_%28Glaucidium_costaricanum%29_call.ogg/Costa_Rican_Pygmy_Owl_%28Glaucidium_costaricanum%29_call.ogg.mp3"
+ },
+ "Pacific Pygmy Owl": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Pacific_Pygmy_Owl_call_%28Glaucidium_peruanum%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Pacific_Pygmy_Owl_call_(Glaucidium_peruanum).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/64/Pacific_Pygmy_Owl_call_%28Glaucidium_peruanum%29.ogg/Pacific_Pygmy_Owl_call_%28Glaucidium_peruanum%29.ogg.mp3"
+ },
+ "Common Blackbird": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Common_Blackbird_song_%28Turdus_merula%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Common_Blackbird_song_(Turdus_merula).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Common_Blackbird_song_%28Turdus_merula%29.ogg/Common_Blackbird_song_%28Turdus_merula%29.ogg.mp3"
+ },
+ "Great Spotted Cuckoo": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Great_Spotted_Cuckoo_call_%28Clamator_glandarius%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Great_Spotted_Cuckoo_call_(Clamator_glandarius).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Great_Spotted_Cuckoo_call_%28Clamator_glandarius%29.ogg/Great_Spotted_Cuckoo_call_%28Clamator_glandarius%29.ogg.mp3"
+ },
+ "Red-necked Nightjar": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Red-necked_Nightjar_call_%28Caprimulgus_ruficollis%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Red-necked_Nightjar_call_(Caprimulgus_ruficollis).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Red-necked_Nightjar_call_%28Caprimulgus_ruficollis%29.ogg/Red-necked_Nightjar_call_%28Caprimulgus_ruficollis%29.ogg.mp3"
+ },
+ "Sandhill Crane": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Grus_canadensis_-_Sandhill_Crane_-_XC111490.ogg",
+  "license": "CC-BY-NC-SA",
+  "credit": "xeno-canto via Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Grus_canadensis_-_Sandhill_Crane_-_XC111490.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Grus_canadensis_-_Sandhill_Crane_-_XC111490.ogg/Grus_canadensis_-_Sandhill_Crane_-_XC111490.ogg.mp3"
+ },
+ "Bald Eagle": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Yellowstone_sound_library_-_Bald_Eagle_-_002.mp3",
+  "license": "Public domain",
+  "credit": "Yellowstone NPS sound library",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Yellowstone_sound_library_-_Bald_Eagle_-_002.mp3"
+ },
+ "Moose": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Moose_mate.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Moose_mate.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Moose_mate.ogg/Moose_mate.ogg.mp3"
+ },
+ "Springbok": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Springbok_grunt_%28asthma%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Springbok_grunt_(asthma).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Springbok_grunt_%28asthma%29.ogg/Springbok_grunt_%28asthma%29.ogg.mp3"
+ },
+ "Wild Boar": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Boar.Grwls%281%29.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Boar.Grwls(1).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Boar.Grwls%281%29.ogg/Boar.Grwls%281%29.ogg.mp3"
+ },
+ "Smooth-coated Otter": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Smooth-coated_otter_sound.wav",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Smooth-coated_otter_sound.wav"
+ },
+ "Stump-tailed Macaque": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Sound-of-stump-tailed-macaque-%28macaca-arctoides%29.ogg",
+  "license": "CC-BY",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Sound-of-stump-tailed-macaque-(macaca-arctoides).ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/Sound-of-stump-tailed-macaque-%28macaca-arctoides%29.ogg/Sound-of-stump-tailed-macaque-%28macaca-arctoides%29.ogg.mp3"
+ },
+ "Donkey": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/157763_felix-blume_a-donkey-is-braying-in-his-enclosure-in-south-of-france.wav",
+  "license": "CC0",
+  "credit": "Wikimedia Commons / Felix Blume",
+  "source_page": "https://commons.wikimedia.org/wiki/File:157763_felix-blume_a-donkey-is-braying-in-his-enclosure-in-south-of-france.wav"
+ },
+ "Dolphin": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/161691_felixblume_dolphin-screaming-underwater-in-caribbean-sea-mexico.wav",
+  "license": "CC0",
+  "credit": "Wikimedia Commons / Felix Blume",
+  "source_page": "https://commons.wikimedia.org/wiki/File:161691_felixblume_dolphin-screaming-underwater-in-caribbean-sea-mexico.wav"
+ },
+ "Bottlenose Dolphin": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/161691_felixblume_dolphin-screaming-underwater-in-caribbean-sea-mexico.wav",
+  "license": "CC0",
+  "credit": "Wikimedia Commons / Felix Blume",
+  "source_page": "https://commons.wikimedia.org/wiki/File:161691_felixblume_dolphin-screaming-underwater-in-caribbean-sea-mexico.wav"
+ },
+ "Hedgehog": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Hedgehog_O.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Hedgehog_O.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Hedgehog_O.ogg/Hedgehog_O.ogg.mp3"
+ },
+ "White-crested Laughingthrush": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Garrulax-leucolophus-white-crested-laughingthrush-singing.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Garrulax-leucolophus-white-crested-laughingthrush-singing.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Garrulax-leucolophus-white-crested-laughingthrush-singing.ogg/Garrulax-leucolophus-white-crested-laughingthrush-singing.ogg.mp3"
+ },
+ "Long-finned Pilot Whale": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Long_finned_Pilot_Whales_orig.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Long_finned_Pilot_Whales_orig.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Long_finned_Pilot_Whales_orig.ogg/Long_finned_Pilot_Whales_orig.ogg.mp3"
+ },
+ "Roe Deer": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Male_roe_deer_growl.ogg",
+  "license": "CC-BY-SA",
+  "credit": "Wikimedia Commons",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Male_roe_deer_growl.ogg",
+  "url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Male_roe_deer_growl.ogg/Male_roe_deer_growl.ogg.mp3"
+ }
 }

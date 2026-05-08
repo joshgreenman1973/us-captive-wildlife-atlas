@@ -605,6 +605,23 @@ function findSound(speciesName) {
   return null;
 }
 
+function detectAudioSupport() {
+  const a = document.createElement('audio');
+  return {
+    ogg: !!a.canPlayType('audio/ogg; codecs="vorbis"').replace('no', ''),
+    mp3: !!a.canPlayType('audio/mpeg').replace('no', ''),
+  };
+}
+const _audioSupport = detectAudioSupport();
+
+function pickAudioURL(sound) {
+  // Prefer MP3 transcode if browser supports MP3 (universal); fall back to
+  // original (often OGG) for browsers that prefer it.
+  // Safari can't play OGG natively, so always prefer MP3 there.
+  if (sound.url_mp3 && _audioSupport.mp3) return [sound.url_mp3, sound.url];
+  return [sound.url, sound.url_mp3].filter(Boolean);
+}
+
 function playSound(speciesName, btnEl) {
   const sound = findSound(speciesName);
   if (!sound) return;
@@ -618,17 +635,27 @@ function playSound(speciesName, btnEl) {
     currentPlayingButton = null;
     return;
   }
-  const audio = new Audio(sound.url);
-  audio.volume = 0.85;
-  audio.play().catch(err => {
-    btnEl.classList.remove('playing');
-    btnEl.title = 'Failed to play: ' + err.message;
-    currentAudio = null; currentPlayingButton = null;
-  });
-  audio.onended = () => { btnEl.classList.remove('playing'); currentAudio = null; currentPlayingButton = null; };
+
+  const candidates = pickAudioURL(sound);
   btnEl.classList.add('playing');
-  currentAudio = audio;
   currentPlayingButton = btnEl;
+
+  function tryNext(idx) {
+    if (idx >= candidates.length) {
+      btnEl.classList.remove('playing');
+      btnEl.title = 'Could not play this clip in your browser. Open the source link to listen on Wikimedia.';
+      currentAudio = null; currentPlayingButton = null;
+      return;
+    }
+    const audio = new Audio(candidates[idx]);
+    audio.volume = 0.85;
+    audio.onended = () => { btnEl.classList.remove('playing'); currentAudio = null; currentPlayingButton = null; };
+    audio.onerror = () => { tryNext(idx + 1); };
+    audio.play().then(() => {
+      currentAudio = audio;
+    }).catch(() => { tryNext(idx + 1); });
+  }
+  tryNext(0);
 }
 
 const SPEAKER_SVG = '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3 5h2.5L9 2v12L5.5 11H3V5z"/><path d="M11.5 4.5a4 4 0 0 1 0 7" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/></svg>';
