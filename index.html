@@ -41,6 +41,8 @@
   .swatch.aza { background: var(--aza); }
   .swatch.exhibitor { background: var(--exhibitor); }
   .swatch.dealer { background: var(--dealer); }
+  .taxon-chip { font-size: 11px; padding: 3px 8px; border-radius: 12px; background: var(--bg); border: 1px solid var(--rule); cursor: pointer; user-select: none; color: var(--ink); }
+  .taxon-chip.active { background: var(--ink); color: white; border-color: var(--ink); }
   select, input[type="text"] {
     width: 100%; padding: 7px 9px; font-size: 13px; border: 1px solid var(--rule);
     border-radius: 4px; background: var(--bg); color: var(--ink); font-family: inherit;
@@ -64,7 +66,7 @@
 <body>
 <header>
   <h1>U.S. Captive Wildlife Atlas</h1>
-  <p>2,500+ USDA-licensed exhibitors and dealers plus every AZA-accredited zoo &amp; aquarium. The federal animal-welfare list mixes wildlife with regulated dog/cat dealers — you can hide the obvious pet operations. Phase 1: facilities only; species data coming next. <a href="methodology.html">Methodology &amp; what's missing →</a></p>
+  <p>2,500+ USDA-licensed exhibitors and dealers plus every AZA-accredited zoo &amp; aquarium. Search by taxon (<em>great apes</em>, <em>big cats</em>) or species name — Phase 2 species coverage is partial (6 major zoos so far) and growing. <a href="methodology.html">Methodology &amp; what's missing →</a></p>
 </header>
 
 <div class="layout">
@@ -81,8 +83,13 @@
     <label class="filter"><input type="checkbox" id="f-dealer" checked><span class="swatch dealer"></span>USDA Class B dealer</label>
     <label class="filter" style="margin-top:8px;border-top:1px solid var(--rule);padding-top:8px;"><input type="checkbox" id="f-hide-domestic" checked>Hide obvious dog/cat dealers</label>
 
-    <h2>Search</h2>
+    <h2>Search facility</h2>
     <input type="text" id="search" placeholder="Facility or city name…">
+
+    <h2>Species (Phase 2 — partial)</h2>
+    <div id="taxon-chips" style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px;"></div>
+    <input type="text" id="species-search" placeholder="e.g. chimpanzee, monkey, tiger…">
+    <div id="species-results" style="font-size:12px;color:var(--ink-soft);margin-top:6px;"></div>
 
     <h2>Filter by state</h2>
     <select id="state-filter"><option value="">All states</option></select>
@@ -154,7 +161,14 @@ function popupHTML(f) {
   if (f.usda_class === 'Class C - Exhibitor') tags.push('<span class="popup-tag exhibitor">USDA Exhibitor</span>');
   if (f.usda_class === 'Class B - Dealer') tags.push('<span class="popup-tag dealer">USDA Dealer</span>');
   const lic = f.usda_license ? `<div class="popup-meta">USDA license ${f.usda_license}</div>` : '';
-  const speciesNote = '<div class="popup-meta">Species inventory: not yet loaded (Phase 2)</div>';
+  let speciesNote;
+  if (Array.isArray(f.species) && f.species.length) {
+    const preview = f.species.slice(0, 8).map(escapeHTML).join(', ');
+    const more = f.species.length > 8 ? ` and ${f.species.length - 8} more` : '';
+    speciesNote = `<div class="popup-meta"><strong>Species (${f.species.length}):</strong> ${preview}${more}</div>`;
+  } else {
+    speciesNote = '<div class="popup-meta">Species inventory: not yet scraped</div>';
+  }
   return `
     <div class="popup-name">${escapeHTML(f.name)}</div>
     <div class="popup-loc">${escapeHTML(f.city)}, ${f.state}</div>
@@ -167,6 +181,9 @@ function popupHTML(f) {
 function escapeHTML(s) {
   return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
+
+let activeSpeciesFacilities = null; // Set<facility_name> or null = no species filter
+let activeTaxonChip = null;
 
 function applyFilters() {
   const showAza = document.getElementById('f-aza').checked;
@@ -188,6 +205,7 @@ function applyFilters() {
     if (hideDomestic && f.domestic_likely) return;
     if (stateFilter && f.state !== stateFilter) return;
     if (q && !(f.name.toLowerCase().includes(q) || f.city.toLowerCase().includes(q))) return;
+    if (activeSpeciesFacilities && !activeSpeciesFacilities.has(f.name)) return;
 
     const m = L.marker([f.lat, f.lon], { icon: ICONS[cat] });
     m.bindPopup(popupHTML(f));
@@ -226,7 +244,79 @@ fetch('data/facilities.json').then(r => r.json()).then(data => {
     document.getElementById(id).addEventListener('input', applyFilters);
   });
   applyFilters();
+
+  // Load species index
+  fetch('data/species_index.json').then(r => r.json()).then(setupSpecies);
 });
+
+function setupSpecies(speciesIndex) {
+  const taxonGroups = {};
+  speciesIndex.forEach(s => {
+    if (!s.taxon) return;
+    (taxonGroups[s.taxon] = taxonGroups[s.taxon] || []).push(s);
+  });
+  const chipBox = document.getElementById('taxon-chips');
+  Object.keys(taxonGroups).sort().forEach(tx => {
+    const chip = document.createElement('span');
+    chip.className = 'taxon-chip';
+    chip.textContent = tx;
+    chip.dataset.taxon = tx;
+    chip.onclick = () => toggleTaxonChip(chip, taxonGroups[tx]);
+    chipBox.appendChild(chip);
+  });
+  const clear = document.createElement('span');
+  clear.className = 'taxon-chip';
+  clear.textContent = 'Clear';
+  clear.onclick = () => {
+    document.querySelectorAll('.taxon-chip.active').forEach(c => c.classList.remove('active'));
+    activeTaxonChip = null;
+    activeSpeciesFacilities = null;
+    document.getElementById('species-search').value = '';
+    document.getElementById('species-results').textContent = '';
+    applyFilters();
+  };
+  chipBox.appendChild(clear);
+
+  const input = document.getElementById('species-search');
+  const results = document.getElementById('species-results');
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) {
+      activeSpeciesFacilities = null;
+      results.textContent = '';
+      applyFilters();
+      return;
+    }
+    const matches = speciesIndex.filter(s => s.key.includes(q) || s.display.toLowerCase().includes(q));
+    const facSet = new Set();
+    matches.forEach(s => s.facilities.forEach(f => facSet.add(f)));
+    activeSpeciesFacilities = facSet;
+    results.innerHTML = matches.length === 0
+      ? '<em>No species match in current scrape coverage.</em>'
+      : `<strong>${matches.length}</strong> species → <strong>${facSet.size}</strong> facilities`;
+    applyFilters();
+  });
+}
+
+function toggleTaxonChip(chip, speciesList) {
+  if (activeTaxonChip === chip) {
+    chip.classList.remove('active');
+    activeTaxonChip = null;
+    activeSpeciesFacilities = null;
+    document.getElementById('species-results').textContent = '';
+  } else {
+    document.querySelectorAll('.taxon-chip.active').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    activeTaxonChip = chip;
+    const facSet = new Set();
+    speciesList.forEach(s => s.facilities.forEach(f => facSet.add(f)));
+    activeSpeciesFacilities = facSet;
+    document.getElementById('species-results').innerHTML =
+      `<strong>${speciesList.length}</strong> species in <em>${chip.dataset.taxon}</em> → <strong>${facSet.size}</strong> facilities`;
+    document.getElementById('species-search').value = '';
+  }
+  applyFilters();
+}
 </script>
 </body>
 </html>

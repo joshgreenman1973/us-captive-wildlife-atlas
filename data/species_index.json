@@ -1,0 +1,2291 @@
+[
+ {
+  "key": "aardvark",
+  "display": "Aardvark",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "abdims stork",
+  "display": "Abdim's Stork",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "african gray parrot",
+  "display": "African Gray Parrot",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "african leopard",
+  "display": "African Leopard",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "african lion",
+  "display": "African Lion",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo",
+   "Woodland Park Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "african painted dog",
+  "display": "African Painted Dog",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Wolves & dogs"
+ },
+ {
+  "key": "african penguin",
+  "display": "African Penguin",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Penguins"
+ },
+ {
+  "key": "african pygmy falcon",
+  "display": "African Pygmy Falcon",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "african rock python",
+  "display": "African Rock Python",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "african spoonbill",
+  "display": "African Spoonbill",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "african spurred tortoise",
+  "display": "African Spurred Tortoise",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "aldabra tortoise",
+  "display": "Aldabra Tortoise",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "allens swamp monkey",
+  "display": "Allen's Swamp Monkey",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "alligator gar",
+  "display": "Alligator Gar",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "alligator snapping turtle",
+  "display": "Alligator Snapping Turtle",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "alpaca",
+  "display": "Alpaca",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "amazon milk frog",
+  "display": "Amazon Milk Frog",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "american alligator",
+  "display": "American Alligator",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "american avocet",
+  "display": "American Avocet",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "american beaver",
+  "display": "American Beaver",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "american black bear",
+  "display": "American Black Bear",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Bears"
+ },
+ {
+  "key": "american burying beetle",
+  "display": "American Burying Beetle",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "american crocodile",
+  "display": "American Crocodile",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "amur leopard",
+  "display": "Amur Leopard",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "San Diego Zoo"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "amur tiger",
+  "display": "Amur Tiger",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "anaconda",
+  "display": "Anaconda",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "andean condor",
+  "display": "Andean Condor",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "angolan colobus monkey",
+  "display": "Angolan Colobus Monkey",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "ankole cattle",
+  "display": "Ankole Cattle",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "anthonys poison dart frog",
+  "display": "Anthony's Poison Dart Frog",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "apalachicola kingsnake",
+  "display": "Apalachicola Kingsnake",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "arctic fox",
+  "display": "Arctic Fox",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Wolves & dogs"
+ },
+ {
+  "key": "armadillo lizard",
+  "display": "Armadillo Lizard",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "aruba island rattlesnake",
+  "display": "Aruba Island Rattlesnake",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "asian elephant",
+  "display": "Asian Elephant",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Elephants"
+ },
+ {
+  "key": "asian small-clawed otter",
+  "display": "Asian Small-Clawed Otter",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "atlantic puffin",
+  "display": "Atlantic Puffin",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "attwaters prairie chicken",
+  "display": "Attwater's Prairie Chicken",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "axolotl",
+  "display": "Axolotl",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "aye aye",
+  "display": "Aye Aye",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "babirusa",
+  "display": "Babirusa",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "bairds tapir",
+  "display": "Baird's Tapir",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "bald eagle",
+  "display": "Bald Eagle",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "bali myna",
+  "display": "Bali Myna",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "barn owl",
+  "display": "Barn Owl",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "barred owl",
+  "display": "Barred Owl",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "bat-eared fox",
+  "display": "Bat-eared Fox",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Wolves & dogs"
+ },
+ {
+  "key": "bearcat",
+  "display": "Bearcat",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "bee-eater",
+  "display": "Bee-eater",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "black bear",
+  "display": "Black Bear",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Bears"
+ },
+ {
+  "key": "black howler monkey",
+  "display": "Black Howler Monkey",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "black mamba",
+  "display": "Black Mamba",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "black rat snake",
+  "display": "Black Rat Snake",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "black tree monitor",
+  "display": "Black Tree Monitor",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "black and white colobus monkey",
+  "display": "Black and White Colobus Monkey",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "black-breasted leaf turtle",
+  "display": "Black-Breasted Leaf Turtle",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "black-footed cat",
+  "display": "Black-Footed Cat",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "black-and-gold howler monkey",
+  "display": "Black-and-Gold Howler Monkey",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "black-and-white colobus monkey",
+  "display": "Black-and-white Colobus Monkey",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "black-crowned night heron",
+  "display": "Black-crowned Night Heron",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "black-headed weaver",
+  "display": "Black-headed Weaver",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "blandings turtle",
+  "display": "Blanding's Turtle",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "blue duiker",
+  "display": "Blue Duiker",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "blue tree monitor",
+  "display": "Blue Tree Monitor",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "blue and yellow macaw",
+  "display": "Blue and Yellow Macaw",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "blue-billed curassow",
+  "display": "Blue-Billed Curassow",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "blue-crowned motmot",
+  "display": "Blue-Crowned Motmot",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "blue-throated macaw",
+  "display": "Blue-Throated Macaw",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "boat-billed heron",
+  "display": "Boat-Billed Heron",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "bobwhite quail",
+  "display": "Bobwhite Quail",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "bonnethead shark",
+  "display": "Bonnethead Shark",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "bonobo",
+  "display": "Bonobo",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "bornean orangutan",
+  "display": "Bornean Orangutan",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "brazilian porcupine",
+  "display": "Brazilian Porcupine",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "brown bear",
+  "display": "Brown Bear",
+  "facilities": [
+   "Woodland Park Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Bears"
+ },
+ {
+  "key": "brown kiwi",
+  "display": "Brown Kiwi",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "brown pelican",
+  "display": "Brown Pelican",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "buff-cheeked gibbon",
+  "display": "Buff-cheeked Gibbon",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "burmese python",
+  "display": "Burmese Python",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "california condor",
+  "display": "California Condor",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "california sea lion",
+  "display": "California Sea Lion",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "camel",
+  "display": "Camel",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "canada lynx",
+  "display": "Canada Lynx",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "cape porcupine",
+  "display": "Cape Porcupine",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "capybara",
+  "display": "Capybara",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "caribbean flamingo",
+  "display": "Caribbean Flamingo",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "cheetah",
+  "display": "Cheetah",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "chilean flamingo",
+  "display": "Chilean Flamingo",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "chimpanzee",
+  "display": "Chimpanzee",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "chinese alligator",
+  "display": "Chinese Alligator",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "chinese crocodile lizard",
+  "display": "Chinese Crocodile Lizard",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "clouded leopard",
+  "display": "Clouded Leopard",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "colobus",
+  "display": "Colobus",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "common clownfish",
+  "display": "Common Clownfish",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "common eider",
+  "display": "Common Eider",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "common ostrich",
+  "display": "Common Ostrich",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "common warthog",
+  "display": "Common Warthog",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "coquerels sifaka",
+  "display": "Coquerel's Sifaka",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "cougar",
+  "display": "Cougar",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "cownose ray",
+  "display": "Cownose Ray",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "crested coua",
+  "display": "Crested Coua",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "crested guineafowl",
+  "display": "Crested Guineafowl",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "dama gazelle",
+  "display": "Dama Gazelle",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "demoiselle crane",
+  "display": "Demoiselle Crane",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "domestic goat",
+  "display": "Domestic Goat",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "donkey",
+  "display": "Donkey",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "dyeing poison dart frog",
+  "display": "Dyeing Poison Dart Frog",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "east african crowned crane",
+  "display": "East African Crowned Crane",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "eastern black rhinoceros",
+  "display": "Eastern Black Rhinoceros",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": "Giraffes & rhinos"
+ },
+ {
+  "key": "eastern bongo",
+  "display": "Eastern Bongo",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "eastern box turtle",
+  "display": "Eastern Box Turtle",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "eastern diamondback rattlesnake",
+  "display": "Eastern Diamondback Rattlesnake",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "eastern grey kangaroo",
+  "display": "Eastern Grey Kangaroo",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "eastern hellbender",
+  "display": "Eastern Hellbender",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "eastern screech owl",
+  "display": "Eastern Screech Owl",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "elephant",
+  "display": "Elephant",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Elephants"
+ },
+ {
+  "key": "emerald tree boa",
+  "display": "Emerald Tree Boa",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "emu",
+  "display": "Emu",
+  "facilities": [
+   "Woodland Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "eurasian eagle owl",
+  "display": "Eurasian Eagle Owl",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "fennec fox",
+  "display": "Fennec Fox",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Wolves & dogs"
+ },
+ {
+  "key": "fishing cat",
+  "display": "Fishing Cat",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "florida manatee",
+  "display": "Florida Manatee",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "fossa",
+  "display": "Fossa",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "galapagos tortoise",
+  "display": "Gal\u00e1pagos Tortoise",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "gelada",
+  "display": "Gelada",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "giant anteater",
+  "display": "Giant Anteater",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "giant fruit bat",
+  "display": "Giant Fruit Bat",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "giant river otter",
+  "display": "Giant River Otter",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "gila monster",
+  "display": "Gila Monster",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "giraffe",
+  "display": "Giraffe",
+  "facilities": [
+   "Woodland Park Zoo",
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Giraffes & rhinos"
+ },
+ {
+  "key": "golden lion tamarin",
+  "display": "Golden Lion Tamarin",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "golden-headed lion tamarin",
+  "display": "Golden-Headed Lion Tamarin",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "golden-breasted starling",
+  "display": "Golden-breasted Starling",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "gopher tortoise",
+  "display": "Gopher Tortoise",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "gorilla",
+  "display": "Gorilla",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Woodland Park Zoo",
+   "San Diego Zoo"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "grants zebra",
+  "display": "Grant's Zebra",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "greater flamingo",
+  "display": "Greater Flamingo",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "greater kudu",
+  "display": "Greater Kudu",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "green anaconda",
+  "display": "Green Anaconda",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "grey crowned crane",
+  "display": "Grey Crowned Crane",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "grizzly bear",
+  "display": "Grizzly Bear",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Bears"
+ },
+ {
+  "key": "guam rail",
+  "display": "Guam Rail",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "hamadryas baboon",
+  "display": "Hamadryas Baboon",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "hamerkop",
+  "display": "Hamerkop",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "harbor seal",
+  "display": "Harbor Seal",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "harpy eagle",
+  "display": "Harpy Eagle",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "hawksbill sea turtle",
+  "display": "Hawksbill Sea Turtle",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "hellbender",
+  "display": "Hellbender",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "hippo",
+  "display": "Hippo",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Giraffes & rhinos"
+ },
+ {
+  "key": "hippopotamus",
+  "display": "Hippopotamus",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Giraffes & rhinos"
+ },
+ {
+  "key": "horned puffin",
+  "display": "Horned Puffin",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "houston toad",
+  "display": "Houston Toad",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "humboldt penguin",
+  "display": "Humboldt Penguin",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Woodland Park Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Penguins"
+ },
+ {
+  "key": "hyacinth macaw",
+  "display": "Hyacinth Macaw",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "inca tern",
+  "display": "Inca Tern",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "indian star tortoise",
+  "display": "Indian Star Tortoise",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "jaguar",
+  "display": "Jaguar",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "San Diego Zoo"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "kangaroo",
+  "display": "Kangaroo",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "kea",
+  "display": "Kea",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "keel-billed toucan",
+  "display": "Keel-Billed Toucan",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "king cobra",
+  "display": "King Cobra",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "king penguin",
+  "display": "King Penguin",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Penguins"
+ },
+ {
+  "key": "klipspringer",
+  "display": "Klipspringer",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "koala",
+  "display": "Koala",
+  "facilities": [
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "komodo dragon",
+  "display": "Komodo Dragon",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Woodland Park Zoo",
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "lappet-faced vulture",
+  "display": "Lappet-faced Vulture",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "laughing kookaburra",
+  "display": "Laughing Kookaburra",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "lemur",
+  "display": "Lemur",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "lesser kudu",
+  "display": "Lesser Kudu",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "lion",
+  "display": "Lion",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "little blue penguin",
+  "display": "Little Blue Penguin",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Penguins"
+ },
+ {
+  "key": "llama",
+  "display": "Llama",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "lorikeet",
+  "display": "Lorikeet",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "magellanic penguin",
+  "display": "Magellanic Penguin",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Penguins"
+ },
+ {
+  "key": "major mitchells cockatoo",
+  "display": "Major Mitchell's Cockatoo",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "malayan flying fox",
+  "display": "Malayan Flying Fox",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Wolves & dogs"
+ },
+ {
+  "key": "malayan tiger",
+  "display": "Malayan Tiger",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Woodland Park Zoo"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "malaysian painted river terrapin",
+  "display": "Malaysian Painted River Terrapin",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "mandrill",
+  "display": "Mandrill",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "markhor",
+  "display": "Markhor",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "masai giraffe",
+  "display": "Masai Giraffe",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Giraffes & rhinos"
+ },
+ {
+  "key": "meerkat",
+  "display": "Meerkat",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "mexican wolf",
+  "display": "Mexican Wolf",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Wolves & dogs"
+ },
+ {
+  "key": "moose",
+  "display": "Moose",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "mountain lion",
+  "display": "Mountain Lion",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "muellers gibbon",
+  "display": "Mueller's Gibbon",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "naked mole-rat",
+  "display": "Naked Mole-rat",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "nicobar pigeon",
+  "display": "Nicobar Pigeon",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "north american river otter",
+  "display": "North American River Otter",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "northern white-cheeked gibbon",
+  "display": "Northern White-Cheeked Gibbon",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "ocelot",
+  "display": "Ocelot",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "okapi",
+  "display": "Okapi",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "orangutan",
+  "display": "Orangutan",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "ostrich",
+  "display": "Ostrich",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "pallas cat",
+  "display": "Pallas' Cat",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "pallass cat",
+  "display": "Pallas's Cat",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "panamanian golden frog",
+  "display": "Panamanian Golden Frog",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "pancake tortoise",
+  "display": "Pancake Tortoise",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "pangolin",
+  "display": "Pangolin",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "patas monkey",
+  "display": "Patas Monkey",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "penguin",
+  "display": "Penguin",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Penguins"
+ },
+ {
+  "key": "plains zebra",
+  "display": "Plains Zebra",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "polar bear",
+  "display": "Polar Bear",
+  "facilities": [
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Bears"
+ },
+ {
+  "key": "porcupine",
+  "display": "Porcupine",
+  "facilities": [
+   "Woodland Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "potto",
+  "display": "Potto",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "pygmy hippopotamus",
+  "display": "Pygmy Hippopotamus",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Giraffes & rhinos"
+ },
+ {
+  "key": "pygmy slow loris",
+  "display": "Pygmy Slow Loris",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "radiated tortoise",
+  "display": "Radiated Tortoise",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "rattlesnake",
+  "display": "Rattlesnake",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "red fox",
+  "display": "Red Fox",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Wolves & dogs"
+ },
+ {
+  "key": "red kangaroo",
+  "display": "Red Kangaroo",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "red panda",
+  "display": "Red Panda",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Lincoln Park Zoo",
+   "Woodland Park Zoo",
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Bears"
+ },
+ {
+  "key": "red river hog",
+  "display": "Red River Hog",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "red-crowned crane",
+  "display": "Red-crowned Crane",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "red-footed tortoise",
+  "display": "Red-footed Tortoise",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "reeves muntjac",
+  "display": "Reeves' Muntjac",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "reindeer",
+  "display": "Reindeer",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "reticulated python",
+  "display": "Reticulated Python",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "rhinoceros hornbill",
+  "display": "Rhinoceros Hornbill",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Giraffes & rhinos"
+ },
+ {
+  "key": "ring-tailed lemur",
+  "display": "Ring-tailed Lemur",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Woodland Park Zoo"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "ringtail",
+  "display": "Ringtail",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "roseate spoonbill",
+  "display": "Roseate Spoonbill",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "saddle-billed stork",
+  "display": "Saddle-billed Stork",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "sand cat",
+  "display": "Sand Cat",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "scarlet ibis",
+  "display": "Scarlet Ibis",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "sea turtle",
+  "display": "Sea Turtle",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "sebass short-tailed bat",
+  "display": "Sebas's Short-Tailed Bat",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "serval",
+  "display": "Serval",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "siamang",
+  "display": "Siamang",
+  "facilities": [
+   "Houston Zoo, Inc.",
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "sichuan takin",
+  "display": "Sichuan Takin",
+  "facilities": [
+   "Lincoln Park Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "silvered leaf langur",
+  "display": "Silvered Leaf Langur",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "slender-horned gazelle",
+  "display": "Slender-horned Gazelle",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "sloth bear",
+  "display": "Sloth Bear",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Bears"
+ },
+ {
+  "key": "snow leopard",
+  "display": "Snow Leopard",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Woodland Park Zoo",
+   "San Diego Zoo"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "songbird",
+  "display": "Songbird",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "southern hairy-nosed wombat",
+  "display": "Southern Hairy-nosed Wombat",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "southern sea otter",
+  "display": "Southern Sea Otter",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "southern stingray",
+  "display": "Southern Stingray",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "southern white rhinoceros",
+  "display": "Southern White Rhinoceros",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Giraffes & rhinos"
+ },
+ {
+  "key": "spotted hyena",
+  "display": "Spotted Hyena",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "st vincent amazon parrot",
+  "display": "St. Vincent Amazon Parrot",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "sumatran orangutan",
+  "display": "Sumatran Orangutan",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "sun bear",
+  "display": "Sun Bear",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": "Bears"
+ },
+ {
+  "key": "sunbittern",
+  "display": "Sunbittern",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "tapir",
+  "display": "Tapir",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "tasmanian devil",
+  "display": "Tasmanian Devil",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "tawny frogmouth",
+  "display": "Tawny Frogmouth",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "thick-billed parrot",
+  "display": "Thick-Billed Parrot",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "thomsons gazelle",
+  "display": "Thomson's Gazelle",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "three-banded armadillo",
+  "display": "Three-banded Armadillo",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "tiger",
+  "display": "Tiger",
+  "facilities": [
+   "Woodland Park Zoo"
+  ],
+  "taxon": "Big cats"
+ },
+ {
+  "key": "timber rattlesnake",
+  "display": "Timber Rattlesnake",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Reptiles"
+ },
+ {
+  "key": "trumpeter swan",
+  "display": "Trumpeter Swan",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "two-toed sloth",
+  "display": "Two-toed Sloth",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "vampire bat",
+  "display": "Vampire Bat",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "verreauxs eagle owl",
+  "display": "Verreaux's Eagle Owl",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "vervet monkey",
+  "display": "Vervet Monkey",
+  "facilities": [
+   "San Diego Zoo",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "victoria crowned pigeon",
+  "display": "Victoria Crowned Pigeon",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "vulture",
+  "display": "Vulture",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Birds of prey"
+ },
+ {
+  "key": "wattled curassow",
+  "display": "Wattled Curassow",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "weedy seadragon",
+  "display": "Weedy Seadragon",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "western lowland gorilla",
+  "display": "Western Lowland Gorilla",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "white bearded wildebeest",
+  "display": "White Bearded Wildebeest",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "white ibis",
+  "display": "White Ibis",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "white-faced saki",
+  "display": "White-Faced Saki",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "white-handed gibbon",
+  "display": "White-Handed Gibbon",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden",
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "white-cheeked gibbon",
+  "display": "White-cheeked Gibbon",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": "Great apes"
+ },
+ {
+  "key": "white-faced saki monkey",
+  "display": "White-faced Saki Monkey",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": "Monkeys & lemurs"
+ },
+ {
+  "key": "whooping crane",
+  "display": "Whooping Crane",
+  "facilities": [
+   "Houston Zoo, Inc."
+  ],
+  "taxon": null
+ },
+ {
+  "key": "wolverine",
+  "display": "Wolverine",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "wood duck",
+  "display": "Wood Duck",
+  "facilities": [
+   "Cincinnati Zoo and Botanical Garden"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "zebra",
+  "display": "Zebra",
+  "facilities": [
+   "San Diego Zoo"
+  ],
+  "taxon": null
+ },
+ {
+  "key": "zebra shark",
+  "display": "Zebra Shark",
+  "facilities": [
+   "Columbus Zoo & Aquarium"
+  ],
+  "taxon": null
+ }
+]
