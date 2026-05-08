@@ -647,10 +647,15 @@ document.addEventListener('click', (e) => {
   playSound(btn.dataset.species, btn);
 });
 
+const SOURCE_LABELS = {
+  self: "this zoo's own A–Z animals page",
+  wikipedia: "Wikipedia",
+  mixed: "this zoo's site + Wikipedia",
+};
+
 function popupHTML(f) {
   let speciesNote;
   if (Array.isArray(f.species) && f.species.length) {
-    // Render each species inline. Add a sound button next to species we have audio for.
     const items = f.species.map(s => {
       const btn = soundBtnHTML(s);
       if (btn) {
@@ -658,9 +663,10 @@ function popupHTML(f) {
       }
       return `<span style="display:inline-block;margin:0 4px 4px 0;">${escapeHTML(s)}</span>`;
     }).join('');
-    speciesNote = `<div class="popup-species"><strong>Species (${f.species.length}):</strong><div style="margin-top:5px;">${items}</div></div>`;
+    const src = SOURCE_LABELS[f.species_source] || 'public sources';
+    speciesNote = `<div class="popup-species"><strong>Species (${f.species.length}):</strong><div style="margin-top:5px;">${items}</div><div class="popup-meta" style="font-style:italic;margin-top:6px;">Compiled from ${escapeHTML(src)}.</div></div>`;
   } else {
-    speciesNote = '<div class="popup-meta">Species inventory: not yet scraped</div>';
+    speciesNote = '<div class="popup-meta">No public A&ndash;Z animal list found at this institution. <a href="methodology.html" style="color:var(--moss-deep);">Why →</a></div>';
   }
   return `
     <div class="popup-name">${escapeHTML(f.name)}</div>

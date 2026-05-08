@@ -28,7 +28,10 @@
   "key": "abyssinian ground hornbill",
   "display": "Abyssinian ground hornbill",
   "facilities": [
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "The Phoenix Zoo",
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "The Living Desert Zoo and Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -51,7 +54,8 @@
    "Buffalo Zoo",
    "Fossil Rim Wildlife Center",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -60,7 +64,8 @@
   "key": "addra gazelle",
   "display": "Addra gazelle",
   "facilities": [
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -70,7 +75,8 @@
   "display": "African Bullfrog",
   "facilities": [
    "Lake Superior Zoo",
-   "Seneca Park Zoo"
+   "Seneca Park Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -184,7 +190,10 @@
    "Milwaukee County Zoological Gardens",
    "Memphis Zoo",
    "Dallas Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "Santa Barbara Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -196,6 +205,8 @@
    "Houston Zoo, Inc.",
    "Cincinnati Zoo and Botanical Garden",
    "Lincoln Park Zoo",
+   "The Phoenix Zoo",
+   "Reid Park Zoo",
    "ZooTampa at Lowry Park",
    "Saint Louis Zoo",
    "The Wilds",
@@ -208,7 +219,8 @@
   "key": "african pancake tortoise",
   "display": "African Pancake Tortoise",
   "facilities": [
-   "Buffalo Zoo"
+   "Buffalo Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
@@ -233,7 +245,10 @@
    "Milwaukee County Zoological Gardens",
    "Memphis Zoo",
    "Dallas Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Monterey Bay Aquarium",
+   "Steinhart Aquarium",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Penguins"
@@ -310,6 +325,7 @@
   "display": "African Spurred Tortoise",
   "facilities": [
    "Houston Zoo, Inc.",
+   "Reid Park Zoo",
    "Oakland Zoo",
    "Brevard Zoo",
    "Lion Country Safari",
@@ -317,7 +333,8 @@
    "Lincoln Children's Zoo",
    "Bronx Zoo/WCS",
    "Fossil Rim Wildlife Center",
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
@@ -342,7 +359,8 @@
    "San Antonio Zoological Society",
    "Dallas Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Wolves, dogs & foxes"
@@ -357,11 +375,21 @@
   "taxon_group": "Rodents"
  },
  {
+  "key": "african buffalo",
+  "display": "African buffalo",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
   "key": "african bush elephant",
   "display": "African bush elephant",
   "facilities": [
    "Memphis Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Elephants"
@@ -376,6 +404,24 @@
   "taxon_group": "Frogs & salamanders"
  },
  {
+  "key": "african colobus",
+  "display": "African colobus",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Monkeys & lemurs"
+ },
+ {
+  "key": "african crowned crane",
+  "display": "African crowned crane",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Flamingos & wading birds"
+ },
+ {
   "key": "african fish eagle",
   "display": "African fish eagle",
   "facilities": [
@@ -383,6 +429,15 @@
   ],
   "taxon_class": "Fish",
   "taxon_group": "Birds of prey"
+ },
+ {
+  "key": "african openbill",
+  "display": "African openbill",
+  "facilities": [
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
  },
  {
   "key": "african pouched rat",
@@ -398,10 +453,21 @@
   "display": "African pygmy goose",
   "facilities": [
    "Bronx Zoo/WCS",
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "San Diego Zoo Safari Park",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
+ },
+ {
+  "key": "african sacred ibis",
+  "display": "African sacred ibis",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Flamingos & wading birds"
  },
  {
   "key": "african-crested porcupine",
@@ -431,17 +497,22 @@
   "taxon_group": null
  },
  {
-  "key": "aldabra giant tortoise",
-  "display": "Aldabra Giant Tortoise",
+  "key": "albino american alligator",
+  "display": "Albino American alligator",
   "facilities": [
-   "ZooTampa at Lowry Park",
-   "BREC's Baton Rouge Zoo",
-   "Saint Louis Zoo",
-   "Bronx Zoo/WCS",
-   "Fort Worth Zoo"
+   "Steinhart Aquarium"
   ],
   "taxon_class": "Reptiles",
-  "taxon_group": "Tortoises & turtles"
+  "taxon_group": "Crocodilians"
+ },
+ {
+  "key": "albino reticulated python",
+  "display": "Albino reticulated python",
+  "facilities": [
+   "Steinhart Aquarium"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
  },
  {
   "key": "aldabra tortoise",
@@ -461,6 +532,22 @@
    "Henry Vilas Zoo",
    "Milwaukee County Zoological Gardens",
    "Smithsonian's National Zoo and Conservation Biology Institute"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Tortoises & turtles"
+ },
+ {
+  "key": "aldabra giant tortoise",
+  "display": "Aldabra giant tortoise",
+  "facilities": [
+   "The Phoenix Zoo",
+   "ZooTampa at Lowry Park",
+   "BREC's Baton Rouge Zoo",
+   "Saint Louis Zoo",
+   "Bronx Zoo/WCS",
+   "Fort Worth Zoo",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
@@ -502,7 +589,8 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "National Mississippi River Museum & Aquarium",
-   "Tennessee Aquarium"
+   "Tennessee Aquarium",
+   "Steinhart Aquarium"
   ],
   "taxon_class": "Fish",
   "taxon_group": "Crocodilians"
@@ -520,7 +608,10 @@
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Memphis Zoo",
    "Nashville Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Steinhart Aquarium",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Crocodilians"
@@ -538,7 +629,8 @@
    "Seneca Park Zoo",
    "Akron Zoological Park",
    "Henry Vilas Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -578,7 +670,9 @@
   "display": "Amazon Tree Boa",
   "facilities": [
    "Oakland Zoo",
-   "Brevard Zoo"
+   "Brevard Zoo",
+   "San Francisco Zoological Gardens",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Parrots & macaws"
@@ -590,6 +684,7 @@
    "Houston Zoo, Inc.",
    "Cincinnati Zoo and Botanical Garden",
    "Columbus Zoo & Aquarium",
+   "The Phoenix Zoo",
    "Reid Park Zoo",
    "Oakland Zoo",
    "Brevard Zoo",
@@ -608,7 +703,10 @@
    "Milwaukee County Zoological Gardens",
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Santa Barbara Zoo",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Crocodilians"
@@ -630,7 +728,8 @@
    "ZooMontana",
    "Dakota Zoo",
    "Henry Vilas Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Otters & weasels"
@@ -675,7 +774,9 @@
    "Buttonwood Park Zoo",
    "Minnesota Zoological Garden",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Bears & pandas"
@@ -749,7 +850,8 @@
    "Henry Vilas Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Nashville Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -819,7 +921,8 @@
   "key": "american white ibis",
   "display": "American white ibis",
   "facilities": [
-   "Saint Louis Zoo"
+   "Saint Louis Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -832,7 +935,8 @@
    "Dakota Zoo",
    "Milwaukee County Zoological Gardens",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -848,7 +952,8 @@
    "Minnesota Zoological Garden",
    "Saint Louis Zoo",
    "Audubon Zoo",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -903,7 +1008,8 @@
    "BREC's Baton Rouge Zoo",
    "Bronx Zoo/WCS",
    "Akron Zoological Park",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -970,6 +1076,15 @@
   "taxon_group": "Monkeys & lemurs"
  },
  {
+  "key": "angolan python",
+  "display": "Angolan python",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
   "key": "anhinga",
   "display": "Anhinga",
   "facilities": [
@@ -993,6 +1108,15 @@
   "display": "Ankole-Watusi",
   "facilities": [
    "Brevard Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "ankole-watusi cattle",
+  "display": "Ankole-Watusi cattle",
+  "facilities": [
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -1046,6 +1170,15 @@
   "taxon_group": "Snakes"
  },
  {
+  "key": "aplomado falcon",
+  "display": "Aplomado falcon",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Birds of prey"
+ },
+ {
   "key": "apple snail",
   "display": "Apple Snail",
   "facilities": [
@@ -1068,8 +1201,11 @@
   "key": "arabian oryx",
   "display": "Arabian oryx",
   "facilities": [
+   "The Phoenix Zoo",
    "Bronx Zoo/WCS",
-   "Fossil Rim Wildlife Center"
+   "Fossil Rim Wildlife Center",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -1090,7 +1226,8 @@
    "Brevard Zoo",
    "Tennessee Aquarium",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Steinhart Aquarium"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -1116,6 +1253,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Wolves, dogs & foxes"
+ },
+ {
+  "key": "argali",
+  "display": "Argali",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
  },
  {
   "key": "argentine black white tegu",
@@ -1191,6 +1337,15 @@
   "taxon_group": "Lizards"
  },
  {
+  "key": "arowana",
+  "display": "Arowana",
+  "facilities": [
+   "Steinhart Aquarium"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "arrau giant south american river turtle",
   "display": "Arrau Giant South American River Turtle",
   "facilities": [
@@ -1232,7 +1387,8 @@
    "Tulsa Zoo",
    "Audubon Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Elephants"
@@ -1252,7 +1408,8 @@
   "facilities": [
    "Oakland Zoo",
    "Tulsa Zoo",
-   "Audubon Zoo"
+   "Audubon Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Invertebrates",
   "taxon_group": null
@@ -1261,7 +1418,8 @@
   "key": "asian giant toad",
   "display": "Asian Giant Toad",
   "facilities": [
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
@@ -1328,6 +1486,15 @@
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
+ },
+ {
+  "key": "asiatic rock python",
+  "display": "Asiatic rock python",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
  },
  {
   "key": "atlantic bay nettle",
@@ -1446,7 +1613,8 @@
   "key": "australian lungfish",
   "display": "Australian Lungfish",
   "facilities": [
-   "National Aquarium"
+   "National Aquarium",
+   "Steinhart Aquarium"
   ],
   "taxon_class": "Fish",
   "taxon_group": null
@@ -1473,7 +1641,8 @@
   "key": "australian brushturkey",
   "display": "Australian brushturkey",
   "facilities": [
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -1494,7 +1663,8 @@
    "Brevard Zoo",
    "Buffalo Zoo",
    "Bronx Zoo/WCS",
-   "Fossil Rim Wildlife Center"
+   "Fossil Rim Wildlife Center",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -1601,7 +1771,8 @@
    "The Wilds",
    "Dakota Zoo",
    "Red River Zoo",
-   "Henry Vilas Zoo"
+   "Henry Vilas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -1610,7 +1781,8 @@
   "key": "bactrian deer",
   "display": "Bactrian Deer",
   "facilities": [
-   "The Wilds"
+   "The Wilds",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -1634,7 +1806,8 @@
    "Reid Park Zoo",
    "Brevard Zoo",
    "Naples Zoo",
-   "Palm Beach Zoo & Conservation Society"
+   "Palm Beach Zoo & Conservation Society",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -1676,10 +1849,22 @@
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Memphis Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "Santa Barbara Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
+ },
+ {
+  "key": "bald ibis",
+  "display": "Bald ibis",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Flamingos & wading birds"
  },
  {
   "key": "bali myna",
@@ -1695,8 +1880,9 @@
  },
  {
   "key": "bali mynah",
-  "display": "Bali Mynah",
+  "display": "Bali mynah",
   "facilities": [
+   "The Phoenix Zoo",
    "Zoo Atlanta",
    "Minnesota Zoological Garden",
    "Tulsa Zoo"
@@ -1716,7 +1902,8 @@
    "Lake Superior Zoo",
    "ZooMontana",
    "Seneca Park Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -1734,6 +1921,7 @@
   "key": "bamboo shark",
   "display": "Bamboo shark",
   "facilities": [
+   "The Phoenix Zoo",
    "Saint Louis Zoo",
    "Akron Zoological Park"
   ],
@@ -1744,7 +1932,8 @@
   "key": "banded mongoose",
   "display": "Banded Mongoose",
   "facilities": [
-   "Brookfield Zoo Chicago"
+   "Brookfield Zoo Chicago",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -1782,7 +1971,8 @@
   "display": "Banteng",
   "facilities": [
    "Saint Louis Zoo",
-   "The Wilds"
+   "The Wilds",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -1800,7 +1990,8 @@
   "key": "barasingha",
   "display": "Barasingha",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -1815,6 +2006,33 @@
   "taxon_group": null
  },
  {
+  "key": "barbary sheep",
+  "display": "Barbary sheep",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "barbary stag",
+  "display": "Barbary stag",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
+  "key": "baringo giraffe",
+  "display": "Baringo giraffe",
+  "facilities": [
+   "Santa Barbara Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Giraffe & okapi"
+ },
+ {
   "key": "barn owl",
   "display": "Barn Owl",
   "facilities": [
@@ -1823,7 +2041,9 @@
    "ZooMontana",
    "Akron Zoological Park",
    "ZOOAMERICA NA Wildlife Park",
-   "South Carolina Aquarium"
+   "South Carolina Aquarium",
+   "Birmingham Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -1866,7 +2086,8 @@
    "Queens Zoo",
    "ZOOAMERICA NA Wildlife Park",
    "Audubon Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -1918,6 +2139,15 @@
   "taxon_group": "Sharks & rays"
  },
  {
+  "key": "bat star",
+  "display": "Bat star",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Bats"
+ },
+ {
   "key": "bat-eared fox",
   "display": "Bat-eared Fox",
   "facilities": [
@@ -1925,7 +2155,9 @@
    "Zoo Boise",
    "Brookfield Zoo Chicago",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Wolves, dogs & foxes"
@@ -1978,15 +2210,6 @@
   "taxon_group": null
  },
  {
-  "key": "bearded barbet",
-  "display": "Bearded Barbet",
-  "facilities": [
-   "Tulsa Zoo"
-  ],
-  "taxon_class": "Birds",
-  "taxon_group": null
- },
- {
   "key": "bearded dragon",
   "display": "Bearded Dragon",
   "facilities": [
@@ -2011,10 +2234,30 @@
   "taxon_group": "Monkeys & lemurs"
  },
  {
+  "key": "bearded barbet",
+  "display": "Bearded barbet",
+  "facilities": [
+   "Reid Park Zoo",
+   "Tulsa Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "beautiful fruit dove",
   "display": "Beautiful Fruit Dove",
   "facilities": [
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
+  "key": "beautiful sunbird",
+  "display": "Beautiful sunbird",
+  "facilities": [
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -2023,7 +2266,8 @@
   "key": "beaver",
   "display": "Beaver",
   "facilities": [
-   "Utah's Hogle Zoo"
+   "Utah's Hogle Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rodents"
@@ -2083,16 +2327,29 @@
    "Lake Superior Zoo",
    "Minnesota Zoological Garden",
    "Buffalo Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Santa Barbara Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Marsupials"
  },
  {
-  "key": "bighorn sheep",
-  "display": "Bighorn Sheep",
+  "key": "bigfin reef squid",
+  "display": "Bigfin reef squid",
   "facilities": [
-   "Dakota Zoo"
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Invertebrates",
+  "taxon_group": null
+ },
+ {
+  "key": "bighorn sheep",
+  "display": "Bighorn sheep",
+  "facilities": [
+   "The Phoenix Zoo",
+   "Dakota Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -2177,7 +2434,8 @@
   "facilities": [
    "International Crane Foundation",
    "Dallas Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -2201,7 +2459,8 @@
    "CuriOdyssey",
    "Brevard Zoo",
    "Buffalo Zoo",
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -2229,7 +2488,8 @@
   "display": "Black Rat Snake",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
-   "Maryland Zoo in Baltimore"
+   "Maryland Zoo in Baltimore",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -2248,21 +2508,11 @@
   "display": "Black Rhinoceros",
   "facilities": [
    "Cheyenne Mountain Zoological Park",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rhinos & hippos"
- },
- {
-  "key": "black swan",
-  "display": "Black Swan",
-  "facilities": [
-   "Brevard Zoo",
-   "Potawatomi Zoo",
-   "Dakota Zoo"
-  ],
-  "taxon_class": "Birds",
-  "taxon_group": "Ducks, geese & swans"
  },
  {
   "key": "black throated monitor",
@@ -2289,7 +2539,8 @@
   "facilities": [
    "Brevard Zoo",
    "Naples Zoo",
-   "Fossil Rim Wildlife Center"
+   "Fossil Rim Wildlife Center",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -2350,7 +2601,8 @@
    "Brandywine Zoo",
    "Potawatomi Zoo",
    "Tulsa Zoo",
-   "Henry Vilas Zoo"
+   "Henry Vilas Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -2374,6 +2626,15 @@
   "taxon_group": "Elephants"
  },
  {
+  "key": "black crake",
+  "display": "Black crake",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "black ghost knifefish",
   "display": "Black ghost knifefish",
   "facilities": [
@@ -2392,6 +2653,18 @@
   "taxon_group": null
  },
  {
+  "key": "black swan",
+  "display": "Black swan",
+  "facilities": [
+   "The Phoenix Zoo",
+   "Brevard Zoo",
+   "Potawatomi Zoo",
+   "Dakota Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Ducks, geese & swans"
+ },
+ {
   "key": "black-and-white ruffed lemur",
   "display": "Black-And-White Ruffed Lemur",
   "facilities": [
@@ -2399,7 +2672,8 @@
    "Audubon Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Central Park Zoo",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -2459,7 +2733,9 @@
    "Cincinnati Zoo and Botanical Garden",
    "Prospect Park Zoo",
    "Fossil Rim Wildlife Center",
-   "Utah's Hogle Zoo"
+   "Utah's Hogle Zoo",
+   "San Diego Zoo Safari Park",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -2471,7 +2747,9 @@
    "Brevard Zoo",
    "Lion Country Safari",
    "Naples Zoo",
-   "Zoo Boise"
+   "Zoo Boise",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Invertebrates",
   "taxon_group": "Monkeys & lemurs"
@@ -2505,6 +2783,15 @@
   "taxon_group": "Monkeys & lemurs"
  },
  {
+  "key": "black-and-white colobus",
+  "display": "Black-and-white colobus",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Monkeys & lemurs"
+ },
+ {
   "key": "black-and-white-ruffed lemur",
   "display": "Black-and-white-ruffed Lemur",
   "facilities": [
@@ -2512,6 +2799,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
+ },
+ {
+  "key": "black-billed magpie",
+  "display": "Black-billed magpie",
+  "facilities": [
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
  },
  {
   "key": "black-crowned night heron",
@@ -2534,7 +2830,8 @@
    "ZOOAMERICA NA Wildlife Park",
    "Dakota Zoo",
    "Milwaukee County Zoological Gardens",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Otters & weasels"
@@ -2572,7 +2869,8 @@
   "facilities": [
    "Brookfield Zoo Chicago",
    "Tulsa Zoo",
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -2601,7 +2899,9 @@
   "key": "black-necked swan",
   "display": "Black-necked swan",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Reid Park Zoo",
+   "Bronx Zoo/WCS",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
@@ -2620,7 +2920,8 @@
    "Queens Zoo",
    "ZOOAMERICA NA Wildlife Park",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rodents"
@@ -2649,7 +2950,8 @@
   "facilities": [
    "Bronx Zoo/WCS",
    "Fossil Rim Wildlife Center",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -2696,10 +2998,20 @@
   "taxon_group": "Hoofstock"
  },
  {
+  "key": "blessed poison frog",
+  "display": "Blessed poison frog",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Amphibians",
+  "taxon_group": "Frogs & salamanders"
+ },
+ {
   "key": "blood python",
   "display": "Blood python",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -2738,7 +3050,10 @@
    "Zoo Atlanta",
    "Potawatomi Zoo",
    "International Crane Foundation",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -2777,7 +3092,8 @@
    "Houston Zoo, Inc.",
    "Reid Park Zoo",
    "Central Florida Zoo & Botanical Gardens",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -2895,7 +3211,8 @@
   "key": "blue wildebeest",
   "display": "Blue wildebeest",
   "facilities": [
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -2906,7 +3223,9 @@
   "facilities": [
    "Oakland Zoo",
    "Zoo Boise",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -2915,7 +3234,8 @@
   "key": "blue-billed curassow",
   "display": "Blue-Billed Curassow",
   "facilities": [
-   "Houston Zoo, Inc."
+   "Houston Zoo, Inc.",
+   "The Phoenix Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -2934,6 +3254,7 @@
   "display": "Blue-Crowned Motmot",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "Reid Park Zoo",
    "Buffalo Zoo"
   ],
   "taxon_class": "Birds",
@@ -2975,7 +3296,8 @@
    "Fresno Chaffee Zoo",
    "Brevard Zoo",
    "Lion Country Safari",
-   "Zoo Atlanta"
+   "Zoo Atlanta",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Parrots & macaws"
@@ -3013,6 +3335,15 @@
   "taxon_group": "Parrots & macaws"
  },
  {
+  "key": "blue-billed teal",
+  "display": "Blue-billed teal",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Ducks, geese & swans"
+ },
+ {
   "key": "blue-capped motmot",
   "display": "Blue-capped motmot",
   "facilities": [
@@ -3034,7 +3365,8 @@
   "key": "blue-eyed black lemur",
   "display": "Blue-eyed black lemur",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -3072,7 +3404,8 @@
   "key": "blue-headed macaw",
   "display": "Blue-headed macaw",
   "facilities": [
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Parrots & macaws"
@@ -3096,6 +3429,15 @@
   "taxon_group": "Sharks & rays"
  },
  {
+  "key": "blue-throated piping guan",
+  "display": "Blue-throated piping guan",
+  "facilities": [
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "blue-tongued skink",
   "display": "Blue-tongued Skink",
   "facilities": [
@@ -3103,7 +3445,10 @@
    "Brookfield Zoo Chicago",
    "BREC's Baton Rouge Zoo",
    "Lincoln Children's Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
@@ -3114,7 +3459,8 @@
   "facilities": [
    "Saint Louis Zoo",
    "Tulsa Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
@@ -3166,10 +3512,12 @@
  },
  {
   "key": "boa constrictor",
-  "display": "Boa Constrictor",
+  "display": "Boa constrictor",
   "facilities": [
+   "The Phoenix Zoo",
    "Lion Country Safari",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -3179,6 +3527,7 @@
   "display": "Boat-Billed Heron",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "Reid Park Zoo",
    "Buffalo Zoo",
    "Bronx Zoo/WCS"
   ],
@@ -3189,6 +3538,7 @@
   "key": "bobcat",
   "display": "Bobcat",
   "facilities": [
+   "The Phoenix Zoo",
    "Brevard Zoo",
    "BREC's Baton Rouge Zoo",
    "Buttonwood Park Zoo",
@@ -3203,7 +3553,10 @@
    "Audubon Zoo",
    "Milwaukee County Zoological Gardens",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -3271,7 +3624,17 @@
    "Memphis Zoo",
    "Nashville Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "bongo antelope",
+  "display": "Bongo antelope",
+  "facilities": [
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -3306,7 +3669,8 @@
   "display": "Bontebok",
   "facilities": [
    "Brookfield Zoo Chicago",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -3320,7 +3684,8 @@
    "Naples Zoo",
    "ZooTampa at Lowry Park",
    "Zoo Atlanta",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
@@ -3427,6 +3792,25 @@
   "taxon_group": "Snakes"
  },
  {
+  "key": "brazilian cockroach",
+  "display": "Brazilian cockroach",
+  "facilities": [
+   "Reid Park Zoo",
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Invertebrates",
+  "taxon_group": null
+ },
+ {
+  "key": "brisingid sea star",
+  "display": "Brisingid sea star",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Invertebrates",
+  "taxon_group": null
+ },
+ {
   "key": "broad-banded watersnake",
   "display": "Broad-banded Watersnake",
   "facilities": [
@@ -3489,7 +3873,8 @@
    "Columbus Zoo & Aquarium",
    "Lake Superior Zoo",
    "Minnesota Zoological Garden",
-   "Great Plains Zoo"
+   "Great Plains Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Bears & pandas"
@@ -3581,6 +3966,15 @@
   "taxon_group": null
  },
  {
+  "key": "bruces green pigeon",
+  "display": "Bruce's green pigeon",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "brush-tailed bettong",
   "display": "Brush-tailed Bettong",
   "facilities": [
@@ -3605,7 +3999,8 @@
   "facilities": [
    "Cheyenne Mountain Zoological Park",
    "Lake Superior Zoo",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Parrots & macaws"
@@ -3614,10 +4009,20 @@
   "key": "buff-cheeked gibbon",
   "display": "Buff-cheeked Gibbon",
   "facilities": [
-   "Cincinnati Zoo and Botanical Garden"
+   "Cincinnati Zoo and Botanical Garden",
+   "The Phoenix Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
+ },
+ {
+  "key": "buff-crested bustard",
+  "display": "Buff-crested bustard",
+  "facilities": [
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
  },
  {
   "key": "buffalo weaver",
@@ -3703,7 +4108,8 @@
    "Lake Superior Zoo",
    "Seneca Park Zoo",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -3720,10 +4126,20 @@
    "High Desert Museum",
    "Milwaukee County Zoological Gardens",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
+ },
+ {
+  "key": "bush dog",
+  "display": "Bush dog",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
  },
  {
   "key": "butterfly",
@@ -3788,10 +4204,20 @@
   "display": "Caiman Lizard",
   "facilities": [
    "Buttonwood Park Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Crocodilians"
+ },
+ {
+  "key": "calamian deer",
+  "display": "Calamian deer",
+  "facilities": [
+   "The Phoenix Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
  },
  {
   "key": "california condor",
@@ -3799,7 +4225,9 @@
   "facilities": [
    "San Diego Zoo",
    "The Phoenix Zoo",
-   "Oakland Zoo"
+   "Oakland Zoo",
+   "San Diego Zoo Safari Park",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -3837,10 +4265,22 @@
    "Audubon Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "New York Aquarium",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Aquarium of the Pacific",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
+ },
+ {
+  "key": "california scorpionfish",
+  "display": "California scorpionfish",
+  "facilities": [
+   "Aquarium of the Pacific"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
  },
  {
   "key": "camel",
@@ -3906,12 +4346,15 @@
   "display": "Cape Porcupine",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "The Phoenix Zoo",
    "Brevard Zoo",
    "Lion Country Safari",
    "Naples Zoo",
    "Brookfield Zoo Chicago",
    "Potter Park Zoological Gardens",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rodents"
@@ -3920,8 +4363,10 @@
   "key": "cape thick-knee",
   "display": "Cape thick-knee",
   "facilities": [
+   "Reid Park Zoo",
    "Saint Louis Zoo",
-   "Seneca Park Zoo"
+   "Seneca Park Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -3931,7 +4376,8 @@
   "display": "Cape vulture",
   "facilities": [
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -3960,7 +4406,8 @@
    "Lake Superior Zoo",
    "Saint Louis Zoo",
    "Audubon Zoo",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rodents"
@@ -3970,7 +4417,9 @@
   "display": "Caracal",
   "facilities": [
    "Brandywine Zoo",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -4094,6 +4543,24 @@
   "taxon_group": "Hoofstock"
  },
  {
+  "key": "central bearded dragon",
+  "display": "Central bearded dragon",
+  "facilities": [
+   "The Living Desert Zoo and Gardens"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
+  "key": "centralian carpet python",
+  "display": "Centralian carpet python",
+  "facilities": [
+   "The Living Desert Zoo and Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
   "key": "chaco golden knee tarantula",
   "display": "Chaco Golden Knee Tarantula",
   "facilities": [
@@ -4106,7 +4573,11 @@
   "key": "chacoan peccary",
   "display": "Chacoan peccary",
   "facilities": [
-   "Queens Zoo"
+   "The Phoenix Zoo",
+   "Queens Zoo",
+   "San Francisco Zoological Gardens",
+   "The Living Desert Zoo and Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -4158,6 +4629,15 @@
   "taxon_group": null
  },
  {
+  "key": "channel islands gray fox",
+  "display": "Channel Islands gray fox",
+  "facilities": [
+   "The Living Desert Zoo and Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Wolves, dogs & foxes"
+ },
+ {
   "key": "cheetah",
   "display": "Cheetah",
   "facilities": [
@@ -4179,7 +4659,8 @@
    "Memphis Zoo",
    "Nashville Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -4205,10 +4686,20 @@
   "taxon_group": null
  },
  {
+  "key": "chihuahuan raven",
+  "display": "Chihuahuan raven",
+  "facilities": [
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "chilean flamingo",
   "display": "Chilean Flamingo",
   "facilities": [
    "Houston Zoo, Inc.",
+   "The Phoenix Zoo",
    "Reid Park Zoo",
    "Brevard Zoo",
    "Palm Beach Zoo & Conservation Society",
@@ -4218,7 +4709,9 @@
    "Akron Zoological Park",
    "Great Plains Zoo",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -4250,7 +4743,8 @@
   "facilities": [
    "CuriOdyssey",
    "Central Florida Zoo & Botanical Gardens",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Invertebrates",
   "taxon_group": null
@@ -4268,7 +4762,9 @@
    "North Carolina Zoo",
    "Tulsa Zoo",
    "Zoo Knoxville",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Francisco Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
@@ -4291,12 +4787,14 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "San Diego Zoo",
+   "The Phoenix Zoo",
    "Detroit Zoological Society",
    "Saint Louis Zoo",
    "Bronx Zoo/WCS",
    "Queens Zoo",
    "Tulsa Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Crocodilians"
@@ -4404,6 +4902,15 @@
   "taxon_group": "Lizards"
  },
  {
+  "key": "chuxiong fire-bellied newt",
+  "display": "Chuxiong fire-bellied newt",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Amphibians",
+  "taxon_group": "Frogs & salamanders"
+ },
+ {
   "key": "cichlid",
   "display": "Cichlid",
   "facilities": [
@@ -4420,7 +4927,8 @@
    "Lincoln Park Zoo",
    "Potawatomi Zoo",
    "Buffalo Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -4459,7 +4967,8 @@
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Nashville Zoo",
    "Dallas Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -4487,11 +4996,21 @@
   "taxon_group": "Tortoises & turtles"
  },
  {
+  "key": "coahuilan box turtle",
+  "display": "Coahuilan box turtle",
+  "facilities": [
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Tortoises & turtles"
+ },
+ {
   "key": "coati",
   "display": "Coati",
   "facilities": [
    "North Carolina Zoo",
-   "ZOOAMERICA NA Wildlife Park"
+   "ZOOAMERICA NA Wildlife Park",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -4551,6 +5070,24 @@
   "taxon_group": null
  },
  {
+  "key": "coconut lorikeet",
+  "display": "Coconut lorikeet",
+  "facilities": [
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Parrots & macaws"
+ },
+ {
+  "key": "coconut octopus",
+  "display": "Coconut octopus",
+  "facilities": [
+   "Steinhart Aquarium"
+  ],
+  "taxon_class": "Invertebrates",
+  "taxon_group": null
+ },
+ {
   "key": "collared finchbill",
   "display": "Collared Finchbill",
   "facilities": [
@@ -4577,6 +5114,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
+ },
+ {
+  "key": "collared lizard",
+  "display": "Collared lizard",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Lizards"
  },
  {
   "key": "colobus",
@@ -4638,7 +5184,8 @@
   "key": "colorado river toad",
   "display": "Colorado River Toad",
   "facilities": [
-   "Oakland Zoo"
+   "Oakland Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
@@ -4666,7 +5213,8 @@
   "display": "Common Chuckwalla",
   "facilities": [
    "Potter Park Zoological Gardens",
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
@@ -4778,8 +5326,10 @@
   "display": "Common Ostrich",
   "facilities": [
    "Columbus Zoo & Aquarium",
+   "Reid Park Zoo",
    "Bronx Zoo/WCS",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -4824,17 +5374,6 @@
   "taxon_group": "Tortoises & turtles"
  },
  {
-  "key": "common squirrel monkey",
-  "display": "Common Squirrel Monkey",
-  "facilities": [
-   "Brevard Zoo",
-   "Lion Country Safari",
-   "Buffalo Zoo"
-  ],
-  "taxon_class": "Mammals",
-  "taxon_group": "Monkeys & lemurs"
- },
- {
   "key": "common tern",
   "display": "Common Tern",
   "facilities": [
@@ -4860,7 +5399,8 @@
   "facilities": [
    "Columbus Zoo & Aquarium",
    "Zoo Atlanta",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -4896,7 +5436,8 @@
   "key": "common dwarf mongoose",
   "display": "Common dwarf mongoose",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -4905,7 +5446,8 @@
   "key": "common eland",
   "display": "Common eland",
   "facilities": [
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -4918,6 +5460,19 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
+ },
+ {
+  "key": "common squirrel monkey",
+  "display": "Common squirrel monkey",
+  "facilities": [
+   "The Phoenix Zoo",
+   "Brevard Zoo",
+   "Lion Country Safari",
+   "Buffalo Zoo",
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Monkeys & lemurs"
  },
  {
   "key": "condor",
@@ -4971,7 +5526,8 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "Saint Louis Zoo",
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -4995,7 +5551,8 @@
   "facilities": [
    "Zoo Atlanta",
    "Lake Superior Zoo",
-   "ZOOAMERICA NA Wildlife Park"
+   "ZOOAMERICA NA Wildlife Park",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -5016,6 +5573,15 @@
    "Central Park Zoo"
   ],
   "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
+  "key": "cortez rainbow wrasse",
+  "display": "Cortez rainbow wrasse",
+  "facilities": [
+   "Aquarium of the Pacific"
+  ],
+  "taxon_class": "Fish",
   "taxon_group": null
  },
  {
@@ -5043,7 +5609,8 @@
    "Lincoln Children's Zoo",
    "Prospect Park Zoo",
    "Dakota Zoo",
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -5062,7 +5629,9 @@
   "display": "Cottonmouth",
   "facilities": [
    "BREC's Baton Rouge Zoo",
-   "ZOOAMERICA NA Wildlife Park"
+   "ZOOAMERICA NA Wildlife Park",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -5074,12 +5643,14 @@
    "Houston Zoo, Inc.",
    "Cincinnati Zoo and Botanical Garden",
    "Columbus Zoo & Aquarium",
+   "The Phoenix Zoo",
    "Palm Beach Zoo & Conservation Society",
    "Lake Superior Zoo",
    "Saint Louis Zoo",
    "North Carolina Zoo",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -5090,6 +5661,7 @@
   "facilities": [
    "Houston Zoo, Inc.",
    "Columbus Zoo & Aquarium",
+   "The Phoenix Zoo",
    "Fresno Chaffee Zoo",
    "Mote Marine Laboratory and Aquarium",
    "Brookfield Zoo Chicago",
@@ -5124,7 +5696,10 @@
    "Queens Zoo",
    "Akron Zoological Park",
    "Virginia Living Museum",
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Wolves, dogs & foxes"
@@ -5209,6 +5784,15 @@
   "taxon_group": null
  },
  {
+  "key": "crested oropendola",
+  "display": "Crested oropendola",
+  "facilities": [
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "crevalle jack",
   "display": "Crevalle Jack",
   "facilities": [
@@ -5233,7 +5817,8 @@
    "Oakland Zoo",
    "Brandywine Zoo",
    "Zoo Atlanta",
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -5288,7 +5873,8 @@
   "key": "curl-crested aracari",
   "display": "Curl-Crested Aracari",
   "facilities": [
-   "Audubon Zoo"
+   "Audubon Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -5301,6 +5887,15 @@
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Crocodilians"
+ },
+ {
+  "key": "cuviers gazelle",
+  "display": "Cuvier's gazelle",
+  "facilities": [
+   "The Living Desert Zoo and Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
  },
  {
   "key": "dakota skipper",
@@ -5324,7 +5919,8 @@
   "key": "dalmatian pelican",
   "display": "Dalmatian Pelican",
   "facilities": [
-   "The Phoenix Zoo"
+   "The Phoenix Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -5365,7 +5961,8 @@
   "display": "De Brazza's Monkey",
   "facilities": [
    "Brookfield Zoo Chicago",
-   "Minnesota Zoological Garden"
+   "Minnesota Zoological Garden",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -5394,7 +5991,8 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "BREC's Baton Rouge Zoo",
-   "International Crane Foundation"
+   "International Crane Foundation",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -5450,10 +6048,24 @@
   "facilities": [
    "Lake Superior Zoo",
    "ZOOAMERICA NA Wildlife Park",
-   "High Desert Museum"
+   "High Desert Museum",
+   "San Diego Zoo Safari Park",
+   "Santa Barbara Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
+ },
+ {
+  "key": "desert bighorn sheep",
+  "display": "Desert bighorn sheep",
+  "facilities": [
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
  },
  {
   "key": "desert monitor",
@@ -5463,6 +6075,15 @@
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
+ },
+ {
+  "key": "desert rosy boa",
+  "display": "Desert rosy boa",
+  "facilities": [
+   "Santa Barbara Zoo"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
  },
  {
   "key": "dexter cow",
@@ -5479,7 +6100,8 @@
   "display": "Dhole",
   "facilities": [
    "Bronx Zoo/WCS",
-   "The Wilds"
+   "The Wilds",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -5732,7 +6354,9 @@
   "facilities": [
    "CuriOdyssey",
    "Brevard Zoo",
-   "Lincoln Children's Zoo"
+   "Lincoln Children's Zoo",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -5786,7 +6410,8 @@
   "key": "dwarf cuttlefish",
   "display": "Dwarf Cuttlefish",
   "facilities": [
-   "Seattle Aquarium"
+   "Seattle Aquarium",
+   "Steinhart Aquarium"
   ],
   "taxon_class": "Invertebrates",
   "taxon_group": null
@@ -5836,7 +6461,9 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "Brevard Zoo",
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "San Francisco Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
@@ -5886,7 +6513,8 @@
    "Denver Zoo Conservation Alliance",
    "Lion Country Safari",
    "Saint Louis Zoo",
-   "Lincoln Children's Zoo"
+   "Lincoln Children's Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -5926,7 +6554,10 @@
    "Potawatomi Zoo",
    "BREC's Baton Rouge Zoo",
    "Saint Louis Zoo",
-   "Great Plains Zoo"
+   "Great Plains Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rhinos & hippos"
@@ -5991,7 +6622,8 @@
    "BREC's Baton Rouge Zoo",
    "Buffalo Zoo",
    "ZOOAMERICA NA Wildlife Park",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -6062,7 +6694,9 @@
    "Buffalo Zoo",
    "Tulsa Zoo",
    "South Carolina Aquarium",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -6105,7 +6739,8 @@
    "ZooMontana",
    "Akron Zoological Park",
    "ZOOAMERICA NA Wildlife Park",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -6138,10 +6773,28 @@
   "taxon_group": "Monkeys & lemurs"
  },
  {
+  "key": "eastern copperhead",
+  "display": "Eastern copperhead",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
   "key": "eastern green mamba",
   "display": "Eastern green mamba",
   "facilities": [
    "Memphis Zoo"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
+  "key": "eastern kingsnake",
+  "display": "Eastern kingsnake",
+  "facilities": [
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -6172,6 +6825,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
+ },
+ {
+  "key": "eclectus parrot",
+  "display": "Eclectus parrot",
+  "facilities": [
+   "The Phoenix Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Parrots & macaws"
  },
  {
   "key": "edwards lorikeet",
@@ -6207,7 +6869,8 @@
   "key": "egyptian goose",
   "display": "Egyptian Goose",
   "facilities": [
-   "Oakland Zoo"
+   "Oakland Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
@@ -6246,6 +6909,15 @@
    "Fresno Chaffee Zoo",
    "Saint Louis Zoo",
    "The Wilds"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "elds deer",
+  "display": "Eld's deer",
+  "facilities": [
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -6312,7 +6984,9 @@
    "Cincinnati Zoo and Botanical Garden",
    "Brevard Zoo",
    "Prospect Park Zoo",
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -6321,7 +6995,8 @@
   "key": "emerald starling",
   "display": "Emerald starling",
   "facilities": [
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -6383,7 +7058,10 @@
    "Prospect Park Zoo",
    "Fossil Rim Wildlife Center",
    "Dakota Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "San Francisco Zoological Gardens",
+   "Santa Barbara Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -6430,7 +7108,8 @@
   "key": "eurasian eagle-owl",
   "display": "Eurasian Eagle-Owl",
   "facilities": [
-   "Potter Park Zoological Gardens"
+   "Potter Park Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -6524,7 +7203,8 @@
   "facilities": [
    "Brevard Zoo",
    "Bronx Zoo/WCS",
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -6603,7 +7283,11 @@
    "Lincoln Children's Zoo",
    "Bronx Zoo/WCS",
    "Tulsa Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "San Diego Zoo Safari Park",
+   "Santa Barbara Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Wolves, dogs & foxes"
@@ -6616,6 +7300,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Otters & weasels"
+ },
+ {
+  "key": "ferruginous hawk",
+  "display": "Ferruginous hawk",
+  "facilities": [
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Birds of prey"
  },
  {
   "key": "fiddleback spider",
@@ -6713,6 +7406,24 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
+ },
+ {
+  "key": "flapjack octopus",
+  "display": "Flapjack octopus",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Invertebrates",
+  "taxon_group": null
+ },
+ {
+  "key": "flashlight fish",
+  "display": "Flashlight fish",
+  "facilities": [
+   "Steinhart Aquarium"
+  ],
+  "taxon_class": "Fish",
+  "taxon_group": null
  },
  {
   "key": "flemish giant rabbit",
@@ -6826,7 +7537,9 @@
    "Houston Zoo, Inc.",
    "San Diego Zoo",
    "Bronx Zoo/WCS",
-   "San Antonio Zoological Society"
+   "San Antonio Zoological Society",
+   "San Francisco Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -6865,7 +7578,8 @@
   "key": "francois langur",
   "display": "Fran\u00e7ois' langur",
   "facilities": [
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -6875,7 +7589,8 @@
   "display": "Freckled Duck",
   "facilities": [
    "Minnesota Zoological Garden",
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
@@ -6893,7 +7608,8 @@
   "key": "frill-necked lizard",
   "display": "Frill-necked lizard",
   "facilities": [
-   "Saint Louis Zoo"
+   "Saint Louis Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
@@ -6908,10 +7624,20 @@
   "taxon_group": "Lizards"
  },
  {
+  "key": "frilled-neck lizard",
+  "display": "Frilled-neck lizard",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Lizards"
+ },
+ {
   "key": "fringe-eared oryx",
   "display": "Fringe-Eared Oryx",
   "facilities": [
-   "The Wilds"
+   "The Wilds",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -6938,6 +7664,15 @@
   "taxon_group": "Frogs & salamanders"
  },
  {
+  "key": "frogfish",
+  "display": "Frogfish",
+  "facilities": [
+   "Steinhart Aquarium"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "fulvous whistling-duck",
   "display": "Fulvous Whistling-Duck",
   "facilities": [
@@ -6959,7 +7694,8 @@
   "key": "gaboon viper",
   "display": "Gaboon viper",
   "facilities": [
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -6991,12 +7727,15 @@
    "Houston Zoo, Inc.",
    "Cincinnati Zoo and Botanical Garden",
    "San Diego Zoo",
+   "The Phoenix Zoo",
+   "Reid Park Zoo",
    "Brevard Zoo",
    "Naples Zoo",
    "BREC's Baton Rouge Zoo",
    "Lincoln Children's Zoo",
    "Akron Zoological Park",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
@@ -7005,16 +7744,37 @@
   "key": "gambels quail",
   "display": "Gambel's Quail",
   "facilities": [
-   "ZOOAMERICA NA Wildlife Park"
+   "ZOOAMERICA NA Wildlife Park",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
+  "key": "garden tree boa",
+  "display": "Garden tree boa",
+  "facilities": [
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
+  "key": "garibaldi",
+  "display": "Garibaldi",
+  "facilities": [
+   "Aquarium of the Pacific"
+  ],
+  "taxon_class": null,
   "taxon_group": null
  },
  {
   "key": "gaur",
   "display": "Gaur",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -7035,7 +7795,8 @@
   "facilities": [
    "Buffalo Zoo",
    "Fossil Rim Wildlife Center",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -7052,6 +7813,15 @@
   "taxon_group": "Penguins"
  },
  {
+  "key": "geoffreys marmoset",
+  "display": "Geoffrey's marmoset",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Monkeys & lemurs"
+ },
+ {
   "key": "geoffroys marmoset",
   "display": "Geoffroy's Marmoset",
   "facilities": [
@@ -7065,7 +7835,8 @@
   "display": "Gerenuk",
   "facilities": [
    "Memphis Zoo",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -7111,7 +7882,9 @@
    "Saint Louis Zoo",
    "Buffalo Zoo",
    "Bronx Zoo/WCS",
-   "Audubon Zoo"
+   "Audubon Zoo",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Sloths & anteaters"
@@ -7204,7 +7977,8 @@
   "display": "Giant Otter",
   "facilities": [
    "Brevard Zoo",
-   "Zoo Atlanta"
+   "Zoo Atlanta",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Otters & weasels"
@@ -7220,7 +7994,8 @@
    "New England Aquarium",
    "Akron Zoological Park",
    "Seattle Aquarium",
-   "New York Aquarium"
+   "New York Aquarium",
+   "Aquarium of the Pacific"
   ],
   "taxon_class": "Invertebrates",
   "taxon_group": null
@@ -7301,6 +8076,33 @@
   "taxon_group": null
  },
  {
+  "key": "giant clam",
+  "display": "Giant clam",
+  "facilities": [
+   "Steinhart Aquarium"
+  ],
+  "taxon_class": "Invertebrates",
+  "taxon_group": null
+ },
+ {
+  "key": "giant eland",
+  "display": "Giant eland",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "giant isopod",
+  "display": "Giant isopod",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "giant musk turtle",
   "display": "Giant musk turtle",
   "facilities": [
@@ -7330,7 +8132,8 @@
    "Saint Louis Zoo",
    "ZOOAMERICA NA Wildlife Park",
    "High Desert Museum",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
@@ -7377,7 +8180,10 @@
    "Audubon Zoo",
    "Henry Vilas Zoo",
    "Utah's Hogle Zoo",
-   "Nashville Zoo"
+   "Nashville Zoo",
+   "San Francisco Zoological Gardens",
+   "Santa Barbara Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Giraffe & okapi"
@@ -7407,7 +8213,8 @@
   "facilities": [
    "Buttonwood Park Zoo",
    "Lake Superior Zoo",
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -7446,7 +8253,9 @@
   "facilities": [
    "The Phoenix Zoo",
    "ZooMontana",
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -7466,7 +8275,8 @@
    "Buffalo Zoo",
    "Akron Zoological Park",
    "Audubon Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -7501,6 +8311,15 @@
   "taxon_group": null
  },
  {
+  "key": "golden poison frog",
+  "display": "Golden poison frog",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Amphibians",
+  "taxon_group": "Frogs & salamanders"
+ },
+ {
   "key": "golden white-eye",
   "display": "Golden white-eye",
   "facilities": [
@@ -7529,6 +8348,7 @@
   "display": "Golden-breasted Starling",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "Reid Park Zoo",
    "Seneca Park Zoo",
    "Tulsa Zoo"
   ],
@@ -7581,6 +8401,15 @@
   "taxon_group": "Frogs & salamanders"
  },
  {
+  "key": "golfodulcean poison frog",
+  "display": "Golfodulcean poison frog",
+  "facilities": [
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Amphibians",
+  "taxon_group": "Frogs & salamanders"
+ },
+ {
   "key": "goliath grouper",
   "display": "Goliath Grouper",
   "facilities": [
@@ -7593,7 +8422,8 @@
   "key": "goliath heron",
   "display": "Goliath heron",
   "facilities": [
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -7629,7 +8459,8 @@
    "Lake Superior Zoo",
    "Buffalo Zoo",
    "ZOOAMERICA NA Wildlife Park",
-   "South Carolina Aquarium"
+   "South Carolina Aquarium",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
@@ -7645,7 +8476,8 @@
    "Detroit Zoological Society",
    "North Carolina Zoo",
    "Utah's Hogle Zoo",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
@@ -7683,7 +8515,9 @@
   "facilities": [
    "Columbus Zoo & Aquarium",
    "Oakland Zoo",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -7692,7 +8526,8 @@
   "key": "grants gazelle",
   "display": "Grant's gazelle",
   "facilities": [
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -7730,6 +8565,24 @@
   "taxon_group": "Wolves, dogs & foxes"
  },
  {
+  "key": "gray fox",
+  "display": "Gray fox",
+  "facilities": [
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Wolves, dogs & foxes"
+ },
+ {
+  "key": "gray hawk",
+  "display": "Gray hawk",
+  "facilities": [
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Birds of prey"
+ },
+ {
   "key": "gray mouse lemur",
   "display": "Gray mouse lemur",
   "facilities": [
@@ -7737,15 +8590,6 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
- },
- {
-  "key": "great argus",
-  "display": "Great Argus",
-  "facilities": [
-   "Minnesota Zoological Garden"
-  ],
-  "taxon_class": null,
-  "taxon_group": null
  },
  {
   "key": "great barracuda",
@@ -7778,10 +8622,21 @@
    "Queens Zoo",
    "ZOOAMERICA NA Wildlife Park",
    "High Desert Museum",
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "Birmingham Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
+ },
+ {
+  "key": "great indian hornbill",
+  "display": "Great Indian hornbill",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
  },
  {
   "key": "great plated lizard",
@@ -7797,15 +8652,28 @@
   "display": "Great White Pelican",
   "facilities": [
    "Maryland Zoo in Baltimore",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
+  "key": "great argus",
+  "display": "Great argus",
+  "facilities": [
+   "Reid Park Zoo",
+   "Minnesota Zoological Garden"
+  ],
+  "taxon_class": null,
   "taxon_group": null
  },
  {
   "key": "great argus pheasant",
   "display": "Great argus pheasant",
   "facilities": [
+   "The Phoenix Zoo",
    "Bronx Zoo/WCS"
   ],
   "taxon_class": "Birds",
@@ -7834,8 +8702,10 @@
   "display": "Greater Flamingo",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "The Phoenix Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -7848,7 +8718,10 @@
    "Saint Louis Zoo",
    "Fossil Rim Wildlife Center",
    "Dallas Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -7916,6 +8789,8 @@
   "key": "greater rhea",
   "display": "Greater rhea",
   "facilities": [
+   "The Phoenix Zoo",
+   "Reid Park Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute"
   ],
   "taxon_class": "Birds",
@@ -7938,7 +8813,8 @@
    "Buffalo Zoo",
    "Bronx Zoo/WCS",
    "Tulsa Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Birmingham Zoo"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -7951,17 +8827,6 @@
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
- },
- {
-  "key": "green aracari",
-  "display": "Green Aracari",
-  "facilities": [
-   "Potawatomi Zoo",
-   "Buttonwood Park Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
-  ],
-  "taxon_class": null,
-  "taxon_group": null
  },
  {
   "key": "green crested basilisk",
@@ -7977,7 +8842,9 @@
   "display": "Green Iguana",
   "facilities": [
    "Lake Superior Zoo",
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "San Francisco Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
@@ -8021,24 +8888,11 @@
    "South Carolina Aquarium",
    "Virginia Aquarium and Marine Science Center",
    "Audubon Zoo",
-   "Discovery Cove"
+   "Discovery Cove",
+   "Monterey Bay Aquarium"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
- },
- {
-  "key": "green tree python",
-  "display": "Green Tree Python",
-  "facilities": [
-   "Brandywine Zoo",
-   "Naples Zoo",
-   "Zoo Boise",
-   "Lake Superior Zoo",
-   "Akron Zoological Park",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
-  ],
-  "taxon_class": "Reptiles",
-  "taxon_group": "Snakes"
  },
  {
   "key": "green turaco",
@@ -8062,10 +8916,26 @@
   "key": "green and black poison dart frog",
   "display": "Green and Black Poison Dart Frog",
   "facilities": [
-   "ZooMontana"
+   "ZooMontana",
+   "San Francisco Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
+ },
+ {
+  "key": "green aracari",
+  "display": "Green aracari",
+  "facilities": [
+   "The Phoenix Zoo",
+   "Potawatomi Zoo",
+   "Buttonwood Park Zoo",
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
  },
  {
   "key": "green peafowl",
@@ -8075,6 +8945,22 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": null
+ },
+ {
+  "key": "green tree python",
+  "display": "Green tree python",
+  "facilities": [
+   "Reid Park Zoo",
+   "Brandywine Zoo",
+   "Naples Zoo",
+   "Zoo Boise",
+   "Lake Superior Zoo",
+   "Akron Zoological Park",
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
  },
  {
   "key": "green-backed trogon",
@@ -8171,7 +9057,9 @@
    "Fossil Rim Wildlife Center",
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Dallas Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -8182,10 +9070,14 @@
   "facilities": [
    "Houston Zoo, Inc.",
    "Cincinnati Zoo and Botanical Garden",
+   "The Phoenix Zoo",
    "Zoo Boise",
    "Tulsa Zoo",
    "International Crane Foundation",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Francisco Zoological Gardens",
+   "The Living Desert Zoo and Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -8238,6 +9130,15 @@
   "taxon_group": "Wolves, dogs & foxes"
  },
  {
+  "key": "grey peacock-pheasant",
+  "display": "Grey peacock-pheasant",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "grey seal",
   "display": "Grey seal",
   "facilities": [
@@ -8280,10 +9181,21 @@
    "Tulsa Zoo",
    "Dakota Zoo",
    "Central Park Zoo",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Francisco Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Bears & pandas"
+ },
+ {
+  "key": "ground hornbill",
+  "display": "Ground hornbill",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
  },
  {
   "key": "groundhog",
@@ -8423,7 +9335,8 @@
   "display": "Hadada Ibis",
   "facilities": [
    "Oakland Zoo",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -8448,7 +9361,8 @@
    "Houston Zoo, Inc.",
    "Cincinnati Zoo and Botanical Garden",
    "Oakland Zoo",
-   "BREC's Baton Rouge Zoo"
+   "BREC's Baton Rouge Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -8505,6 +9419,17 @@
   "taxon_group": "Birds of prey"
  },
  {
+  "key": "harriss hawk",
+  "display": "Harris's hawk",
+  "facilities": [
+   "San Diego Zoo Safari Park",
+   "Birmingham Zoo",
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Birds of prey"
+ },
+ {
   "key": "hartmanns mountain zebra",
   "display": "Hartmann's Mountain Zebra",
   "facilities": [
@@ -8512,7 +9437,8 @@
    "Fossil Rim Wildlife Center",
    "Audubon Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -8591,7 +9517,9 @@
   "key": "helmeted guineafowl",
   "display": "Helmeted guineafowl",
   "facilities": [
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -8731,7 +9659,8 @@
   "display": "Hoffmann's Two-toed Sloth",
   "facilities": [
    "Zoo Atlanta",
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Sloths & anteaters"
@@ -8780,6 +9709,15 @@
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
+ },
+ {
+  "key": "honduran spiny-tailed iguana",
+  "display": "Honduran spiny-tailed iguana",
+  "facilities": [
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Lizards"
  },
  {
   "key": "honey badger",
@@ -8917,7 +9855,8 @@
    "Saint Louis Zoo",
    "Akron Zoological Park",
    "Aquarium of Niagara",
-   "Great Plains Zoo"
+   "Great Plains Zoo",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Penguins"
@@ -8933,7 +9872,8 @@
    "Bronx Zoo/WCS",
    "Akron Zoological Park",
    "Tulsa Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Parrots & macaws"
@@ -8954,7 +9894,8 @@
    "Fresno Chaffee Zoo",
    "Brevard Zoo",
    "ZooTampa at Lowry Park",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -8984,7 +9925,8 @@
    "Cincinnati Zoo and Botanical Garden",
    "Fresno Chaffee Zoo",
    "Zoo Boise",
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -8999,17 +9941,6 @@
   "taxon_group": "Wolves, dogs & foxes"
  },
  {
-  "key": "indian peafowl",
-  "display": "Indian Peafowl",
-  "facilities": [
-   "Brookfield Zoo Chicago",
-   "Tulsa Zoo",
-   "Dakota Zoo"
-  ],
-  "taxon_class": "Birds",
-  "taxon_group": null
- },
- {
   "key": "indian pygmy goose",
   "display": "Indian Pygmy Goose",
   "facilities": [
@@ -9017,16 +9948,6 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
- },
- {
-  "key": "indian rhinoceros",
-  "display": "Indian Rhinoceros",
-  "facilities": [
-   "BREC's Baton Rouge Zoo",
-   "Fort Worth Zoo"
-  ],
-  "taxon_class": "Mammals",
-  "taxon_group": "Rhinos & hippos"
  },
  {
   "key": "indian runner duck",
@@ -9049,6 +9970,15 @@
   "taxon_group": "Tortoises & turtles"
  },
  {
+  "key": "indian crested porcupine",
+  "display": "Indian crested porcupine",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Rodents"
+ },
+ {
   "key": "indian hog deer",
   "display": "Indian hog deer",
   "facilities": [
@@ -9056,6 +9986,32 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "indian peafowl",
+  "display": "Indian peafowl",
+  "facilities": [
+   "Reid Park Zoo",
+   "Brookfield Zoo Chicago",
+   "Tulsa Zoo",
+   "Dakota Zoo",
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
+  "key": "indian rhinoceros",
+  "display": "Indian rhinoceros",
+  "facilities": [
+   "The Phoenix Zoo",
+   "BREC's Baton Rouge Zoo",
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park",
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Rhinos & hippos"
  },
  {
   "key": "indigo snake",
@@ -9094,6 +10050,15 @@
   "taxon_group": "Tortoises & turtles"
  },
  {
+  "key": "indochinese sika deer",
+  "display": "Indochinese sika deer",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
   "key": "iranian fat-tailed gecko",
   "display": "Iranian fat-tailed gecko",
   "facilities": [
@@ -9107,6 +10072,15 @@
   "display": "Island Flying Fox",
   "facilities": [
    "Oakland Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Wolves, dogs & foxes"
+ },
+ {
+  "key": "island fox",
+  "display": "Island fox",
+  "facilities": [
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Wolves, dogs & foxes"
@@ -9145,7 +10119,10 @@
    "Tulsa Zoo",
    "San Antonio Zoological Society",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -9224,7 +10201,8 @@
   "key": "japanese spider crab",
   "display": "Japanese Spider Crab",
   "facilities": [
-   "Georgia Aquarium"
+   "Georgia Aquarium",
+   "Aquarium of the Pacific"
   ],
   "taxon_class": "Invertebrates",
   "taxon_group": null
@@ -9284,6 +10262,15 @@
   "taxon_group": null
  },
  {
+  "key": "javelina",
+  "display": "Javelina",
+  "facilities": [
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "jelly",
   "display": "Jelly",
   "facilities": [
@@ -9336,6 +10323,15 @@
    "Cincinnati Zoo and Botanical Garden",
    "San Antonio Zoological Society",
    "Nashville Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Marsupials"
+ },
+ {
+  "key": "kangaroo rat",
+  "display": "Kangaroo rat",
+  "facilities": [
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Marsupials"
@@ -9439,8 +10435,10 @@
  },
  {
   "key": "king vulture",
-  "display": "King Vulture",
+  "display": "King vulture",
   "facilities": [
+   "The Phoenix Zoo",
+   "Reid Park Zoo",
    "Brevard Zoo",
    "Zoo Atlanta",
    "BREC's Baton Rouge Zoo",
@@ -9472,6 +10470,26 @@
   "taxon_group": null
  },
  {
+  "key": "kirks dik-dik",
+  "display": "Kirk's dik-dik",
+  "facilities": [
+   "San Diego Zoo Safari Park",
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "kit fox",
+  "display": "Kit fox",
+  "facilities": [
+   "The Living Desert Zoo and Gardens",
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Wolves, dogs & foxes"
+ },
+ {
   "key": "klipspringer",
   "display": "Klipspringer",
   "facilities": [
@@ -9479,7 +10497,8 @@
    "Oakland Zoo",
    "Brevard Zoo",
    "Memphis Zoo",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -9518,7 +10537,8 @@
    "San Diego Zoo",
    "Columbus Zoo & Aquarium",
    "Los Angeles Zoo",
-   "Palm Beach Zoo & Conservation Society"
+   "Palm Beach Zoo & Conservation Society",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Marsupials"
@@ -9556,7 +10576,9 @@
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Memphis Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -9580,7 +10602,10 @@
   "facilities": [
    "Zoo Atlanta",
    "Potawatomi Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -9602,6 +10627,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "kuhls flying gecko",
+  "display": "Kuhl's flying gecko",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Lizards"
  },
  {
   "key": "kunekune pig",
@@ -9696,13 +10730,24 @@
   "display": "Lappet-faced Vulture",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "The Phoenix Zoo",
    "Zoo Atlanta",
    "BREC's Baton Rouge Zoo",
    "Maryland Zoo in Baltimore",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
+ },
+ {
+  "key": "lar gibbon",
+  "display": "Lar gibbon",
+  "facilities": [
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Great apes"
  },
  {
   "key": "large-spotted genet",
@@ -9737,7 +10782,10 @@
    "Lake Superior Zoo",
    "ZooMontana",
    "Buffalo Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Santa Barbara Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -9750,6 +10798,15 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
+ },
+ {
+  "key": "laysan albatross",
+  "display": "Laysan albatross",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
  },
  {
   "key": "leaf scorpionfish",
@@ -9767,6 +10824,15 @@
    "Akron Zoological Park"
   ],
   "taxon_class": "Invertebrates",
+  "taxon_group": null
+ },
+ {
+  "key": "leafy seadragon",
+  "display": "Leafy seadragon",
+  "facilities": [
+   "Aquarium of the Pacific"
+  ],
+  "taxon_class": "Fish",
   "taxon_group": null
  },
  {
@@ -9815,7 +10881,8 @@
    "Buttonwood Park Zoo",
    "Lake Superior Zoo",
    "Buffalo Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Big cats"
@@ -9824,7 +10891,8 @@
   "key": "leopard shark",
   "display": "Leopard Shark",
   "facilities": [
-   "Minnesota Zoological Garden"
+   "Minnesota Zoological Garden",
+   "Monterey Bay Aquarium"
   ],
   "taxon_class": "Fish",
   "taxon_group": "Big cats"
@@ -9835,7 +10903,8 @@
   "facilities": [
    "Brevard Zoo",
    "Naples Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Big cats"
@@ -9875,7 +10944,8 @@
    "Naples Zoo",
    "Minnesota Zoological Garden",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -9887,7 +10957,9 @@
    "Zoo Atlanta",
    "Bronx Zoo/WCS",
    "Milwaukee County Zoological Gardens",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "San Diego Zoo Safari Park",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -9901,7 +10973,8 @@
    "Saint Louis Zoo",
    "Bronx Zoo/WCS",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -9954,6 +11027,15 @@
   "taxon_group": null
  },
  {
+  "key": "lesser spot-nosed guenon",
+  "display": "Lesser spot-nosed guenon",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Monkeys & lemurs"
+ },
+ {
   "key": "lesser spot-nosed monkey",
   "display": "Lesser spot-nosed monkey",
   "facilities": [
@@ -9990,7 +11072,8 @@
    "Brevard Zoo",
    "Naples Zoo",
    "Bronx Zoo/WCS",
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Sloths & anteaters"
@@ -10013,6 +11096,7 @@
   "display": "Lion",
   "facilities": [
    "San Diego Zoo",
+   "The Phoenix Zoo",
    "Fresno Chaffee Zoo",
    "Brevard Zoo",
    "Naples Zoo",
@@ -10022,15 +11106,18 @@
    "San Antonio Zoological Society",
    "Utah's Hogle Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Francisco Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
  },
  {
   "key": "lion-tailed macaque",
-  "display": "Lion-Tailed Macaque",
+  "display": "Lion-tailed macaque",
   "facilities": [
+   "Reid Park Zoo",
    "BREC's Baton Rouge Zoo",
    "Memphis Zoo",
    "Disney's Animal Kingdom"
@@ -10127,6 +11214,15 @@
   "taxon_group": "Rodents"
  },
  {
+  "key": "long-tailed paradise whydah",
+  "display": "Long-tailed paradise whydah",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "long-tailed salamander",
   "display": "Long-tailed salamander",
   "facilities": [
@@ -10215,6 +11311,15 @@
   "taxon_group": "Hoofstock"
  },
  {
+  "key": "luzon bleeding-heart",
+  "display": "Luzon bleeding-heart",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "mas night monkey",
   "display": "Ma's Night Monkey",
   "facilities": [
@@ -10280,7 +11385,8 @@
    "Bronx Zoo/WCS",
    "Seneca Park Zoo",
    "Audubon Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Invertebrates",
   "taxon_group": null
@@ -10290,7 +11396,8 @@
   "display": "Madagascar Teal",
   "facilities": [
    "Minnesota Zoological Garden",
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
@@ -10314,6 +11421,15 @@
   "taxon_group": "Flamingos & wading birds"
  },
  {
+  "key": "madagascar giant day gecko",
+  "display": "Madagascar giant day gecko",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Lizards"
+ },
+ {
   "key": "magdalena river stingray",
   "display": "Magdalena River Stingray",
   "facilities": [
@@ -10331,7 +11447,8 @@
    "Zoo Boise",
    "Potawatomi Zoo",
    "Potter Park Zoological Gardens",
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Penguins"
@@ -10344,6 +11461,15 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": null
+ },
+ {
+  "key": "magpie goose",
+  "display": "Magpie goose",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Ducks, geese & swans"
  },
  {
   "key": "major mitchells cockatoo",
@@ -10395,6 +11521,7 @@
    "Houston Zoo, Inc.",
    "Cincinnati Zoo and Botanical Garden",
    "Woodland Park Zoo",
+   "Reid Park Zoo",
    "Fresno Chaffee Zoo",
    "Naples Zoo",
    "ZooTampa at Lowry Park",
@@ -10442,7 +11569,8 @@
   "display": "Mandarin Duck",
   "facilities": [
    "Brookfield Zoo Chicago",
-   "Buffalo Zoo"
+   "Buffalo Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
@@ -10456,7 +11584,8 @@
    "Bronx Zoo/WCS",
    "Memphis Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -10470,7 +11599,8 @@
    "BREC's Baton Rouge Zoo",
    "Dickerson Park Zoo",
    "Audubon Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Wolves, dogs & foxes"
@@ -10545,6 +11675,15 @@
   "taxon_group": "Flamingos & wading birds"
  },
  {
+  "key": "marbled teal",
+  "display": "Marbled teal",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Ducks, geese & swans"
+ },
+ {
   "key": "mariana fruit dove",
   "display": "Mariana Fruit Dove",
   "facilities": [
@@ -10570,7 +11709,8 @@
   "facilities": [
    "Columbus Zoo & Aquarium",
    "Bronx Zoo/WCS",
-   "Utah's Hogle Zoo"
+   "Utah's Hogle Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -10594,7 +11734,9 @@
    "Fresno Chaffee Zoo",
    "ZooTampa at Lowry Park",
    "Seneca Park Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Giraffe & okapi"
@@ -10649,7 +11791,8 @@
   "key": "matschies tree-kangaroo",
   "display": "Matschie's tree-kangaroo",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Marsupials"
@@ -10700,7 +11843,10 @@
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Memphis Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "San Francisco Zoological Gardens",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -10713,6 +11859,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Marsupials"
+ },
+ {
+  "key": "merriams turkey",
+  "display": "Merriam's turkey",
+  "facilities": [
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
  },
  {
   "key": "mertens water monitor",
@@ -10739,7 +11894,8 @@
   "facilities": [
    "Central Florida Zoo & Botanical Gardens",
    "Tulsa Zoo",
-   "ZOOAMERICA NA Wildlife Park"
+   "ZOOAMERICA NA Wildlife Park",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
@@ -10797,10 +11953,31 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "Columbus Zoo & Aquarium",
-   "The Phoenix Zoo"
+   "The Phoenix Zoo",
+   "San Francisco Zoological Gardens",
+   "The Living Desert Zoo and Gardens",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Wolves, dogs & foxes"
+ },
+ {
+  "key": "mexican burrowing python",
+  "display": "Mexican burrowing python",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
+  "key": "mexican lookdown",
+  "display": "Mexican lookdown",
+  "facilities": [
+   "Aquarium of the Pacific"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
  },
  {
   "key": "midas cichlid",
@@ -10826,7 +12003,8 @@
   "key": "milk snake",
   "display": "Milk Snake",
   "facilities": [
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -10867,7 +12045,8 @@
   "display": "Miniature Horse",
   "facilities": [
    "Tulsa Zoo",
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -10913,10 +12092,20 @@
   "key": "mohol bushbaby",
   "display": "Mohol bushbaby",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
+ },
+ {
+  "key": "mole snake",
+  "display": "Mole snake",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
  },
  {
   "key": "moluccan cockatoo",
@@ -10982,7 +12171,8 @@
    "Buttonwood Park Zoo",
    "Akron Zoological Park",
    "South Carolina Aquarium",
-   "Audubon Zoo"
+   "Audubon Zoo",
+   "Monterey Bay Aquarium"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -11073,7 +12263,8 @@
    "Akron Zoological Park",
    "ZOOAMERICA NA Wildlife Park",
    "Utah's Hogle Zoo",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -11182,7 +12373,8 @@
   "key": "mute swan",
   "display": "Mute Swan",
   "facilities": [
-   "Lion Country Safari"
+   "Lion Country Safari",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
@@ -11206,7 +12398,9 @@
    "Bronx Zoo/WCS",
    "Akron Zoological Park",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "The Living Desert Zoo and Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rodents"
@@ -11289,13 +12483,16 @@
   "display": "Nicobar Pigeon",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "The Phoenix Zoo",
+   "Reid Park Zoo",
    "Brevard Zoo",
    "Brookfield Zoo Chicago",
    "Potawatomi Zoo",
    "BREC's Baton Rouge Zoo",
    "Bronx Zoo/WCS",
    "Tulsa Zoo",
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -11340,7 +12537,8 @@
   "display": "Nile lechwe",
   "facilities": [
    "Saint Louis Zoo",
-   "Fossil Rim Wildlife Center"
+   "Fossil Rim Wildlife Center",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -11349,7 +12547,8 @@
   "key": "nilgai",
   "display": "Nilgai",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -11438,7 +12637,9 @@
    "Red River Zoo",
    "Audubon Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Otters & weasels"
@@ -11473,6 +12674,15 @@
   "taxon_group": "Rodents"
  },
  {
+  "key": "north china sika deer",
+  "display": "North China sika deer",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
   "key": "north island brown kiwi",
   "display": "North Island brown kiwi",
   "facilities": [
@@ -11485,7 +12695,8 @@
   "key": "north sulawesi babirusa",
   "display": "North Sulawesi Babirusa",
   "facilities": [
-   "Brevard Zoo"
+   "Brevard Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -11578,6 +12789,33 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
+ },
+ {
+  "key": "northern bald ibis",
+  "display": "Northern bald ibis",
+  "facilities": [
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Flamingos & wading birds"
+ },
+ {
+  "key": "northern caiman lizard",
+  "display": "Northern caiman lizard",
+  "facilities": [
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Crocodilians"
+ },
+ {
+  "key": "northern cardinal",
+  "display": "Northern cardinal",
+  "facilities": [
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
  },
  {
   "key": "northern copperhead",
@@ -11678,7 +12916,8 @@
    "Zoo Boise",
    "BREC's Baton Rouge Zoo",
    "Bronx Zoo/WCS",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -11712,6 +12951,15 @@
   "taxon_group": null
  },
  {
+  "key": "ocean sunfish",
+  "display": "Ocean sunfish",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "ocellate river stingray",
   "display": "Ocellate River Stingray",
   "facilities": [
@@ -11737,7 +12985,11 @@
    "CuriOdyssey",
    "Buffalo Zoo",
    "ZOOAMERICA NA Wildlife Park",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park",
+   "San Francisco Zoological Gardens",
+   "Arizona-Sonora Desert Museum",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -11787,7 +13039,8 @@
    "Memphis Zoo",
    "Dallas Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Giraffe & okapi"
@@ -11801,6 +13054,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
+ },
+ {
+  "key": "olive python",
+  "display": "Olive python",
+  "facilities": [
+   "The Living Desert Zoo and Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
  },
  {
   "key": "opossum",
@@ -11858,7 +13120,8 @@
    "Fort Wayne Zoo",
    "Saint Louis Zoo",
    "Utah's Hogle Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
@@ -11894,7 +13157,8 @@
   "key": "oriental fire-bellied toad",
   "display": "Oriental Fire-bellied Toad",
   "facilities": [
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
@@ -11955,7 +13219,12 @@
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Memphis Zoo",
    "Dallas Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park",
+   "San Francisco Zoological Gardens",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -11993,6 +13262,24 @@
   "taxon_group": null
  },
  {
+  "key": "pacific bluefin tuna",
+  "display": "Pacific bluefin tuna",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Fish",
+  "taxon_group": null
+ },
+ {
+  "key": "pacific sardine",
+  "display": "Pacific sardine",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Fish",
+  "taxon_group": null
+ },
+ {
   "key": "pacific walrus",
   "display": "Pacific walrus",
   "facilities": [
@@ -12005,6 +13292,7 @@
   "key": "pacu",
   "display": "Pacu",
   "facilities": [
+   "Reid Park Zoo",
    "Potawatomi Zoo",
    "Audubon Zoo"
   ],
@@ -12059,7 +13347,8 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "Prospect Park Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -12108,7 +13397,8 @@
    "Buffalo Zoo",
    "Seneca Park Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
@@ -12124,7 +13414,8 @@
    "Buttonwood Park Zoo",
    "Saint Louis Zoo",
    "Seneca Park Zoo",
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
@@ -12248,6 +13539,15 @@
   "taxon_group": "Ducks, geese & swans"
  },
  {
+  "key": "pelagic stingray",
+  "display": "Pelagic stingray",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Fish",
+  "taxon_group": "Sharks & rays"
+ },
+ {
   "key": "pelican",
   "display": "Pelican",
   "facilities": [
@@ -12275,7 +13575,8 @@
   "key": "peninsular pronghorn",
   "display": "Peninsular Pronghorn",
   "facilities": [
-   "The Phoenix Zoo"
+   "The Phoenix Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": null,
   "taxon_group": "Hoofstock"
@@ -12293,7 +13594,8 @@
   "key": "peregrine falcon",
   "display": "Peregrine Falcon",
   "facilities": [
-   "ZOOAMERICA NA Wildlife Park"
+   "ZOOAMERICA NA Wildlife Park",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -12326,11 +13628,21 @@
   "taxon_group": "Frogs & salamanders"
  },
  {
+  "key": "philippine pit viper",
+  "display": "Philippine pit viper",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
   "key": "philippine sailfin lizard",
   "display": "Philippine sailfin lizard",
   "facilities": [
    "Bronx Zoo/WCS",
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
@@ -12412,6 +13724,15 @@
   "taxon_group": "Marine mammals"
  },
  {
+  "key": "pine snake",
+  "display": "Pine snake",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
   "key": "pink-necked pigeon",
   "display": "Pink-Necked Pigeon",
   "facilities": [
@@ -12425,7 +13746,9 @@
   "display": "Pink-backed pelican",
   "facilities": [
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -12529,6 +13852,15 @@
   "taxon_group": "Hoofstock"
  },
  {
+  "key": "platypus",
+  "display": "Platypus",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "plecostomus",
   "display": "Plecostomus",
   "facilities": [
@@ -12553,10 +13885,20 @@
   "display": "Plumed Basilisk",
   "facilities": [
    "Tulsa Zoo",
-   "Nashville Zoo"
+   "Nashville Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
+ },
+ {
+  "key": "plumose anemone",
+  "display": "Plumose anemone",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Invertebrates",
+  "taxon_group": null
  },
  {
   "key": "plush-crested jay",
@@ -12616,9 +13958,19 @@
    "Woodland Park Zoo",
    "Prospect Park Zoo",
    "ZOOAMERICA NA Wildlife Park",
-   "High Desert Museum"
+   "High Desert Museum",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
+  "taxon_group": "Rodents"
+ },
+ {
+  "key": "porcupine fish",
+  "display": "Porcupine fish",
+  "facilities": [
+   "Aquarium of the Pacific"
+  ],
+  "taxon_class": "Fish",
   "taxon_group": "Rodents"
  },
  {
@@ -12672,10 +14024,21 @@
   "display": "Prairie Dog",
   "facilities": [
    "Lake Superior Zoo",
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "San Diego Zoo Safari Park",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rodents"
+ },
+ {
+  "key": "prairie falcon",
+  "display": "Prairie falcon",
+  "facilities": [
+   "Arizona-Sonora Desert Museum"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Birds of prey"
  },
  {
   "key": "predaceous diving beetle",
@@ -12694,21 +14057,6 @@
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
- },
- {
-  "key": "prehensile-tailed porcupine",
-  "display": "Prehensile-tailed Porcupine",
-  "facilities": [
-   "CuriOdyssey",
-   "Naples Zoo",
-   "Zoo Boise",
-   "Lake Superior Zoo",
-   "Akron Zoological Park",
-   "Milwaukee County Zoological Gardens",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
-  ],
-  "taxon_class": "Mammals",
-  "taxon_group": "Rodents"
  },
  {
   "key": "prehensile-tailed skink",
@@ -12731,10 +14079,27 @@
   "taxon_group": "Lizards"
  },
  {
+  "key": "prehensile-tailed porcupine",
+  "display": "Prehensile-tailed porcupine",
+  "facilities": [
+   "The Phoenix Zoo",
+   "CuriOdyssey",
+   "Naples Zoo",
+   "Zoo Boise",
+   "Lake Superior Zoo",
+   "Akron Zoological Park",
+   "Milwaukee County Zoological Gardens",
+   "Smithsonian's National Zoo and Conservation Biology Institute"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Rodents"
+ },
+ {
   "key": "prevosts squirrel",
   "display": "Prevost's Squirrel",
   "facilities": [
-   "Brookfield Zoo Chicago"
+   "Brookfield Zoo Chicago",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rodents"
@@ -12786,7 +14151,8 @@
    "Bronx Zoo/WCS",
    "Fossil Rim Wildlife Center",
    "Dakota Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -12798,6 +14164,15 @@
    "The Wilds"
   ],
   "taxon_class": "Mammals",
+  "taxon_group": null
+ },
+ {
+  "key": "pudu",
+  "display": "Pud\u00fa",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": null,
   "taxon_group": null
  },
  {
@@ -12838,6 +14213,15 @@
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
+ },
+ {
+  "key": "puff adder",
+  "display": "Puff adder",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
  },
  {
   "key": "pufferfish",
@@ -12897,6 +14281,24 @@
   "taxon_group": null
  },
  {
+  "key": "purple grenadier",
+  "display": "Purple grenadier",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
+  "key": "purple-striped jelly",
+  "display": "Purple-striped jelly",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "purple-throated fruitcrow",
   "display": "Purple-throated fruitcrow",
   "facilities": [
@@ -12921,7 +14323,8 @@
   "facilities": [
    "Oakland Zoo",
    "Lake Superior Zoo",
-   "Great Plains Zoo"
+   "Great Plains Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -12953,7 +14356,8 @@
   "key": "pygmy rattlesnake",
   "display": "Pygmy Rattlesnake",
   "facilities": [
-   "Naples Zoo"
+   "Naples Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -12965,7 +14369,8 @@
    "Cincinnati Zoo and Botanical Garden",
    "Columbus Zoo & Aquarium",
    "Lake Superior Zoo",
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -12985,7 +14390,8 @@
   "facilities": [
    "Bronx Zoo/WCS",
    "The Wilds",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -13055,7 +14461,9 @@
    "Bronx Zoo/WCS",
    "Tulsa Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
@@ -13064,7 +14472,8 @@
   "key": "radjah shelduck",
   "display": "Radjah Shelduck",
   "facilities": [
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
@@ -13084,7 +14493,8 @@
   "facilities": [
    "Brevard Zoo",
    "Brookfield Zoo Chicago",
-   "Great Plains Zoo"
+   "Great Plains Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Parrots & macaws"
@@ -13113,6 +14523,7 @@
   "key": "raven",
   "display": "Raven",
   "facilities": [
+   "The Phoenix Zoo",
    "Potter Park Zoological Gardens",
    "Utah's Hogle Zoo"
   ],
@@ -13173,7 +14584,8 @@
    "ZooTampa at Lowry Park",
    "Buttonwood Park Zoo",
    "Virginia Living Museum",
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Wolves, dogs & foxes"
@@ -13221,7 +14633,8 @@
   "display": "Red Lionfish",
   "facilities": [
    "Seattle Aquarium",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -13260,7 +14673,9 @@
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Central Park Zoo",
    "Memphis Zoo",
-   "Nashville Zoo"
+   "Nashville Zoo",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Bears & pandas"
@@ -13291,7 +14706,9 @@
    "Audubon Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Memphis Zoo",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -13306,7 +14723,8 @@
    "San Antonio Zoological Society",
    "Dakota Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -13352,6 +14770,24 @@
   "taxon_group": null
  },
  {
+  "key": "red brocket deer",
+  "display": "Red brocket deer",
+  "facilities": [
+   "The Phoenix Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "red junglefowl",
+  "display": "Red junglefowl",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "red knot",
   "display": "Red knot",
   "facilities": [
@@ -13361,6 +14797,15 @@
   "taxon_group": null
  },
  {
+  "key": "red lechwe",
+  "display": "Red lechwe",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
   "key": "red muntjac",
   "display": "Red muntjac",
   "facilities": [
@@ -13368,6 +14813,24 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "red spitting cobra",
+  "display": "Red spitting cobra",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
+  "key": "red tegu",
+  "display": "Red tegu",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Lizards"
  },
  {
   "key": "red-bellied pacu",
@@ -13400,7 +14863,9 @@
   "key": "red-crested turaco",
   "display": "Red-Crested Turaco",
   "facilities": [
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "San Diego Zoo Safari Park",
+   "Steinhart Aquarium"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -13473,7 +14938,9 @@
    "Seneca Park Zoo",
    "ZOOAMERICA NA Wildlife Park",
    "Dakota Zoo",
-   "Audubon Zoo"
+   "Audubon Zoo",
+   "Birmingham Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -13523,7 +14990,8 @@
   "display": "Red-billed Hornbill",
   "facilities": [
    "Brookfield Zoo Chicago",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -13577,10 +15045,21 @@
   "key": "red-eyed tree frog",
   "display": "Red-eyed Tree Frog",
   "facilities": [
-   "Lake Superior Zoo"
+   "Lake Superior Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
+ },
+ {
+  "key": "red-flanked duiker",
+  "display": "Red-flanked duiker",
+  "facilities": [
+   "San Diego Zoo Safari Park",
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
  },
  {
   "key": "red-footed tortoise",
@@ -13596,10 +15075,39 @@
    "Seneca Park Zoo",
    "Milwaukee County Zoological Gardens",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
+ },
+ {
+  "key": "red-fronted gazelle",
+  "display": "Red-fronted gazelle",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "red-lored amazon",
+  "display": "Red-lored amazon",
+  "facilities": [
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Parrots & macaws"
+ },
+ {
+  "key": "red-necked wallaby",
+  "display": "Red-necked wallaby",
+  "facilities": [
+   "The Phoenix Zoo",
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Marsupials"
  },
  {
   "key": "red-ruffed lemur",
@@ -13610,6 +15118,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
+ },
+ {
+  "key": "red-shouldered hawk",
+  "display": "Red-shouldered hawk",
+  "facilities": [
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Birds of prey"
  },
  {
   "key": "red-spotted longhorn beetle",
@@ -13637,6 +15154,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
+ },
+ {
+  "key": "red-whiskered bulbul",
+  "display": "Red-whiskered bulbul",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
  },
  {
   "key": "redband trout",
@@ -13672,7 +15198,8 @@
   "display": "Reeves' Muntjac",
   "facilities": [
    "Columbus Zoo & Aquarium",
-   "Lake Superior Zoo"
+   "Lake Superior Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -13706,9 +15233,28 @@
   "taxon_group": "Hoofstock"
  },
  {
-  "key": "reticulated giraffe",
-  "display": "Reticulated Giraffe",
+  "key": "reticulated python",
+  "display": "Reticulated Python",
   "facilities": [
+   "Houston Zoo, Inc.",
+   "Columbus Zoo & Aquarium",
+   "The Phoenix Zoo",
+   "Naples Zoo",
+   "Lake Superior Zoo",
+   "Saint Louis Zoo",
+   "Buffalo Zoo",
+   "Tulsa Zoo",
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
+  "key": "reticulated giraffe",
+  "display": "Reticulated giraffe",
+  "facilities": [
+   "The Phoenix Zoo",
+   "Reid Park Zoo",
    "Fresno Chaffee Zoo",
    "Oakland Zoo",
    "Brookfield Zoo Chicago",
@@ -13720,25 +15266,12 @@
    "Milwaukee County Zoological Gardens",
    "Memphis Zoo",
    "Dallas Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Giraffe & okapi"
- },
- {
-  "key": "reticulated python",
-  "display": "Reticulated Python",
-  "facilities": [
-   "Houston Zoo, Inc.",
-   "Columbus Zoo & Aquarium",
-   "Naples Zoo",
-   "Lake Superior Zoo",
-   "Saint Louis Zoo",
-   "Buffalo Zoo",
-   "Tulsa Zoo"
-  ],
-  "taxon_class": "Reptiles",
-  "taxon_group": "Snakes"
  },
  {
   "key": "rhea",
@@ -13748,6 +15281,15 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": null
+ },
+ {
+  "key": "rhim gazelle",
+  "display": "Rhim gazelle",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
  },
  {
   "key": "rhino",
@@ -13861,7 +15403,11 @@
    "Bronx Zoo/WCS",
    "Great Plains Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Diego Zoo Safari Park",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -13895,8 +15441,9 @@
  },
  {
   "key": "ringed teal",
-  "display": "Ringed Teal",
+  "display": "Ringed teal",
   "facilities": [
+   "Reid Park Zoo",
    "BREC's Baton Rouge Zoo"
   ],
   "taxon_class": "Birds",
@@ -13909,7 +15456,10 @@
    "Cincinnati Zoo and Botanical Garden",
    "The Phoenix Zoo",
    "Bronx Zoo/WCS",
-   "ZOOAMERICA NA Wildlife Park"
+   "ZOOAMERICA NA Wildlife Park",
+   "The Living Desert Zoo and Gardens",
+   "Arizona-Sonora Desert Museum",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -13934,7 +15484,8 @@
    "South Carolina Aquarium",
    "High Desert Museum",
    "Milwaukee County Zoological Gardens",
-   "Seattle Aquarium"
+   "Seattle Aquarium",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Otters & weasels"
@@ -13971,7 +15522,8 @@
   "display": "Roan antelope",
   "facilities": [
    "Saint Louis Zoo",
-   "Buffalo Zoo"
+   "Buffalo Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -14000,7 +15552,8 @@
   "facilities": [
    "Oakland Zoo",
    "Bronx Zoo/WCS",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -14009,7 +15562,8 @@
   "key": "rock scallop",
   "display": "Rock Scallop",
   "facilities": [
-   "Oregon Coast Aquarium"
+   "Oregon Coast Aquarium",
+   "Monterey Bay Aquarium"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -14022,6 +15576,15 @@
   ],
   "taxon_class": null,
   "taxon_group": null
+ },
+ {
+  "key": "rock rattlesnake",
+  "display": "Rock rattlesnake",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
  },
  {
   "key": "rockfish",
@@ -14061,6 +15624,15 @@
   "taxon_group": "Wolves, dogs & foxes"
  },
  {
+  "key": "rodrigues fruit bat",
+  "display": "Rodrigues fruit bat",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Bats"
+ },
+ {
   "key": "roosevelt elk",
   "display": "Roosevelt elk",
   "facilities": [
@@ -14083,6 +15655,7 @@
   "display": "Roseate Spoonbill",
   "facilities": [
    "Houston Zoo, Inc.",
+   "Reid Park Zoo",
    "Brevard Zoo",
    "BREC's Baton Rouge Zoo",
    "Saint Louis Zoo",
@@ -14090,7 +15663,10 @@
    "Bronx Zoo/WCS",
    "ZOOAMERICA NA Wildlife Park",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -14131,6 +15707,15 @@
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
+ },
+ {
+  "key": "rothschilds giraffe",
+  "display": "Rothschild's giraffe",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Giraffe & okapi"
  },
  {
   "key": "roti island snake-necked turtle",
@@ -14181,7 +15766,17 @@
   "key": "ruddy duck",
   "display": "Ruddy Duck",
   "facilities": [
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Ducks, geese & swans"
+ },
+ {
+  "key": "ruddy shelduck",
+  "display": "Ruddy shelduck",
+  "facilities": [
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
@@ -14216,12 +15811,23 @@
   "taxon_group": "Birds of prey"
  },
  {
+  "key": "ruppells vulture",
+  "display": "R\u00fcppell's vulture",
+  "facilities": [
+   "The Phoenix Zoo",
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Birds of prey"
+ },
+ {
   "key": "sable antelope",
   "display": "Sable antelope",
   "facilities": [
    "Saint Louis Zoo",
    "Fossil Rim Wildlife Center",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -14242,15 +15848,17 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "Saint Louis Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
  },
  {
   "key": "saffron finch",
-  "display": "Saffron Finch",
+  "display": "Saffron finch",
   "facilities": [
+   "Reid Park Zoo",
    "Akron Zoological Park"
   ],
   "taxon_class": "Birds",
@@ -14264,6 +15872,15 @@
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
+ },
+ {
+  "key": "saki monkey",
+  "display": "Saki monkey",
+  "facilities": [
+   "The Phoenix Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Monkeys & lemurs"
  },
  {
   "key": "salamander",
@@ -14306,7 +15923,8 @@
   "key": "sambar deer",
   "display": "Sambar deer",
   "facilities": [
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -14319,6 +15937,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "san clemente loggerhead shrike",
+  "display": "San Clemente loggerhead shrike",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
  },
  {
   "key": "san esteban chuckwalla",
@@ -14347,7 +15974,9 @@
    "Bronx Zoo/WCS",
    "Prospect Park Zoo",
    "North Carolina Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "San Diego Zoo Safari Park",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -14371,7 +16000,8 @@
   "facilities": [
    "Mote Marine Laboratory and Aquarium",
    "Virginia Aquarium and Marine Science Center",
-   "New York Aquarium"
+   "New York Aquarium",
+   "Monterey Bay Aquarium"
   ],
   "taxon_class": "Fish",
   "taxon_group": "Sharks & rays"
@@ -14388,7 +16018,8 @@
    "International Crane Foundation",
    "Milwaukee County Zoological Gardens",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -14417,6 +16048,15 @@
   "taxon_group": "Lizards"
  },
  {
+  "key": "scalloped hammerhead shark",
+  "display": "Scalloped hammerhead shark",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Fish",
+  "taxon_group": "Sharks & rays"
+ },
+ {
   "key": "scaly-sided merganser",
   "display": "Scaly-sided Merganser",
   "facilities": [
@@ -14430,6 +16070,8 @@
   "display": "Scarlet Ibis",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "The Phoenix Zoo",
+   "Reid Park Zoo",
    "Fresno Chaffee Zoo",
    "CuriOdyssey",
    "Brandywine Zoo",
@@ -14437,15 +16079,18 @@
    "Buffalo Zoo",
    "Bronx Zoo/WCS",
    "Tulsa Zoo",
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "San Francisco Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
  },
  {
   "key": "scarlet macaw",
-  "display": "Scarlet Macaw",
+  "display": "Scarlet macaw",
   "facilities": [
+   "The Phoenix Zoo",
    "Brevard Zoo",
    "Lion Country Safari",
    "Palm Beach Zoo & Conservation Society",
@@ -14464,6 +16109,24 @@
   "display": "Scarlet-faced Liocichla",
   "facilities": [
    "Brookfield Zoo Chicago"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
+  "key": "scheepmakers crowned pigeon",
+  "display": "Scheepmaker's crowned pigeon",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
+  "key": "scheltopusik",
+  "display": "Scheltopusik",
+  "facilities": [
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -14504,7 +16167,8 @@
    "The Wilds",
    "Fossil Rim Wildlife Center",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -14561,7 +16225,8 @@
    "Alaska SeaLife Center",
    "Georgia Aquarium",
    "Minnesota Zoological Garden",
-   "Seattle Aquarium"
+   "Seattle Aquarium",
+   "Monterey Bay Aquarium"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Marine mammals"
@@ -14596,6 +16261,15 @@
    "OdySea Aquarium"
   ],
   "taxon_class": "Invertebrates",
+  "taxon_group": null
+ },
+ {
+  "key": "sea angel",
+  "display": "Sea angel",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": null,
   "taxon_group": null
  },
  {
@@ -14670,10 +16344,21 @@
   "taxon_group": "Bats"
  },
  {
+  "key": "secretary bird",
+  "display": "Secretary bird",
+  "facilities": [
+   "San Diego Zoo Safari Park",
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "secretarybird",
   "display": "Secretarybird",
   "facilities": [
-   "The Phoenix Zoo"
+   "The Phoenix Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -14714,7 +16399,10 @@
    "Palm Beach Zoo & Conservation Society",
    "Zoo Boise",
    "Brookfield Zoo Chicago",
-   "Dakota Zoo"
+   "Dakota Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -14792,6 +16480,15 @@
   "taxon_group": "Flamingos & wading birds"
  },
  {
+  "key": "short-beaked echidna",
+  "display": "Short-beaked echidna",
+  "facilities": [
+   "The Living Desert Zoo and Gardens"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "short-tail nurse shark",
   "display": "Short-tail Nurse Shark",
   "facilities": [
@@ -14838,7 +16535,17 @@
    "Tulsa Zoo",
    "Dakota Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Great apes"
+ },
+ {
+  "key": "siamang gibbon",
+  "display": "Siamang gibbon",
+  "facilities": [
+   "The Phoenix Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
@@ -14940,8 +16647,9 @@
  },
  {
   "key": "silver-beaked tanager",
-  "display": "Silver-Beaked Tanager",
+  "display": "Silver-beaked tanager",
   "facilities": [
+   "Reid Park Zoo",
    "Akron Zoological Park"
   ],
   "taxon_class": "Birds",
@@ -15028,7 +16736,8 @@
   "display": "Slender-horned Gazelle",
   "facilities": [
    "Columbus Zoo & Aquarium",
-   "Bronx Zoo/WCS"
+   "Bronx Zoo/WCS",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -15056,6 +16765,7 @@
   "display": "Sloth",
   "facilities": [
    "OdySea Aquarium",
+   "Reid Park Zoo",
    "SeaWorld San Diego",
    "Palm Beach Zoo & Conservation Society",
    "Fort Wayne Zoo",
@@ -15072,7 +16782,8 @@
    "Fresno Chaffee Zoo",
    "Zoo Boise",
    "Detroit Zoological Society",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Bears & pandas"
@@ -15099,7 +16810,8 @@
   "key": "smoky jungle frog",
   "display": "Smoky Jungle Frog",
   "facilities": [
-   "Tulsa Zoo"
+   "Tulsa Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
@@ -15161,7 +16873,8 @@
    "Milwaukee County Zoological Gardens",
    "Utah's Hogle Zoo",
    "Central Park Zoo",
-   "Memphis Zoo"
+   "Memphis Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -15174,15 +16887,6 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
- },
- {
-  "key": "snowy egret",
-  "display": "Snowy Egret",
-  "facilities": [
-   "Brandywine Zoo"
-  ],
-  "taxon_class": "Birds",
-  "taxon_group": "Flamingos & wading birds"
  },
  {
   "key": "snowy owl",
@@ -15201,6 +16905,16 @@
   "taxon_group": "Birds of prey"
  },
  {
+  "key": "snowy egret",
+  "display": "Snowy egret",
+  "facilities": [
+   "The Phoenix Zoo",
+   "Brandywine Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Flamingos & wading birds"
+ },
+ {
   "key": "snubnose darter",
   "display": "Snubnose Darter",
   "facilities": [
@@ -15213,7 +16927,8 @@
   "key": "soemmerrings gazelle",
   "display": "Soemmerring's gazelle",
   "facilities": [
-   "Saint Louis Zoo"
+   "Saint Louis Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -15235,6 +16950,24 @@
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
+ },
+ {
+  "key": "solomon islands skink",
+  "display": "Solomon Islands skink",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Lizards"
+ },
+ {
+  "key": "somali wild ass",
+  "display": "Somali wild ass",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
  },
  {
   "key": "songbird",
@@ -15265,6 +16998,15 @@
   "taxon_group": "Snakes"
  },
  {
+  "key": "sonoran pronghorn",
+  "display": "Sonoran pronghorn",
+  "facilities": [
+   "The Phoenix Zoo"
+  ],
+  "taxon_class": null,
+  "taxon_group": "Hoofstock"
+ },
+ {
   "key": "south african shelduck",
   "display": "South African Shelduck",
   "facilities": [
@@ -15277,7 +17019,8 @@
   "key": "south african cheetah",
   "display": "South African cheetah",
   "facilities": [
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -15298,6 +17041,15 @@
    "Audubon Zoo"
   ],
   "taxon_class": null,
+  "taxon_group": null
+ },
+ {
+  "key": "south american coati",
+  "display": "South American coati",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
   "taxon_group": null
  },
  {
@@ -15350,7 +17102,9 @@
   "display": "Southern Cassowary",
   "facilities": [
    "BREC's Baton Rouge Zoo",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "San Diego Zoo Safari Park",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -15377,7 +17131,8 @@
    "Zoo Boise",
    "BREC's Baton Rouge Zoo",
    "Potter Park Zoological Gardens",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -15406,7 +17161,8 @@
   "facilities": [
    "Oakland Zoo",
    "Prospect Park Zoo",
-   "Queens Zoo"
+   "Queens Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -15448,7 +17204,8 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "SeaWorld San Diego",
-   "Oregon Coast Aquarium"
+   "Oregon Coast Aquarium",
+   "Aquarium of the Pacific"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Marine mammals"
@@ -15458,6 +17215,7 @@
   "display": "Southern Stingray",
   "facilities": [
    "Columbus Zoo & Aquarium",
+   "The Phoenix Zoo",
    "Fresno Chaffee Zoo",
    "Brevard Zoo",
    "ZooTampa at Lowry Park",
@@ -15489,7 +17247,9 @@
    "Minnesota Zoological Garden",
    "Buffalo Zoo",
    "Dakota Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Sloths & anteaters"
@@ -15515,7 +17275,8 @@
    "Bronx Zoo/WCS",
    "Fossil Rim Wildlife Center",
    "Memphis Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Rhinos & hippos"
@@ -15587,19 +17348,10 @@
   "taxon_group": null
  },
  {
-  "key": "spectacled owl",
-  "display": "Spectacled Owl",
-  "facilities": [
-   "CuriOdyssey",
-   "Tulsa Zoo"
-  ],
-  "taxon_class": "Birds",
-  "taxon_group": "Birds of prey"
- },
- {
   "key": "spectacled bear",
   "display": "Spectacled bear",
   "facilities": [
+   "Reid Park Zoo",
    "Queens Zoo",
    "San Antonio Zoological Society",
    "Smithsonian's National Zoo and Conservation Biology Institute"
@@ -15627,6 +17379,19 @@
   "taxon_group": "Monkeys & lemurs"
  },
  {
+  "key": "spectacled owl",
+  "display": "Spectacled owl",
+  "facilities": [
+   "The Phoenix Zoo",
+   "CuriOdyssey",
+   "Tulsa Zoo",
+   "San Francisco Zoological Gardens",
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Birds of prey"
+ },
+ {
   "key": "spekes gazelle",
   "display": "Speke's Gazelle",
   "facilities": [
@@ -15639,8 +17404,9 @@
  },
  {
   "key": "spider monkey",
-  "display": "Spider Monkey",
+  "display": "Spider monkey",
   "facilities": [
+   "The Phoenix Zoo",
    "CuriOdyssey",
    "Palm Beach Zoo & Conservation Society",
    "Potter Park Zoological Gardens",
@@ -15703,6 +17469,15 @@
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
+ },
+ {
+  "key": "splash-back poison frog",
+  "display": "Splash-back poison frog",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Amphibians",
+  "taxon_group": "Frogs & salamanders"
  },
  {
   "key": "splitnose rockfish",
@@ -15833,7 +17608,9 @@
   "display": "Spotted-Necked Otter",
   "facilities": [
    "The Phoenix Zoo",
-   "Zoo Boise"
+   "Reid Park Zoo",
+   "Zoo Boise",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Otters & weasels"
@@ -15844,10 +17621,21 @@
   "facilities": [
    "Tulsa Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "spur-thighed tortoise",
+  "display": "Spur-thighed tortoise",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Tortoises & turtles"
  },
  {
   "key": "spur-winged lapwing",
@@ -15858,6 +17646,15 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": null
+ },
+ {
+  "key": "spur-winged goose",
+  "display": "Spur-winged goose",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Ducks, geese & swans"
  },
  {
   "key": "squirrel monkey",
@@ -15883,12 +17680,30 @@
   "taxon_group": "Parrots & macaws"
  },
  {
+  "key": "standings day gecko",
+  "display": "Standing's day gecko",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Lizards"
+ },
+ {
   "key": "starfish",
   "display": "Starfish",
   "facilities": [
    "Georgia Aquarium"
   ],
   "taxon_class": "Invertebrates",
+  "taxon_group": null
+ },
+ {
+  "key": "steenbok",
+  "display": "Steenbok",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": null,
   "taxon_group": null
  },
  {
@@ -15940,6 +17755,15 @@
   "taxon_group": "Flamingos & wading birds"
  },
  {
+  "key": "strawberry poison frog",
+  "display": "Strawberry poison frog",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Amphibians",
+  "taxon_group": "Frogs & salamanders"
+ },
+ {
   "key": "streamside salamander",
   "display": "Streamside salamander",
   "facilities": [
@@ -15962,7 +17786,8 @@
   "display": "Striped Hyena",
   "facilities": [
    "Naples Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -15978,7 +17803,8 @@
    "Bronx Zoo/WCS",
    "ZOOAMERICA NA Wildlife Park",
    "Virginia Living Museum",
-   "Smithsonian's National Zoo and Conservation Biology Institute"
+   "Smithsonian's National Zoo and Conservation Biology Institute",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Otters & weasels"
@@ -15997,7 +17823,8 @@
   "key": "sudan plated lizard",
   "display": "Sudan Plated Lizard",
   "facilities": [
-   "Oakland Zoo"
+   "Oakland Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
@@ -16044,10 +17871,30 @@
   "key": "sulcata tortoise",
   "display": "Sulcata Tortoise",
   "facilities": [
-   "Naples Zoo"
+   "Naples Zoo",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
+ },
+ {
+  "key": "sulfur-crested cockatoo",
+  "display": "Sulfur-crested cockatoo",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Parrots & macaws"
+ },
+ {
+  "key": "sulphur-crested cockatoo",
+  "display": "Sulphur-crested cockatoo",
+  "facilities": [
+   "Santa Barbara Zoo",
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Parrots & macaws"
  },
  {
   "key": "sumatran orangutan",
@@ -16060,15 +17907,17 @@
    "Brookfield Zoo Chicago",
    "Saint Louis Zoo",
    "Memphis Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
  },
  {
   "key": "sumatran tiger",
-  "display": "Sumatran Tiger",
+  "display": "Sumatran tiger",
   "facilities": [
+   "The Phoenix Zoo",
    "Zoo Atlanta",
    "Brookfield Zoo Chicago",
    "BREC's Baton Rouge Zoo",
@@ -16077,7 +17926,8 @@
    "Memphis Zoo",
    "Dallas Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -16095,8 +17945,9 @@
  },
  {
   "key": "sun conure",
-  "display": "Sun Conure",
+  "display": "Sun conure",
   "facilities": [
+   "The Phoenix Zoo",
    "Lion Country Safari",
    "Buttonwood Park Zoo",
    "Buffalo Zoo",
@@ -16174,7 +18025,8 @@
    "Lake Superior Zoo",
    "Dakota Zoo",
    "Red River Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Wolves, dogs & foxes"
@@ -16196,6 +18048,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "tamandua",
+  "display": "Tamandua",
+  "facilities": [
+   "The Phoenix Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Sloths & anteaters"
  },
  {
   "key": "tamarin",
@@ -16276,21 +18137,22 @@
   "taxon_group": null
  },
  {
-  "key": "taveta golden weaver",
-  "display": "Taveta Golden Weaver",
+  "key": "taveta golden-weaver",
+  "display": "Taveta Golden-weaver",
   "facilities": [
-   "Oakland Zoo",
-   "Seneca Park Zoo",
-   "Central Park Zoo"
+   "Zoo Boise"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
  },
  {
-  "key": "taveta golden-weaver",
-  "display": "Taveta Golden-weaver",
+  "key": "taveta golden weaver",
+  "display": "Taveta golden weaver",
   "facilities": [
-   "Zoo Boise"
+   "Reid Park Zoo",
+   "Oakland Zoo",
+   "Seneca Park Zoo",
+   "Central Park Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -16312,9 +18174,21 @@
    "Potawatomi Zoo",
    "Saint Louis Zoo",
    "Tulsa Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Santa Barbara Zoo",
+   "The Living Desert Zoo and Gardens",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
+  "key": "taylors cantil",
+  "display": "Taylor's cantil",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": null,
   "taxon_group": null
  },
  {
@@ -16406,8 +18280,11 @@
   "display": "Thick-Billed Parrot",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "The Phoenix Zoo",
    "Queens Zoo",
-   "ZOOAMERICA NA Wildlife Park"
+   "ZOOAMERICA NA Wildlife Park",
+   "San Diego Zoo Safari Park",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Parrots & macaws"
@@ -16417,8 +18294,10 @@
   "display": "Thomson's Gazelle",
   "facilities": [
    "Columbus Zoo & Aquarium",
+   "The Phoenix Zoo",
    "Bronx Zoo/WCS",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -16480,7 +18359,8 @@
    "Oakland Zoo",
    "Lake Superior Zoo",
    "Seneca Park Zoo",
-   "Milwaukee County Zoological Gardens"
+   "Milwaukee County Zoological Gardens",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Tortoises & turtles"
@@ -16491,7 +18371,8 @@
   "facilities": [
    "Woodland Park Zoo",
    "Los Angeles Zoo",
-   "Palm Beach Zoo & Conservation Society"
+   "Palm Beach Zoo & Conservation Society",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Big cats"
@@ -16513,7 +18394,8 @@
    "CuriOdyssey",
    "Lake Superior Zoo",
    "Saint Louis Zoo",
-   "ZooMontana"
+   "ZooMontana",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Big cats"
@@ -16544,7 +18426,8 @@
    "BREC's Baton Rouge Zoo",
    "Potter Park Zoological Gardens",
    "Virginia Aquarium and Marine Science Center",
-   "Virginia Living Museum"
+   "Virginia Living Museum",
+   "Birmingham Zoo"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Snakes"
@@ -16594,7 +18477,8 @@
   "key": "tokay gecko",
   "display": "Tokay Gecko",
   "facilities": [
-   "Cheyenne Mountain Zoological Park"
+   "Cheyenne Mountain Zoological Park",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Reptiles",
   "taxon_group": "Lizards"
@@ -16671,19 +18555,10 @@
   "key": "troupial",
   "display": "Troupial",
   "facilities": [
+   "Reid Park Zoo",
    "Tulsa Zoo"
   ],
   "taxon_class": null,
-  "taxon_group": null
- },
- {
-  "key": "trumpeter hornbill",
-  "display": "Trumpeter Hornbill",
-  "facilities": [
-   "Potter Park Zoological Gardens",
-   "Buffalo Zoo"
-  ],
-  "taxon_class": "Birds",
   "taxon_group": null
  },
  {
@@ -16703,6 +18578,17 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": "Ducks, geese & swans"
+ },
+ {
+  "key": "trumpeter hornbill",
+  "display": "Trumpeter hornbill",
+  "facilities": [
+   "Reid Park Zoo",
+   "Potter Park Zoological Gardens",
+   "Buffalo Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
  },
  {
   "key": "tuatara",
@@ -16725,13 +18611,32 @@
   "taxon_group": "Hoofstock"
  },
  {
+  "key": "tufted capuchin",
+  "display": "Tufted capuchin",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "tufted puffin",
   "display": "Tufted puffin",
   "facilities": [
    "Saint Louis Zoo",
    "Oregon Coast Aquarium",
    "Seattle Aquarium",
-   "Central Park Zoo"
+   "Central Park Zoo",
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
+  "key": "turaco",
+  "display": "Turaco",
+  "facilities": [
+   "The Phoenix Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -16747,14 +18652,16 @@
  },
  {
   "key": "turkey vulture",
-  "display": "Turkey Vulture",
+  "display": "Turkey vulture",
   "facilities": [
+   "The Phoenix Zoo",
    "Lion Country Safari",
    "Brookfield Zoo Chicago",
    "Buttonwood Park Zoo",
    "Lake Superior Zoo",
    "ZooMontana",
-   "Fossil Rim Wildlife Center"
+   "Fossil Rim Wildlife Center",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Birds of prey"
@@ -16806,10 +18713,28 @@
   "taxon_group": "Sloths & anteaters"
  },
  {
+  "key": "ugandan kob",
+  "display": "Ugandan kob",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
   "key": "unicornfish",
   "display": "Unicornfish",
   "facilities": [
    "Seattle Aquarium"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
+  "key": "urial",
+  "display": "Urial",
+  "facilities": [
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -16822,6 +18747,15 @@
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Bats"
+ },
+ {
+  "key": "vampire squid",
+  "display": "Vampire squid",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Invertebrates",
+  "taxon_group": null
  },
  {
   "key": "veiled chameleon",
@@ -16893,6 +18827,7 @@
   "display": "Victoria Crowned Pigeon",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "The Phoenix Zoo",
    "Brevard Zoo",
    "Brookfield Zoo Chicago",
    "Central Park Zoo"
@@ -16953,6 +18888,15 @@
    "Lake Superior Zoo"
   ],
   "taxon_class": null,
+  "taxon_group": null
+ },
+ {
+  "key": "violet turaco",
+  "display": "Violet turaco",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
   "taxon_group": null
  },
  {
@@ -17021,7 +18965,8 @@
   "display": "Wallaroo",
   "facilities": [
    "Fresno Chaffee Zoo",
-   "Oakland Zoo"
+   "Oakland Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Marsupials"
@@ -17049,13 +18994,15 @@
   "key": "warthog",
   "display": "Warthog",
   "facilities": [
+   "The Phoenix Zoo",
    "Fresno Chaffee Zoo",
    "Oakland Zoo",
    "Zoo Boise",
    "Saint Louis Zoo",
    "Tulsa Zoo",
    "Memphis Zoo",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -17083,7 +19030,9 @@
   "display": "Waterbuck",
   "facilities": [
    "Dallas Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -17097,7 +19046,8 @@
    "Fossil Rim Wildlife Center",
    "International Crane Foundation",
    "Milwaukee County Zoological Gardens",
-   "Dallas Zoo"
+   "Dallas Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -17142,7 +19092,8 @@
   "key": "west african crowned crane",
   "display": "West African Crowned Crane",
   "facilities": [
-   "Brevard Zoo"
+   "Brevard Zoo",
+   "San Diego Zoo Safari Park"
   ],
   "taxon_class": "Birds",
   "taxon_group": "Flamingos & wading birds"
@@ -17197,7 +19148,9 @@
   "key": "western grey kangaroo",
   "display": "Western Grey Kangaroo",
   "facilities": [
-   "Potter Park Zoological Gardens"
+   "Potter Park Zoological Gardens",
+   "San Diego Zoo Safari Park",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Marsupials"
@@ -17228,7 +19181,9 @@
    "Smithsonian's National Zoo and Conservation Biology Institute",
    "Memphis Zoo",
    "Fort Worth Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "Santa Barbara Zoo"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
@@ -17256,7 +19211,8 @@
   "key": "western snowy plover",
   "display": "Western Snowy Plover",
   "facilities": [
-   "Seattle Aquarium"
+   "Seattle Aquarium",
+   "Monterey Bay Aquarium"
   ],
   "taxon_class": "Birds",
   "taxon_group": null
@@ -17328,16 +19284,6 @@
   "taxon_group": "Rhinos & hippos"
  },
  {
-  "key": "white rhinoceros",
-  "display": "White Rhinoceros",
-  "facilities": [
-   "Tulsa Zoo",
-   "Audubon Zoo"
-  ],
-  "taxon_class": "Mammals",
-  "taxon_group": "Rhinos & hippos"
- },
- {
   "key": "white stork",
   "display": "White Stork",
   "facilities": [
@@ -17368,10 +19314,22 @@
   "taxon_group": "Hoofstock"
  },
  {
+  "key": "white rhinoceros",
+  "display": "White rhinoceros",
+  "facilities": [
+   "The Phoenix Zoo",
+   "Tulsa Zoo",
+   "Audubon Zoo"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Rhinos & hippos"
+ },
+ {
   "key": "whites tree frog",
   "display": "White's Tree Frog",
   "facilities": [
-   "ZooMontana"
+   "ZooMontana",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
@@ -17384,7 +19342,8 @@
    "Brandywine Zoo",
    "Brevard Zoo",
    "Saint Louis Zoo",
-   "Buffalo Zoo"
+   "Buffalo Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Monkeys & lemurs"
@@ -17404,10 +19363,12 @@
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
    "Columbus Zoo & Aquarium",
+   "Reid Park Zoo",
    "Oakland Zoo",
    "CuriOdyssey",
    "Zoo Boise",
-   "Potawatomi Zoo"
+   "Potawatomi Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Great apes"
@@ -17430,7 +19391,8 @@
    "Bronx Zoo/WCS",
    "Dakota Zoo",
    "Smithsonian's National Zoo and Conservation Biology Institute",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "The Living Desert Zoo and Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": null
@@ -17446,7 +19408,8 @@
    "Fossil Rim Wildlife Center",
    "Virginia Living Museum",
    "Milwaukee County Zoological Gardens",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Arizona-Sonora Desert Museum"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -17501,6 +19464,15 @@
   "taxon_group": "Great apes"
  },
  {
+  "key": "white-cheeked turaco",
+  "display": "White-cheeked turaco",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "white-crested laughing thrush",
   "display": "White-crested Laughing Thrush",
   "facilities": [
@@ -17540,8 +19512,9 @@
  },
  {
   "key": "white-faced whistling duck",
-  "display": "White-faced Whistling Duck",
+  "display": "White-faced whistling duck",
   "facilities": [
+   "Reid Park Zoo",
    "Brandywine Zoo"
   ],
   "taxon_class": "Birds",
@@ -17555,6 +19528,15 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": "Parrots & macaws"
+ },
+ {
+  "key": "white-fronted bee-eater",
+  "display": "White-fronted bee-eater",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Invertebrates",
+  "taxon_group": null
  },
  {
   "key": "white-headed buffalo weaver",
@@ -17575,6 +19557,24 @@
   "taxon_group": null
  },
  {
+  "key": "white-lipped deer",
+  "display": "White-lipped deer",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Hoofstock"
+ },
+ {
+  "key": "white-lipped tree viper",
+  "display": "White-lipped tree viper",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": "Reptiles",
+  "taxon_group": "Snakes"
+ },
+ {
   "key": "white-naped crane",
   "display": "White-naped Crane",
   "facilities": [
@@ -17589,8 +19589,9 @@
  },
  {
   "key": "white-rumped shama",
-  "display": "White-rumped Shama",
+  "display": "White-rumped shama",
   "facilities": [
+   "Reid Park Zoo",
    "Tulsa Zoo"
   ],
   "taxon_class": null,
@@ -17704,7 +19705,8 @@
   "display": "Wild Turkey",
   "facilities": [
    "Fossil Rim Wildlife Center",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "Birmingham Zoo"
   ],
   "taxon_class": null,
   "taxon_group": null
@@ -17753,7 +19755,8 @@
    "Columbus Zoo & Aquarium",
    "Zoo Boise",
    "Minnesota Zoological Garden",
-   "ZooMontana"
+   "ZooMontana",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Otters & weasels"
@@ -17791,6 +19794,7 @@
   "display": "Wood Duck",
   "facilities": [
    "Cincinnati Zoo and Botanical Garden",
+   "Reid Park Zoo",
    "National Mississippi River Museum & Aquarium",
    "Saint Louis Zoo"
   ],
@@ -17816,12 +19820,39 @@
   "taxon_group": "Tortoises & turtles"
  },
  {
+  "key": "wood stork",
+  "display": "Wood stork",
+  "facilities": [
+   "Birmingham Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Flamingos & wading birds"
+ },
+ {
   "key": "wood thrush",
   "display": "Wood thrush",
   "facilities": [
    "Smithsonian's National Zoo and Conservation Biology Institute"
   ],
   "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
+  "key": "woodchuck",
+  "display": "Woodchuck",
+  "facilities": [
+   "Little Rock Zoological Gardens"
+  ],
+  "taxon_class": null,
+  "taxon_group": null
+ },
+ {
+  "key": "woylie",
+  "display": "Woylie",
+  "facilities": [
+   "The Living Desert Zoo and Gardens"
+  ],
+  "taxon_class": null,
   "taxon_group": null
  },
  {
@@ -17951,7 +19982,9 @@
    "Naples Zoo",
    "Potawatomi Zoo",
    "Memphis Zoo",
-   "Disney's Animal Kingdom"
+   "Disney's Animal Kingdom",
+   "San Diego Zoo Safari Park",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"
@@ -17960,7 +19993,9 @@
   "key": "yellow-banded poison dart frog",
   "display": "Yellow-Banded Poison Dart Frog",
   "facilities": [
-   "Buffalo Zoo"
+   "Buffalo Zoo",
+   "Birmingham Zoo",
+   "Little Rock Zoological Gardens"
   ],
   "taxon_class": "Amphibians",
   "taxon_group": "Frogs & salamanders"
@@ -18052,6 +20087,15 @@
   "taxon_group": null
  },
  {
+  "key": "yellow-billed stork",
+  "display": "Yellow-billed stork",
+  "facilities": [
+   "San Diego Zoo Safari Park"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": "Flamingos & wading birds"
+ },
+ {
   "key": "yellow-crested cockatoo",
   "display": "Yellow-crested cockatoo",
   "facilities": [
@@ -18068,6 +20112,15 @@
   ],
   "taxon_class": "Birds",
   "taxon_group": "Parrots & macaws"
+ },
+ {
+  "key": "yellow-footed rock-wallaby",
+  "display": "Yellow-footed rock-wallaby",
+  "facilities": [
+   "The Living Desert Zoo and Gardens"
+  ],
+  "taxon_class": "Mammals",
+  "taxon_group": "Marsupials"
  },
  {
   "key": "yellow-headed amazon",
@@ -18088,6 +20141,24 @@
   "taxon_group": "Parrots & macaws"
  },
  {
+  "key": "yellow-headed poison frog",
+  "display": "Yellow-headed poison frog",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Amphibians",
+  "taxon_group": "Frogs & salamanders"
+ },
+ {
+  "key": "yellow-knobbed curassow",
+  "display": "Yellow-knobbed curassow",
+  "facilities": [
+   "Reid Park Zoo"
+  ],
+  "taxon_class": "Birds",
+  "taxon_group": null
+ },
+ {
   "key": "yellow-spotted river turtle",
   "display": "Yellow-spotted river turtle",
   "facilities": [
@@ -18106,6 +20177,24 @@
   "taxon_group": "Parrots & macaws"
  },
  {
+  "key": "yellowfin tuna",
+  "display": "Yellowfin tuna",
+  "facilities": [
+   "Monterey Bay Aquarium"
+  ],
+  "taxon_class": "Fish",
+  "taxon_group": null
+ },
+ {
+  "key": "yosemite toad",
+  "display": "Yosemite toad",
+  "facilities": [
+   "San Francisco Zoological Gardens"
+  ],
+  "taxon_class": "Amphibians",
+  "taxon_group": "Frogs & salamanders"
+ },
+ {
   "key": "zebra",
   "display": "Zebra",
   "facilities": [
@@ -18115,7 +20204,8 @@
    "Utah's Hogle Zoo",
    "Nashville Zoo",
    "Dallas Zoo",
-   "Fort Worth Zoo"
+   "Fort Worth Zoo",
+   "San Francisco Zoological Gardens"
   ],
   "taxon_class": "Mammals",
   "taxon_group": "Hoofstock"

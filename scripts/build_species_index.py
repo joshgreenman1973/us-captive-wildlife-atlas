@@ -89,33 +89,76 @@ def classify(name: str):
 
 
 def main():
-    raw = json.loads((DATA / "zoo-species-raw.json").read_text())
+    # Two source files. Track which source each zoo's species came from.
+    raw_self = json.loads((DATA / "zoo-species-raw.json").read_text())
+    raw_wiki_path = DATA / "wikipedia-supplemental.json"
+    raw_wiki = json.loads(raw_wiki_path.read_text()) if raw_wiki_path.exists() else {}
+
     facilities_doc = json.loads((DATA / "facilities.json").read_text())
     facilities = facilities_doc["facilities"]
     by_name = {f["name"]: f for f in facilities}
 
-    species_index = {}
-    facilities_with_species = 0
-    unmatched_zoos = []
+    # Build per-zoo source attribution
+    species_by_zoo = {}  # zoo_name -> {sp_norm: {display, sources: [...]}}
+    SOURCE_LABELS = {
+        "self": "Zoo's own published list",
+        "wikipedia": "Wikipedia",
+    }
 
-    for fac_name, sp_list in raw.items():
+    for fac_name, sp_list in raw_self.items():
         if fac_name.startswith("_"):
             continue
+        if fac_name not in by_name:
+            continue
+        z = species_by_zoo.setdefault(fac_name, {})
+        for s in sp_list:
+            k = norm_species(s)
+            if not k:
+                continue
+            entry = z.setdefault(k, {"display": s.strip(), "sources": []})
+            if "self" not in entry["sources"]:
+                entry["sources"].append("self")
+
+    for fac_name, sp_list in raw_wiki.items():
+        if fac_name.startswith("_"):
+            continue
+        if fac_name not in by_name:
+            continue
+        z = species_by_zoo.setdefault(fac_name, {})
+        for s in sp_list:
+            k = norm_species(s)
+            if not k:
+                continue
+            entry = z.setdefault(k, {"display": s.strip(), "sources": []})
+            if "wikipedia" not in entry["sources"]:
+                entry["sources"].append("wikipedia")
+
+    species_index = {}
+    facilities_with_species = 0
+    unmatched_zoos = [n for n in raw_self if not n.startswith("_") and n not in by_name]
+
+    for fac_name, sp_dict in species_by_zoo.items():
         fac = by_name.get(fac_name)
         if not fac:
-            unmatched_zoos.append(fac_name)
             continue
-        # Deduplicate species at the source level
-        seen = set()
-        clean_list = []
-        for s in sp_list:
-            ks = norm_species(s)
-            if ks and ks not in seen:
-                seen.add(ks)
-                clean_list.append(s.strip())
-        fac["species"] = sorted(clean_list)
+        # Sort by display name; record source provenance per zoo
+        species_with_src = sorted(
+            ((entry["display"], entry["sources"]) for entry in sp_dict.values()),
+            key=lambda x: x[0].lower(),
+        )
+        fac["species"] = [s for s, _ in species_with_src]
+        # Per-zoo source summary: which sources contributed
+        all_srcs = sorted({src for _, srcs in species_with_src for src in srcs})
+        if all_srcs == ["self"]:
+            fac["species_source"] = "self"
+        elif all_srcs == ["wikipedia"]:
+            fac["species_source"] = "wikipedia"
+        else:
+            fac["species_source"] = "mixed"
+        fac["species_source_label"] = SOURCE_LABELS.get(fac["species_source"], "Multiple sources")
         facilities_with_species += 1
-        for sp in clean_list:
+
+        for sp, srcs in species_with_src:
             key = norm_species(sp)
             if key not in species_index:
                 cls, grp = classify(sp)

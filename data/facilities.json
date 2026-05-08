@@ -8,8 +8,8 @@
  "counts": {
   "total": 215,
   "mapped": 215,
-  "facilities_with_species": 89,
-  "unique_species": 1740
+  "facilities_with_species": 99,
+  "unique_species": 1911
  },
  "facilities": [
   {
@@ -18,7 +18,111 @@
    "state": "AL",
    "lat": 33.5326,
    "lon": -86.7791,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "African bush elephant",
+    "African lion",
+    "African pancake tortoise",
+    "African pygmy goose",
+    "Aldabra giant tortoise",
+    "Alligator snapping turtle",
+    "American alligator",
+    "American black bear",
+    "American flamingo",
+    "Asian giant toad",
+    "Barn owl",
+    "Barred owl",
+    "Beautiful fruit dove",
+    "Black crowned crane",
+    "Black howler monkey",
+    "Black vulture",
+    "Black-billed magpie",
+    "Black-footed cat",
+    "Black-handed spider monkey",
+    "Black-necked swan",
+    "Blood python",
+    "Blue crane",
+    "Blue duiker",
+    "Blue-bellied roller",
+    "Blue-tongued skink",
+    "Bobcat",
+    "Buff-crested bustard",
+    "Caiman lizard",
+    "California sea lion",
+    "Cape porcupine",
+    "Cape thick-knee",
+    "Cinereous vulture",
+    "Coahuilan box turtle",
+    "Coconut lorikeet",
+    "Common ostrich",
+    "Common squirrel monkey",
+    "Cotton-top tamarin",
+    "Cottonmouth",
+    "Coyote",
+    "Crowned lemur",
+    "De Brazza's monkey",
+    "Desert tortoise",
+    "Eastern black rhinoceros",
+    "Eastern indigo snake",
+    "Eastern screech owl",
+    "Emerald starling",
+    "Emerald tree boa",
+    "Eurasian eagle-owl",
+    "Fennec fox",
+    "Garden tree boa",
+    "Giant anteater",
+    "Giant otter",
+    "Golden eagle",
+    "Gopher tortoise",
+    "Grant's zebra",
+    "Great horned owl",
+    "Green anaconda",
+    "Green aracari",
+    "Harris's hawk",
+    "Helmeted guineafowl",
+    "Hoffmann's two-toed sloth",
+    "Jaguar",
+    "Komodo dragon",
+    "Kori bustard",
+    "Lar gibbon",
+    "Laughing kookaburra",
+    "Lesser hedgehog tenrec",
+    "Mexican beaded lizard",
+    "Mute swan",
+    "North American river otter",
+    "Ostrich",
+    "Pallas's cat",
+    "Philippine sailfin lizard",
+    "Prevost's squirrel",
+    "Radiated tortoise",
+    "Rainbow lorikeet",
+    "Red lionfish",
+    "Red panda",
+    "Red-billed hornbill",
+    "Red-flanked duiker",
+    "Red-shouldered hawk",
+    "Red-tailed hawk",
+    "Reticulated giraffe",
+    "Ring-tailed lemur",
+    "Roseate spoonbill",
+    "Sand cat",
+    "Sandhill crane",
+    "Secretary bird",
+    "Serval",
+    "Southern ground hornbill",
+    "Southern three-banded armadillo",
+    "Spectacled owl",
+    "Striped skunk",
+    "Sulphur-crested cockatoo",
+    "Sumatran orangutan",
+    "Tawny frogmouth",
+    "Timber rattlesnake",
+    "Wild turkey",
+    "Wood stork",
+    "Yellow-banded poison dart frog"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "Alaska SeaLife Center",
@@ -37,7 +141,9 @@
     "Spotted Seal",
     "Steller Sea Lion",
     "Walrus"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Arizona-Sonora Desert Museum",
@@ -45,7 +151,43 @@
    "state": "AZ",
    "lat": 32.2435,
    "lon": -111.1668,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "Barn owl",
+    "Beaver",
+    "Bighorn sheep",
+    "Bobcat",
+    "Brown bear",
+    "Chihuahuan raven",
+    "Coati",
+    "Colorado River toad",
+    "Cougar",
+    "Coyote",
+    "Ferruginous hawk",
+    "Gambel's quail",
+    "Gray fox",
+    "Gray hawk",
+    "Great horned owl",
+    "Harris's hawk",
+    "Javelina",
+    "Kangaroo rat",
+    "Kit fox",
+    "Merriam's turkey",
+    "Mexican wolf",
+    "Northern cardinal",
+    "Ocelot",
+    "Peregrine falcon",
+    "Porcupine",
+    "Prairie dog",
+    "Prairie falcon",
+    "Red-tailed hawk",
+    "Ringtail",
+    "River otter",
+    "Thick-billed parrot",
+    "White-tailed deer"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "OdySea Aquarium",
@@ -71,7 +213,9 @@
     "Sloth",
     "Stingray",
     "Zebra Shark"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "The Phoenix Zoo",
@@ -81,51 +225,83 @@
    "lon": -111.9469,
    "coord_precision": "facility",
    "species": [
+    "Abyssinian ground hornbill",
     "African Lion",
+    "African painted dog",
     "African Penguin",
+    "Aldabra giant tortoise",
     "Amazon Milk Frog",
+    "American alligator",
     "Amur Leopard",
     "Andean Bear",
+    "Arabian oryx",
     "Arizona Walking Stick",
     "Asian Elephant",
     "Asian Fairy-bluebird",
     "Bald Eagle",
+    "Bali mynah",
+    "Bamboo shark",
+    "Bighorn sheep",
     "Black Howler Monkey",
+    "Black swan",
     "Black-footed Ferret",
     "Black-tailed Prairie Dog",
     "Black-throated Magpie Jay",
     "Blue Death-Feigning Beetle",
+    "Blue-billed curassow",
+    "Boa constrictor",
+    "Bobcat",
     "Bornean Orangutan",
+    "Buff-cheeked gibbon",
     "Burrowing Owl",
     "Cactus Ferruginous Pygmy-Owl",
+    "Calamian deer",
     "California Condor",
+    "Cape porcupine",
+    "Chacoan peccary",
     "Cheetah",
     "Chestnut-breasted Malkhoa",
+    "Chilean flamingo",
+    "Chinese alligator",
     "Chiricahua Leopard Frog",
     "Cobra",
     "Collared Peccary",
+    "Common squirrel monkey",
     "Cotton-Top Tamarin",
+    "Cougar",
+    "Cownose ray",
     "Coyote",
     "Dalmatian Pelican",
     "Desert Iguana",
     "Desert Pupfish",
+    "Eclectus parrot",
     "Emu",
     "European Legless Lizard",
     "Fennec Fox",
     "Flamingo",
     "Four-Toed Hedgehog",
+    "Gal\u00e1pagos tortoise",
     "Gila Monster",
     "Gila Topminnow",
     "Golden Eagle",
+    "Great argus pheasant",
+    "Greater flamingo",
     "Greater Malayan Chevrotain",
     "Greater One-horned Rhinoceros",
+    "Greater rhea",
+    "Green aracari",
     "Grevy's Zebra",
+    "Grey crowned crane",
     "Hamadryas Baboon",
     "Horned Lizard",
+    "Indian rhinoceros",
     "Jaguar",
     "King Cobra",
+    "King vulture",
     "Komodo Dragon",
+    "Lappet-faced vulture",
     "Linne's Two-toed Sloth",
+    "Lion",
     "Madagascar Hissing Cockroach",
     "Mandrill",
     "Maned Wolf",
@@ -138,34 +314,63 @@
     "Mount Graham Red Squirrel",
     "Mountain Lion",
     "Narrow-headed Gartersnake",
+    "Nicobar pigeon",
     "Nyala",
     "Ostrich",
     "Palm-nut Vulture",
     "Peninsular Pronghorn",
+    "Prehensile-tailed porcupine",
     "Radiated Tortoise",
+    "Raven",
+    "Red brocket deer",
     "Red River Hog",
+    "Red-necked wallaby",
+    "Reticulated giraffe",
+    "Reticulated python",
     "Rhinoceros Hornbill",
     "Ringtail",
     "Ruffed Lemur",
     "R\u00fcppell's Griffon Vulture",
+    "R\u00fcppell's vulture",
     "Saharan Spiny-tailed Lizard",
+    "Saki monkey",
     "San Clemente Island Goat",
+    "Scarlet ibis",
+    "Scarlet macaw",
     "Scorpion",
     "Secretarybird",
     "Siamang",
+    "Siamang gibbon",
+    "Snowy egret",
     "Sonoran Desert Tortoise",
     "Sonoran Gopher Snake",
+    "Sonoran pronghorn",
+    "Southern stingray",
     "Southern Tamandua",
     "Southern White Rhinoceros",
     "Southwestern Widow Spider",
+    "Spectacled owl",
+    "Spider monkey",
     "Spotted Hyena",
     "Spotted-Necked Otter",
+    "Sumatran tiger",
+    "Sun conure",
+    "Tamandua",
     "Tarantula",
+    "Thick-billed parrot",
+    "Thomson's gazelle",
     "Three-toed Box Turtle",
     "Toco Toucan",
+    "Turaco",
+    "Turkey vulture",
+    "Victoria crowned pigeon",
+    "Warthog",
+    "White rhinoceros",
     "White-Faced Saki Monkey",
     "Wrinkled Hornbill"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Reid Park Zoo",
@@ -175,36 +380,92 @@
    "lon": -110.9215,
    "coord_precision": "facility",
    "species": [
+    "African crowned crane",
     "African Elephant",
     "African Lion",
+    "African painted dog",
+    "African spurred tortoise",
     "African Wild Dog",
     "Aldabra Tortoise",
     "American Alligator",
     "Andean Bear",
     "Asian Small-Clawed Otter",
     "Baird's Tapir",
+    "Bald ibis",
+    "Bearded barbet",
     "Bearded Dragon",
+    "Black crake",
     "Black-And-White Ruffed Lemur",
+    "Black-necked swan",
+    "Blessed poison frog",
     "Blue Duiker",
+    "Blue-billed teal",
+    "Blue-crowned motmot",
+    "Boat-billed heron",
+    "Brazilian cockroach",
+    "Bruce's green pigeon",
+    "Cape thick-knee",
     "Capybara",
     "Chilean Flamingo",
+    "Common ostrich",
     "Domestic Goat",
     "East African Crowned Crane",
+    "Galapagos tortoise",
     "Giant Anteater",
     "Giant Cave Cockroach",
     "Giraffe",
+    "Golden poison frog",
+    "Golden-breasted starling",
+    "Great argus",
+    "Great Indian hornbill",
+    "Greater rhea",
+    "Green tree python",
     "Grevy's Zebra",
     "Grizzly Bear",
+    "Indian peafowl",
     "Jaguar",
+    "King vulture",
     "Linn\u00e9's Two-Toed Sloth",
+    "Lion-tailed macaque",
+    "Luzon bleeding-heart",
+    "Malayan tiger",
+    "Marbled teal",
     "Meerkat",
+    "Nicobar pigeon",
     "Ostrich",
+    "Pacu",
     "Poison Dart Frog",
+    "Red-whiskered bulbul",
+    "Reticulated giraffe",
     "Ring-Tailed Lemur",
+    "Ringed teal",
+    "Roseate spoonbill",
+    "Saffron finch",
+    "Scarlet ibis",
+    "Silver-beaked tanager",
+    "Sloth",
     "Southern White Rhinoceros",
+    "Spectacled bear",
     "Speke's Gazelle",
-    "Squirrel Monkey"
-   ]
+    "Splash-back poison frog",
+    "Spotted-necked otter",
+    "Squirrel Monkey",
+    "Strawberry poison frog",
+    "Sulfur-crested cockatoo",
+    "Taveta golden weaver",
+    "Troupial",
+    "Trumpeter hornbill",
+    "Violet turaco",
+    "White-cheeked turaco",
+    "White-faced whistling duck",
+    "White-handed gibbon",
+    "White-rumped shama",
+    "Wood duck",
+    "Yellow-headed poison frog",
+    "Yellow-knobbed curassow"
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "SEA LIFE Arizona Aquarium",
@@ -220,7 +481,138 @@
    "state": "AR",
    "lat": 34.744,
    "lon": -92.3356,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "Abyssinian ground hornbill",
+    "African bullfrog",
+    "African colobus",
+    "African penguin",
+    "African spurred tortoise",
+    "Aldabra giant tortoise",
+    "Alligator snapping turtle",
+    "Alpaca",
+    "American alligator",
+    "Angolan python",
+    "Asian elephant",
+    "Asian forest scorpion",
+    "Asiatic rock python",
+    "Black and white ruffed lemur",
+    "Black rat snake",
+    "Black-handed spider monkey",
+    "Black-naped fruit dove",
+    "Blue crane",
+    "Blue-eyed black lemur",
+    "Blue-tongued skink",
+    "Bornean orangutan",
+    "Brazilian cockroach",
+    "Burmese python",
+    "Bush dog",
+    "Caracal",
+    "Chacoan peccary",
+    "Chilean flamingo",
+    "Chilean rose tarantula",
+    "Chimpanzee",
+    "Chuxiong fire-bellied newt",
+    "Clouded leopard",
+    "Collared lizard",
+    "Corn snake",
+    "Cottonmouth",
+    "Dyeing poison dart frog",
+    "Eastern black rhinoceros",
+    "Eastern copperhead",
+    "Eastern diamondback rattlesnake",
+    "Eastern indigo snake",
+    "Eastern kingsnake",
+    "Eyelash viper",
+    "Fossa",
+    "Frilled-neck lizard",
+    "Gaboon viper",
+    "Garden tree boa",
+    "Geoffrey's marmoset",
+    "Gila monster",
+    "Goeldi's monkey",
+    "Golden lion tamarin",
+    "Grant's zebra",
+    "Greater kudu",
+    "Green and black poison dart frog",
+    "Green aracari",
+    "Green iguana",
+    "Green tree python",
+    "Grey crowned crane",
+    "Grey peacock-pheasant",
+    "Grizzly bear",
+    "Indian crested porcupine",
+    "Indian peafowl",
+    "Jaguar",
+    "Kirk's dik-dik",
+    "Kuhl's flying gecko",
+    "Leopard gecko",
+    "Lesser spot-nosed guenon",
+    "Lion",
+    "Madagascar giant day gecko",
+    "Madagascar hissing cockroach",
+    "Madagascar teal",
+    "Mandarin duck",
+    "Maned wolf",
+    "Mexican burrowing python",
+    "Milk snake",
+    "Miniature horse",
+    "Mohol bushbaby",
+    "Mole snake",
+    "Naked mole-rat",
+    "Nicobar pigeon",
+    "North American river otter",
+    "Ocelot",
+    "Oriental fire-bellied toad",
+    "Ostrich",
+    "Philippine pit viper",
+    "Pine snake",
+    "Plumed basilisk",
+    "Puff adder",
+    "Pygmy goat",
+    "Pygmy rattlesnake",
+    "Pygmy slow loris",
+    "Red fox",
+    "Red junglefowl",
+    "Red river hog",
+    "Red spitting cobra",
+    "Red tegu",
+    "Reeve's muntjac",
+    "Reticulated python",
+    "Ring-tailed lemur",
+    "Ringtail",
+    "Rock rattlesnake",
+    "Roseate spoonbill",
+    "Ruddy shelduck",
+    "Scarlet ibis",
+    "Scheepmaker's crowned pigeon",
+    "Scheltopusik",
+    "Secretarybird",
+    "Serval",
+    "Siamang",
+    "Sloth bear",
+    "Solomon Islands skink",
+    "Southern three-banded armadillo",
+    "Spotted-necked otter",
+    "Spur-thighed tortoise",
+    "Standing's day gecko",
+    "Sudan plated lizard",
+    "Taylor's cantil",
+    "Three-toed box turtle",
+    "Tiger",
+    "Tiger salamander",
+    "Tokay gecko",
+    "Tufted capuchin",
+    "White's tree frog",
+    "White-faced saki",
+    "White-handed gibbon",
+    "White-lipped tree viper",
+    "Woodchuck",
+    "Yellow-backed duiker",
+    "Yellow-banded poison dart frog"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "Aquarium of the Pacific",
@@ -228,7 +620,21 @@
    "state": "CA",
    "lat": 33.7626,
    "lon": -118.1972,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "California scorpionfish",
+    "California sea lion",
+    "Cortez rainbow wrasse",
+    "Garibaldi",
+    "Giant Pacific octopus",
+    "Japanese spider crab",
+    "Leafy seadragon",
+    "Mexican lookdown",
+    "Porcupine fish",
+    "Southern sea otter"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "Birch Aquarium at Scripps",
@@ -245,7 +651,9 @@
     "Seadragon",
     "Seahorse",
     "Shark"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Cabrillo Marine Aquarium",
@@ -282,10 +690,10 @@
     "Asian Small-clawed Otter",
     "Ball Python",
     "Binturong",
-    "Black Howler Monkey",
     "Black and White Ruffed Lemur",
-    "Blue Crowned Pigeon",
+    "Black Howler Monkey",
     "Blue and Yellow Macaw",
+    "Blue Crowned Pigeon",
     "Blue-tongued Skink",
     "Butterfly",
     "California Kingsnake",
@@ -337,7 +745,9 @@
     "White-faced Saki Monkey",
     "White-handed Gibbon",
     "Yellow-headed Amazon Parrot"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Fresno Chaffee Zoo",
@@ -396,7 +806,9 @@
     "Warthog",
     "White Rhino",
     "Whitespotted Bamboo Shark"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Happy Hollow Park & Zoo",
@@ -412,7 +824,77 @@
    "state": "CA",
    "lat": 33.7264,
    "lon": -116.377,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "Abyssinian ground hornbill",
+    "Addax",
+    "Addra gazelle",
+    "African wild dog",
+    "American badger",
+    "Amur leopard",
+    "Arabian oryx",
+    "Bald eagle",
+    "Banded mongoose",
+    "Bat-eared fox",
+    "Bennett's wallaby",
+    "Blue-tongued skink",
+    "Bobcat",
+    "Budgerigar",
+    "Cape porcupine",
+    "Cape vulture",
+    "Caracal",
+    "Central bearded dragon",
+    "Centralian carpet python",
+    "Chacoan peccary",
+    "Channel Islands gray fox",
+    "Common chuckwalla",
+    "Common dwarf mongoose",
+    "Common warthog",
+    "Coyote",
+    "Cuvier's gazelle",
+    "Desert bighorn sheep",
+    "Desert tortoise",
+    "Dromedary camel",
+    "Eastern black rhinoceros",
+    "Emu",
+    "Fennec fox",
+    "Frill-necked lizard",
+    "Giraffe",
+    "Golden eagle",
+    "Great white pelican",
+    "Greater kudu",
+    "Grey crowned crane",
+    "Gr\u00e9vy's zebra",
+    "Helmeted guineafowl",
+    "Jaguar",
+    "Kit fox",
+    "Klipspringer",
+    "Kori bustard",
+    "Laughing kookaburra",
+    "Leopard tortoise",
+    "Mexican wolf",
+    "Mountain lion",
+    "Naked mole-rat",
+    "Olive python",
+    "Ostrich",
+    "Peninsular pronghorn",
+    "Pink-backed pelican",
+    "Ringtail",
+    "Serval",
+    "Short-beaked echidna",
+    "Slender-horned gazelle",
+    "South African cheetah",
+    "Springbok",
+    "Striped hyena",
+    "Swift fox",
+    "Tawny frogmouth",
+    "Waterbuck",
+    "White-nosed coati",
+    "Woylie",
+    "Yellow-footed rock-wallaby"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "Los Angeles Zoo",
@@ -436,7 +918,9 @@
     "Scorpion",
     "Tiger",
     "Vulture"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Monterey Bay Aquarium",
@@ -444,7 +928,36 @@
    "state": "CA",
    "lat": 36.6182,
    "lon": -121.9019,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "African penguin",
+    "Bat star",
+    "Bigfin reef squid",
+    "Brisingid sea star",
+    "Flapjack octopus",
+    "Giant isopod",
+    "Green sea turtle",
+    "Laysan albatross",
+    "Leopard shark",
+    "Moon jelly",
+    "Ocean sunfish",
+    "Pacific bluefin tuna",
+    "Pacific sardine",
+    "Pelagic stingray",
+    "Plumose anemone",
+    "Purple-striped jelly",
+    "Rock scallop",
+    "Sandbar shark",
+    "Scalloped hammerhead shark",
+    "Sea angel",
+    "Sea otter",
+    "Tufted puffin",
+    "Vampire squid",
+    "Western snowy plover",
+    "Yellowfin tuna"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "Oakland Zoo",
@@ -471,8 +984,8 @@
     "Black Throated Monitor",
     "Black Tree Monitor",
     "Black Widow Spider",
-    "Blue Spiny Lizard",
     "Blue and Yellow Macaw",
+    "Blue Spiny Lizard",
     "Blue-Bellied Roller",
     "Brown Anole",
     "California Condor",
@@ -548,7 +1061,9 @@
     "Western Pond Turtle",
     "White Faced Whistling Duck",
     "White-Handed Gibbon"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Palo Alto Junior Museum & Zoo",
@@ -569,7 +1084,9 @@
     "Giraffe",
     "Rhinoceros",
     "Turtle"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "San Diego Zoo",
@@ -623,7 +1140,9 @@
     "Two-toed Sloth",
     "Vervet Monkey",
     "Zebra"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "San Diego Zoo Safari Park",
@@ -631,7 +1150,144 @@
    "state": "CA",
    "lat": 33.0976,
    "lon": -116.9989,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "African buffalo",
+    "African lion",
+    "African pygmy goose",
+    "African sacred ibis",
+    "Ankole-Watusi cattle",
+    "Aplomado falcon",
+    "Arabian oryx",
+    "Argali",
+    "Australian brushturkey",
+    "Axis deer",
+    "Bactrian camel",
+    "Bactrian deer",
+    "Bald eagle",
+    "Banteng",
+    "Barasingha",
+    "Barbary sheep",
+    "Barbary stag",
+    "Bat-eared fox",
+    "Beautiful sunbird",
+    "Black-and-white colobus",
+    "Black-footed cat",
+    "Black-footed ferret",
+    "Blackbuck",
+    "Blue crane",
+    "Blue wildebeest",
+    "Bongo antelope",
+    "Bontebok",
+    "Burrowing owl",
+    "California condor",
+    "Cheetah",
+    "Chilean flamingo",
+    "Common eland",
+    "Dalmatian pelican",
+    "Demoiselle crane",
+    "Desert bighorn sheep",
+    "Desert tortoise",
+    "Dhole",
+    "Dromedary camel",
+    "East African crowned crane",
+    "Egyptian goose",
+    "Eld's deer",
+    "Fennec fox",
+    "Freckled duck",
+    "Fringe-eared oryx",
+    "Gaur",
+    "Gemsbok",
+    "Gerenuk",
+    "Giant eland",
+    "Goliath heron",
+    "Grant's gazelle",
+    "Great white pelican",
+    "Greater flamingo",
+    "Greater kudu",
+    "Ground hornbill",
+    "Gr\u00e9vy's zebra",
+    "Harris's hawk",
+    "Hartmann's mountain zebra",
+    "Impala",
+    "Indian rhinoceros",
+    "Indochinese sika deer",
+    "Kirk's dik-dik",
+    "Kori bustard",
+    "Lappet-faced vulture",
+    "Lesser flamingo",
+    "Lesser hedgehog tenrec",
+    "Lesser kudu",
+    "Long-tailed paradise whydah",
+    "Magpie goose",
+    "Markhor",
+    "Masai giraffe",
+    "Matschie's tree-kangaroo",
+    "Meerkat",
+    "Nile lechwe",
+    "Nilgai",
+    "North China sika deer",
+    "North Sulawesi babirusa",
+    "Nyala",
+    "Ocelot",
+    "Okapi",
+    "Ostrich",
+    "Pancake tortoise",
+    "Pink-backed pelican",
+    "Platypus",
+    "Prairie dog",
+    "Przewalski's horse",
+    "Pud\u00fa",
+    "Purple grenadier",
+    "P\u00e8re David's deer",
+    "Radjah shelduck",
+    "Red lechwe",
+    "Red river hog",
+    "Red-crested turaco",
+    "Red-flanked duiker",
+    "Red-fronted gazelle",
+    "Red-necked wallaby",
+    "Reticulated giraffe",
+    "Rhim gazelle",
+    "Ring-tailed lemur",
+    "Roan antelope",
+    "Rock hyrax",
+    "Rodrigues fruit bat",
+    "Rothschild's giraffe",
+    "R\u00fcppell's vulture",
+    "Sable antelope",
+    "Saddle-billed stork",
+    "Sambar deer",
+    "San Clemente loggerhead shrike",
+    "Sand cat",
+    "Scimitar-horned oryx",
+    "Secretary bird",
+    "Soemmerring's gazelle",
+    "Somali wild ass",
+    "South American coati",
+    "Southern cassowary",
+    "Southern white rhinoceros",
+    "Springbok",
+    "Spur-winged goose",
+    "Steenbok",
+    "Sumatran tiger",
+    "Thick-billed parrot",
+    "Thomson's gazelle",
+    "Ugandan kob",
+    "Urial",
+    "Warthog",
+    "Waterbuck",
+    "Wattled crane",
+    "West African crowned crane",
+    "Western grey kangaroo",
+    "Western lowland gorilla",
+    "White-fronted bee-eater",
+    "White-lipped deer",
+    "Yellow-backed duiker",
+    "Yellow-billed stork"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "San Francisco Zoological Gardens",
@@ -639,7 +1295,87 @@
    "state": "CA",
    "lat": 37.7331,
    "lon": -122.5017,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "African openbill",
+    "Amazon tree boa",
+    "American black bear",
+    "American white ibis",
+    "American white pelican",
+    "Andean condor",
+    "Baird's tapir",
+    "Ball python",
+    "Black rhinoceros",
+    "Black-and-white ruffed lemur",
+    "Black-tailed prairie dog",
+    "Blue-bellied roller",
+    "Blue-headed macaw",
+    "Blue-throated macaw",
+    "Blue-throated piping guan",
+    "Blue-winged teal",
+    "Boa constrictor",
+    "Bongo",
+    "California sea lion",
+    "Chacoan peccary",
+    "Chimpanzee",
+    "Coquerel's sifaka",
+    "Crested oropendola",
+    "Curl-crested aracari",
+    "Dyeing poison dart frog",
+    "Emerald tree boa",
+    "Emu",
+    "Fossa",
+    "Fran\u00e7ois' langur",
+    "Gal\u00e1pagos tortoise",
+    "Giant anteater",
+    "Giraffe",
+    "Golfodulcean poison frog",
+    "Gorilla",
+    "Green and black poison dart frog",
+    "Green iguana",
+    "Grey crowned crane",
+    "Grizzly bear",
+    "Hadada ibis",
+    "Hamerkop",
+    "Honduran spiny-tailed iguana",
+    "Hyacinth macaw",
+    "Indian rhinoceros",
+    "Koala",
+    "Komodo dragon",
+    "Linnaeus's two-toed sloth",
+    "Lion",
+    "Magellanic penguin",
+    "Mandrill",
+    "Meerkat",
+    "Mexican wolf",
+    "Northern bald ibis",
+    "Northern caiman lizard",
+    "Ocelot",
+    "Orangutan",
+    "Ostrich",
+    "Panamanian golden frog",
+    "Radiated tortoise",
+    "Red panda",
+    "Red ruffed lemur",
+    "Red-eyed tree frog",
+    "Red-footed tortoise",
+    "Red-lored amazon",
+    "Ring-tailed lemur",
+    "Roseate spoonbill",
+    "Ruddy duck",
+    "Scarlet ibis",
+    "Smoky jungle frog",
+    "Snow leopard",
+    "Southern cassowary",
+    "Southern pudu",
+    "Spectacled owl",
+    "Wallaroo",
+    "Wolverine",
+    "Yosemite toad",
+    "Zebra"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "Santa Ana Zoo",
@@ -655,7 +1391,37 @@
    "state": "CA",
    "lat": 34.4205,
    "lon": -119.6662,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "African lion",
+    "Amazon tree boa",
+    "American alligator",
+    "Bald eagle",
+    "Baringo giraffe",
+    "Bennett's wallaby",
+    "California condor",
+    "Capybara",
+    "Chinese alligator",
+    "Desert rosy boa",
+    "Desert tortoise",
+    "Emu",
+    "Fennec fox",
+    "Giraffe",
+    "Humboldt penguin",
+    "Inca tern",
+    "Island fox",
+    "Laughing kookaburra",
+    "Masai giraffe",
+    "Meerkat",
+    "Sulcata tortoise",
+    "Sulphur-crested cockatoo",
+    "Tawny frogmouth",
+    "Turkey vulture",
+    "Western grey kangaroo",
+    "Western lowland gorilla"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "SEA LIFE Aquarium at LEGOLAND California Resort",
@@ -693,7 +1459,9 @@
     "Southern Sea Otter",
     "Turtle",
     "Walrus"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Sequoia Park Zoo",
@@ -709,7 +1477,25 @@
    "state": "CA",
    "lat": 37.7699,
    "lon": -122.4661,
-   "coord_precision": "facility"
+   "coord_precision": "facility",
+   "species": [
+    "African penguin",
+    "Albino American alligator",
+    "Albino reticulated python",
+    "Alligator gar",
+    "Alligator snapping turtle",
+    "Arapaima",
+    "Arowana",
+    "Australian lungfish",
+    "Coconut octopus",
+    "Dwarf cuttlefish",
+    "Flashlight fish",
+    "Frogfish",
+    "Giant clam",
+    "Red-crested turaco"
+   ],
+   "species_source": "wikipedia",
+   "species_source_label": "Wikipedia"
   },
   {
    "name": "Butterfly Pavilion",
@@ -746,7 +1532,9 @@
     "Orangutan",
     "Tokay Gecko",
     "Tortoise"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Denver Zoo Conservation Alliance",
@@ -780,7 +1568,9 @@
     "Spotted Garden Eel",
     "Sumatran Orangutan",
     "Western Lowland Gorilla"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Landry's Downtown Denver Aquarium",
@@ -857,7 +1647,9 @@
     "Snowy Egret",
     "White-faced Saki",
     "White-faced Whistling Duck"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Smithsonian's National Zoo and Conservation Biology Institute",
@@ -1010,7 +1802,9 @@
     "Whooping crane",
     "Wood thrush",
     "Yellow-spotted river turtle"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Bailey-Matthews National Shell Museum & Aquarium",
@@ -1045,9 +1839,9 @@
     "Black Vulture",
     "Black-Bellied Whistling Duck",
     "Black-Handed Spider Monkey",
+    "Blue-and-Yellow Macaw",
     "Blue-Crowned Parakeet",
     "Blue-Throated Macaw",
-    "Blue-and-Yellow Macaw",
     "Bobcat",
     "Bolivian Gray Titi Monkey",
     "Brazilian Porcupine",
@@ -1107,9 +1901,9 @@
     "Red Kangaroo",
     "Red Ruffed Lemur",
     "Red-Bellied Pacu",
+    "Red-footed Tortoise",
     "Red-Legged Seriema",
     "Red-Tailed Hawk",
-    "Red-footed Tortoise",
     "Reeves's Muntjac",
     "Ring-Tailed Lemur",
     "Roseate Spoonbill",
@@ -1136,7 +1930,9 @@
     "Yellow-Bellied Puffing Snake",
     "Yellow-Footed Tortoise",
     "Yellow-Naped Amazon"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Busch Gardens Tampa Bay",
@@ -1164,7 +1960,9 @@
     "Mexican Lance-Headed Rattlesnake",
     "Mexican Spider Monkey",
     "Mongoose Lemur"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Discovery Cove",
@@ -1184,7 +1982,9 @@
     "Green Sea Turtle",
     "Marmoset",
     "Queensland Grouper"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Disney's Animal Kingdom",
@@ -1247,7 +2047,9 @@
     "Waterbuck",
     "Western lowland gorilla",
     "Yellow-backed duiker"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "The Florida Aquarium",
@@ -1280,9 +2082,9 @@
     "Black-Handed Spider Monkey",
     "Blue Mountain Lorikeet",
     "Blue-And-Yellow Macaw",
+    "Blue-fronted Amazon",
     "Blue-Throated Macaw",
     "Blue-Tongue Skink",
-    "Blue-fronted Amazon",
     "Boa Constrictor",
     "Brazilian Porcupine",
     "Burmese Python",
@@ -1326,7 +2128,9 @@
     "Turkey Vulture",
     "Vulturine Guineafowl",
     "Yellow-streaked Lory"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Marineland",
@@ -1354,7 +2158,9 @@
     "North American River Otter",
     "Sandbar Shark",
     "Spotted Garden Eel"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Naples Zoo",
@@ -1378,8 +2184,8 @@
     "Black Vulture",
     "Black-Crowned Crane",
     "Black-handed Spider Monkey",
-    "Blue Spiny Lizard",
     "Blue and Yellow Macaw",
+    "Blue Spiny Lizard",
     "Bornean Orangutan",
     "Burmese Python",
     "Cape Porcupine",
@@ -1439,7 +2245,9 @@
     "Yellow Rat Snake",
     "Yellow-Backed Duiker",
     "Yellow-crowned Amazon"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Palm Beach Zoo & Conservation Society",
@@ -1484,7 +2292,9 @@
     "Squirrel Monkey",
     "Tiger",
     "White Alligator"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Santa Fe College Teaching Zoo",
@@ -1601,7 +2411,9 @@
     "Sun Bear",
     "West Indian Manatee",
     "Yellow-Footed Rock Wallaby"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Zoo Atlanta",
@@ -1675,7 +2487,9 @@
     "Western Lowland Gorilla",
     "White Stork",
     "Wolf's Guenon"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Georgia Aquarium",
@@ -1705,7 +2519,9 @@
     "Starfish",
     "Tiger Shark",
     "Whale Shark"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Honolulu Zoo",
@@ -1785,7 +2601,9 @@
     "White-eyed Assassin Bug",
     "White-handed Gibbon",
     "Wolverine"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Brookfield Zoo Chicago",
@@ -1901,7 +2719,9 @@
     "Woma Python",
     "Yellow Tang",
     "Zebra Shark"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Cosley Zoo",
@@ -1962,7 +2782,9 @@
     "Red Panda",
     "Rio Fuerte Beaded Lizard",
     "Sichuan Takin"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Miller Park Zoo",
@@ -2002,7 +2824,9 @@
     "Orangutan",
     "Rhinoceros",
     "Sloth"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Indianapolis Zoological Society, Inc.",
@@ -2029,7 +2853,9 @@
     "Squirrel Monkey",
     "Tapir",
     "Toad"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Potawatomi Zoo",
@@ -2048,8 +2874,8 @@
     "Bald Eagle",
     "Bali Myna",
     "Bennett's Wallaby",
-    "Black Swan",
     "Black and White Ruffed Lemur",
+    "Black Swan",
     "Black-breasted Leaf Turtle",
     "Blue Crane",
     "Blue-faced Honeyeater",
@@ -2103,7 +2929,9 @@
     "White-Handed Gibbon",
     "Wyoming Toad",
     "Yellow-Backed Duiker"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Blank Park Zoo",
@@ -2146,7 +2974,9 @@
     "Wood Duck",
     "Wyoming Toad",
     "Yellow Garden Eel"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "David Traylor Zoo of Emporia",
@@ -2288,8 +3118,8 @@
     "Predaceous Diving Beetle",
     "Red River Hog",
     "Red Velvet Ant",
-    "Red-Tailed Hawk",
     "Red-spotted Longhorn Beetle",
+    "Red-Tailed Hawk",
     "Sand Tiger Shark",
     "Sea Anemone",
     "Shingleback Skink",
@@ -2306,7 +3136,9 @@
     "Whooping Crane",
     "Wildebeest",
     "Zebra"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "BREC's Baton Rouge Zoo",
@@ -2353,8 +3185,8 @@
     "Domestic Ferret",
     "Domestic Goat",
     "Domestic Rabbit",
-    "Eastern Black Rhinoceros",
     "Eastern Black and White Colobus",
+    "Eastern Black Rhinoceros",
     "Eastern Box Turtle",
     "Eastern Crested Guineafowl",
     "Eastern Diamondback Rattlesnake",
@@ -2440,7 +3272,9 @@
     "White-Necked Raven",
     "White-Tailed Deer",
     "Yellow Bullhead Catfish"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Maryland Zoo in Baltimore",
@@ -2460,7 +3294,9 @@
     "Northern Shoveler",
     "Pueblan Milk Snake",
     "Reticulated Giraffe"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "National Aquarium",
@@ -2479,7 +3315,9 @@
     "Australian Lungfish",
     "Australian Whipray",
     "Banggai Cardinalfish"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Buttonwood Park Zoo",
@@ -2560,7 +3398,9 @@
     "Welsh Pony",
     "White-tailed Deer",
     "Yellow-Footed Tortoise"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Capron Park Zoo",
@@ -2613,7 +3453,9 @@
     "Sea Turtle",
     "Shark",
     "Southern Rockhopper Penguin"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Walter D. Stone Memorial Zoo",
@@ -2651,7 +3493,9 @@
     "Polar Bear",
     "Red Panda",
     "Sloth Bear"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "John Ball Zoo",
@@ -2713,7 +3557,9 @@
     "Trumpeter Hornbill",
     "Western Grey Kangaroo",
     "Western Tufted Deer"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Saginaw Children's Zoo",
@@ -2764,9 +3610,9 @@
     "Bennett's Wallaby",
     "Black Bear",
     "Black-headed Caique",
+    "Blue and Gold Macaw",
     "Blue Spotted Salamander",
     "Blue Tongued Skink",
-    "Blue and Gold Macaw",
     "Bobwhite Quail",
     "Borneo Frog",
     "Brown Bear",
@@ -2807,9 +3653,9 @@
     "Gray Tree Frog",
     "Gray Wolf",
     "Great-horned Owl",
+    "Green and Black Dart Frog",
     "Green Iguana",
     "Green Tree Python",
-    "Green and Black Dart Frog",
     "Green-winged Macaw",
     "Guinea Pig",
     "Hedgehog",
@@ -2870,7 +3716,9 @@
     "Walking Stick",
     "White-naped Crane",
     "Yellow-billed Hornbill"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Minnesota Zoological Garden",
@@ -2954,7 +3802,9 @@
     "White-cheeked Gibbon",
     "Wolverine",
     "Yellow-naped Amazon"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Hattiesburg Zoo",
@@ -2995,7 +3845,9 @@
     "Red Kangaroo",
     "River Otter",
     "Siamang"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Johnny Morris' Wonders of Wildlife National Museum & Aquarium",
@@ -3142,7 +3994,9 @@
     "Western lowland gorilla",
     "White-faced saki",
     "Wood duck"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "SEA LIFE Kansas City Aquarium",
@@ -3214,7 +4068,9 @@
     "Western Hognose Snake",
     "White's Tree Frog",
     "Wolverine"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Lee G. Simmons Conservation Park & Wildlife Safari",
@@ -3235,8 +4091,8 @@
     "African Serval",
     "African Spurred Tortoise",
     "Bald Eagle",
-    "Blue Death Feigning Beetle",
     "Blue and Gold Macaw",
+    "Blue Death Feigning Beetle",
     "Blue-tongued Skink",
     "Bobcat",
     "Cheetah",
@@ -3247,7 +4103,9 @@
     "European White Stork",
     "Fennec Fox",
     "Galapagos Tortoise"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Omaha's Henry Doorly Zoo & Aquarium",
@@ -3321,7 +4179,9 @@
     "Seahorse",
     "Seal",
     "Turtle"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Bronx Zoo/WCS",
@@ -3338,8 +4198,8 @@
     "African rock python",
     "African spurred tortoise",
     "African wild dog",
-    "Aldabra Tortoise",
     "Aldabra giant tortoise",
+    "Aldabra Tortoise",
     "American flamingo",
     "American white pelican",
     "Amur tiger",
@@ -3358,8 +4218,8 @@
     "Bald eagle",
     "Barasingha",
     "Bay duiker",
-    "Black and Rufous Giant Elephant Shrew",
     "Black and rufous elephant shrew",
+    "Black and Rufous Giant Elephant Shrew",
     "Black-crowned night heron",
     "Black-necked swan",
     "Black-tailed prairie dog",
@@ -3551,7 +4411,9 @@
     "Whooper swan",
     "Wolf's guenon",
     "Yellow-crested cockatoo"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Buffalo Zoo",
@@ -3619,9 +4481,9 @@
     "Great Horned Owl",
     "Greater One-Horned Rhinoceros",
     "Green Anaconda",
+    "Green-and-Black Poison Dart Frog",
     "Green-Backed Trogon",
     "Green-Winged Macaw",
-    "Green-and-Black Poison Dart Frog",
     "Hellbender",
     "Hermann's Tortoise",
     "Indochinese Box Turtle",
@@ -3688,7 +4550,9 @@
     "Yellow-Banded Poison Dart Frog",
     "Yellow-Crowned Night Heron",
     "Yellow-Spotted Amazon River Turtle"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Central Park Zoo",
@@ -3749,7 +4613,9 @@
     "White-eared titi",
     "White-fronted amazon",
     "White-naped crane"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "New York Aquarium",
@@ -3775,7 +4641,9 @@
     "Roughtail stingray",
     "Sand tiger shark",
     "Sandbar shark"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Prospect Park Zoo",
@@ -3811,7 +4679,9 @@
     "Turtle",
     "White deer",
     "Wreathed Hornbill"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Queens Zoo",
@@ -3850,7 +4720,9 @@
     "Sun Conure",
     "Thick-billed parrot",
     "Trumpeter swan"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Rosamond Gifford Zoo at Burnet Park",
@@ -3936,7 +4808,9 @@
     "Western Rat Snake",
     "White Rhino",
     "Yellow and Blue Dart Frog"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Staten Island Zoo",
@@ -3997,7 +4871,9 @@
     "Shark",
     "Stingray",
     "Venus Flytrap"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "North Carolina Aquarium at Pine Knoll Shores",
@@ -4044,7 +4920,9 @@
     "Sand Cat",
     "Seabird",
     "Vulture"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "SEA LIFE Charlotte-Concord Aquarium",
@@ -4085,8 +4963,8 @@
     "Bighorn Sheep",
     "Black Swan",
     "Black-footed Ferret",
-    "Blue Tang",
     "Blue and Yellow Macaw",
+    "Blue Tang",
     "Blue-eared Pheasant",
     "Bobcat",
     "Brown-eared Pheasant",
@@ -4153,7 +5031,9 @@
     "White-Fronted Marmoset",
     "White-nosed Coati",
     "Whitetail Deer"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Red River Zoo",
@@ -4171,7 +5051,9 @@
     "Red Panda",
     "Sichuan Takin",
     "Swift Fox"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Roosevelt Park Zoo",
@@ -4251,7 +5133,9 @@
     "White Stork",
     "White-Cheeked Gibbon",
     "White-Naped Crane"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Boonshoft Museum of Discovery",
@@ -4298,13 +5182,13 @@
     "Barred Owl",
     "Bat-eared Fox",
     "Bearcat",
+    "Black and White Colobus Monkey",
     "Black Howler Monkey",
     "Black Rat Snake",
-    "Black and White Colobus Monkey",
     "Black-Breasted Leaf Turtle",
     "Black-Footed Cat",
-    "Blue Tree Monitor",
     "Blue and Yellow Macaw",
+    "Blue Tree Monitor",
     "Blue-Crowned Motmot",
     "Blue-Throated Macaw",
     "Boat-Billed Heron",
@@ -4336,8 +5220,8 @@
     "Galapagos Tortoise",
     "Giant Fruit Bat",
     "Gila Monster",
-    "Golden-Headed Lion Tamarin",
     "Golden-breasted Starling",
+    "Golden-Headed Lion Tamarin",
     "Gopher Tortoise",
     "Greater Flamingo",
     "Grey Crowned Crane",
@@ -4406,11 +5290,13 @@
     "Victoria Crowned Pigeon",
     "Western Lowland Gorilla",
     "White Ibis",
+    "White-cheeked Gibbon",
     "White-Faced Saki",
     "White-Handed Gibbon",
-    "White-cheeked Gibbon",
     "Wood Duck"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Cleveland Metroparks Zoo",
@@ -4507,7 +5393,9 @@
     "White-handed Gibbon",
     "Wolverine",
     "Zebra Shark"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Toledo Zoological Gardens",
@@ -4543,7 +5431,9 @@
     "Scimitar-horned Oryx",
     "Sichuan Takin",
     "Southern White Rhino"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Oklahoma City Zoo and Botanical Garden",
@@ -4579,9 +5469,9 @@
     "Bearded Barbet",
     "Beautiful Fruit Dove",
     "Binturong",
+    "Black and White Ruffed Lemur",
     "Black Howler Monkey",
     "Black Welsh Mountain Sheep",
-    "Black and White Ruffed Lemur",
     "Black-Breasted Leaf Turtle",
     "Black-Naped Fruit Dove",
     "Black-Necked Stilt",
@@ -4731,15 +5621,17 @@
     "White Rhinoceros",
     "White Stork",
     "White-Breasted Woodswallow",
-    "White-Winged Dove",
     "White-headed Buffalo Weaver",
     "White-rumped Shama",
+    "White-Winged Dove",
     "Wompoo Fruit Dove",
     "Yellow-Crowned Night Heron",
     "Yellow-Footed Tortoise",
     "Yellow-Headed Temple Turtle",
     "Yellow-Spotted Amazon River Turtle"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "High Desert Museum",
@@ -4767,7 +5659,9 @@
     "Songbird",
     "Turtle",
     "White-headed Woodpecker"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Oregon Coast Aquarium",
@@ -4791,7 +5685,9 @@
     "Splitnose Rockfish",
     "Tufted Puffin",
     "Vermillion Rockfish"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Oregon Zoo",
@@ -4803,7 +5699,9 @@
    "species": [
     "Tortoise",
     "Turtle"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Wildlife Safari",
@@ -4922,7 +5820,9 @@
     "Thick-billed Parrot",
     "Western Diamondback Rattlesnake",
     "White-tailed Deer"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Roger Williams Park Zoo",
@@ -5002,7 +5902,9 @@
     "Sergeant Major",
     "Slipper Lobster",
     "Yellow Rat Snake"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Great Plains Zoo",
@@ -5056,7 +5958,9 @@
     "Yellow Stingray",
     "Yellow-bellied Slider",
     "Yellow-headed Amazon"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Chattanooga Zoo at Warner Park",
@@ -5191,7 +6095,9 @@
     "Wombat",
     "Yellow baboon",
     "Yellow-backed duiker"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Nashville Zoo",
@@ -5217,7 +6123,9 @@
     "Red panda",
     "Streamside salamander",
     "Zebra"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Ripley's Aquarium of the Smokies",
@@ -5244,7 +6152,9 @@
     "Aquatic Caecilian",
     "Arapaima",
     "Banded Orange Butterfly"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Zoo Knoxville",
@@ -5263,7 +6173,9 @@
     "Red Panda",
     "Sloth",
     "Western Lowland Gorilla"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Abilene Zoological Gardens",
@@ -5296,7 +6208,9 @@
     "Goat",
     "Poison Dart Frog",
     "Yellow Crowned Night Heron"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Cameron Park Zoo",
@@ -5367,7 +6281,9 @@
     "Waterbuck",
     "Wattled crane",
     "Zebra"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Fort Worth Zoo",
@@ -5468,7 +6384,9 @@
     "White-tailed deer",
     "Wild turkey",
     "Zebra"
-   ]
+   ],
+   "species_source": "mixed",
+   "species_source_label": "Multiple sources"
   },
   {
    "name": "Fossil Rim Wildlife Center",
@@ -5531,7 +6449,9 @@
     "Wattled Crane",
     "White-Tailed Deer",
     "Wild Turkey"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Gladys Porter Zoo",
@@ -5623,7 +6543,9 @@
     "Wattled Curassow",
     "White-faced Saki Monkey",
     "Whooping Crane"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Landry's Houston Aquarium, Inc.",
@@ -5659,8 +6581,8 @@
    "species": [
     "African Wild Dog",
     "Asian Small-clawed Otter",
-    "Black Bear",
     "Black and White Lemur",
+    "Black Bear",
     "Caecilian",
     "Caribbean Flamingo",
     "Cassowary",
@@ -5696,7 +6618,9 @@
     "Turtle",
     "White Rhino",
     "Zebra"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "SEA LIFE Grapevine Aquarium",
@@ -5766,7 +6690,9 @@
     "Snow Leopard",
     "Tarantula",
     "Zebra"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Virginia Aquarium and Marine Science Center",
@@ -5792,7 +6718,9 @@
     "Timber Rattlesnake",
     "Tomistoma",
     "Zebra Shark"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Virginia Living Museum",
@@ -5851,7 +6779,9 @@
     "Wood Frog",
     "Wood Turtle",
     "Yellow Tail Blue Damsel"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Virginia Zoological Park",
@@ -5927,7 +6857,9 @@
     "Western Snowy Plover",
     "Whitespotted Boxfish",
     "Wolf Eel"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Woodland Park Zoo",
@@ -5950,7 +6882,9 @@
     "Ring-tailed Lemur",
     "Snow Leopard",
     "Tiger"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Oglebay's Good Zoo",
@@ -5983,7 +6917,9 @@
     "Giraffe",
     "Marabou Stork",
     "R\u00fcppell's Griffon Vulture"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "International Crane Foundation",
@@ -6008,7 +6944,9 @@
     "Wattled Crane",
     "White-naped Crane",
     "Whooping Crane"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Milwaukee County Zoological Gardens",
@@ -6105,7 +7043,9 @@
     "Wattled Crane",
     "White-tailed Deer",
     "Whooping Crane"
-   ]
+   ],
+   "species_source": "self",
+   "species_source_label": "Zoo's own published list"
   },
   {
    "name": "Northeastern Wisconsin (NEW) Zoo",

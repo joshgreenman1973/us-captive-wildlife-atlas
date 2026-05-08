@@ -3,96 +3,146 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Methodology — U.S. Wildlife Atlas</title>
+<title>Methodology &amp; Sources — The Wildlife Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
 <style>
-  :root { --ink: #1a1a1a; --ink-soft: #4a4a4a; --rule: #d8d4cc; --bg: #f7f4ee; --accent: #a23b3b; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: var(--ink); background: var(--bg); margin: 0; line-height: 1.55; }
-  .wrap { max-width: 740px; margin: 0 auto; padding: 36px 24px 64px; }
-  h1 { font-size: 28px; letter-spacing: -0.01em; margin: 0 0 6px; }
-  .lede { font-size: 16px; color: var(--ink-soft); margin: 0 0 28px; }
-  h2 { font-size: 19px; margin: 32px 0 10px; padding-top: 18px; border-top: 1px solid var(--rule); }
-  h3 { font-size: 15px; margin: 18px 0 6px; }
+  :root {
+    --ink: #1c1a17; --ink-soft: #5a534a; --ink-muted: #8a8076;
+    --rule: #d6cdbe; --rule-soft: #ebe4d6;
+    --bg: #f5efe1; --bg-deeper: #ede5d2; --paper: #fffbef;
+    --moss: #1f5e3e; --moss-deep: #143d28; --rust: #b04826; --ochre: #c08a2e;
+    --serif-disp: 'DM Serif Display', Georgia, serif;
+    --serif-num: 'IBM Plex Serif', Georgia, serif;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  }
+  body {
+    font-family: var(--sans); color: var(--ink); margin: 0; line-height: 1.6;
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(rgba(120, 95, 60, 0.04) 1px, transparent 1px),
+      radial-gradient(rgba(120, 95, 60, 0.025) 1px, transparent 1px);
+    background-size: 22px 22px, 7px 7px;
+    background-position: 0 0, 11px 11px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 36px 26px 80px; }
+  .kicker { font-size: 10px; text-transform: uppercase; letter-spacing: 0.22em; color: var(--rust); font-weight: 600; margin-bottom: 6px; }
+  h1 { font-family: var(--serif-disp); font-size: 36px; font-weight: 400; margin: 0 0 8px; line-height: 1.05; }
+  h1 em { font-style: italic; color: var(--moss-deep); }
+  .lede { font-size: 16px; color: var(--ink-soft); margin: 0 0 30px; max-width: 60ch; line-height: 1.5; }
+  h2 { font-family: var(--serif-disp); font-size: 22px; font-weight: 400; margin: 36px 0 8px; padding-top: 22px; border-top: 1px solid var(--rule); letter-spacing: -0.01em; }
+  h3 { font-family: var(--sans); font-size: 13px; text-transform: uppercase; letter-spacing: 0.12em; margin: 20px 0 6px; color: var(--moss-deep); font-weight: 700; }
   p, li { font-size: 15px; }
   ul { padding-left: 22px; }
-  a { color: var(--accent); }
+  a { color: var(--moss-deep); text-decoration: none; border-bottom: 1px solid currentColor; }
+  a:hover { color: var(--rust); }
   .back { display: inline-block; margin-bottom: 20px; font-size: 13px; }
-  table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0; }
-  th, td { border: 1px solid var(--rule); padding: 6px 10px; text-align: left; vertical-align: top; }
-  th { background: rgba(0,0,0,0.03); font-weight: 600; }
-  .warn { background: #fff5e6; border-left: 3px solid #b8682c; padding: 12px 14px; font-size: 14px; margin: 16px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; margin: 14px 0; background: var(--paper); }
+  th, td { border: 1px solid var(--rule); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--bg-deeper); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--moss-deep); }
+  td.num { font-family: var(--serif-num); text-align: right; font-variant-numeric: tabular-nums; font-size: 15px; }
+  .warn { background: #fff5e6; border-left: 3px solid var(--rust); padding: 14px 16px; font-size: 14.5px; margin: 18px 0; line-height: 1.5; }
   code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; background: rgba(0,0,0,0.05); padding: 1px 5px; border-radius: 3px; }
+  .source-card { background: var(--paper); border: 1px solid var(--rule); border-left: 3px solid var(--moss); border-radius: 3px; padding: 14px 16px; margin: 10px 0; }
+  .source-card h3 { margin-top: 0; }
+  .source-card p { margin: 6px 0; font-size: 14.5px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <a class="back" href="index.html">← Back to map</a>
-  <h1>Methodology</h1>
-  <p class="lede">What's on the map, where the species data comes from, and what's deliberately missing.</p>
+  <div class="kicker">Methodology &amp; sources</div>
+  <h1>How this atlas was <em>made</em></h1>
+  <p class="lede">Every number, every species list, every recording — where it came from, what's missing, and how to reproduce it.</p>
 
-  <h2>Scope</h2>
-  <p>
-    This atlas shows every <strong>AZA-accredited zoo and aquarium in the United States</strong> — 215 institutions — with searchable species inventories scraped from each zoo's own public website.
-  </p>
-  <p>
-    An earlier version included 2,500+ USDA-licensed exhibitors and dealers. That dataset was dropped. The USDA list is heavily polluted with regulated <em>pet</em> operations (kennels, catteries, puppy mills, pet shops) that USDA's Animal Welfare Act covers alongside wildlife exhibitors. More importantly, those facilities don't publish their inventories, so species data for them isn't available without parsing inspection PDFs at scale. AZA accreditation is an imperfect but defensible quality floor: institutions that have passed a peer-reviewed accreditation process and that maintain public-facing animal lists.
-  </p>
-
-  <h2>Where the species data comes from</h2>
-  <p>
-    For each AZA institution, the project fetches the zoo's public "Our Animals" / "A–Z animals" / "Animals &amp; Exhibits" page and extracts the species names listed there. Common URL patterns: <code>/animals</code>, <code>/our-animals</code>, <code>/animals-a-z</code>, <code>/animals/list</code>, <code>/explore/animals</code>, <code>/discover/animals</code>.
-  </p>
-  <p>
-    Coverage grows as more zoo sites are scraped. Some zoos block automated fetches; some don't publish a public A–Z list at all (those zoos still appear on the map but with no species details).
-  </p>
-  <div class="warn">
-    Species data reflects <strong>what each zoo chooses to publish on its website</strong>, which may lag actual current holdings (births, deaths, transfers). Common names are kept as the zoo writes them — they are not normalized to scientific binomials. Searching for "tiger" matches "Malayan Tiger", "Amur Tiger", and "Tiger" as separate species entries.
-  </div>
-
-  <h2>Sources</h2>
+  <h2>The four data layers</h2>
+  <p>The atlas merges four independent datasets, each from different public sources:</p>
   <table>
-    <tr><th>Source</th><th>What it provides</th><th>Last fetched</th></tr>
-    <tr><td><a href="https://www.aza.org/inst-status">AZA Institution Status directory</a></td><td>Name, city, state of every AZA-accredited US zoo and aquarium</td><td>2026-05-07</td></tr>
-    <tr><td>Each zoo's own public website</td><td>Species lists per institution</td><td>2026-05-07 (rolling)</td></tr>
-    <tr><td><a href="https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html">2023 U.S. Census Gazetteer Files (Places)</a></td><td>City centroid lat/lon for plotting facilities</td><td>2023 vintage</td></tr>
+    <tr><th>Layer</th><th>What it provides</th><th>Source</th><th>Coverage</th></tr>
+    <tr><td><strong>Facilities</strong></td><td>Every AZA-accredited US zoo and aquarium with precise coordinates</td><td>AZA member directory + hand-curated coordinates</td><td class="num">215</td></tr>
+    <tr><td><strong>Species per facility</strong></td><td>Animals on display at each institution</td><td>Each zoo's own animal pages, supplemented by Wikipedia for institutions that don't publish A–Z lists</td><td class="num">~150 zoos</td></tr>
+    <tr><td><strong>Named individuals</strong></td><td>Specific animals with bios — name, DOB, sex</td><td>Zoos' "Meet our animals" / ambassador pages, plus Ceta-Base for cetaceans</td><td class="num">243</td></tr>
+    <tr><td><strong>Recent events</strong></td><td>Births, deaths, hatchings, transfers</td><td>Each zoo's press / news / blog pages, last ~24 months</td><td class="num">97 events</td></tr>
+    <tr><td><strong>SSP / SAFE programs</strong></td><td>Species Survival Plans and Saving Animals From Extinction with population stats</td><td>AZA program pages, USFWS recovery data, Wikipedia</td><td class="num">48 species</td></tr>
+    <tr><td><strong>Animal sounds</strong></td><td>Audio recordings playable next to species names</td><td>Wikimedia Commons (mostly), xeno-canto</td><td class="num">48 species</td></tr>
   </table>
 
-  <h2>Geocoding precision</h2>
+  <h2>Where each species list comes from</h2>
   <p>
-    Markers show the <strong>centroid of each facility's city</strong>. AZA does not publish street addresses for every member, and city precision is fine for a national-scale atlas. Facilities that share a city (e.g., the four Brooklyn institutions) are spread on a small ring around the centroid so they don't pile up.
+    Every facility popup tells you whether its species list came from <em>the zoo's own published list</em>, <em>Wikipedia</em>, or both. We try the zoo's site first; we fall back to Wikipedia only when the zoo doesn't publish a public A–Z page (about a third of AZA institutions don't).
+  </p>
+  <div class="source-card">
+    <h3>Source 1 — Each zoo's own animal pages</h3>
+    <p>Common URL patterns scraped: <code>/animals</code>, <code>/our-animals</code>, <code>/animals-a-z</code>, <code>/explore/animals</code>, <code>/visit/animals</code>, <code>/discover/animals</code>. Species names are kept exactly as the zoo writes them — common names are not normalized to scientific binomials, which is why "Tiger", "Amur Tiger", "Malayan Tiger", and "Sumatran Tiger" each appear as separate entries (the zoos write them that way).</p>
+    <p>This is the highest-trust source: it's the institution itself describing its collection. It's also a snapshot of what the zoo chose to feature on its public-facing pages, so it may lag actual current holdings (births, deaths, transfers since the page was last updated).</p>
+  </div>
+  <div class="source-card">
+    <h3>Source 2 — Wikipedia (for zoos with no public A–Z list)</h3>
+    <p>About a third of AZA institutions — including most of the WCS-run NYC zoos (Bronx, Central Park, Prospect Park, Queens, NY Aquarium), the Smithsonian, Disney's Animal Kingdom, Saint Louis, Memphis, Fort Worth, Dallas Zoo, and others — publish only featured-animal teasers on their websites, not full inventories. For these we fall back to the species lists on each zoo's Wikipedia article.</p>
+    <p>Wikipedia is collaboratively edited, so its species lists are second-hand: typically compiled from press releases, signage photos, and visitor reports. Less authoritative than the zoo's own page, but better than nothing. Each Wikipedia-sourced popup is labeled as such.</p>
+  </div>
+
+  <div class="warn">
+    <strong>What the species lists are NOT:</strong> they are not census counts. They tell you which species have appeared on the institution's public-facing materials. They do not say how many individuals of each species are present, what proportion of the collection is on display, or whether a particular animal is still alive on the day you visit.
+  </div>
+
+  <h2>Why some major zoos still aren't well-covered</h2>
+  <p>
+    A few institutions fight the scraper hard: their pages are JavaScript-rendered (no static HTML), they 403 automated requests, or they simply don't keep a public list. Where neither the zoo nor Wikipedia offered a usable list, the facility appears on the map as a regular marker but its popup says "No public A–Z animal list found at this institution." That isn't a failure of the zoo — many AZA institutions have outstanding collections and active conservation programs without publishing an A–Z page. It's a transparency gap, not an absence.
   </p>
 
-  <h2>What's NOT on the map (and why)</h2>
+  <h2>Coordinates</h2>
+  <p>
+    All 215 markers are at <strong>street-level precise coordinates</strong>, hand-curated in <code>data/zoo-coordinates.json</code> from each zoo's published address (Wikipedia infoboxes, Apple Maps, the zoo's contact pages). An audit pass found nine errors larger than 2 km — biggest was Lee G. Simmons Wildlife Safari Park, off by 19 km because its Ashland, NE location is at the I-80 exit, not the city of Wahoo where it had been placed.
+  </p>
+
+  <h2>Named individuals</h2>
+  <p>
+    The Names tab shows specific animals (gorillas, elephants, orcas, etc.) scraped from each zoo's "Meet our [species]" or "Animal ambassadors" pages. SeaWorld and other cetacean parks are well-documented in <a href="https://www.ceta-base.com/">Ceta-Base</a>, an independent public database of captive cetaceans, which we used as a supplementary source. ~60% of records have published DOBs; ~40% don't.
+  </p>
+  <p>
+    Birds, reptiles, and aquarium residents are barely represented. Zoos publish bios primarily for charismatic megafauna where individual identity is part of the visitor draw. That's a real gap in any captive-animal database — most named individuals at AZA institutions don't have public bios at all.
+  </p>
+
+  <h2>News &amp; events</h2>
+  <p>
+    The News tab is a 24-month rolling window of birth, death, hatching, arrival, and departure announcements from major zoos' press / blog pages. Where official press feeds were inaccessible, we supplemented from local TV / wire stories citing the zoo's own announcements (these are flagged in the underlying data). Aquarium events are underrepresented — Georgia Aquarium, Shedd, Monterey Bay, National Aquarium, and New England Aquarium either block scraping or don't publish dated birth/death announcements as discrete press items.
+  </p>
+
+  <h2>Animal sounds</h2>
+  <p>
+    Speaker icons next to species names play short audio recordings. All sounds are licensed for reuse — public domain, CC0, CC-BY, or CC-BY-SA — sourced from <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> with a few from <a href="https://www.xeno-canto.org/">xeno-canto</a> for bird recordings. Each playback shows the credit and links back to the source page.
+  </p>
+  <p>
+    A substring matcher means searching "Amur Tiger" or "Sumatran Tiger" plays the generic Tiger recording when no species-specific clip is available. Coverage is currently 48 species and growing.
+  </p>
+
+  <h2>What's deliberately NOT in the atlas</h2>
   <h3>Non-AZA zoos and roadside facilities</h3>
-  <p>
-    There are ~2,000 USDA Class C exhibitors that aren't AZA-accredited — drive-through safaris, roadside zoos, traveling exhibitors, small educational collections. Most don't publish species inventories, so they're not on this map. AZA accreditation is in no way a guarantee that every animal in a zoo is well cared for, but it's the cleanest available filter.
-  </p>
+  <p>An earlier version of this project included 2,500+ USDA-licensed exhibitors and dealers — most regulated under the Animal Welfare Act. That dataset is heavily polluted with regulated <em>pet</em> operations (kennels, catteries, pet shops, puppy mills) that USDA's AWA covers alongside wildlife exhibitors. Most non-AZA exhibitors don't publish their inventories, so species data isn't available without parsing inspection PDFs. The dataset was dropped to keep the project focused.</p>
+
   <h3>ZIMS (Species360)</h3>
-  <p>
-    The world's most comprehensive captive-animal database is ZIMS, run by Species360. We do <strong>not</strong> use ZIMS. <a href="https://conservation.species360.org/data-sharing/">Species360's terms explicitly prohibit publishing institution-level species holdings.</a>
-  </p>
-  <h3>Privately held exotic animals and sanctuaries</h3>
-  <p>
-    The 2022 Big Cat Public Safety Act created a USFWS registry of privately held big cats — that layer is planned for a later phase. Other privately held exotics aren't on any federal registry. GFAS-accredited sanctuaries are also not yet included.
-  </p>
-  <h3>Animals beyond what each zoo publishes</h3>
-  <p>
-    A zoo's "Our Animals" page typically highlights its featured species and may omit small reptiles, fish, or invertebrates that live in its ecosystems. Absence from the map's species list does NOT mean the zoo doesn't hold the animal — only that we couldn't find it on the public page.
-  </p>
+  <p>The world's most comprehensive captive-animal database is ZIMS, which holds individual records (DOBs, sex, parentage, transfers) for every animal at over 1,300 member institutions. We do not use ZIMS. <a href="https://conservation.species360.org/data-sharing/">Species360's terms explicitly prohibit publishing institution-level species holdings.</a></p>
+
+  <h3>Privately held exotic animals</h3>
+  <p>Most privately owned exotic mammals, reptiles, and birds are on no federal registry. The 2022 Big Cat Public Safety Act created a USFWS registry of privately held big cats; that layer is planned for a later phase but not currently shown.</p>
 
   <h2>Reproducing the dataset</h2>
-  <p>
-    Build scripts in <code>scripts/</code>:
-  </p>
+  <p>Build scripts (Python 3, no extra deps beyond <code>openpyxl</code>):</p>
   <ul>
-    <li><code>build_dataset.py</code> — geocodes the AZA institution list against the Census places gazetteer and writes <code>data/facilities.json</code>.</li>
-    <li><code>build_species_index.py</code> — reads <code>data/zoo-species-raw.json</code>, classifies each species into a vertebrate class and a "browse" group, attaches species lists to facilities, and writes <code>data/species_index.json</code>.</li>
+    <li><code>scripts/build_dataset.py</code> — geocodes the AZA institution list using <code>data/zoo-coordinates.json</code> overrides + the 2023 Census places gazetteer fallback. Writes <code>data/facilities.json</code>.</li>
+    <li><code>scripts/build_species_index.py</code> — merges <code>data/zoo-species-raw.json</code> (zoo-website scrapes) and <code>data/wikipedia-supplemental.json</code> (Wikipedia backfill), tags each species with its source, classifies each into a vertebrate class and a "browse" group, attaches species lists to facilities, and writes <code>data/species_index.json</code>.</li>
   </ul>
+  <p>All raw scrape outputs are committed to the <a href="https://github.com/joshgreenman1973/us-captive-wildlife-atlas">repository</a> so anyone can audit which URLs were scraped and which species were extracted from each.</p>
 
-  <h2>Caveats, in plain English</h2>
+  <h2>Caveats, plain English</h2>
   <ul>
-    <li>This is a <strong>browseable index</strong>, not a census. Use it to discover where a species can be seen, then verify with the zoo directly.</li>
-    <li>If a search returns no results, the species may exist at zoos we haven't scraped yet — coverage is rolling.</li>
-    <li>The species-name search is fuzzy (substring), so "tiger" finds tiger, Malayan Tiger, Amur Tiger, etc. The "Mammals" / "Big cats" chips are coarser and are computed from common-name keywords.</li>
+    <li>This is a <strong>browseable index</strong>, not a census. Use it to discover where a species can be seen, then verify with the institution directly.</li>
+    <li>If a search returns no results, the species may exist at zoos we haven't covered yet. Coverage is rolling.</li>
+    <li>The species-name search is fuzzy (substring), so "tiger" finds Tiger, Malayan Tiger, Amur Tiger, Sumatran Tiger, Tiger Salamander, and Sand Tiger Shark as separate entries.</li>
+    <li>Common names are not normalized. Each zoo's spelling is preserved.</li>
+    <li>"AZA-accredited" means a zoo passed AZA's peer-reviewed accreditation process. It is not a guarantee that every animal in a zoo is well cared for, nor that every well-run American zoo is on this map (some excellent institutions are not AZA members by choice).</li>
   </ul>
 </div>
 </body>
