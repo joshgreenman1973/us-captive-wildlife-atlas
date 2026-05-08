@@ -96,5 +96,485 @@
     "license": "CC BY-SA 3.0",
     "credit": "Source: Wikimedia Commons / FunkMonk",
     "source_page": "https://commons.wikimedia.org/wiki/File%3ALar_Gibbon_hoots.ogg"
+  },
+  "Black Howler Monkey": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/BioAcoustica_2-_howler_cuevas_short.flac",
+    "license": "CC BY 3.0",
+    "credit": "Source: Wikimedia Commons / BioUploadBot",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABioAcoustica_2-_howler_cuevas_short.flac"
+  },
+  "Mandrill": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/De-Mandrill.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Mandrill.ogg"
+  },
+  "Gelada": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Yawn_vocalisation_by_a_Gelada.wav",
+    "license": "CC BY 4.0",
+    "credit": "Source: Wikimedia Commons / Abalg",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AYawn_vocalisation_by_a_Gelada.wav"
+  },
+  "Ring-tailed Lemur": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Lemur_catta--infant_contact_calls3.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Maky",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALemur_catta--infant_contact_calls3.ogg"
+  },
+  "Squirrel Monkey": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/De-Totenkopfaffe.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Totenkopfaffe.ogg"
+  },
+  "Polar Bear": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/The_Bad_Child%27s_Book_Of_Beasts_The_Polar_Bear.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Theornamentalist",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_Bad_Child%27s_Book_Of_Beasts_The_Polar_Bear.ogg"
+  },
+  "Grizzly Bear": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Grizzly_Bear_%281910%29.ogg",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Racconish",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGrizzly_Bear_%281910%29.ogg"
+  },
+  "American Black Bear": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sv-Bruno_Liljefors.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / PJ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASv-Bruno_Liljefors.ogg"
+  },
+  "Sloth Bear": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/De-Lippenb%C3%A4r.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Lippenb%C3%A4r.ogg"
+  },
+  "Sun Bear": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/De-Malaienb%C3%A4r.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Malaienb%C3%A4r.ogg"
+  },
+  "Andean Bear": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/De-Brillenb%C3%A4r.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Brillenb%C3%A4r.ogg"
+  },
+  "Brown Bear": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Yellowstone_sound_library_-_Grizzly_Bear_Eating_-_003.mp3",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Thesupermat",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AYellowstone_sound_library_-_Grizzly_Bear_Eating_-_003.mp3"
+  },
+  "Asian Elephant": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Elephant_voice_-_trumpeting.ogg",
+    "license": "CC0",
+    "credit": "Source: Wikimedia Commons / Info-farmer",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AElephant_voice_-_trumpeting.ogg"
+  },
+  "African Bush Elephant": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Kitakinki-tango_railway_KTR001Series_tango-explorer_%E2%84%964_KTR_012_ayabe.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Spaceaero2",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKitakinki-tango_railway_KTR001Series_tango-explorer_%E2%84%964_KTR_012_ayabe.ogg"
+  },
+  "Hippopotamus": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/De-hippo-.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-hippo-.ogg"
+  },
+  "Pygmy Hippopotamus": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/De-Zwergflusspferd.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Zwergflusspferd.ogg"
+  },
+  "Black Rhinoceros": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/De-Spitzmaulnashorn.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Spitzmaulnashorn.ogg"
+  },
+  "White Rhinoceros": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/De-Breitmaulnashorn.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Breitmaulnashorn.ogg"
+  },
+  "Southern White Rhinoceros": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/De-Breitmaulnashorn.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Breitmaulnashorn.ogg"
+  },
+  "Indian Rhinoceros": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/De-Panzernashorn.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Panzernashorn.ogg"
+  },
+  "Giraffe": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Giraffe_grunt.oga",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / LittleJerry",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGiraffe_grunt.oga"
+  },
+  "Okapi": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/De-Okapi.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Okapi.ogg"
+  },
+  "Gray Wolf": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wolf_howls.ogg",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Duk",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWolf_howls.ogg"
+  },
+  "Mexican Wolf": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/De-Mexikanischer_Wolf.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Mexikanischer_Wolf.ogg"
+  },
+  "Red Wolf": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/De-Rotwolf.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Rotwolf.ogg"
+  },
+  "African Wild Dog": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Lycaon_pictus_hoo-sound.wav",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Dwergenpaartje",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALycaon_pictus_hoo-sound.wav"
+  },
+  "Coyote": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pack_of_coyotes_howling.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Rybkovich",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APack_of_coyotes_howling.ogg"
+  },
+  "Red Fox": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Passerella_iliaca_-_Red_Fox_Sparrow_XC132871.mp3",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Fæ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APasserella_iliaca_-_Red_Fox_Sparrow_XC132871.mp3"
+  },
+  "Arctic Fox": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/True_Blue_Foxtrot.mid",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Tradimus",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATrue_Blue_Foxtrot.mid"
+  },
+  "Fennec Fox": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Q131564-ar.ogg",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / أحمد الغرباوي",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AQ131564-ar.ogg"
+  },
+  "Maned Wolf": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/De-M%C3%A4hnenwolf.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-M%C3%A4hnenwolf.ogg"
+  },
+  "Red Kangaroo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Maloo.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / IngridC-Curtin",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMaloo.ogg"
+  },
+  "Koala": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/De-Koala-article.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Max Lankau",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Koala-article.ogg"
+  },
+  "Tasmanian Devil": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Tasmanian_Devil.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / BetacommandBot",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATasmanian_Devil.ogg"
+  },
+  "Harbor Seal": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/State_of_the_Union_Address_for_1943_by_Franklin_Roosevelt.ogg",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Jjjjjjjjjj",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AState_of_the_Union_Address_for_1943_by_Franklin_Roosevelt.ogg"
+  },
+  "Grey Seal": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/De-Kegelrobbe.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Kegelrobbe.ogg"
+  },
+  "Walrus": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/De-Walross.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Walross.ogg"
+  },
+  "Sea Otter": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Rosa_%28sea_otter%29.ogg",
+    "license": "CC BY 4.0",
+    "credit": "Source: Wikimedia Commons / RosaSeaOtter",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARosa_%28sea_otter%29.ogg"
+  },
+  "Bottlenose Dolphin": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Nl-tuimelaar.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / GerardM",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANl-tuimelaar.ogg"
+  },
+  "Beluga": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beluga_vocalizations.ogg",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Petruss",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABeluga_vocalizations.ogg"
+  },
+  "Orca": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Killer_whale_simple.ogg",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Achim Raschka",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKiller_whale_simple.ogg"
+  },
+  "Killer Whale": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Killer_whale_simple.ogg",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Achim Raschka",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKiller_whale_simple.ogg"
+  },
+  "Bald Eagle": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Yellowstone_sound_library_-_Bald_Eagle_-_002.mp3",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Thesupermat",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AYellowstone_sound_library_-_Bald_Eagle_-_002.mp3"
+  },
+  "Golden Eagle": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Golden_Eagle_%28Aquila_chrysaetos%29_%28W1CDR0001387_BD6%29.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Ndalyrose",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGolden_Eagle_%28Aquila_chrysaetos%29_%28W1CDR0001387_BD6%29.ogg"
+  },
+  "Andean Condor": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Andean_Condor_call_%28Vultur_gryphus%29.ogg",
+    "license": "CC BY 4.0",
+    "credit": "Source: Wikimedia Commons / Andreiflorea993",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAndean_Condor_call_%28Vultur_gryphus%29.ogg"
+  },
+  "California Condor": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/California_Condor.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / LordOider",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACalifornia_Condor.ogg"
+  },
+  "Great Horned Owl": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Mystery_mystery_-_Identity_unknown_XC574522.mp3",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Fæ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMystery_mystery_-_Identity_unknown_XC574522.mp3"
+  },
+  "Snowy Owl": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Snowy_owl_scream_%28loud%29.wav",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / HEtonis2",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASnowy_owl_scream_%28loud%29.wav"
+  },
+  "Barn Owl": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/American_Barn_Owl_Screech.flac",
+    "license": "CC BY 4.0",
+    "credit": "Source: Wikimedia Commons / Polinova",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAmerican_Barn_Owl_Screech.flac"
+  },
+  "Eurasian Eagle Owl": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Bubo_bubo_-_Eurasian_Eagle-Owl_XC604112.mp3",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Fæ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABubo_bubo_-_Eurasian_Eagle-Owl_XC604112.mp3"
+  },
+  "Macaw": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ara_militaris_-_Military_Macaw_XC250486.mp3",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Fæ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAra_militaris_-_Military_Macaw_XC250486.mp3"
+  },
+  "Hyacinth Macaw": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Crypto_%28ISRC_USUAN1600013%29.mp3",
+    "license": "CC BY 3.0",
+    "credit": "Source: Wikimedia Commons / Fæ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACrypto_%28ISRC_USUAN1600013%29.mp3"
+  },
+  "Scarlet Macaw": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Scarlet_macaw_01.wav",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Gannu03",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AScarlet_macaw_01.wav"
+  },
+  "African Grey Parrot": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/African_grey_parrot_sound.wav",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Gannu03",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAfrican_grey_parrot_sound.wav"
+  },
+  "Cockatoo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sonus_naturalis_-_Soundscape_XC568248.mp3",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Fæ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASonus_naturalis_-_Soundscape_XC568248.mp3"
+  },
+  "Trumpeter Swan": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Cygnus_buccinator_-_Trumpeter_Swan_XC96531.mp3",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Fæ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACygnus_buccinator_-_Trumpeter_Swan_XC96531.mp3"
+  },
+  "Sandhill Crane": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Grus_canadensis_-_Sandhill_Crane_-_XC111490.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Fæ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGrus_canadensis_-_Sandhill_Crane_-_XC111490.ogg"
+  },
+  "Sarus Crane": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Antigone_%28Storr%29_LibriVox-EN_pt-2.oga",
+    "license": "Public Domain",
+    "credit": "Source: Wikimedia Commons / EncycloPetey",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAntigone_%28Storr%29_LibriVox-EN_pt-2.oga"
+  },
+  "Red-crowned Crane": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Red_Crowned_Crane_%28Antti_Luode%29.mp3",
+    "license": "CC BY 3.0",
+    "credit": "Source: Wikimedia Commons / Fastily",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARed_Crowned_Crane_%28Antti_Luode%29.mp3"
+  },
+  "Toucan": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ramphastos_sulfuratus_audio_observation_charro_401730.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Pineapple Storage",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARamphastos_sulfuratus_audio_observation_charro_401730.ogg"
+  },
+  "Hornbill": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Great_hornbill_%2C_Buceros_bicornis%2Ccall.wav",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Shino jacob koottanad",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGreat_hornbill_%2C_Buceros_bicornis%2Ccall.wav"
+  },
+  "Kookaburra": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Dacelo_novaeguineae_ANWC_X00519.opus",
+    "license": "CC BY 3.0",
+    "credit": "Source: Wikimedia Commons / Dhx1",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADacelo_novaeguineae_ANWC_X00519.opus"
+  },
+  "Laughing Kookaburra": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Dacelo_novaeguineae_ANWC_X00519.opus",
+    "license": "CC BY 3.0",
+    "credit": "Source: Wikimedia Commons / Dhx1",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADacelo_novaeguineae_ANWC_X00519.opus"
+  },
+  "Hyena": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Giggling_call_of_a_spotted_hyena_%28Crocuta_crocuta%29_-_1472-6785-10-9-S4.oga",
+    "license": "CC BY 2.0",
+    "credit": "Source: Wikimedia Commons / Open Access Media Importer Bot",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGiggling_call_of_a_spotted_hyena_%28Crocuta_crocuta%29_-_1472-6785-10-9-S4.oga"
+  },
+  "Spotted Hyena": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Spotted_Hyena_Grunting_%28Crocuta_crocuta%29.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Thezooschool",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASpotted_Hyena_Grunting_%28Crocuta_crocuta%29.ogg"
+  },
+  "Striped Hyena": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Spotted_Hyaena_%28Crocuta_crocuta%29_%28W1CDR0000381_BD12%29.ogg",
+    "license": "CC BY 4.0",
+    "credit": "Source: Wikimedia Commons / Beeld en Geluid Collecties",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASpotted_Hyaena_%28Crocuta_crocuta%29_%28W1CDR0000381_BD12%29.ogg"
+  },
+  "American Alligator": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Alligatorbellowedit.ogg",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Borisblue",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAlligatorbellowedit.ogg"
+  },
+  "Nile Crocodile": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/De-Nilkrokodil.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Nilkrokodil.ogg"
+  },
+  "Saltwater Crocodile": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/De-Leistenkrokodil.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Leistenkrokodil.ogg"
+  },
+  "Komodo Dragon": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/De-Komodowaran.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Komodowaran.ogg"
+  },
+  "Meerkat": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Erdmaennchen.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Jugrü",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AErdmaennchen.ogg"
+  },
+  "Lemur": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Lemur_catta--clicks2.ogg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Maky",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALemur_catta--clicks2.ogg"
+  },
+  "Howler Monkey": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Howler_monkey.ogg",
+    "license": "CC BY 3.0",
+    "credit": "Source: Wikimedia Commons / Teejaydub~commonswiki",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHowler_monkey.ogg"
+  },
+  "Beaver": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Anthus_rubescens_-_Buff-bellied_Pipit_XC111041.mp3",
+    "license": "CC BY-SA 3.0",
+    "credit": "Source: Wikimedia Commons / Fæ",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAnthus_rubescens_-_Buff-bellied_Pipit_XC111041.mp3"
+  },
+  "Otter": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/De-Fischotter.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Fischotter.ogg"
+  },
+  "Aardvark": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Aardvark.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Gjprus",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAardvark.ogg"
+  },
+  "Anteater": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Aardvark.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Gjprus",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAardvark.ogg"
+  },
+  "Capybara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/De-Wasserschwein.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jeuwre",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADe-Wasserschwein.ogg"
+  },
+  "Red Panda": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Red_panda_twittering.ogg",
+    "license": "Public domain",
+    "credit": "Source: Wikimedia Commons / Mizunoryu",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARed_panda_twittering.ogg"
+  },
+  "Giant Panda": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Now%27s_Time_3C_Panda_Water-Dance_in_Chinese_Landscape-painting_of_Blue_Forest_JMC_Han.ogg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Source: Wikimedia Commons / Jason M. C., Han",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANow%27s_Time_3C_Panda_Water-Dance_in_Chinese_Landscape-painting_of_Blue_Forest_JMC_Han.ogg"
   }
 }

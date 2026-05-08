@@ -51,8 +51,8 @@
    "name": "OdySea Aquarium",
    "city": "Scottsdale",
    "state": "AZ",
-   "lat": 33.53,
-   "lon": -111.892,
+   "lat": 33.5582,
+   "lon": -111.8788,
    "coord_precision": "facility",
    "species": [
     "Anemone",
@@ -275,8 +275,8 @@
    "name": "CuriOdyssey",
    "city": "San Mateo",
    "state": "CA",
-   "lat": 37.5655,
-   "lon": -122.3066,
+   "lat": 37.5906,
+   "lon": -122.3197,
    "coord_precision": "facility",
    "species": [
     "Asian Small-clawed Otter",
@@ -699,8 +699,8 @@
    "name": "Sequoia Park Zoo",
    "city": "Eureka",
    "state": "CA",
-   "lat": 40.774,
-   "lon": -124.1582,
+   "lat": 40.7771,
+   "lon": -124.1446,
    "coord_precision": "facility"
   },
   {
@@ -802,16 +802,16 @@
    "name": "Connecticut's Beardsley Zoo",
    "city": "Bridgeport",
    "state": "CT",
-   "lat": 41.2152,
-   "lon": -73.184,
+   "lat": 41.198,
+   "lon": -73.179,
    "coord_precision": "facility"
   },
   {
    "name": "The Maritime Aquarium at Norwalk, Inc.",
    "city": "Norwalk",
    "state": "CT",
-   "lat": 41.0964,
-   "lon": -73.4082,
+   "lat": 41.101,
+   "lon": -73.4164,
    "coord_precision": "facility"
   },
   {
@@ -1024,8 +1024,8 @@
    "name": "Brevard Zoo",
    "city": "Melbourne",
    "state": "FL",
-   "lat": 28.1286,
-   "lon": -80.6478,
+   "lat": 28.1786,
+   "lon": -80.6781,
    "coord_precision": "facility",
    "species": [
     "African Rock Python",
@@ -1332,8 +1332,8 @@
    "name": "Marineland",
    "city": "St. Augustine",
    "state": "FL",
-   "lat": 29.6638,
-   "lon": -81.2096,
+   "lat": 29.671,
+   "lon": -81.2148,
    "coord_precision": "facility"
   },
   {
@@ -1907,8 +1907,8 @@
    "name": "Cosley Zoo",
    "city": "Wheaton",
    "state": "IL",
-   "lat": 41.8569,
-   "lon": -88.1089,
+   "lat": 41.8765,
+   "lon": -88.108,
    "coord_precision": "facility"
   },
   {
@@ -1992,8 +1992,8 @@
    "name": "Fort Wayne Zoo",
    "city": "Fort Wayne",
    "state": "IN",
-   "lat": 41.0972,
-   "lon": -85.1664,
+   "lat": 41.1038,
+   "lon": -85.1527,
    "coord_precision": "facility",
    "species": [
     "Chimpanzee",
@@ -2727,8 +2727,8 @@
    "name": "SEA LIFE Michigan Aquarium",
    "city": "Auburn Hills",
    "state": "MI",
-   "lat": 42.6589,
-   "lon": -83.238,
+   "lat": 42.6856,
+   "lon": -83.2962,
    "coord_precision": "facility"
   },
   {
@@ -2968,8 +2968,8 @@
    "name": "Butterfly House",
    "city": "Chesterfield",
    "state": "MO",
-   "lat": 38.6478,
-   "lon": -90.5306,
+   "lat": 38.665,
+   "lon": -90.547,
    "coord_precision": "facility"
   },
   {
@@ -3220,8 +3220,8 @@
    "name": "Lee G. Simmons Conservation Park & Wildlife Safari",
    "city": "Ashland",
    "state": "NE",
-   "lat": 41.0556,
-   "lon": -96.425,
+   "lat": 41.075,
+   "lon": -96.197,
    "coord_precision": "facility"
   },
   {
@@ -3277,8 +3277,8 @@
    "name": "Cape May County Park Zoo",
    "city": "Cape May Court House",
    "state": "NJ",
-   "lat": 39.0827,
-   "lon": -74.8366,
+   "lat": 39.1025,
+   "lon": -74.8154,
    "coord_precision": "facility"
   },
   {
@@ -3950,8 +3950,8 @@
    "name": "Trevor-Lovejoy Zoo",
    "city": "Millbrook",
    "state": "NY",
-   "lat": 41.7806,
-   "lon": -73.6855,
+   "lat": 41.8408,
+   "lon": -73.6535,
    "coord_precision": "facility"
   },
   {
@@ -4521,8 +4521,8 @@
    "name": "The Wilds",
    "city": "Cumberland",
    "state": "OH",
-   "lat": 39.8205,
-   "lon": -81.7357,
+   "lat": 39.8295,
+   "lon": -81.7331,
    "coord_precision": "facility",
    "species": [
     "African Painted Dog",
@@ -4825,8 +4825,8 @@
    "name": "Elmwood Park Zoo",
    "city": "Norristown",
    "state": "PA",
-   "lat": 40.1428,
-   "lon": -75.346,
+   "lat": 40.1233,
+   "lon": -75.3445,
    "coord_precision": "facility"
   },
   {
@@ -4928,8 +4928,8 @@
    "name": "Roger Williams Park Zoo",
    "city": "Providence",
    "state": "RI",
-   "lat": 41.7822,
-   "lon": -71.4144,
+   "lat": 41.7899,
+   "lon": -71.4163,
    "coord_precision": "facility"
   },
   {
@@ -5637,8 +5637,8 @@
    "name": "Longneck Manor",
    "city": "Fredericksburg",
    "state": "TX",
-   "lat": 30.2752,
-   "lon": -98.872,
+   "lat": 30.262,
+   "lon": -98.792,
    "coord_precision": "facility"
   },
   {
