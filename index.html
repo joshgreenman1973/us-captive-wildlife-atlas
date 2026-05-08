@@ -690,8 +690,16 @@ function popupHTML(f) {
       }
       return `<span style="display:inline-block;margin:0 4px 4px 0;">${escapeHTML(s)}</span>`;
     }).join('');
-    const src = SOURCE_LABELS[f.species_source] || 'public sources';
-    speciesNote = `<div class="popup-species"><strong>Species (${f.species.length}):</strong><div style="margin-top:5px;">${items}</div><div class="popup-meta" style="font-style:italic;margin-top:6px;">Compiled from ${escapeHTML(src)}.</div></div>`;
+    const srcUrls = Array.isArray(f.species_source_urls) ? f.species_source_urls : [];
+    let sourceLine;
+    if (srcUrls.length) {
+      const linkParts = srcUrls.map(s => `<a href="${escapeHTML(s.url)}" target="_blank" rel="noopener" style="color:var(--moss-deep);border-bottom:1px dotted;">${escapeHTML(s.label)}</a>`);
+      sourceLine = `Source: ${linkParts.join(' + ')}`;
+    } else {
+      const src = SOURCE_LABELS[f.species_source] || 'public sources';
+      sourceLine = `Compiled from ${escapeHTML(src)}.`;
+    }
+    speciesNote = `<div class="popup-species"><strong>Species (${f.species.length}):</strong><div style="margin-top:5px;">${items}</div><div class="popup-meta" style="font-style:italic;margin-top:6px;">${sourceLine}</div></div>`;
   } else {
     speciesNote = '<div class="popup-meta">No public A&ndash;Z animal list found at this institution. <a href="methodology.html" style="color:var(--moss-deep);">Why →</a></div>';
   }

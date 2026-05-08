@@ -122,7 +122,13 @@
     "Yellow-banded poison dart frog"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Birmingham_Zoo"
+    }
+   ]
   },
   {
    "name": "Alaska SeaLife Center",
@@ -143,7 +149,13 @@
     "Walrus"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.alaskasealife.org/animals"
+    }
+   ]
   },
   {
    "name": "Arizona-Sonora Desert Museum",
@@ -187,7 +199,13 @@
     "White-tailed deer"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Arizona-Sonora_Desert_Museum"
+    }
+   ]
   },
   {
    "name": "OdySea Aquarium",
@@ -215,7 +233,13 @@
     "Zebra Shark"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.odyseaaquarium.com/animals/"
+    }
+   ]
   },
   {
    "name": "The Phoenix Zoo",
@@ -370,7 +394,17 @@
     "Wrinkled Hornbill"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.phoenixzoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/The_Phoenix_Zoo"
+    }
+   ]
   },
   {
    "name": "Reid Park Zoo",
@@ -465,7 +499,17 @@
     "Yellow-knobbed curassow"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://reidparkzoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Reid_Park_Zoo"
+    }
+   ]
   },
   {
    "name": "SEA LIFE Arizona Aquarium",
@@ -612,7 +656,13 @@
     "Yellow-banded poison dart frog"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Little_Rock_Zoological_Gardens"
+    }
+   ]
   },
   {
    "name": "Aquarium of the Pacific",
@@ -634,7 +684,13 @@
     "Southern sea otter"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Aquarium_of_the_Pacific"
+    }
+   ]
   },
   {
    "name": "Birch Aquarium at Scripps",
@@ -653,7 +709,13 @@
     "Shark"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://aquarium.ucsd.edu/visit/exhibits"
+    }
+   ]
   },
   {
    "name": "Cabrillo Marine Aquarium",
@@ -747,7 +809,13 @@
     "Yellow-headed Amazon Parrot"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://curiodyssey.org/animals"
+    }
+   ]
   },
   {
    "name": "Fresno Chaffee Zoo",
@@ -808,7 +876,13 @@
     "Whitespotted Bamboo Shark"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.fresnochaffeezoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Happy Hollow Park & Zoo",
@@ -894,7 +968,13 @@
     "Yellow-footed rock-wallaby"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/The_Living_Desert_Zoo_and_Gardens"
+    }
+   ]
   },
   {
    "name": "Los Angeles Zoo",
@@ -920,7 +1000,13 @@
     "Vulture"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.google.com/search?q=%22Los%20Angeles%20Zoo%22%20animals"
+    }
+   ]
   },
   {
    "name": "Monterey Bay Aquarium",
@@ -957,7 +1043,13 @@
     "Yellowfin tuna"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Monterey_Bay_Aquarium"
+    }
+   ]
   },
   {
    "name": "Oakland Zoo",
@@ -1063,7 +1155,13 @@
     "White-Handed Gibbon"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.oaklandzoo.org/animals"
+    }
+   ]
   },
   {
    "name": "Palo Alto Junior Museum & Zoo",
@@ -1086,7 +1184,13 @@
     "Turtle"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.saczoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "San Diego Zoo",
@@ -1142,7 +1246,13 @@
     "Zebra"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://sandiegozoo.org/animals"
+    }
+   ]
   },
   {
    "name": "San Diego Zoo Safari Park",
@@ -1287,7 +1397,13 @@
     "Yellow-billed stork"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/San_Diego_Zoo_Safari_Park"
+    }
+   ]
   },
   {
    "name": "San Francisco Zoological Gardens",
@@ -1375,7 +1491,13 @@
     "Zebra"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/San_Francisco_Zoological_Gardens"
+    }
+   ]
   },
   {
    "name": "Santa Ana Zoo",
@@ -1421,7 +1543,13 @@
     "Western lowland gorilla"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Santa_Barbara_Zoo"
+    }
+   ]
   },
   {
    "name": "SEA LIFE Aquarium at LEGOLAND California Resort",
@@ -1461,7 +1589,13 @@
     "Walrus"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://seaworld.com/san-diego/animals/"
+    }
+   ]
   },
   {
    "name": "Sequoia Park Zoo",
@@ -1495,7 +1629,13 @@
     "Red-crested turaco"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Steinhart_Aquarium"
+    }
+   ]
   },
   {
    "name": "Butterfly Pavilion",
@@ -1584,7 +1724,17 @@
     "Wyoming toad"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.cmzoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Cheyenne_Mountain_Zoological_Park"
+    }
+   ]
   },
   {
    "name": "Denver Zoo Conservation Alliance",
@@ -1620,7 +1770,13 @@
     "Western Lowland Gorilla"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://denverzoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Landry's Downtown Denver Aquarium",
@@ -1672,7 +1828,13 @@
     "Yak"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pueblo_Zoo"
+    }
+   ]
   },
   {
    "name": "Connecticut's Beardsley Zoo",
@@ -1715,7 +1877,13 @@
     "Unicorn fish"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mystic_Aquarium"
+    }
+   ]
   },
   {
    "name": "Brandywine Zoo",
@@ -1784,7 +1952,17 @@
     "Wood duck"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.brandywinezoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Brandywine_Zoo"
+    }
+   ]
   },
   {
    "name": "Smithsonian's National Zoo and Conservation Biology Institute",
@@ -1939,7 +2117,17 @@
     "Yellow-spotted river turtle"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://nationalzoo.si.edu/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Zoological_Park_(United_States)"
+    }
+   ]
   },
   {
    "name": "Bailey-Matthews National Shell Museum & Aquarium",
@@ -2093,7 +2281,17 @@
     "Yellow-Naped Amazon"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://brevardzoo.org/visit/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Brevard_Zoo"
+    }
+   ]
   },
   {
    "name": "Busch Gardens Tampa Bay",
@@ -2121,7 +2319,13 @@
     "White-cheeked gibbon"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Busch_Gardens_Tampa_Bay"
+    }
+   ]
   },
   {
    "name": "Central Florida Zoo & Botanical Gardens",
@@ -2143,7 +2347,13 @@
     "Mongoose Lemur"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.centralfloridazoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Discovery Cove",
@@ -2165,7 +2375,13 @@
     "Queensland Grouper"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://discoverycove.com/orlando/animals/"
+    }
+   ]
   },
   {
    "name": "Disney's Animal Kingdom",
@@ -2230,7 +2446,17 @@
     "Yellow-backed duiker"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://disneyworld.disney.go.com/destinations/animal-kingdom/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Disney%27s_Animal_Kingdom"
+    }
+   ]
   },
   {
    "name": "The Florida Aquarium",
@@ -2256,7 +2482,13 @@
     "Yellowtail snapper"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/The_Florida_Aquarium"
+    }
+   ]
   },
   {
    "name": "Jacksonville Zoo and Botanical Gardens",
@@ -2412,7 +2644,13 @@
     "Wrinkled hornbill"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jacksonville_Zoo_and_Botanical_Gardens"
+    }
+   ]
   },
   {
    "name": "Lion Country Safari",
@@ -2477,7 +2715,13 @@
     "Yellow-streaked Lory"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.lioncountrysafari.com/learn-about-our-animals/"
+    }
+   ]
   },
   {
    "name": "Marineland",
@@ -2507,7 +2751,13 @@
     "Spotted Garden Eel"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://mote.org/exhibits-aquarium/"
+    }
+   ]
   },
   {
    "name": "Naples Zoo",
@@ -2605,7 +2855,17 @@
     "Yellow-crowned Amazon"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://napleszoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Naples_Zoo"
+    }
+   ]
   },
   {
    "name": "Palm Beach Zoo & Conservation Society",
@@ -2652,7 +2912,13 @@
     "White Alligator"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.palmbeachzoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Santa Fe College Teaching Zoo",
@@ -2815,7 +3081,13 @@
     "Yellow-backed duiker"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zoo_Miami"
+    }
+   ]
   },
   {
    "name": "ZooTampa at Lowry Park",
@@ -2934,7 +3206,17 @@
     "Yellow-footed rock-wallaby"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://zootampa.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/ZooTampa_at_Lowry_Park"
+    }
+   ]
   },
   {
    "name": "Zoo Atlanta",
@@ -3070,7 +3352,17 @@
     "Yellow-blotched map turtle"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.atlantazoo.com/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zoo_Atlanta"
+    }
+   ]
   },
   {
    "name": "Georgia Aquarium",
@@ -3116,7 +3408,17 @@
     "Zebra shark"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.georgiaaquarium.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Georgia_Aquarium"
+    }
+   ]
   },
   {
    "name": "Honolulu Zoo",
@@ -3139,7 +3441,13 @@
     "Sumatra tiger"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Honolulu_Zoo"
+    }
+   ]
   },
   {
    "name": "Idaho Falls Zoo at Tautphaus Park",
@@ -3218,7 +3526,17 @@
     "Zebra"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://zooboise.org/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zoo_Boise"
+    }
+   ]
   },
   {
    "name": "Brookfield Zoo Chicago",
@@ -3464,7 +3782,17 @@
     "Zebra Shark"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.czs.org/your-visit/explore-the-zoo"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Brookfield_Zoo"
+    }
+   ]
   },
   {
    "name": "Cosley Zoo",
@@ -3516,7 +3844,13 @@
     "Zebra shark"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Shedd_Aquarium"
+    }
+   ]
   },
   {
    "name": "Lincoln Park Zoo",
@@ -3681,7 +4015,17 @@
     "Yellow-spotted river turtle"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.lpzoo.org/animals-gardens/animals-exhibits/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lincoln_Park_Zoo"
+    }
+   ]
   },
   {
    "name": "Miller Park Zoo",
@@ -3723,7 +4067,13 @@
     "Sloth"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://kidszoo.org/our-animals/"
+    }
+   ]
   },
   {
    "name": "Indianapolis Zoological Society, Inc.",
@@ -3877,7 +4227,13 @@
     "Zebra spitting cobra"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Indianapolis_Zoo"
+    }
+   ]
   },
   {
    "name": "Mesker Park Zoo & Botanic Garden, Inc.",
@@ -3898,7 +4254,13 @@
     "Toad"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.meskerparkzoo.com/animals/"
+    }
+   ]
   },
   {
    "name": "Potawatomi Zoo",
@@ -3974,7 +4336,13 @@
     "Yellow-Backed Duiker"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://potawatomizoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Blank Park Zoo",
@@ -4056,7 +4424,13 @@
     "Zebu"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Blank_Park_Zoo"
+    }
+   ]
   },
   {
    "name": "National Mississippi River Museum & Aquarium",
@@ -4095,7 +4469,17 @@
     "Yellow Garden Eel"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.rivermuseum.org/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Mississippi_River_Museum_%26_Aquarium"
+    }
+   ]
   },
   {
    "name": "David Traylor Zoo of Emporia",
@@ -4382,7 +4766,13 @@
     "Zebu"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sedgwick_County_Zoo"
+    }
+   ]
   },
   {
    "name": "Sunset Zoological Park",
@@ -4437,7 +4827,13 @@
     "Yellow-spotted river turtle"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Topeka_Zoo_and_Conservation_Center"
+    }
+   ]
   },
   {
    "name": "Louisville Zoological Garden",
@@ -4461,7 +4857,13 @@
     "Shark ray"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Newport_Aquarium"
+    }
+   ]
   },
   {
    "name": "Audubon Aquarium & Insectarium",
@@ -4491,7 +4893,13 @@
     "Tarpon"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Audubon_Aquarium_of_the_Americas"
+    }
+   ]
   },
   {
    "name": "Audubon Zoo",
@@ -4573,7 +4981,13 @@
     "Zebra"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://audubonnatureinstitute.org/zoo/animals"
+    }
+   ]
   },
   {
    "name": "BREC's Baton Rouge Zoo",
@@ -4709,7 +5123,13 @@
     "Yellow Bullhead Catfish"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.brzoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Maryland Zoo in Baltimore",
@@ -4788,7 +5208,17 @@
     "White-breasted cormorant"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.marylandzoo.org/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Maryland_Zoo_in_Baltimore"
+    }
+   ]
   },
   {
    "name": "National Aquarium",
@@ -4892,7 +5322,17 @@
     "Zebra shark"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://aqua.org/explore"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Aquarium"
+    }
+   ]
   },
   {
    "name": "Buttonwood Park Zoo",
@@ -4975,7 +5415,13 @@
     "Yellow-Footed Tortoise"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.bpzoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Capron Park Zoo",
@@ -5060,7 +5506,13 @@
     "Yellow-billed stork"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Franklin_Park_Zoo"
+    }
+   ]
   },
   {
    "name": "Museum of Science",
@@ -5116,7 +5568,17 @@
     "Yellowhead jawfish"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.neaq.org/exhibits/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/New_England_Aquarium"
+    }
+   ]
   },
   {
    "name": "Walter D. Stone Memorial Zoo",
@@ -5179,7 +5641,17 @@
     "Zebra"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://detroitzoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Detroit_Zoo"
+    }
+   ]
   },
   {
    "name": "John Ball Zoo",
@@ -5279,7 +5751,13 @@
     "Wolf eel"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/John_Ball_Zoo"
+    }
+   ]
   },
   {
    "name": "Potter Park Zoological Gardens",
@@ -5335,7 +5813,13 @@
     "Western Tufted Deer"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.potterparkzoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Saginaw Children's Zoo",
@@ -5371,7 +5855,13 @@
     "Western lowland gorilla"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Como_Park_Zoo_and_Conservatory"
+    }
+   ]
   },
   {
    "name": "Lake Superior Zoo",
@@ -5506,7 +5996,13 @@
     "Yellow-billed Hornbill"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://lszooduluth.org/animals/"
+    }
+   ]
   },
   {
    "name": "Minnesota Zoological Garden",
@@ -5635,7 +6131,17 @@
     "Yellow-naped Amazon"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://mnzoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Minnesota_Zoological_Garden"
+    }
+   ]
   },
   {
    "name": "Hattiesburg Zoo",
@@ -5678,7 +6184,13 @@
     "Siamang"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.dickersonparkzoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Johnny Morris' Wonders of Wildlife National Museum & Aquarium",
@@ -5833,7 +6345,13 @@
     "Yellow-collared lovebird"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kansas_City_Zoo"
+    }
+   ]
   },
   {
    "name": "Saint Louis Zoo",
@@ -5966,7 +6484,17 @@
     "Wood duck"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.stlzoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Saint_Louis_Zoo"
+    }
+   ]
   },
   {
    "name": "SEA LIFE Kansas City Aquarium",
@@ -6040,7 +6568,13 @@
     "Wolverine"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://zoomontana.org/animals/"
+    }
+   ]
   },
   {
    "name": "Lee G. Simmons Conservation Park & Wildlife Safari",
@@ -6075,7 +6609,13 @@
     "Galapagos Tortoise"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.lincolnzoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Omaha's Henry Doorly Zoo & Aquarium",
@@ -6259,7 +6799,13 @@
     "Zebra longwing butterfly"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Henry_Doorly_Zoo_and_Aquarium"
+    }
+   ]
   },
   {
    "name": "Shark Reef Aquarium at Mandalay Bay",
@@ -6301,7 +6847,13 @@
     "Yellowhead jawfish"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Adventure_Aquarium"
+    }
+   ]
   },
   {
    "name": "Cape May County Park Zoo",
@@ -6363,7 +6915,13 @@
     "White-cheeked gibbon"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turtle_Back_Zoo"
+    }
+   ]
   },
   {
    "name": "Albuquerque Biological Park",
@@ -6391,7 +6949,13 @@
     "White stork"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Albuquerque_Biological_Park"
+    }
+   ]
   },
   {
    "name": "Aquarium of Niagara",
@@ -6411,7 +6975,13 @@
     "Turtle"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.aquariumofniagara.org/animals/"
+    }
+   ]
   },
   {
    "name": "Bronx Zoo/WCS",
@@ -6643,7 +7213,17 @@
     "Yellow-crested cockatoo"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://bronxzoo.com/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bronx_Zoo"
+    }
+   ]
   },
   {
    "name": "Buffalo Zoo",
@@ -6840,7 +7420,17 @@
     "Yellow-spotted river turtle"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://buffalozoo.org/explore/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Buffalo_Zoo"
+    }
+   ]
   },
   {
    "name": "Central Park Zoo",
@@ -6903,7 +7493,17 @@
     "White-naped crane"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://centralparkzoo.com/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Central_Park_Zoo"
+    }
+   ]
   },
   {
    "name": "New York Aquarium",
@@ -6931,7 +7531,17 @@
     "Sandbar shark"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://nyaquarium.com/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/New_York_Aquarium"
+    }
+   ]
   },
   {
    "name": "Prospect Park Zoo",
@@ -6969,7 +7579,17 @@
     "Wreathed Hornbill"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://prospectparkzoo.com/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Prospect_Park_Zoo"
+    }
+   ]
   },
   {
    "name": "Queens Zoo",
@@ -7010,7 +7630,17 @@
     "Trumpeter swan"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://queenszoo.com/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Queens_Zoo"
+    }
+   ]
   },
   {
    "name": "Rosamond Gifford Zoo at Burnet Park",
@@ -7098,7 +7728,13 @@
     "Yellow and Blue Dart Frog"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://senecaparkzoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Staten Island Zoo",
@@ -7161,7 +7797,13 @@
     "Venus Flytrap"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.ncaquariums.com/fort-fisher"
+    }
+   ]
   },
   {
    "name": "North Carolina Aquarium at Pine Knoll Shores",
@@ -7274,7 +7916,17 @@
     "Wrinkled hornbill"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.nczoo.org/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/North_Carolina_Zoo"
+    }
+   ]
   },
   {
    "name": "SEA LIFE Charlotte-Concord Aquarium",
@@ -7385,7 +8037,13 @@
     "Whitetail Deer"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.dakotazoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Red River Zoo",
@@ -7405,7 +8063,13 @@
     "Swift Fox"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.redriverzoo.org/animals"
+    }
+   ]
   },
   {
    "name": "Roosevelt Park Zoo",
@@ -7487,7 +8151,13 @@
     "White-Naped Crane"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://akronzoo.org/animals"
+    }
+   ]
   },
   {
    "name": "Boonshoft Museum of Discovery",
@@ -7648,7 +8318,13 @@
     "Wood Duck"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.cincinnatizoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "Cleveland Metroparks Zoo",
@@ -7742,7 +8418,13 @@
     "Yellow-spotted river turtle"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Cleveland_Metroparks_Zoo"
+    }
+   ]
   },
   {
    "name": "Columbus Zoo & Aquarium",
@@ -7833,7 +8515,13 @@
     "Zebra Shark"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://columbuszoo.org/animals"
+    }
+   ]
   },
   {
    "name": "Toledo Zoological Gardens",
@@ -8041,7 +8729,13 @@
     "Zebra shark"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Toledo_Zoological_Gardens"
+    }
+   ]
   },
   {
    "name": "The Wilds",
@@ -8077,7 +8771,17 @@
     "Southern white rhinoceros"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.thewilds.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/The_Wilds"
+    }
+   ]
   },
   {
    "name": "Oklahoma City Zoo and Botanical Garden",
@@ -8286,7 +8990,13 @@
     "Yellow-breasted ground dove"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Oklahoma_City_Zoo_and_Botanical_Garden"
+    }
+   ]
   },
   {
    "name": "Tulsa Zoo",
@@ -8496,7 +9206,17 @@
     "Yellow-Spotted Amazon River Turtle"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.tulsazoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tulsa_Zoo"
+    }
+   ]
   },
   {
    "name": "High Desert Museum",
@@ -8526,7 +9246,13 @@
     "White-headed Woodpecker"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://highdesertmuseum.org/wildlife/"
+    }
+   ]
   },
   {
    "name": "Oregon Coast Aquarium",
@@ -8552,7 +9278,13 @@
     "Vermillion Rockfish"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://aquarium.org/animals/"
+    }
+   ]
   },
   {
    "name": "Oregon Zoo",
@@ -8576,7 +9308,17 @@
     "Turtle"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.oregonzoo.org/discover/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Oregon_Zoo"
+    }
+   ]
   },
   {
    "name": "Wildlife Safari",
@@ -8640,7 +9382,13 @@
     "Victoria crowned pigeon"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Aviary"
+    }
+   ]
   },
   {
    "name": "Philadelphia Zoo",
@@ -8719,7 +9467,13 @@
     "Western lowland gorilla"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Philadelphia_Zoo"
+    }
+   ]
   },
   {
    "name": "Pittsburgh Zoo & Aquarium",
@@ -8771,7 +9525,13 @@
     "White-tailed deer"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pittsburgh_Zoo_%26_Aquarium"
+    }
+   ]
   },
   {
    "name": "ZOOAMERICA NA Wildlife Park",
@@ -8836,7 +9596,13 @@
     "White-tailed Deer"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.hersheypark.com/zooamerica/animals/"
+    }
+   ]
   },
   {
    "name": "Roger Williams Park Zoo",
@@ -8922,7 +9688,13 @@
     "Yellow-rumped cacique"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Roger_Williams_Park_Zoo"
+    }
+   ]
   },
   {
    "name": "Brookgreen Gardens",
@@ -8953,7 +9725,13 @@
     "Southern screamer"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Greenville_Zoo"
+    }
+   ]
   },
   {
    "name": "Ripley's Aquarium of Myrtle Beach",
@@ -9005,7 +9783,13 @@
     "Western lowland gorilla"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Riverbanks_Zoo_and_Garden"
+    }
+   ]
   },
   {
    "name": "South Carolina Aquarium",
@@ -9047,7 +9831,13 @@
     "Yellow Rat Snake"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://scaquarium.org/explore/"
+    }
+   ]
   },
   {
    "name": "Great Plains Zoo",
@@ -9103,7 +9893,13 @@
     "Yellow-headed Amazon"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.greatzoo.org/animals"
+    }
+   ]
   },
   {
    "name": "Chattanooga Zoo at Warner Park",
@@ -9240,7 +10036,17 @@
     "Yellow-backed duiker"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.memphiszoo.org/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Memphis_Zoo"
+    }
+   ]
   },
   {
    "name": "Nashville Zoo",
@@ -9268,7 +10074,17 @@
     "Zebra"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://nashvillezoo.org/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Nashville_Zoo"
+    }
+   ]
   },
   {
    "name": "Ripley's Aquarium of the Smokies",
@@ -9322,7 +10138,17 @@
     "Trout"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.tnaqua.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tennessee_Aquarium"
+    }
+   ]
   },
   {
    "name": "Zoo Knoxville",
@@ -9367,7 +10193,17 @@
     "Yellow-backed duiker"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.zooknoxville.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zoo_Knoxville"
+    }
+   ]
   },
   {
    "name": "Abilene Zoological Gardens",
@@ -9412,7 +10248,17 @@
     "Yellow Crowned Night Heron"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://caldwellzoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Caldwell_Zoo"
+    }
+   ]
   },
   {
    "name": "Cameron Park Zoo",
@@ -9431,7 +10277,13 @@
     "Sumatran tiger"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Cameron_Park_Zoo"
+    }
+   ]
   },
   {
    "name": "Dallas World Aquarium",
@@ -9496,7 +10348,17 @@
     "Zebra"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.dallaszoo.com/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Dallas_Zoo"
+    }
+   ]
   },
   {
    "name": "Fort Worth Zoo",
@@ -9599,7 +10461,17 @@
     "Zebra"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.fortworthzoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Fort_Worth_Zoo"
+    }
+   ]
   },
   {
    "name": "Fossil Rim Wildlife Center",
@@ -9664,7 +10536,13 @@
     "Wild Turkey"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://fossilrim.org/animals/"
+    }
+   ]
   },
   {
    "name": "Gladys Porter Zoo",
@@ -9898,7 +10776,13 @@
     "Zebra longwing"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gladys_Porter_Zoo"
+    }
+   ]
   },
   {
    "name": "Houston Zoo, Inc.",
@@ -9984,7 +10868,13 @@
     "Whooping Crane"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.houstonzoo.org/explore/animals/"
+    }
+   ]
   },
   {
    "name": "Landry's Houston Aquarium, Inc.",
@@ -10059,7 +10949,13 @@
     "Zebra"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://sazoo.org/animals/"
+    }
+   ]
   },
   {
    "name": "SEA LIFE Grapevine Aquarium",
@@ -10127,7 +11023,13 @@
     "Zebra shark"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Loveland_Living_Planet_Aquarium"
+    }
+   ]
   },
   {
    "name": "Tracy Aviary",
@@ -10169,7 +11071,13 @@
     "Victoria crowned pigeon"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tracy_Aviary"
+    }
+   ]
   },
   {
    "name": "Utah's Hogle Zoo",
@@ -10232,7 +11140,17 @@
     "Zebra"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.hoglezoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Utah%27s_Hogle_Zoo"
+    }
+   ]
   },
   {
    "name": "Virginia Aquarium and Marine Science Center",
@@ -10285,7 +11203,17 @@
     "Zebra Shark"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.virginiaaquarium.com/explore/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Virginia_Aquarium_and_Marine_Science_Center"
+    }
+   ]
   },
   {
    "name": "Virginia Living Museum",
@@ -10349,7 +11277,17 @@
     "Yellow Tail Blue Damsel"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.thevlm.org/visit/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Virginia_Living_Museum"
+    }
+   ]
   },
   {
    "name": "Virginia Zoological Park",
@@ -10392,7 +11330,13 @@
     "Yellow-backed duiker"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Virginia_Zoological_Park"
+    }
+   ]
   },
   {
    "name": "Northwest Trek Wildlife Park",
@@ -10433,7 +11377,13 @@
     "Western toad"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Northwest_Trek_Wildlife_Park"
+    }
+   ]
   },
   {
    "name": "Point Defiance Zoo and Aquarium",
@@ -10482,7 +11432,13 @@
     "Zebra shark"
    ],
    "species_source": "wikipedia",
-   "species_source_label": "Wikipedia"
+   "species_source_label": "Wikipedia",
+   "species_source_urls": [
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Point_Defiance_Zoo_and_Aquarium"
+    }
+   ]
   },
   {
    "name": "Seattle Aquarium",
@@ -10545,7 +11501,17 @@
     "Zebra shark"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.seattleaquarium.org/animals"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Seattle_Aquarium"
+    }
+   ]
   },
   {
    "name": "Woodland Park Zoo",
@@ -10570,7 +11536,13 @@
     "Tiger"
    ],
    "species_source": "self",
-   "species_source_label": "Zoo's own published list"
+   "species_source_label": "Zoo's own published list",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://www.zoo.org/animals"
+    }
+   ]
   },
   {
    "name": "Oglebay's Good Zoo",
@@ -10648,7 +11620,17 @@
     "Yellow-banded poison dart frog"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://henryvilaszoo.gov/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Henry_Vilas_Zoo"
+    }
+   ]
   },
   {
    "name": "International Crane Foundation",
@@ -10675,7 +11657,17 @@
     "Whooping Crane"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://savingcranes.org/species-field-guide/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/International_Crane_Foundation"
+    }
+   ]
   },
   {
    "name": "Milwaukee County Zoological Gardens",
@@ -10842,7 +11834,17 @@
     "Yellow-footed tortoise"
    ],
    "species_source": "mixed",
-   "species_source_label": "Multiple sources"
+   "species_source_label": "Multiple sources",
+   "species_source_urls": [
+    {
+     "label": "this zoo's site",
+     "url": "https://milwaukeezoo.org/animals/"
+    },
+    {
+     "label": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Milwaukee_County_Zoological_Gardens"
+    }
+   ]
   },
   {
    "name": "Northeastern Wisconsin (NEW) Zoo",
