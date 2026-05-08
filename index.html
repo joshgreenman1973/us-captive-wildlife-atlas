@@ -64,7 +64,7 @@
 <body>
 <header>
   <h1>U.S. Captive Wildlife Atlas</h1>
-  <p>2,500+ federally licensed exhibitors, dealers and AZA-accredited zoos &amp; aquariums. Phase 1: facilities only — species data coming. <a href="methodology.html">Methodology &amp; what's missing →</a></p>
+  <p>2,500+ USDA-licensed exhibitors and dealers plus every AZA-accredited zoo &amp; aquarium. The federal animal-welfare list mixes wildlife with regulated dog/cat dealers — you can hide the obvious pet operations. Phase 1: facilities only; species data coming next. <a href="methodology.html">Methodology &amp; what's missing →</a></p>
 </header>
 
 <div class="layout">
@@ -79,6 +79,7 @@
     <label class="filter"><input type="checkbox" id="f-aza" checked><span class="swatch aza"></span>AZA-accredited</label>
     <label class="filter"><input type="checkbox" id="f-exhibitor" checked><span class="swatch exhibitor"></span>USDA Class C exhibitor</label>
     <label class="filter"><input type="checkbox" id="f-dealer" checked><span class="swatch dealer"></span>USDA Class B dealer</label>
+    <label class="filter" style="margin-top:8px;border-top:1px solid var(--rule);padding-top:8px;"><input type="checkbox" id="f-hide-domestic" checked>Hide obvious dog/cat dealers</label>
 
     <h2>Search</h2>
     <input type="text" id="search" placeholder="Facility or city name…">
@@ -171,6 +172,7 @@ function applyFilters() {
   const showAza = document.getElementById('f-aza').checked;
   const showExh = document.getElementById('f-exhibitor').checked;
   const showDeal = document.getElementById('f-dealer').checked;
+  const hideDomestic = document.getElementById('f-hide-domestic').checked;
   const stateFilter = document.getElementById('state-filter').value;
   const q = document.getElementById('search').value.trim().toLowerCase();
 
@@ -183,6 +185,7 @@ function applyFilters() {
     if (cat === 'aza' && !showAza) return;
     if (cat === 'exhibitor' && !showExh) return;
     if (cat === 'dealer' && !showDeal) return;
+    if (hideDomestic && f.domestic_likely) return;
     if (stateFilter && f.state !== stateFilter) return;
     if (q && !(f.name.toLowerCase().includes(q) || f.city.toLowerCase().includes(q))) return;
 
@@ -219,7 +222,7 @@ fetch('data/facilities.json').then(r => r.json()).then(data => {
     o.value = s; o.textContent = s; sel.appendChild(o);
   });
 
-  ['f-aza','f-exhibitor','f-dealer','state-filter','search'].forEach(id => {
+  ['f-aza','f-exhibitor','f-dealer','f-hide-domestic','state-filter','search'].forEach(id => {
     document.getElementById(id).addEventListener('input', applyFilters);
   });
   applyFilters();

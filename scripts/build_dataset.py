@@ -30,6 +30,17 @@ DATA = ROOT / "data"
 # Class B = Dealer (animal dealers, often hold animals).
 KEEP_CLASSES = {"Class C - Exhibitor", "Class B - Dealer"}
 
+# Names that strongly suggest a domestic-pet operation rather than wildlife.
+# Conservative — only flag Class B since most Class C "farm" names are
+# legitimate wildlife (game farms, alligator farms, reindeer farms, etc.)
+DOMESTIC_KW = re.compile(
+    r"\b(pupp(?:y|ies)|kennel|cattery|pet shop|pet store|petland|petsmart"
+    r"|rabbitry|hatchery|labradoodle|poodle|retriever|terrier|bulldog|spaniel"
+    r"|shepherd|pomeranian|chihuahua|frenchie|maltese|yorkie"
+    r"|cats? in the|cats? r us|dog house|dog haven|canine|kitten|puppymill)\b",
+    re.I,
+)
+
 STATE_NAME_TO_ABBR = {
     "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR",
     "California": "CA", "Colorado": "CO", "Connecticut": "CT", "Delaware": "DE",
@@ -273,6 +284,34 @@ def main():
         print(f"  {len(set(missing))} unique unmatched cities; top 10:")
         for k, v in sorted(miss_counts.items(), key=lambda x: -x[1])[:10]:
             print(f"    {v}x  {k}")
+
+    # Tag domestic-likely (Class B only) and apply deterministic jitter to
+    # facilities that share an exact coordinate so they don't pile up.
+    coord_groups = defaultdict(list)
+    for f in facilities:
+        if f["lat"] is not None:
+            coord_groups[(f["lat"], f["lon"])].append(f)
+    import math
+    for (lat, lon), group in coord_groups.items():
+        if len(group) == 1:
+            continue
+        # Spread on a small ring (~150 m radius). Deterministic by name.
+        n = len(group)
+        for i, f in enumerate(group):
+            angle = 2 * math.pi * i / n
+            # ~0.0015 deg ≈ 165 m; scales roughly fine at typical lat
+            f["lat"] = round(lat + 0.0015 * math.cos(angle), 6)
+            f["lon"] = round(lon + 0.0015 * math.sin(angle), 6)
+
+    for f in facilities:
+        # AZA-accredited facilities are never flagged as domestic
+        if f.get("aza"):
+            f["domestic_likely"] = False
+            continue
+        f["domestic_likely"] = bool(
+            f.get("usda_class") in ("Class B - Dealer", "Class C - Exhibitor")
+            and DOMESTIC_KW.search(f["name"])
+        )
 
     # Filter to mappable
     mappable = [f for f in facilities if f["lat"] is not None]
