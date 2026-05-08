@@ -1,0 +1,215 @@
+Birmingham Zoo|Birmingham|AL
+Alaska SeaLife Center|Seward|AK
+Arizona-Sonora Desert Museum|Tucson|AZ
+OdySea Aquarium|Scottsdale|AZ
+The Phoenix Zoo|Phoenix|AZ
+Reid Park Zoo|Tucson|AZ
+SEA LIFE Arizona Aquarium|Tempe|AZ
+Little Rock Zoological Gardens|Little Rock|AR
+Aquarium of the Pacific|Long Beach|CA
+Birch Aquarium at Scripps|La Jolla|CA
+Cabrillo Marine Aquarium|San Pedro|CA
+California Science Center|Los Angeles|CA
+Central Coast Zoo|Atascadero|CA
+CuriOdyssey|San Mateo|CA
+Fresno Chaffee Zoo|Fresno|CA
+Happy Hollow Park & Zoo|San Jose|CA
+The Living Desert Zoo and Gardens|Palm Desert|CA
+Los Angeles Zoo|Los Angeles|CA
+Monterey Bay Aquarium|Monterey|CA
+Oakland Zoo|Oakland|CA
+Palo Alto Junior Museum & Zoo|Palo Alto|CA
+Sacramento Zoo|Sacramento|CA
+San Diego Zoo|San Diego|CA
+San Diego Zoo Safari Park|Escondido|CA
+San Francisco Zoological Gardens|San Francisco|CA
+Santa Ana Zoo|Santa Ana|CA
+Santa Barbara Zoo|Santa Barbara|CA
+SEA LIFE Aquarium at LEGOLAND California Resort|Carlsbad|CA
+SeaWorld San Diego|San Diego|CA
+Sequoia Park Zoo|Eureka|CA
+Steinhart Aquarium|San Francisco|CA
+Butterfly Pavilion|Westminster|CO
+Cheyenne Mountain Zoological Park|Colorado Springs|CO
+Denver Zoo Conservation Alliance|Denver|CO
+Landry's Downtown Denver Aquarium|Denver|CO
+Pueblo Zoo|Pueblo|CO
+Connecticut's Beardsley Zoo|Bridgeport|CT
+The Maritime Aquarium at Norwalk, Inc.|Norwalk|CT
+Mystic Aquarium|Mystic|CT
+Brandywine Zoo|Wilmington|DE
+Smithsonian's National Zoo and Conservation Biology Institute|Washington|DC
+Bailey-Matthews National Shell Museum & Aquarium|Sanibel|FL
+Brevard Zoo|Melbourne|FL
+Busch Gardens Tampa Bay|Tampa|FL
+Central Florida Zoo & Botanical Gardens|Sanford|FL
+Discovery Cove|Orlando|FL
+Disney's Animal Kingdom|Orlando|FL
+The Florida Aquarium|Tampa|FL
+Jacksonville Zoo and Botanical Gardens|Jacksonville|FL
+Lion Country Safari|Loxahatchee|FL
+Marineland|St. Augustine|FL
+Mote Marine Laboratory and Aquarium|Sarasota|FL
+Naples Zoo|Naples|FL
+Palm Beach Zoo & Conservation Society|West Palm Beach|FL
+Santa Fe College Teaching Zoo|Gainesville|FL
+SEA LIFE Orlando Aquarium|Orlando|FL
+The Seas|Orlando|FL
+SeaWorld Orlando|Orlando|FL
+St. Augustine Alligator Farm|St. Augustine|FL
+Zoo Miami|Miami|FL
+ZooTampa at Lowry Park|Tampa|FL
+Zoo Atlanta|Atlanta|GA
+Georgia Aquarium|Atlanta|GA
+Honolulu Zoo|Honolulu|HI
+Idaho Falls Zoo at Tautphaus Park|Idaho Falls|ID
+Zoo Boise|Boise|ID
+Brookfield Zoo Chicago|Brookfield|IL
+Cosley Zoo|Wheaton|IL
+John G. Shedd Aquarium|Chicago|IL
+Lincoln Park Zoo|Chicago|IL
+Miller Park Zoo|Bloomington|IL
+Peoria Zoo|Peoria|IL
+Scovill Zoo|Decatur|IL
+Fort Wayne Zoo|Fort Wayne|IN
+Indianapolis Zoological Society, Inc.|Indianapolis|IN
+Mesker Park Zoo & Botanic Garden, Inc.|Evansville|IN
+Potawatomi Zoo|South Bend|IN
+Blank Park Zoo|Des Moines|IA
+National Mississippi River Museum & Aquarium|Dubuque|IA
+David Traylor Zoo of Emporia|Emporia|KS
+Hutchinson Zoo|Hutchinson|KS
+Lee Richardson Zoo|Garden City|KS
+Rolling Hills Zoo|Salina|KS
+Sedgwick County Zoo|Wichita|KS
+Sunset Zoological Park|Manhattan|KS
+Topeka Zoo and Conservation Center|Topeka|KS
+Louisville Zoological Garden|Louisville|KY
+Newport Aquarium|Newport|KY
+Audubon Aquarium & Insectarium|New Orleans|LA
+Audubon Zoo|New Orleans|LA
+BREC's Baton Rouge Zoo|Baton Rouge|LA
+Maryland Zoo in Baltimore|Baltimore|MD
+National Aquarium|Baltimore|MD
+Buttonwood Park Zoo|New Bedford|MA
+Capron Park Zoo|Attleboro|MA
+Franklin Park Zoo|Boston|MA
+Museum of Science|Boston|MA
+New England Aquarium|Boston|MA
+Walter D. Stone Memorial Zoo|Stoneham|MA
+Binder Park Zoo|Battle Creek|MI
+Detroit Zoological Society|Royal Oak|MI
+John Ball Zoo|Grand Rapids|MI
+Potter Park Zoological Gardens|Lansing|MI
+Saginaw Children's Zoo|Saginaw|MI
+SEA LIFE Michigan Aquarium|Auburn Hills|MI
+Como Park Zoo and Conservatory|St Paul|MN
+Lake Superior Zoo|Duluth|MN
+Minnesota Zoological Garden|Apple Valley|MN
+Hattiesburg Zoo|Hattiesburg|MS
+Butterfly House|Chesterfield|MO
+Dickerson Park Zoo|Springfield|MO
+Johnny Morris' Wonders of Wildlife National Museum & Aquarium|Springfield|MO
+Kansas City Zoo|Kansas City|MO
+Saint Louis Zoo|St. Louis|MO
+SEA LIFE Kansas City Aquarium|Kansas City|MO
+Grizzly & Wolf Discovery Center|West Yellowstone|MT
+ZooMontana|Billings|MT
+Lee G. Simmons Conservation Park & Wildlife Safari|Ashland|NE
+Lincoln Children's Zoo|Lincoln|NE
+Omaha's Henry Doorly Zoo & Aquarium|Omaha|NE
+Shark Reef Aquarium at Mandalay Bay|Las Vegas|NV
+Adventure Aquarium|Camden|NJ
+Cape May County Park Zoo|Cape May Court House|NJ
+Jenkinson's Aquarium|Point Pleasant Beach|NJ
+Turtle Back Zoo|West Orange|NJ
+Albuquerque Biological Park|Albuquerque|NM
+Aquarium of Niagara|Niagara Falls|NY
+Bronx Zoo/WCS|Bronx|NY
+Buffalo Zoo|Buffalo|NY
+Central Park Zoo|New York|NY
+New York Aquarium|Brooklyn|NY
+Prospect Park Zoo|Brooklyn|NY
+Queens Zoo|Queens|NY
+Rosamond Gifford Zoo at Burnet Park|Syracuse|NY
+Seneca Park Zoo|Rochester|NY
+Staten Island Zoo|Staten Island|NY
+Trevor-Lovejoy Zoo|Millbrook|NY
+Utica Zoo|Utica|NY
+Greensboro Science Center|Greensboro|NC
+Museum of Life and Science|Durham|NC
+North Carolina Aquarium at Fort Fisher|Kure Beach|NC
+North Carolina Aquarium at Pine Knoll Shores|Pine Knoll Shores|NC
+North Carolina Aquarium on Roanoke Island|Manteo|NC
+North Carolina Zoo|Asheboro|NC
+SEA LIFE Charlotte-Concord Aquarium|Concord|NC
+Western North Carolina Nature Center|Asheville|NC
+Dakota Zoo|Bismarck|ND
+Red River Zoo|Fargo|ND
+Roosevelt Park Zoo|Minot|ND
+Akron Zoological Park|Akron|OH
+Boonshoft Museum of Discovery|Dayton|OH
+Cincinnati Zoo and Botanical Garden|Cincinnati|OH
+Cleveland Metroparks Zoo|Cleveland|OH
+Columbus Zoo & Aquarium|Powell|OH
+Toledo Zoological Gardens|Toledo|OH
+The Wilds|Cumberland|OH
+Oklahoma City Zoo and Botanical Garden|Oklahoma City|OK
+Tulsa Zoo|Tulsa|OK
+High Desert Museum|Bend|OR
+Oregon Coast Aquarium|Newport|OR
+Oregon Zoo|Portland|OR
+Wildlife Safari|Winston|OR
+Clyde Peeling's Reptiland|Allenwood|PA
+Elmwood Park Zoo|Norristown|PA
+Lehigh Valley Zoo|Schnecksville|PA
+National Aviary|Pittsburgh|PA
+Philadelphia Zoo|Philadelphia|PA
+Pittsburgh Zoo & Aquarium|Pittsburgh|PA
+ZOOAMERICA NA Wildlife Park|Hershey|PA
+Roger Williams Park Zoo|Providence|RI
+Brookgreen Gardens|Murrells Inlet|SC
+Greenville Zoo|Greenville|SC
+Ripley's Aquarium of Myrtle Beach|Myrtle Beach|SC
+Riverbanks Zoo and Garden|Columbia|SC
+South Carolina Aquarium|Charleston|SC
+Great Plains Zoo|Sioux Falls|SD
+Chattanooga Zoo at Warner Park|Chattanooga|TN
+Memphis Zoo|Memphis|TN
+Nashville Zoo|Nashville|TN
+Ripley's Aquarium of the Smokies|Gatlinburg|TN
+Tennessee Aquarium|Chattanooga|TN
+Zoo Knoxville|Knoxville|TN
+Abilene Zoological Gardens|Abilene|TX
+Baylor University Bear Habitat|Waco|TX
+Caldwell Zoo|Tyler|TX
+Cameron Park Zoo|Waco|TX
+Dallas World Aquarium|Dallas|TX
+Dallas Zoo|Dallas|TX
+Fort Worth Zoo|Fort Worth|TX
+Fossil Rim Wildlife Center|Glen Rose|TX
+Gladys Porter Zoo|Brownsville|TX
+Houston Zoo, Inc.|Houston|TX
+Landry's Houston Aquarium, Inc.|Houston|TX
+Longneck Manor|Fredericksburg|TX
+Moody Gardens Rainforest and Aquarium|Galveston|TX
+San Antonio Zoological Society|San Antonio|TX
+SEA LIFE Grapevine Aquarium|Grapevine|TX
+SeaWorld San Antonio|San Antonio|TX
+Texas State Aquarium|Corpus Christi|TX
+Loveland Living Planet Aquarium|Draper|UT
+Tracy Aviary|Salt Lake City|UT
+Utah's Hogle Zoo|Salt Lake City|UT
+Virginia Aquarium and Marine Science Center|Virginia Beach|VA
+Virginia Living Museum|Newport News|VA
+Virginia Zoological Park|Norfolk|VA
+Northwest Trek Wildlife Park|Eatonville|WA
+Point Defiance Zoo and Aquarium|Tacoma|WA
+Seattle Aquarium|Seattle|WA
+Woodland Park Zoo|Seattle|WA
+Oglebay's Good Zoo|Wheeling|WV
+Henry Vilas Zoo|Madison|WI
+International Crane Foundation|Baraboo|WI
+Milwaukee County Zoological Gardens|Milwaukee|WI
+Northeastern Wisconsin (NEW) Zoo|Green Bay|WI
+Racine Zoo|Racine|WI

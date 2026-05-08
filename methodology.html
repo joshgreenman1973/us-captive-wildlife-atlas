@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology — U.S. Captive Wildlife Atlas</title>
+<style>
+  :root { --ink: #1a1a1a; --ink-soft: #4a4a4a; --rule: #d8d4cc; --bg: #f7f4ee; --accent: #a23b3b; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: var(--ink); background: var(--bg); margin: 0; line-height: 1.55; }
+  .wrap { max-width: 740px; margin: 0 auto; padding: 36px 24px 64px; }
+  h1 { font-size: 28px; letter-spacing: -0.01em; margin: 0 0 6px; }
+  .lede { font-size: 16px; color: var(--ink-soft); margin: 0 0 28px; }
+  h2 { font-size: 19px; margin: 32px 0 10px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 15px; margin: 18px 0 6px; }
+  p, li { font-size: 15px; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  .back { display: inline-block; margin-bottom: 20px; font-size: 13px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0; }
+  th, td { border: 1px solid var(--rule); padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: rgba(0,0,0,0.03); font-weight: 600; }
+  .warn { background: #fff5e6; border-left: 3px solid #b8682c; padding: 12px 14px; font-size: 14px; margin: 16px 0; }
+  code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; background: rgba(0,0,0,0.05); padding: 1px 5px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← Back to map</a>
+  <h1>Methodology</h1>
+  <p class="lede">Where the data on this map comes from, what's missing, and why nothing about U.S. captive wildlife is a black box.</p>
+
+  <h2>The short version</h2>
+  <p>
+    There is no single official registry of wild animals held in captivity in the United States. This atlas combines two of the most authoritative public datasets — USDA APHIS's list of Animal Welfare Act licensees and the Association of Zoos &amp; Aquariums' accredited-institution directory — and adds species data layered on top in later phases. The map is part of the story: what is and isn't visible reflects who is required to report what.
+  </p>
+
+  <h2>Phase 1 — what's on the map now</h2>
+  <ul>
+    <li><strong>USDA Class C exhibitors</strong> — zoos, aquariums, roadside zoos, drive-through safaris, educational exhibitors, circuses. ~2,100 facilities.</li>
+    <li><strong>USDA Class B dealers</strong> — animal dealers who buy and sell regulated species. ~600 facilities.</li>
+    <li><strong>AZA-accredited institutions</strong> — the 215 U.S. zoos and aquariums that meet AZA's accreditation standards. Most are also USDA-licensed; an AZA flag is added to those records.</li>
+  </ul>
+  <p>Markers are color-coded by category. Click any marker for facility name, location, USDA license number, and accreditation status.</p>
+
+  <h2>Sources</h2>
+  <table>
+    <tr><th>Source</th><th>What it provides</th><th>Last fetched</th></tr>
+    <tr><td><a href="https://www.aphis.usda.gov/awa/public-search">USDA APHIS Public Search Tool</a> (Excel: <em>List of Active Licensees and Registrants</em>)</td><td>License type, license number, account name, DBA, city, state, expiration</td><td>2026-04-20 (USDA's stamp); pulled 2026-05-07</td></tr>
+    <tr><td><a href="https://www.aza.org/inst-status">AZA Institution Status directory</a></td><td>Name, city, state of every AZA-accredited U.S. zoo and aquarium</td><td>2026-05-07</td></tr>
+    <tr><td><a href="https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html">2023 U.S. Census Gazetteer Files (Places)</a></td><td>Latitude/longitude centroids for cities used to plot facilities</td><td>2023 vintage; pulled 2026-05-07</td></tr>
+  </table>
+
+  <h2>Geocoding precision</h2>
+  <div class="warn">
+    Markers show the <strong>centroid of the facility's city</strong>, not its street address. The USDA's public list intentionally redacts street addresses for licensees. Multiple facilities in the same city will stack on top of each other and are separated by the cluster spider on zoom-in. About 9% of records currently fail to match a Census place (mostly unincorporated areas and townships) and are excluded from the map until manual coordinates are added.
+  </div>
+
+  <h2>What's NOT on this map (and why)</h2>
+  <h3>ZIMS (Species360)</h3>
+  <p>
+    The world's most comprehensive captive-animal database is ZIMS, run by Species360. We do <strong>not</strong> use ZIMS data, because <a href="https://conservation.species360.org/data-sharing/">Species360's terms explicitly prohibit publishing institution-level species holdings</a>. Insights data is members-only and aggregated. If a species you'd expect to see is missing from a zoo's listing once Phase 2 lands, that is almost certainly the reason.
+  </p>
+
+  <h3>Privately held exotic animals</h3>
+  <p>
+    Most privately owned exotic mammals, reptiles, and birds are not on any federal registry. The one exception is big cats: the 2022 <strong>Big Cat Public Safety Act</strong> created a USFWS registry of privately held lions, tigers, leopards, cougars, and their hybrids. That layer is planned for Phase 5.
+  </p>
+
+  <h3>Research lab animals</h3>
+  <p>
+    Class R, F, G, and V registrants — research facilities — are excluded. They report animal use through APHIS annual reports rather than holding species "on display," and the public search tool's species coverage for them is limited to AWA-regulated mammals.
+  </p>
+
+  <h3>Animals excluded from the Animal Welfare Act</h3>
+  <p>
+    The AWA does not cover birds bred for use in research, rats and mice bred for research, fish, reptiles, amphibians, or invertebrates. Roadside reptile parks and aquariums may appear as facilities, but USDA inspection reports won't itemize their non-mammal collections.
+  </p>
+
+  <h3>Sanctuaries that aren't USDA-licensed and aren't GFAS members</h3>
+  <p>
+    A facility that calls itself a "sanctuary" but does not exhibit publicly may not require a USDA license. The Global Federation of Animal Sanctuaries (GFAS) accredits a couple of dozen U.S. sanctuaries; that layer is planned for Phase 5.
+  </p>
+
+  <h3>Lapsed and seasonal facilities</h3>
+  <p>
+    The USDA file is "active" licenses on the date it was generated. Facilities that lapse, are revoked, or operate seasonally without an active license at fetch time will not appear.
+  </p>
+
+  <h2>Coming in later phases</h2>
+  <ol>
+    <li><strong>Phase 2 — AZA SSP and studbook participation.</strong> For ~500 species AZA actively manages, the institutions cooperating in each Species Survival Plan are public. This is the highest-confidence species layer.</li>
+    <li><strong>Phase 3 — Zoo-by-zoo public inventories.</strong> Many AZA zoos publish "Our Animals" pages. We'll scrape these for the largest 50–100 institutions and normalize species names against the GBIF or ITIS taxonomy.</li>
+    <li><strong>Phase 4 — Inspection report parsing.</strong> USDA inspection PDFs sometimes list species observed on-site; an LLM will parse a sample. This is the lowest-confidence layer and will be tagged accordingly.</li>
+    <li><strong>Phase 5 — Big Cat Public Safety Act registrants and GFAS sanctuaries.</strong></li>
+  </ol>
+  <p>Every species record in later phases will carry a <strong>source-confidence tag</strong> (SSP &gt; zoo's own site &gt; inspection report &gt; Wikipedia) and a last-verified date.</p>
+
+  <h2>Reproducing the dataset</h2>
+  <p>
+    Build script: <code>scripts/build_dataset.py</code>. It reads the USDA Excel, the AZA list, and the Census gazetteer; merges them; geocodes city centroids; and writes <code>data/facilities.json</code>. Refresh quarterly by re-pulling the USDA Excel and AZA directory and rerunning the script.
+  </p>
+
+  <h2>Caveats, in plain English</h2>
+  <ul>
+    <li>If a facility appears nowhere on this map, it does not mean it has no animals. It means it isn't required to disclose them publicly to any of the sources we use.</li>
+    <li>If a facility is on this map, it does not mean it is well-run, accredited, or humane. USDA licensure is a regulatory floor, not a quality stamp.</li>
+    <li>License numbers are public. Inspection histories are linked from the USDA search tool — clicking a facility and going to USDA's site will show its compliance history.</li>
+  </ul>
+</div>
+</body>
+</html>
