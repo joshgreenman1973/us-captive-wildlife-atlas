@@ -29,7 +29,28 @@
     #sidebar { overflow-y: auto; }
     #map { height: auto; min-height: 0; }
   }
-  #sidebar { padding: 14px 16px; border-right: 1px solid var(--rule); background: var(--panel); overflow-y: auto; }
+  #sidebar { padding: 0; border-right: 1px solid var(--rule); background: var(--panel); overflow-y: auto; display: flex; flex-direction: column; }
+  .tabs { display: flex; border-bottom: 1px solid var(--rule); position: sticky; top: 0; background: var(--panel); z-index: 5; }
+  .tab { flex: 1; padding: 11px 8px; font-size: 12px; text-align: center; cursor: pointer; border-bottom: 2px solid transparent; color: var(--ink-soft); user-select: none; font-weight: 500; }
+  .tab:hover { color: var(--ink); }
+  .tab.active { color: var(--ink); border-bottom-color: var(--ink); }
+  .tab-content { padding: 14px 16px; flex: 1; overflow-y: auto; }
+  .tab-pane { display: none; }
+  .tab-pane.active { display: block; }
+  .empty { font-size: 13px; color: var(--ink-soft); padding: 12px 0; text-align: center; }
+  .card { padding: 10px 12px; border: 1px solid var(--rule); border-radius: 4px; margin-bottom: 8px; background: white; cursor: pointer; transition: border-color 0.1s; }
+  .card:hover { border-color: var(--ink-soft); }
+  .card-name { font-weight: 600; font-size: 13px; margin-bottom: 2px; }
+  .card-meta { font-size: 11px; color: var(--ink-soft); line-height: 1.4; }
+  .card-extra { font-size: 12px; margin-top: 5px; color: var(--ink); }
+  .badge { display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 8px; background: var(--bg); border: 1px solid var(--rule); margin-right: 4px; }
+  .badge.birth { background: #e6f5e6; border-color: #b8d8b8; color: #2c6e2c; }
+  .badge.death { background: #f5e6e6; border-color: #d8b8b8; color: #6e2c2c; }
+  .badge.hatch { background: #fff5e0; border-color: #d8c89d; color: #6e572c; }
+  .badge.arrival { background: #e6eef5; border-color: #b8c5d8; color: #2c476e; }
+  .badge.departure { background: #efe6f5; border-color: #c5b8d8; color: #4f2c6e; }
+  .badge.safe { background: #fff0e0; border-color: #d8b89a; color: #8a4a1c; }
+  .badge.ssp { background: #e0eaff; border-color: #a8b8d8; color: #2c4078; }
   #sidebar h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-soft); margin: 16px 0 6px; font-weight: 600; }
   #sidebar h2:first-of-type { margin-top: 4px; }
   .stat-row { display: flex; justify-content: space-between; font-size: 13px; padding: 3px 0; }
@@ -70,32 +91,63 @@
 
 <div class="layout">
   <aside id="sidebar">
-    <h2>At a glance</h2>
-    <div class="stat-row"><span>AZA-accredited facilities</span><span class="num" id="stat-total">—</span></div>
-    <div class="stat-row"><span>With species data</span><span class="num" id="stat-species-cov">—</span></div>
-    <div class="stat-row"><span>Unique species in index</span><span class="num" id="stat-species">—</span></div>
+    <div class="tabs">
+      <div class="tab active" data-tab="browse">Browse</div>
+      <div class="tab" data-tab="names">Names</div>
+      <div class="tab" data-tab="news">News</div>
+      <div class="tab" data-tab="programs">Programs</div>
+    </div>
+    <div class="tab-content">
+      <div class="tab-pane active" id="tab-browse">
+        <h2>At a glance</h2>
+        <div class="stat-row"><span>AZA-accredited facilities</span><span class="num" id="stat-total">—</span></div>
+        <div class="stat-row"><span>With species data</span><span class="num" id="stat-species-cov">—</span></div>
+        <div class="stat-row"><span>Unique species in index</span><span class="num" id="stat-species">—</span></div>
 
-    <h2>Search by animal</h2>
-    <input type="text" id="species-search" placeholder="Type a species: chimp, gorilla, tiger…" autocomplete="off">
-    <div id="species-suggestions"></div>
-    <div id="species-results"></div>
+        <h2>Search by animal</h2>
+        <input type="text" id="species-search" placeholder="Type a species: chimp, gorilla, tiger…" autocomplete="off">
+        <div id="species-suggestions"></div>
+        <div id="species-results"></div>
 
-    <h2>Browse by group</h2>
-    <div class="chips" id="taxon-chips-class"></div>
-    <div class="chips" id="taxon-chips-group"></div>
+        <h2>Browse by group</h2>
+        <div class="chips" id="taxon-chips-class"></div>
+        <div class="chips" id="taxon-chips-group"></div>
 
-    <h2>Search by facility</h2>
-    <input type="text" id="search" placeholder="Facility or city name…">
+        <h2>Search by facility</h2>
+        <input type="text" id="search" placeholder="Facility or city name…">
 
-    <h2>Filter by state</h2>
-    <select id="state-filter"><option value="">All states</option></select>
+        <h2>Filter by state</h2>
+        <select id="state-filter"><option value="">All states</option></select>
 
-    <p class="footer-note">
-      Locations are city-centroid only — AZA does not publish street addresses for every member. Sources:
-      <a href="https://www.aza.org/inst-status">AZA</a>,
-      individual zoo websites,
-      <a href="https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html">Census</a>.
-    </p>
+        <p class="footer-note">
+          Locations are city-centroid only. Sources:
+          <a href="https://www.aza.org/inst-status">AZA</a>,
+          individual zoo websites,
+          <a href="https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html">Census</a>.
+        </p>
+      </div>
+
+      <div class="tab-pane" id="tab-names">
+        <h2>Named individuals</h2>
+        <input type="text" id="ind-search" placeholder="Search by animal name, species…" autocomplete="off">
+        <div id="ind-summary" class="card-meta" style="margin: 6px 0 10px;"></div>
+        <div id="ind-list"></div>
+      </div>
+
+      <div class="tab-pane" id="tab-news">
+        <h2>Recent births &amp; deaths</h2>
+        <div id="news-summary" class="card-meta" style="margin-bottom: 8px;"></div>
+        <div class="chips" id="news-type-chips"></div>
+        <div id="news-list"></div>
+      </div>
+
+      <div class="tab-pane" id="tab-programs">
+        <h2>SSP &amp; SAFE programs</h2>
+        <input type="text" id="prog-search" placeholder="Filter by species…" autocomplete="off">
+        <div id="prog-summary" class="card-meta" style="margin: 6px 0 10px;"></div>
+        <div id="prog-list"></div>
+      </div>
+    </div>
   </aside>
   <div id="map"></div>
 </div>
@@ -269,10 +321,176 @@ function setupChips() {
   renderChips('taxon-chips-group', byGroup);
 }
 
+// Tab wiring
+document.querySelectorAll('.tab').forEach(t => {
+  t.onclick = () => {
+    document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+    document.querySelectorAll('.tab-pane').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById('tab-' + t.dataset.tab).classList.add('active');
+  };
+});
+
+function zoomToZoo(zooName) {
+  const f = allFacilities.find(x => x.name === zooName);
+  if (!f) return;
+  map.setView([f.lat, f.lon], 12, { animate: true });
+  // Highlight just this one
+  highlightFacilities = new Set([zooName]);
+  applyFilters();
+}
+
+function setupIndividuals(data) {
+  const list = (data && data.individuals) || [];
+  const summary = document.getElementById('ind-summary');
+  const listEl = document.getElementById('ind-list');
+  if (!list.length) {
+    summary.innerHTML = '';
+    listEl.innerHTML = '<div class="empty">No bios scraped yet. Names tab populates as zoo bio pages are crawled.</div>';
+    return;
+  }
+  summary.innerHTML = `<strong>${list.length}</strong> named individuals across <strong>${new Set(list.map(i => i.zoo)).size}</strong> zoos`;
+
+  const render = (q) => {
+    const ql = (q || '').trim().toLowerCase();
+    const matches = ql
+      ? list.filter(i =>
+          (i.name || '').toLowerCase().includes(ql) ||
+          (i.species || '').toLowerCase().includes(ql) ||
+          (i.zoo || '').toLowerCase().includes(ql))
+      : list;
+    listEl.innerHTML = matches.slice(0, 200).map(i => `
+      <div class="card" data-zoo="${escapeHTML(i.zoo)}" ${i.bio_url ? `data-url="${escapeHTML(i.bio_url)}"` : ''}>
+        <div class="card-name">${escapeHTML(i.name)}${i.sex ? ` <span class="card-meta">(${escapeHTML(i.sex)})</span>` : ''}</div>
+        <div class="card-meta">${escapeHTML(i.species || '')}${i.dob ? ' · b. ' + escapeHTML(String(i.dob)) : ''}</div>
+        <div class="card-meta">${escapeHTML(i.zoo)}</div>
+      </div>`).join('') + (matches.length > 200 ? `<div class="empty">…and ${matches.length - 200} more. Refine your search.</div>` : '');
+    listEl.querySelectorAll('.card').forEach(c => {
+      c.onclick = (e) => {
+        if (c.dataset.url && (e.metaKey || e.ctrlKey)) {
+          window.open(c.dataset.url, '_blank');
+        } else {
+          zoomToZoo(c.dataset.zoo);
+        }
+      };
+    });
+  };
+  render('');
+  document.getElementById('ind-search').addEventListener('input', e => render(e.target.value));
+}
+
+function setupNews(data) {
+  const events = (data && data.events) || [];
+  const summary = document.getElementById('news-summary');
+  const listEl = document.getElementById('news-list');
+  const chipBox = document.getElementById('news-type-chips');
+  if (!events.length) {
+    summary.textContent = '';
+    chipBox.innerHTML = '';
+    listEl.innerHTML = '<div class="empty">No news scraped yet. Recent births and deaths populate here once zoo press feeds are processed.</div>';
+    return;
+  }
+  events.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  summary.innerHTML = `<strong>${events.length}</strong> events from ${new Set(events.map(e => e.zoo)).size} zoos. Click an event to zoom to the zoo.`;
+
+  let activeType = null;
+  const types = [...new Set(events.map(e => e.type).filter(Boolean))].sort();
+  chipBox.innerHTML = '';
+  types.forEach(t => {
+    const ct = events.filter(e => e.type === t).length;
+    const chip = document.createElement('span');
+    chip.className = 'chip';
+    chip.innerHTML = `${escapeHTML(t)} <span class="ct">${ct}</span>`;
+    chip.onclick = () => {
+      if (activeType === t) { activeType = null; chip.classList.remove('active'); }
+      else {
+        chipBox.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active'); activeType = t;
+      }
+      render();
+    };
+    chipBox.appendChild(chip);
+  });
+
+  const render = () => {
+    const matches = activeType ? events.filter(e => e.type === activeType) : events;
+    listEl.innerHTML = matches.slice(0, 150).map(e => `
+      <div class="card" data-zoo="${escapeHTML(e.zoo)}" ${e.url ? `data-url="${escapeHTML(e.url)}"` : ''}>
+        <div class="card-meta">${e.date ? escapeHTML(e.date) + ' · ' : ''}<span class="badge ${escapeHTML(e.type || '')}">${escapeHTML(e.type || 'event')}</span> ${escapeHTML(e.species || '')}</div>
+        <div class="card-name">${escapeHTML(e.headline || (e.name || '') + ' (' + (e.species || '') + ')')}</div>
+        <div class="card-meta">${escapeHTML(e.zoo)}</div>
+      </div>`).join('');
+    listEl.querySelectorAll('.card').forEach(c => {
+      c.onclick = (ev) => {
+        if (c.dataset.url && (ev.metaKey || ev.ctrlKey)) {
+          window.open(c.dataset.url, '_blank');
+        } else {
+          zoomToZoo(c.dataset.zoo);
+        }
+      };
+    });
+  };
+  render();
+}
+
+function setupPrograms(data) {
+  const list = (data && data.species) || [];
+  const summary = document.getElementById('prog-summary');
+  const listEl = document.getElementById('prog-list');
+  if (!list.length) {
+    summary.textContent = '';
+    listEl.innerHTML = '<div class="empty">No SSP/SAFE program data yet. Compiled species summaries populate here when ready.</div>';
+    return;
+  }
+  summary.innerHTML = `<strong>${list.length}</strong> AZA-managed species. Click a card to highlight participating zoos on the map.`;
+
+  const render = (q) => {
+    const ql = (q || '').trim().toLowerCase();
+    const matches = ql
+      ? list.filter(s =>
+          (s.common_name || '').toLowerCase().includes(ql) ||
+          (s.scientific_name || '').toLowerCase().includes(ql))
+      : list;
+    listEl.innerHTML = matches.map(s => `
+      <div class="card" data-species="${escapeHTML(s.common_name)}">
+        <div class="card-name">${escapeHTML(s.common_name)} ${s.scientific_name ? `<span class="card-meta"><em>${escapeHTML(s.scientific_name)}</em></span>` : ''}</div>
+        <div class="card-meta">
+          ${(s.programs || []).map(p => `<span class="badge ${escapeHTML(p.toLowerCase())}">${escapeHTML(p)}</span>`).join('')}
+          ${s.iucn_status ? `<span class="badge">${escapeHTML(s.iucn_status)}</span>` : ''}
+          ${s.captive_population_aza ? ` · ~${escapeHTML(String(s.captive_population_aza))} in AZA${s.captive_population_year ? ` (${s.captive_population_year})` : ''}` : ''}
+        </div>
+        ${s.narrative ? `<div class="card-extra">${escapeHTML(s.narrative)}</div>` : ''}
+        ${(s.participating_institutions || []).length ? `<div class="card-meta" style="margin-top:5px">${s.participating_institutions.length} participating institutions</div>` : ''}
+      </div>`).join('');
+    listEl.querySelectorAll('.card').forEach(c => {
+      c.onclick = () => {
+        const sp = list.find(x => x.common_name === c.dataset.species);
+        if (!sp || !(sp.participating_institutions || []).length) return;
+        document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+        document.querySelectorAll('.tab-pane').forEach(x => x.classList.remove('active'));
+        document.querySelector('[data-tab="browse"]').classList.add('active');
+        document.getElementById('tab-browse').classList.add('active');
+        const facSet = new Set(sp.participating_institutions);
+        activeSpeciesFacilities = facSet;
+        highlightFacilities = facSet;
+        document.getElementById('species-results').innerHTML =
+          `<strong>${escapeHTML(sp.common_name)}</strong> SSP/SAFE → <strong>${facSet.size}</strong> participating zoos`;
+        applyFilters();
+        map.setView([39.5, -98.35], 4, { animate: true });
+      };
+    });
+  };
+  render('');
+  document.getElementById('prog-search').addEventListener('input', e => render(e.target.value));
+}
+
 Promise.all([
   fetch('data/facilities.json').then(r => r.json()),
   fetch('data/species_index.json').then(r => r.json()).catch(() => []),
-]).then(([facData, speciesData]) => {
+  fetch('data/individuals.json').then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch('data/animal_news.json').then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch('data/ssp_data.json').then(r => r.ok ? r.json() : null).catch(() => null),
+]).then(([facData, speciesData, indData, newsData, sspData]) => {
   allFacilities = facData.facilities;
   speciesIndex = speciesData;
 
@@ -323,6 +541,9 @@ Promise.all([
   });
 
   setupChips();
+  setupIndividuals(indData);
+  setupNews(newsData);
+  setupPrograms(sspData);
   applyFilters();
 });
 </script>
