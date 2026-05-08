@@ -3,101 +3,97 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>U.S. Captive Wildlife Atlas</title>
+<title>U.S. Wildlife Atlas — AZA Zoos &amp; Aquariums</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 <style>
   :root {
     --ink: #1a1a1a;
-    --ink-soft: #4a4a4a;
+    --ink-soft: #5a5a5a;
     --rule: #d8d4cc;
     --bg: #f7f4ee;
     --panel: #ffffff;
     --aza: #1d6f42;
-    --exhibitor: #b8682c;
-    --dealer: #6a4f8a;
     --accent: #a23b3b;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: var(--ink); background: var(--bg); }
-  header { padding: 18px 22px 12px; border-bottom: 1px solid var(--rule); background: var(--panel); }
-  h1 { font-size: 22px; font-weight: 600; margin: 0 0 4px; letter-spacing: -0.01em; }
+  header { padding: 14px 22px 12px; border-bottom: 1px solid var(--rule); background: var(--panel); }
+  h1 { font-size: 20px; font-weight: 600; margin: 0 0 3px; letter-spacing: -0.01em; }
   header p { margin: 0; font-size: 13px; color: var(--ink-soft); }
   header a { color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
-  .layout { display: grid; grid-template-columns: 320px 1fr; height: calc(100vh - 70px); }
+  .layout { display: grid; grid-template-columns: 340px 1fr; height: calc(100vh - 60px); }
   @media (max-width: 720px) {
     .layout { grid-template-columns: 1fr; grid-template-rows: 35vh 1fr; }
     #sidebar { overflow-y: auto; }
-  }
-  #sidebar { padding: 16px 18px; border-right: 1px solid var(--rule); background: var(--panel); overflow-y: auto; }
-  #sidebar h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-soft); margin: 18px 0 8px; font-weight: 600; }
-  #sidebar h2:first-child { margin-top: 0; }
-  .stat-row { display: flex; justify-content: space-between; font-size: 13px; padding: 4px 0; }
-  .stat-row .num { font-variant-numeric: tabular-nums; font-weight: 600; }
-  .filter { display: flex; align-items: center; gap: 8px; padding: 6px 0; font-size: 14px; cursor: pointer; user-select: none; }
-  .filter input { cursor: pointer; }
-  .swatch { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; border: 1px solid rgba(0,0,0,0.15); }
-  .swatch.aza { background: var(--aza); }
-  .swatch.exhibitor { background: var(--exhibitor); }
-  .swatch.dealer { background: var(--dealer); }
-  .taxon-chip { font-size: 11px; padding: 3px 8px; border-radius: 12px; background: var(--bg); border: 1px solid var(--rule); cursor: pointer; user-select: none; color: var(--ink); }
-  .taxon-chip.active { background: var(--ink); color: white; border-color: var(--ink); }
-  select, input[type="text"] {
-    width: 100%; padding: 7px 9px; font-size: 13px; border: 1px solid var(--rule);
-    border-radius: 4px; background: var(--bg); color: var(--ink); font-family: inherit;
-  }
-  #search { margin-bottom: 8px; }
-  .footer-note { font-size: 11px; color: var(--ink-soft); line-height: 1.5; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--rule); }
-  #map { width: 100%; height: calc(100vh - 70px); }
-  @media (max-width: 720px) {
     #map { height: auto; min-height: 0; }
   }
-  .leaflet-popup-content { font-family: inherit; font-size: 13px; line-height: 1.4; margin: 10px 12px; }
-  .popup-name { font-weight: 600; font-size: 14px; margin-bottom: 4px; }
+  #sidebar { padding: 14px 16px; border-right: 1px solid var(--rule); background: var(--panel); overflow-y: auto; }
+  #sidebar h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-soft); margin: 16px 0 6px; font-weight: 600; }
+  #sidebar h2:first-of-type { margin-top: 4px; }
+  .stat-row { display: flex; justify-content: space-between; font-size: 13px; padding: 3px 0; }
+  .stat-row .num { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+  .chip { font-size: 11px; padding: 4px 9px; border-radius: 12px; background: var(--bg); border: 1px solid var(--rule); cursor: pointer; user-select: none; color: var(--ink); transition: all 0.1s; }
+  .chip:hover { border-color: var(--ink-soft); }
+  .chip.active { background: var(--ink); color: white; border-color: var(--ink); }
+  .chip .ct { color: var(--ink-soft); margin-left: 3px; font-variant-numeric: tabular-nums; }
+  .chip.active .ct { color: rgba(255,255,255,0.7); }
+  select, input[type="text"] {
+    width: 100%; padding: 8px 10px; font-size: 13px; border: 1px solid var(--rule);
+    border-radius: 4px; background: var(--bg); color: var(--ink); font-family: inherit;
+  }
+  input[type="text"]:focus { outline: none; border-color: var(--ink); background: white; }
+  #species-results { font-size: 12px; color: var(--ink-soft); margin-top: 6px; min-height: 16px; }
+  #species-suggestions { max-height: 160px; overflow-y: auto; border: 1px solid var(--rule); border-radius: 4px; background: white; margin-top: 4px; display: none; }
+  #species-suggestions.show { display: block; }
+  .sugg-item { padding: 5px 10px; font-size: 13px; cursor: pointer; border-bottom: 1px solid #f0ece4; }
+  .sugg-item:hover { background: var(--bg); }
+  .sugg-item .meta { color: var(--ink-soft); font-size: 11px; }
+  .footer-note { font-size: 11px; color: var(--ink-soft); line-height: 1.5; margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--rule); }
+  #map { width: 100%; height: calc(100vh - 60px); }
+  .leaflet-popup-content { font-family: inherit; font-size: 13px; line-height: 1.45; margin: 10px 12px; max-width: 280px; }
+  .popup-name { font-weight: 600; font-size: 14px; margin-bottom: 3px; }
   .popup-loc { color: var(--ink-soft); font-size: 12px; margin-bottom: 6px; }
-  .popup-tag { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 11px; font-weight: 600; margin-right: 4px; margin-bottom: 3px; color: white; }
-  .popup-tag.aza { background: var(--aza); }
-  .popup-tag.exhibitor { background: var(--exhibitor); }
-  .popup-tag.dealer { background: var(--dealer); }
-  .popup-meta { font-size: 11px; color: var(--ink-soft); margin-top: 6px; }
+  .popup-tag { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 11px; font-weight: 600; color: white; background: var(--aza); }
+  .popup-meta { font-size: 12px; color: var(--ink-soft); margin-top: 6px; }
+  .popup-species { font-size: 12px; margin-top: 6px; max-height: 140px; overflow-y: auto; padding-right: 4px; }
+  .popup-species strong { color: var(--ink); }
 </style>
 </head>
 <body>
 <header>
-  <h1>U.S. Captive Wildlife Atlas</h1>
-  <p>2,500+ USDA-licensed exhibitors and dealers plus every AZA-accredited zoo &amp; aquarium. Search by taxon (<em>great apes</em>, <em>big cats</em>) or species name — Phase 2 species coverage is partial (6 major zoos so far) and growing. <a href="methodology.html">Methodology &amp; what's missing →</a></p>
+  <h1>U.S. Wildlife Atlas — AZA-accredited zoos &amp; aquariums</h1>
+  <p>Every AZA-accredited US zoo and aquarium, with searchable species inventories scraped from each institution's own site. <a href="methodology.html">Methodology &amp; what's missing →</a></p>
 </header>
 
 <div class="layout">
   <aside id="sidebar">
     <h2>At a glance</h2>
-    <div class="stat-row"><span>Total facilities mapped</span><span class="num" id="stat-total">—</span></div>
-    <div class="stat-row"><span>AZA-accredited</span><span class="num" id="stat-aza">—</span></div>
-    <div class="stat-row"><span>USDA exhibitors (Class C)</span><span class="num" id="stat-exhibitor">—</span></div>
-    <div class="stat-row"><span>USDA dealers (Class B)</span><span class="num" id="stat-dealer">—</span></div>
+    <div class="stat-row"><span>AZA-accredited facilities</span><span class="num" id="stat-total">—</span></div>
+    <div class="stat-row"><span>With species data</span><span class="num" id="stat-species-cov">—</span></div>
+    <div class="stat-row"><span>Unique species in index</span><span class="num" id="stat-species">—</span></div>
 
-    <h2>Filter by type</h2>
-    <label class="filter"><input type="checkbox" id="f-aza" checked><span class="swatch aza"></span>AZA-accredited</label>
-    <label class="filter"><input type="checkbox" id="f-exhibitor" checked><span class="swatch exhibitor"></span>USDA Class C exhibitor</label>
-    <label class="filter"><input type="checkbox" id="f-dealer" checked><span class="swatch dealer"></span>USDA Class B dealer</label>
-    <label class="filter" style="margin-top:8px;border-top:1px solid var(--rule);padding-top:8px;"><input type="checkbox" id="f-hide-domestic" checked>Hide obvious dog/cat dealers</label>
+    <h2>Search by animal</h2>
+    <input type="text" id="species-search" placeholder="Type a species: chimp, gorilla, tiger…" autocomplete="off">
+    <div id="species-suggestions"></div>
+    <div id="species-results"></div>
 
-    <h2>Search facility</h2>
+    <h2>Browse by group</h2>
+    <div class="chips" id="taxon-chips-class"></div>
+    <div class="chips" id="taxon-chips-group"></div>
+
+    <h2>Search by facility</h2>
     <input type="text" id="search" placeholder="Facility or city name…">
-
-    <h2>Species (Phase 2 — partial)</h2>
-    <div id="taxon-chips" style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px;"></div>
-    <input type="text" id="species-search" placeholder="e.g. chimpanzee, monkey, tiger…">
-    <div id="species-results" style="font-size:12px;color:var(--ink-soft);margin-top:6px;"></div>
 
     <h2>Filter by state</h2>
     <select id="state-filter"><option value="">All states</option></select>
 
     <p class="footer-note">
-      Locations are city-centroid only — USDA's public list does not publish street addresses. Sources:
-      <a href="https://www.aphis.usda.gov/awa/public-search">USDA APHIS</a>,
+      Locations are city-centroid only — AZA does not publish street addresses for every member. Sources:
       <a href="https://www.aza.org/inst-status">AZA</a>,
+      individual zoo websites,
       <a href="https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html">Census</a>.
     </p>
   </aside>
@@ -110,129 +106,184 @@
 const map = L.map('map', { preferCanvas: true }).setView([39.5, -98.35], 4);
 window._map = map;
 window.addEventListener('resize', () => map.invalidateSize());
-const ro = new ResizeObserver(() => map.invalidateSize());
-ro.observe(document.getElementById('map'));
+new ResizeObserver(() => map.invalidateSize()).observe(document.getElementById('map'));
+
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap contributors',
   maxZoom: 18,
 }).addTo(map);
 
-function dotIcon(color) {
-  return L.divIcon({
-    className: '',
-    html: `<div style="width:11px;height:11px;border-radius:50%;background:${color};border:1.5px solid white;box-shadow:0 0 0 1px rgba(0,0,0,0.25);"></div>`,
-    iconSize: [11, 11],
-    iconAnchor: [5.5, 5.5],
-  });
-}
-const COLORS = {
-  aza: getComputedStyle(document.documentElement).getPropertyValue('--aza').trim(),
-  exhibitor: getComputedStyle(document.documentElement).getPropertyValue('--exhibitor').trim(),
-  dealer: getComputedStyle(document.documentElement).getPropertyValue('--dealer').trim(),
-};
-const ICONS = {
-  aza: dotIcon(COLORS.aza),
-  exhibitor: dotIcon(COLORS.exhibitor),
-  dealer: dotIcon(COLORS.dealer),
-};
+const COLORS = { aza: getComputedStyle(document.documentElement).getPropertyValue('--aza').trim() };
+const ICON_AZA = L.divIcon({
+  className: '',
+  html: `<div style="width:11px;height:11px;border-radius:50%;background:${COLORS.aza};border:1.5px solid white;box-shadow:0 0 0 1px rgba(0,0,0,0.25);"></div>`,
+  iconSize: [11, 11],
+  iconAnchor: [5.5, 5.5],
+});
+const ICON_HIGHLIGHT = L.divIcon({
+  className: '',
+  html: `<div style="width:14px;height:14px;border-radius:50%;background:${COLORS.aza};border:2px solid #ff5500;box-shadow:0 0 6px rgba(255,85,0,0.8);"></div>`,
+  iconSize: [14, 14],
+  iconAnchor: [7, 7],
+});
 
 const cluster = L.markerClusterGroup({
   chunkedLoading: true,
   spiderfyOnMaxZoom: true,
   showCoverageOnHover: false,
-  maxClusterRadius: 50,
+  maxClusterRadius: 45,
 });
 map.addLayer(cluster);
 
 let allFacilities = [];
-let activeMarkers = [];
+let speciesIndex = []; // [{key, display, facilities, taxon_class, taxon_group}]
+let activeSpeciesFacilities = null;
+let activeChip = null;
+let highlightFacilities = new Set();
 
-function categoryOf(f) {
-  if (f.aza) return 'aza';
-  if (f.usda_class === 'Class C - Exhibitor') return 'exhibitor';
-  if (f.usda_class === 'Class B - Dealer') return 'dealer';
-  return 'exhibitor';
+function escapeHTML(s) {
+  return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
 function popupHTML(f) {
-  const cat = categoryOf(f);
-  const tags = [];
-  if (f.aza) tags.push('<span class="popup-tag aza">AZA-accredited</span>');
-  if (f.usda_class === 'Class C - Exhibitor') tags.push('<span class="popup-tag exhibitor">USDA Exhibitor</span>');
-  if (f.usda_class === 'Class B - Dealer') tags.push('<span class="popup-tag dealer">USDA Dealer</span>');
-  const lic = f.usda_license ? `<div class="popup-meta">USDA license ${f.usda_license}</div>` : '';
   let speciesNote;
   if (Array.isArray(f.species) && f.species.length) {
-    const preview = f.species.slice(0, 8).map(escapeHTML).join(', ');
-    const more = f.species.length > 8 ? ` and ${f.species.length - 8} more` : '';
-    speciesNote = `<div class="popup-meta"><strong>Species (${f.species.length}):</strong> ${preview}${more}</div>`;
+    const list = f.species.map(escapeHTML).join(', ');
+    speciesNote = `<div class="popup-species"><strong>Species (${f.species.length}):</strong> ${list}</div>`;
   } else {
     speciesNote = '<div class="popup-meta">Species inventory: not yet scraped</div>';
   }
   return `
     <div class="popup-name">${escapeHTML(f.name)}</div>
     <div class="popup-loc">${escapeHTML(f.city)}, ${f.state}</div>
-    <div>${tags.join(' ')}</div>
-    ${lic}
+    <div><span class="popup-tag">AZA-accredited</span></div>
     ${speciesNote}
   `;
 }
 
-function escapeHTML(s) {
-  return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-}
-
-let activeSpeciesFacilities = null; // Set<facility_name> or null = no species filter
-let activeTaxonChip = null;
-
 function applyFilters() {
-  const showAza = document.getElementById('f-aza').checked;
-  const showExh = document.getElementById('f-exhibitor').checked;
-  const showDeal = document.getElementById('f-dealer').checked;
-  const hideDomestic = document.getElementById('f-hide-domestic').checked;
   const stateFilter = document.getElementById('state-filter').value;
   const q = document.getElementById('search').value.trim().toLowerCase();
-
   cluster.clearLayers();
-  activeMarkers = [];
-  let counts = { total: 0, aza: 0, exhibitor: 0, dealer: 0 };
-
+  let count = 0;
   allFacilities.forEach(f => {
-    const cat = categoryOf(f);
-    if (cat === 'aza' && !showAza) return;
-    if (cat === 'exhibitor' && !showExh) return;
-    if (cat === 'dealer' && !showDeal) return;
-    if (hideDomestic && f.domestic_likely) return;
     if (stateFilter && f.state !== stateFilter) return;
     if (q && !(f.name.toLowerCase().includes(q) || f.city.toLowerCase().includes(q))) return;
     if (activeSpeciesFacilities && !activeSpeciesFacilities.has(f.name)) return;
-
-    const m = L.marker([f.lat, f.lon], { icon: ICONS[cat] });
+    const isHighlighted = highlightFacilities.has(f.name);
+    const m = L.marker([f.lat, f.lon], { icon: isHighlighted ? ICON_HIGHLIGHT : ICON_AZA });
     m.bindPopup(popupHTML(f));
     cluster.addLayer(m);
-    activeMarkers.push(m);
-    counts.total++;
-    counts[cat]++;
+    count++;
   });
-
-  document.getElementById('stat-total').textContent = counts.total.toLocaleString();
+  document.getElementById('stat-total').textContent = count.toLocaleString();
 }
 
-fetch('data/facilities.json').then(r => r.json()).then(data => {
-  allFacilities = data.facilities;
+function clearSpeciesFilter() {
+  activeSpeciesFacilities = null;
+  highlightFacilities = new Set();
+  document.getElementById('species-results').textContent = '';
+  document.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
+  activeChip = null;
+}
 
-  // Compute totals once for the static stats panel
-  let aza = 0, exh = 0, deal = 0;
-  const states = new Set();
-  allFacilities.forEach(f => {
-    if (f.aza) aza++;
-    else if (f.usda_class === 'Class C - Exhibitor') exh++;
-    else if (f.usda_class === 'Class B - Dealer') deal++;
-    if (f.state) states.add(f.state);
+function toggleChip(chip, facSet, label, count) {
+  if (activeChip === chip) {
+    clearSpeciesFilter();
+  } else {
+    document.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    activeChip = chip;
+    activeSpeciesFacilities = facSet;
+    highlightFacilities = facSet;
+    document.getElementById('species-results').innerHTML =
+      `<strong>${count}</strong> species in <em>${escapeHTML(label)}</em> → <strong>${facSet.size}</strong> facilities`;
+    document.getElementById('species-search').value = '';
+    hideSuggestions();
+  }
+  applyFilters();
+}
+
+function hideSuggestions() {
+  document.getElementById('species-suggestions').classList.remove('show');
+}
+
+function showSuggestions(matches) {
+  const box = document.getElementById('species-suggestions');
+  if (!matches.length) {
+    hideSuggestions();
+    return;
+  }
+  box.innerHTML = matches.slice(0, 12).map(s =>
+    `<div class="sugg-item" data-key="${escapeHTML(s.key)}">${escapeHTML(s.display)} <span class="meta">— ${s.facilities.length} ${s.facilities.length === 1 ? 'zoo' : 'zoos'}</span></div>`
+  ).join('');
+  box.classList.add('show');
+  box.querySelectorAll('.sugg-item').forEach(el => {
+    el.onclick = () => {
+      const sp = speciesIndex.find(s => s.key === el.dataset.key);
+      if (sp) selectSpecies(sp);
+    };
   });
-  document.getElementById('stat-aza').textContent = aza.toLocaleString();
-  document.getElementById('stat-exhibitor').textContent = exh.toLocaleString();
-  document.getElementById('stat-dealer').textContent = deal.toLocaleString();
+}
+
+function selectSpecies(sp) {
+  document.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
+  activeChip = null;
+  const facSet = new Set(sp.facilities);
+  activeSpeciesFacilities = facSet;
+  highlightFacilities = facSet;
+  document.getElementById('species-search').value = sp.display;
+  document.getElementById('species-results').innerHTML =
+    `<strong>${sp.display}</strong> → <strong>${facSet.size}</strong> ${facSet.size === 1 ? 'zoo' : 'zoos'}`;
+  hideSuggestions();
+  applyFilters();
+}
+
+function setupChips() {
+  // Two rows: by class (Mammals/Birds/Reptiles/Amphibians/Fish/Inverts)
+  // and by group (Great apes, Big cats, Bears, etc.)
+  const byClass = {};
+  const byGroup = {};
+  speciesIndex.forEach(s => {
+    if (s.taxon_class) (byClass[s.taxon_class] = byClass[s.taxon_class] || []).push(s);
+    if (s.taxon_group) (byGroup[s.taxon_group] = byGroup[s.taxon_group] || []).push(s);
+  });
+
+  const CLASS_ORDER = ['Mammals','Birds','Reptiles','Amphibians','Fish','Invertebrates'];
+  const renderChips = (containerId, groups, order = null) => {
+    const c = document.getElementById(containerId);
+    c.innerHTML = '';
+    const keys = order ? order.filter(k => groups[k]) : Object.keys(groups).sort();
+    keys.forEach(label => {
+      const list = groups[label];
+      const facSet = new Set();
+      list.forEach(s => s.facilities.forEach(f => facSet.add(f)));
+      const chip = document.createElement('span');
+      chip.className = 'chip';
+      chip.innerHTML = `${escapeHTML(label)} <span class="ct">${list.length}</span>`;
+      chip.onclick = () => toggleChip(chip, facSet, label, list.length);
+      c.appendChild(chip);
+    });
+  };
+  renderChips('taxon-chips-class', byClass, CLASS_ORDER);
+  renderChips('taxon-chips-group', byGroup);
+}
+
+Promise.all([
+  fetch('data/facilities.json').then(r => r.json()),
+  fetch('data/species_index.json').then(r => r.json()).catch(() => []),
+]).then(([facData, speciesData]) => {
+  allFacilities = facData.facilities;
+  speciesIndex = speciesData;
+
+  const states = new Set();
+  let withSpecies = 0;
+  allFacilities.forEach(f => {
+    if (f.state) states.add(f.state);
+    if (Array.isArray(f.species) && f.species.length) withSpecies++;
+  });
+  document.getElementById('stat-species-cov').textContent = withSpecies.toLocaleString();
+  document.getElementById('stat-species').textContent = speciesIndex.length.toLocaleString();
 
   const sel = document.getElementById('state-filter');
   [...states].sort().forEach(s => {
@@ -240,83 +291,40 @@ fetch('data/facilities.json').then(r => r.json()).then(data => {
     o.value = s; o.textContent = s; sel.appendChild(o);
   });
 
-  ['f-aza','f-exhibitor','f-dealer','f-hide-domestic','state-filter','search'].forEach(id => {
-    document.getElementById(id).addEventListener('input', applyFilters);
-  });
-  applyFilters();
+  document.getElementById('state-filter').addEventListener('input', applyFilters);
+  document.getElementById('search').addEventListener('input', applyFilters);
 
-  // Load species index
-  fetch('data/species_index.json').then(r => r.json()).then(setupSpecies);
-});
-
-function setupSpecies(speciesIndex) {
-  const taxonGroups = {};
-  speciesIndex.forEach(s => {
-    if (!s.taxon) return;
-    (taxonGroups[s.taxon] = taxonGroups[s.taxon] || []).push(s);
-  });
-  const chipBox = document.getElementById('taxon-chips');
-  Object.keys(taxonGroups).sort().forEach(tx => {
-    const chip = document.createElement('span');
-    chip.className = 'taxon-chip';
-    chip.textContent = tx;
-    chip.dataset.taxon = tx;
-    chip.onclick = () => toggleTaxonChip(chip, taxonGroups[tx]);
-    chipBox.appendChild(chip);
-  });
-  const clear = document.createElement('span');
-  clear.className = 'taxon-chip';
-  clear.textContent = 'Clear';
-  clear.onclick = () => {
-    document.querySelectorAll('.taxon-chip.active').forEach(c => c.classList.remove('active'));
-    activeTaxonChip = null;
-    activeSpeciesFacilities = null;
-    document.getElementById('species-search').value = '';
-    document.getElementById('species-results').textContent = '';
-    applyFilters();
-  };
-  chipBox.appendChild(clear);
-
-  const input = document.getElementById('species-search');
-  const results = document.getElementById('species-results');
-  input.addEventListener('input', () => {
-    const q = input.value.trim().toLowerCase();
+  const sp = document.getElementById('species-search');
+  sp.addEventListener('input', () => {
+    const q = sp.value.trim().toLowerCase();
     if (!q) {
-      activeSpeciesFacilities = null;
-      results.textContent = '';
+      clearSpeciesFilter();
+      hideSuggestions();
       applyFilters();
       return;
     }
-    const matches = speciesIndex.filter(s => s.key.includes(q) || s.display.toLowerCase().includes(q));
+    const matches = speciesIndex.filter(s =>
+      s.key.includes(q) || s.display.toLowerCase().includes(q)
+    ).sort((a, b) => b.facilities.length - a.facilities.length);
+    showSuggestions(matches);
+    // Also filter immediately to union of matches
     const facSet = new Set();
     matches.forEach(s => s.facilities.forEach(f => facSet.add(f)));
     activeSpeciesFacilities = facSet;
-    results.innerHTML = matches.length === 0
+    highlightFacilities = facSet;
+    document.getElementById('species-results').innerHTML = matches.length === 0
       ? '<em>No species match in current scrape coverage.</em>'
-      : `<strong>${matches.length}</strong> species → <strong>${facSet.size}</strong> facilities`;
+      : `<strong>${matches.length}</strong> matching ${matches.length === 1 ? 'species' : 'species'} → <strong>${facSet.size}</strong> ${facSet.size === 1 ? 'zoo' : 'zoos'}`;
     applyFilters();
   });
-}
+  sp.addEventListener('blur', () => setTimeout(hideSuggestions, 200));
+  sp.addEventListener('focus', () => {
+    if (sp.value.trim()) sp.dispatchEvent(new Event('input'));
+  });
 
-function toggleTaxonChip(chip, speciesList) {
-  if (activeTaxonChip === chip) {
-    chip.classList.remove('active');
-    activeTaxonChip = null;
-    activeSpeciesFacilities = null;
-    document.getElementById('species-results').textContent = '';
-  } else {
-    document.querySelectorAll('.taxon-chip.active').forEach(c => c.classList.remove('active'));
-    chip.classList.add('active');
-    activeTaxonChip = chip;
-    const facSet = new Set();
-    speciesList.forEach(s => s.facilities.forEach(f => facSet.add(f)));
-    activeSpeciesFacilities = facSet;
-    document.getElementById('species-results').innerHTML =
-      `<strong>${speciesList.length}</strong> species in <em>${chip.dataset.taxon}</em> → <strong>${facSet.size}</strong> facilities`;
-    document.getElementById('species-search').value = '';
-  }
+  setupChips();
   applyFilters();
-}
+});
 </script>
 </body>
 </html>

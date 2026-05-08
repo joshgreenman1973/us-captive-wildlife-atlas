@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Methodology — U.S. Captive Wildlife Atlas</title>
+<title>Methodology — U.S. Wildlife Atlas</title>
 <style>
   :root { --ink: #1a1a1a; --ink-soft: #4a4a4a; --rule: #d8d4cc; --bg: #f7f4ee; --accent: #a23b3b; }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: var(--ink); background: var(--bg); margin: 0; line-height: 1.55; }
@@ -27,95 +27,72 @@
 <div class="wrap">
   <a class="back" href="index.html">← Back to map</a>
   <h1>Methodology</h1>
-  <p class="lede">Where the data on this map comes from, what's missing, and why nothing about U.S. captive wildlife is a black box.</p>
+  <p class="lede">What's on the map, where the species data comes from, and what's deliberately missing.</p>
 
-  <h2>The short version</h2>
+  <h2>Scope</h2>
   <p>
-    There is no single official registry of wild animals held in captivity in the United States. This atlas combines two of the most authoritative public datasets — USDA APHIS's list of Animal Welfare Act licensees and the Association of Zoos &amp; Aquariums' accredited-institution directory — and adds species data layered on top in later phases. The map is part of the story: what is and isn't visible reflects who is required to report what.
-  </p>
-
-  <h2>Phase 2 — partial species coverage (added 2026-05-07)</h2>
-  <p>
-    Species data is now layered onto six major AZA zoos that publish complete public A–Z animal lists: <strong>Houston Zoo, Cincinnati Zoo &amp; Botanical Garden, Lincoln Park Zoo, Woodland Park Zoo, San Diego Zoo, and Columbus Zoo &amp; Aquarium</strong>. That's <strong>~273 unique species</strong> across <strong>~6 facilities</strong> — a small fraction of the ~6,000 species AZA-accredited institutions hold collectively.
+    This atlas shows every <strong>AZA-accredited zoo and aquarium in the United States</strong> — 215 institutions — with searchable species inventories scraped from each zoo's own public website.
   </p>
   <p>
-    You can search by species name (e.g. <code>chimpanzee</code>, <code>monkey</code>, <code>tiger</code>) or click a taxon chip (<em>Great apes</em>, <em>Big cats</em>, <em>Bears</em>, etc.). Coverage will expand as additional zoo websites are scraped. Facilities without species data are NOT excluded from the map by species filters — they're simply unflagged. Absence of a species at a facility means we haven't scraped that facility yet, not that the facility doesn't hold the species.
+    An earlier version included 2,500+ USDA-licensed exhibitors and dealers. That dataset was dropped. The USDA list is heavily polluted with regulated <em>pet</em> operations (kennels, catteries, puppy mills, pet shops) that USDA's Animal Welfare Act covers alongside wildlife exhibitors. More importantly, those facilities don't publish their inventories, so species data for them isn't available without parsing inspection PDFs at scale. AZA accreditation is an imperfect but defensible quality floor: institutions that have passed a peer-reviewed accreditation process and that maintain public-facing animal lists.
+  </p>
+
+  <h2>Where the species data comes from</h2>
+  <p>
+    For each AZA institution, the project fetches the zoo's public "Our Animals" / "A–Z animals" / "Animals &amp; Exhibits" page and extracts the species names listed there. Common URL patterns: <code>/animals</code>, <code>/our-animals</code>, <code>/animals-a-z</code>, <code>/animals/list</code>, <code>/explore/animals</code>, <code>/discover/animals</code>.
+  </p>
+  <p>
+    Coverage grows as more zoo sites are scraped. Some zoos block automated fetches; some don't publish a public A–Z list at all (those zoos still appear on the map but with no species details).
   </p>
   <div class="warn">
-    Species data is scraped from each zoo's <strong>own public website</strong>. Lists reflect what each zoo chooses to publish on its A–Z animals page, which may lag behind actual current holdings (births, deaths, transfers). Common names are not normalized to scientific binomials in this phase. ZIMS data, which would give canonical species/individual records, remains excluded per Species360's terms.
+    Species data reflects <strong>what each zoo chooses to publish on its website</strong>, which may lag actual current holdings (births, deaths, transfers). Common names are kept as the zoo writes them — they are not normalized to scientific binomials. Searching for "tiger" matches "Malayan Tiger", "Amur Tiger", and "Tiger" as separate species entries.
   </div>
-
-  <h2>Phase 1 — what's on the map now</h2>
-  <ul>
-    <li><strong>USDA Class C exhibitors</strong> — zoos, aquariums, roadside zoos, drive-through safaris, educational exhibitors, circuses. ~2,100 facilities.</li>
-    <li><strong>USDA Class B dealers</strong> — animal dealers who buy and sell regulated species. ~600 facilities.</li>
-    <li><strong>AZA-accredited institutions</strong> — the 215 U.S. zoos and aquariums that meet AZA's accreditation standards. Most are also USDA-licensed; an AZA flag is added to those records.</li>
-  </ul>
-  <p>Markers are color-coded by category. Click any marker for facility name, location, USDA license number, and accreditation status.</p>
 
   <h2>Sources</h2>
   <table>
     <tr><th>Source</th><th>What it provides</th><th>Last fetched</th></tr>
-    <tr><td><a href="https://www.aphis.usda.gov/awa/public-search">USDA APHIS Public Search Tool</a> (Excel: <em>List of Active Licensees and Registrants</em>)</td><td>License type, license number, account name, DBA, city, state, expiration</td><td>2026-04-20 (USDA's stamp); pulled 2026-05-07</td></tr>
-    <tr><td><a href="https://www.aza.org/inst-status">AZA Institution Status directory</a></td><td>Name, city, state of every AZA-accredited U.S. zoo and aquarium</td><td>2026-05-07</td></tr>
-    <tr><td><a href="https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html">2023 U.S. Census Gazetteer Files (Places)</a></td><td>Latitude/longitude centroids for cities used to plot facilities</td><td>2023 vintage; pulled 2026-05-07</td></tr>
+    <tr><td><a href="https://www.aza.org/inst-status">AZA Institution Status directory</a></td><td>Name, city, state of every AZA-accredited US zoo and aquarium</td><td>2026-05-07</td></tr>
+    <tr><td>Each zoo's own public website</td><td>Species lists per institution</td><td>2026-05-07 (rolling)</td></tr>
+    <tr><td><a href="https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html">2023 U.S. Census Gazetteer Files (Places)</a></td><td>City centroid lat/lon for plotting facilities</td><td>2023 vintage</td></tr>
   </table>
 
   <h2>Geocoding precision</h2>
-  <div class="warn">
-    Markers show the <strong>centroid of the facility's city</strong>, not its street address. The USDA's public list intentionally redacts street addresses for licensees. Multiple facilities in the same city will stack on top of each other and are separated by the cluster spider on zoom-in. About 9% of records currently fail to match a Census place (mostly unincorporated areas and townships) and are excluded from the map until manual coordinates are added.
-  </div>
+  <p>
+    Markers show the <strong>centroid of each facility's city</strong>. AZA does not publish street addresses for every member, and city precision is fine for a national-scale atlas. Facilities that share a city (e.g., the four Brooklyn institutions) are spread on a small ring around the centroid so they don't pile up.
+  </p>
 
-  <h2>What's NOT on this map (and why)</h2>
+  <h2>What's NOT on the map (and why)</h2>
+  <h3>Non-AZA zoos and roadside facilities</h3>
+  <p>
+    There are ~2,000 USDA Class C exhibitors that aren't AZA-accredited — drive-through safaris, roadside zoos, traveling exhibitors, small educational collections. Most don't publish species inventories, so they're not on this map. AZA accreditation is in no way a guarantee that every animal in a zoo is well cared for, but it's the cleanest available filter.
+  </p>
   <h3>ZIMS (Species360)</h3>
   <p>
-    The world's most comprehensive captive-animal database is ZIMS, run by Species360. We do <strong>not</strong> use ZIMS data, because <a href="https://conservation.species360.org/data-sharing/">Species360's terms explicitly prohibit publishing institution-level species holdings</a>. Insights data is members-only and aggregated. If a species you'd expect to see is missing from a zoo's listing once Phase 2 lands, that is almost certainly the reason.
+    The world's most comprehensive captive-animal database is ZIMS, run by Species360. We do <strong>not</strong> use ZIMS. <a href="https://conservation.species360.org/data-sharing/">Species360's terms explicitly prohibit publishing institution-level species holdings.</a>
   </p>
-
-  <h3>Privately held exotic animals</h3>
+  <h3>Privately held exotic animals and sanctuaries</h3>
   <p>
-    Most privately owned exotic mammals, reptiles, and birds are not on any federal registry. The one exception is big cats: the 2022 <strong>Big Cat Public Safety Act</strong> created a USFWS registry of privately held lions, tigers, leopards, cougars, and their hybrids. That layer is planned for Phase 5.
+    The 2022 Big Cat Public Safety Act created a USFWS registry of privately held big cats — that layer is planned for a later phase. Other privately held exotics aren't on any federal registry. GFAS-accredited sanctuaries are also not yet included.
   </p>
-
-  <h3>Research lab animals</h3>
+  <h3>Animals beyond what each zoo publishes</h3>
   <p>
-    Class R, F, G, and V registrants — research facilities — are excluded. They report animal use through APHIS annual reports rather than holding species "on display," and the public search tool's species coverage for them is limited to AWA-regulated mammals.
+    A zoo's "Our Animals" page typically highlights its featured species and may omit small reptiles, fish, or invertebrates that live in its ecosystems. Absence from the map's species list does NOT mean the zoo doesn't hold the animal — only that we couldn't find it on the public page.
   </p>
-
-  <h3>Animals excluded from the Animal Welfare Act</h3>
-  <p>
-    The AWA does not cover birds bred for use in research, rats and mice bred for research, fish, reptiles, amphibians, or invertebrates. Roadside reptile parks and aquariums may appear as facilities, but USDA inspection reports won't itemize their non-mammal collections.
-  </p>
-
-  <h3>Sanctuaries that aren't USDA-licensed and aren't GFAS members</h3>
-  <p>
-    A facility that calls itself a "sanctuary" but does not exhibit publicly may not require a USDA license. The Global Federation of Animal Sanctuaries (GFAS) accredits a couple of dozen U.S. sanctuaries; that layer is planned for Phase 5.
-  </p>
-
-  <h3>Lapsed and seasonal facilities</h3>
-  <p>
-    The USDA file is "active" licenses on the date it was generated. Facilities that lapse, are revoked, or operate seasonally without an active license at fetch time will not appear.
-  </p>
-
-  <h2>Coming in later phases</h2>
-  <ol>
-    <li><strong>Phase 2 — AZA SSP and studbook participation.</strong> For ~500 species AZA actively manages, the institutions cooperating in each Species Survival Plan are public. This is the highest-confidence species layer.</li>
-    <li><strong>Phase 3 — Zoo-by-zoo public inventories.</strong> Many AZA zoos publish "Our Animals" pages. We'll scrape these for the largest 50–100 institutions and normalize species names against the GBIF or ITIS taxonomy.</li>
-    <li><strong>Phase 4 — Inspection report parsing.</strong> USDA inspection PDFs sometimes list species observed on-site; an LLM will parse a sample. This is the lowest-confidence layer and will be tagged accordingly.</li>
-    <li><strong>Phase 5 — Big Cat Public Safety Act registrants and GFAS sanctuaries.</strong></li>
-  </ol>
-  <p>Every species record in later phases will carry a <strong>source-confidence tag</strong> (SSP &gt; zoo's own site &gt; inspection report &gt; Wikipedia) and a last-verified date.</p>
 
   <h2>Reproducing the dataset</h2>
   <p>
-    Build script: <code>scripts/build_dataset.py</code>. It reads the USDA Excel, the AZA list, and the Census gazetteer; merges them; geocodes city centroids; and writes <code>data/facilities.json</code>. Refresh quarterly by re-pulling the USDA Excel and AZA directory and rerunning the script.
+    Build scripts in <code>scripts/</code>:
   </p>
+  <ul>
+    <li><code>build_dataset.py</code> — geocodes the AZA institution list against the Census places gazetteer and writes <code>data/facilities.json</code>.</li>
+    <li><code>build_species_index.py</code> — reads <code>data/zoo-species-raw.json</code>, classifies each species into a vertebrate class and a "browse" group, attaches species lists to facilities, and writes <code>data/species_index.json</code>.</li>
+  </ul>
 
   <h2>Caveats, in plain English</h2>
   <ul>
-    <li>If a facility appears nowhere on this map, it does not mean it has no animals. It means it isn't required to disclose them publicly to any of the sources we use.</li>
-    <li>If a facility is on this map, it does not mean it is well-run, accredited, or humane. USDA licensure is a regulatory floor, not a quality stamp.</li>
-    <li>License numbers are public. Inspection histories are linked from the USDA search tool — clicking a facility and going to USDA's site will show its compliance history.</li>
+    <li>This is a <strong>browseable index</strong>, not a census. Use it to discover where a species can be seen, then verify with the zoo directly.</li>
+    <li>If a search returns no results, the species may exist at zoos we haven't scraped yet — coverage is rolling.</li>
+    <li>The species-name search is fuzzy (substring), so "tiger" finds tiger, Malayan Tiger, Amur Tiger, etc. The "Mammals" / "Big cats" chips are coarser and are computed from common-name keywords.</li>
   </ul>
 </div>
 </body>
