@@ -117,23 +117,43 @@ def main():
     facilities = load_aza()
     print(f"  {len(facilities)} institutions")
 
+    # Per-facility precise overrides (street-level for major zoos)
+    overrides_path = DATA / "zoo-coordinates.json"
+    overrides = {}
+    if overrides_path.exists():
+        ov = json.loads(overrides_path.read_text())
+        overrides = {k: v for k, v in ov.items() if not k.startswith("_")}
+
     print("Geocoding...")
     geocoded = 0
+    precise = 0
     for f in facilities:
+        if f["name"] in overrides:
+            f["lat"], f["lon"] = overrides[f["name"]]
+            f["coord_precision"] = "facility"
+            geocoded += 1
+            precise += 1
+            continue
         coord = geocode(f["city"], f["state"], gz)
         if coord:
             f["lat"], f["lon"] = coord
+            f["coord_precision"] = "city"
             geocoded += 1
         else:
             f["lat"], f["lon"] = None, None
+            f["coord_precision"] = None
             print(f"  unmatched: {f['city']}, {f['state']} ({f['name']})")
-    print(f"  {geocoded} / {len(facilities)} geocoded")
+    print(f"  {geocoded} / {len(facilities)} geocoded ({precise} at precise facility coords)")
 
-    # Spread same-coord facilities on a small ring
+    # Spread same-coord *city-precision* facilities on a small ring so they
+    # don't pile up. Don't disturb facility-precise coordinates.
     coord_groups = defaultdict(list)
     for f in facilities:
-        if f["lat"] is not None:
-            coord_groups[(f["lat"], f["lon"])].append(f)
+        if f["lat"] is None:
+            continue
+        if f.get("coord_precision") == "facility":
+            continue
+        coord_groups[(f["lat"], f["lon"])].append(f)
     for (lat, lon), group in coord_groups.items():
         if len(group) <= 1:
             continue

@@ -16,15 +16,17 @@
    "name": "Birmingham Zoo",
    "city": "Birmingham",
    "state": "AL",
-   "lat": 33.527174,
-   "lon": -86.797036
+   "lat": 33.5326,
+   "lon": -86.7791,
+   "coord_precision": "facility"
   },
   {
    "name": "Alaska SeaLife Center",
    "city": "Seward",
    "state": "AK",
-   "lat": 60.124786,
-   "lon": -149.391581,
+   "lat": 60.1027,
+   "lon": -149.4439,
+   "coord_precision": "facility",
    "species": [
     "Eider",
     "Harbor Seal",
@@ -41,15 +43,17 @@
    "name": "Arizona-Sonora Desert Museum",
    "city": "Tucson",
    "state": "AZ",
-   "lat": 32.154536,
-   "lon": -110.870773
+   "lat": 32.2435,
+   "lon": -111.1668,
+   "coord_precision": "facility"
   },
   {
    "name": "OdySea Aquarium",
    "city": "Scottsdale",
    "state": "AZ",
-   "lat": 33.684272,
-   "lon": -111.861448,
+   "lat": 33.53,
+   "lon": -111.892,
+   "coord_precision": "facility",
    "species": [
     "Anemone",
     "Asian Water Monitor",
@@ -73,8 +77,9 @@
    "name": "The Phoenix Zoo",
    "city": "Phoenix",
    "state": "AZ",
-   "lat": 33.572154,
-   "lon": -112.090132,
+   "lat": 33.4516,
+   "lon": -111.9469,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Penguin",
@@ -166,8 +171,9 @@
    "name": "Reid Park Zoo",
    "city": "Tucson",
    "state": "AZ",
-   "lat": 32.151536,
-   "lon": -110.870773,
+   "lat": 32.2114,
+   "lon": -110.9215,
+   "coord_precision": "facility",
    "species": [
     "African Elephant",
     "African Lion",
@@ -204,29 +210,33 @@
    "name": "SEA LIFE Arizona Aquarium",
    "city": "Tempe",
    "state": "AZ",
-   "lat": 33.388414,
-   "lon": -111.931782
+   "lat": 33.4297,
+   "lon": -111.9389,
+   "coord_precision": "facility"
   },
   {
    "name": "Little Rock Zoological Gardens",
    "city": "Little Rock",
    "state": "AR",
-   "lat": 34.725393,
-   "lon": -92.358556
+   "lat": 34.744,
+   "lon": -92.3356,
+   "coord_precision": "facility"
   },
   {
    "name": "Aquarium of the Pacific",
    "city": "Long Beach",
    "state": "CA",
-   "lat": 33.780791,
-   "lon": -118.16818
+   "lat": 33.7626,
+   "lon": -118.1972,
+   "coord_precision": "facility"
   },
   {
    "name": "Birch Aquarium at Scripps",
    "city": "La Jolla",
    "state": "CA",
-   "lat": 32.8328,
-   "lon": -117.2713,
+   "lat": 32.8657,
+   "lon": -117.254,
+   "coord_precision": "facility",
    "species": [
     "Little Blue Penguin",
     "Mountain Yellow-legged Frog",
@@ -241,29 +251,33 @@
    "name": "Cabrillo Marine Aquarium",
    "city": "San Pedro",
    "state": "CA",
-   "lat": 33.7361,
-   "lon": -118.2922
+   "lat": 33.7104,
+   "lon": -118.2935,
+   "coord_precision": "facility"
   },
   {
    "name": "California Science Center",
    "city": "Los Angeles",
    "state": "CA",
-   "lat": 34.020894,
-   "lon": -118.410825
+   "lat": 34.0156,
+   "lon": -118.2862,
+   "coord_precision": "facility"
   },
   {
    "name": "Central Coast Zoo",
    "city": "Atascadero",
    "state": "CA",
-   "lat": 35.485718,
-   "lon": -120.687942
+   "lat": 35.4878,
+   "lon": -120.6571,
+   "coord_precision": "facility"
   },
   {
    "name": "CuriOdyssey",
    "city": "San Mateo",
    "state": "CA",
-   "lat": 37.56031,
-   "lon": -122.3106,
+   "lat": 37.5655,
+   "lon": -122.3066,
+   "coord_precision": "facility",
    "species": [
     "Asian Small-clawed Otter",
     "Ball Python",
@@ -329,8 +343,9 @@
    "name": "Fresno Chaffee Zoo",
    "city": "Fresno",
    "state": "CA",
-   "lat": 36.782684,
-   "lon": -119.793359,
+   "lat": 36.7569,
+   "lon": -119.8255,
+   "coord_precision": "facility",
    "species": [
     "African Elephant",
     "Black-necked Stilt",
@@ -387,22 +402,25 @@
    "name": "Happy Hollow Park & Zoo",
    "city": "San Jose",
    "state": "CA",
-   "lat": 37.296011,
-   "lon": -121.814552
+   "lat": 37.3303,
+   "lon": -121.8654,
+   "coord_precision": "facility"
   },
   {
    "name": "The Living Desert Zoo and Gardens",
    "city": "Palm Desert",
    "state": "CA",
-   "lat": 33.737635,
-   "lon": -116.364145
+   "lat": 33.7264,
+   "lon": -116.377,
+   "coord_precision": "facility"
   },
   {
    "name": "Los Angeles Zoo",
    "city": "Los Angeles",
    "state": "CA",
-   "lat": 34.017894,
-   "lon": -118.410825,
+   "lat": 34.1494,
+   "lon": -118.2871,
+   "coord_precision": "facility",
    "species": [
     "Alligator",
     "Condor",
@@ -424,16 +442,17 @@
    "name": "Monterey Bay Aquarium",
    "city": "Monterey",
    "state": "CA",
-   "lat": 36.601193,
-   "lon": -121.88311,
-   "species": []
+   "lat": 36.6182,
+   "lon": -121.9019,
+   "coord_precision": "facility"
   },
   {
    "name": "Oakland Zoo",
    "city": "Oakland",
    "state": "CA",
-   "lat": 37.769846,
-   "lon": -122.22569,
+   "lat": 37.7494,
+   "lon": -122.1463,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Spoonbill",
@@ -535,15 +554,17 @@
    "name": "Palo Alto Junior Museum & Zoo",
    "city": "Palo Alto",
    "state": "CA",
-   "lat": 37.39652,
-   "lon": -122.143088
+   "lat": 37.4376,
+   "lon": -122.1417,
+   "coord_precision": "facility"
   },
   {
    "name": "Sacramento Zoo",
    "city": "Sacramento",
    "state": "CA",
-   "lat": 38.567694,
-   "lon": -121.468161,
+   "lat": 38.5497,
+   "lon": -121.5022,
+   "coord_precision": "facility",
    "species": [
     "Giraffe",
     "Rhinoceros",
@@ -554,8 +575,9 @@
    "name": "San Diego Zoo",
    "city": "San Diego",
    "state": "CA",
-   "lat": 32.816477,
-   "lon": -117.135562,
+   "lat": 32.7353,
+   "lon": -117.149,
+   "coord_precision": "facility",
    "species": [
     "Amur Leopard",
     "Anaconda",
@@ -607,43 +629,49 @@
    "name": "San Diego Zoo Safari Park",
    "city": "Escondido",
    "state": "CA",
-   "lat": 33.133053,
-   "lon": -117.074043
+   "lat": 33.0976,
+   "lon": -116.9989,
+   "coord_precision": "facility"
   },
   {
    "name": "San Francisco Zoological Gardens",
    "city": "San Francisco",
    "state": "CA",
-   "lat": 37.728739,
-   "lon": -123.032229
+   "lat": 37.7331,
+   "lon": -122.5017,
+   "coord_precision": "facility"
   },
   {
    "name": "Santa Ana Zoo",
    "city": "Santa Ana",
    "state": "CA",
-   "lat": 33.736332,
-   "lon": -117.8829
+   "lat": 33.7464,
+   "lon": -117.8533,
+   "coord_precision": "facility"
   },
   {
    "name": "Santa Barbara Zoo",
    "city": "Santa Barbara",
    "state": "CA",
-   "lat": 34.403592,
-   "lon": -119.713714
+   "lat": 34.4205,
+   "lon": -119.6662,
+   "coord_precision": "facility"
   },
   {
    "name": "SEA LIFE Aquarium at LEGOLAND California Resort",
    "city": "Carlsbad",
    "state": "CA",
-   "lat": 33.129284,
-   "lon": -117.284183
+   "lat": 33.1262,
+   "lon": -117.3094,
+   "coord_precision": "facility"
   },
   {
    "name": "SeaWorld San Diego",
    "city": "San Diego",
    "state": "CA",
-   "lat": 32.813477,
-   "lon": -117.135562,
+   "lat": 32.7642,
+   "lon": -117.2266,
+   "coord_precision": "facility",
    "species": [
     "Bat Ray",
     "Beluga Whale",
@@ -671,29 +699,33 @@
    "name": "Sequoia Park Zoo",
    "city": "Eureka",
    "state": "CA",
-   "lat": 40.797594,
-   "lon": -124.154191
+   "lat": 40.774,
+   "lon": -124.1582,
+   "coord_precision": "facility"
   },
   {
    "name": "Steinhart Aquarium",
    "city": "San Francisco",
    "state": "CA",
-   "lat": 37.725739,
-   "lon": -123.032229
+   "lat": 37.7699,
+   "lon": -122.4661,
+   "coord_precision": "facility"
   },
   {
    "name": "Butterfly Pavilion",
    "city": "Westminster",
    "state": "CO",
-   "lat": 39.880122,
-   "lon": -105.061513
+   "lat": 39.8569,
+   "lon": -105.0808,
+   "coord_precision": "facility"
   },
   {
    "name": "Cheyenne Mountain Zoological Park",
    "city": "Colorado Springs",
    "state": "CO",
-   "lat": 38.867255,
-   "lon": -104.760749,
+   "lat": 38.777,
+   "lon": -104.8517,
+   "coord_precision": "facility",
    "species": [
     "African Cape Porcupine",
     "African Elephant",
@@ -720,8 +752,9 @@
    "name": "Denver Zoo Conservation Alliance",
    "city": "Denver",
    "state": "CO",
-   "lat": 39.76335,
-   "lon": -104.881105,
+   "lat": 39.7497,
+   "lon": -104.9477,
+   "coord_precision": "facility",
    "species": [
     "East African Crowned Crane",
     "Eastern Bongo",
@@ -753,43 +786,49 @@
    "name": "Landry's Downtown Denver Aquarium",
    "city": "Denver",
    "state": "CO",
-   "lat": 39.76035,
-   "lon": -104.881105
+   "lat": 39.7556,
+   "lon": -105.005,
+   "coord_precision": "facility"
   },
   {
    "name": "Pueblo Zoo",
    "city": "Pueblo",
    "state": "CO",
-   "lat": 38.269228,
-   "lon": -104.610816
+   "lat": 38.2554,
+   "lon": -104.6357,
+   "coord_precision": "facility"
   },
   {
    "name": "Connecticut's Beardsley Zoo",
    "city": "Bridgeport",
    "state": "CT",
-   "lat": 41.187393,
-   "lon": -73.195757
+   "lat": 41.2152,
+   "lon": -73.184,
+   "coord_precision": "facility"
   },
   {
    "name": "The Maritime Aquarium at Norwalk, Inc.",
    "city": "Norwalk",
    "state": "CT",
-   "lat": 41.092739,
-   "lon": -73.419796
+   "lat": 41.0964,
+   "lon": -73.4082,
+   "coord_precision": "facility"
   },
   {
    "name": "Mystic Aquarium",
    "city": "Mystic",
    "state": "CT",
-   "lat": 41.355976,
-   "lon": -71.955882
+   "lat": 41.3713,
+   "lon": -71.9669,
+   "coord_precision": "facility"
   },
   {
    "name": "Brandywine Zoo",
    "city": "Wilmington",
    "state": "DE",
-   "lat": 39.735651,
-   "lon": -75.532104,
+   "lat": 39.7561,
+   "lon": -75.547,
+   "coord_precision": "facility",
    "species": [
     "Andean Condor",
     "Bald Eagle",
@@ -824,8 +863,9 @@
    "name": "Smithsonian's National Zoo and Conservation Biology Institute",
    "city": "Washington",
    "state": "DC",
-   "lat": 38.904247,
-   "lon": -77.016517,
+   "lat": 38.9296,
+   "lon": -77.0498,
+   "coord_precision": "facility",
    "species": [
     "Abyssinian ground hornbill",
     "Addax",
@@ -976,15 +1016,17 @@
    "name": "Bailey-Matthews National Shell Museum & Aquarium",
    "city": "Sanibel",
    "state": "FL",
-   "lat": 26.451038,
-   "lon": -82.105676
+   "lat": 26.4357,
+   "lon": -82.0808,
+   "coord_precision": "facility"
   },
   {
    "name": "Brevard Zoo",
    "city": "Melbourne",
    "state": "FL",
-   "lat": 28.110438,
-   "lon": -80.662717,
+   "lat": 28.1286,
+   "lon": -80.6478,
+   "coord_precision": "facility",
    "species": [
     "African Rock Python",
     "African Spurred Tortoise",
@@ -1100,15 +1142,17 @@
    "name": "Busch Gardens Tampa Bay",
    "city": "Tampa",
    "state": "FL",
-   "lat": 27.967762,
-   "lon": -82.477618
+   "lat": 28.0376,
+   "lon": -82.4194,
+   "coord_precision": "facility"
   },
   {
    "name": "Central Florida Zoo & Botanical Gardens",
    "city": "Sanford",
    "state": "FL",
-   "lat": 28.789425,
-   "lon": -81.275624,
+   "lat": 28.803,
+   "lon": -81.3144,
+   "coord_precision": "facility",
    "species": [
     "Blue Duiker",
     "Chilean Rose Tarantula",
@@ -1126,8 +1170,9 @@
    "name": "Discovery Cove",
    "city": "Orlando",
    "state": "FL",
-   "lat": 28.41015,
-   "lon": -81.254805,
+   "lat": 28.4189,
+   "lon": -81.4628,
+   "coord_precision": "facility",
    "species": [
     "American Beaver",
     "Bonnethead Shark",
@@ -1145,8 +1190,9 @@
    "name": "Disney's Animal Kingdom",
    "city": "Orlando",
    "state": "FL",
-   "lat": 28.409114,
-   "lon": -81.253378,
+   "lat": 28.3553,
+   "lon": -81.5901,
+   "coord_precision": "facility",
    "species": [
     "Abdim's stork",
     "African bush elephant",
@@ -1207,22 +1253,25 @@
    "name": "The Florida Aquarium",
    "city": "Tampa",
    "state": "FL",
-   "lat": 27.965512,
-   "lon": -82.476319
+   "lat": 27.9434,
+   "lon": -82.4419,
+   "coord_precision": "facility"
   },
   {
    "name": "Jacksonville Zoo and Botanical Gardens",
    "city": "Jacksonville",
    "state": "FL",
-   "lat": 30.336864,
-   "lon": -81.661603
+   "lat": 30.4029,
+   "lon": -81.6386,
+   "coord_precision": "facility"
   },
   {
    "name": "Lion Country Safari",
    "city": "Loxahatchee",
    "state": "FL",
-   "lat": 26.720882,
-   "lon": -80.277195,
+   "lat": 26.7222,
+   "lon": -80.29,
+   "coord_precision": "facility",
    "species": [
     "African Spurred Tortoise",
     "Alpaca",
@@ -1283,15 +1332,17 @@
    "name": "Marineland",
    "city": "St. Augustine",
    "state": "FL",
-   "lat": 29.897652,
-   "lon": -81.311128
+   "lat": 29.6638,
+   "lon": -81.2096,
+   "coord_precision": "facility"
   },
   {
    "name": "Mote Marine Laboratory and Aquarium",
    "city": "Sarasota",
    "state": "FL",
-   "lat": 27.338257,
-   "lon": -82.543721,
+   "lat": 27.3265,
+   "lon": -82.5775,
+   "coord_precision": "facility",
    "species": [
     "Blacktip Reef Shark",
     "Cownose Ray",
@@ -1309,8 +1360,9 @@
    "name": "Naples Zoo",
    "city": "Naples",
    "state": "FL",
-   "lat": 26.150485,
-   "lon": -81.795299,
+   "lat": 26.153,
+   "lon": -81.7969,
+   "coord_precision": "facility",
    "species": [
     "African Giant Millipede",
     "African Grey Parrot",
@@ -1393,8 +1445,9 @@
    "name": "Palm Beach Zoo & Conservation Society",
    "city": "West Palm Beach",
    "state": "FL",
-   "lat": 26.745114,
-   "lon": -80.127038,
+   "lat": 26.6905,
+   "lon": -80.0726,
+   "coord_precision": "facility",
    "species": [
     "Aldabra Tortoise",
     "Alligator",
@@ -1437,50 +1490,57 @@
    "name": "Santa Fe College Teaching Zoo",
    "city": "Gainesville",
    "state": "FL",
-   "lat": 29.679537,
-   "lon": -82.346793
+   "lat": 29.6831,
+   "lon": -82.4047,
+   "coord_precision": "facility"
   },
   {
    "name": "SEA LIFE Orlando Aquarium",
    "city": "Orlando",
    "state": "FL",
-   "lat": 28.407436,
-   "lon": -81.253923
+   "lat": 28.4439,
+   "lon": -81.4691,
+   "coord_precision": "facility"
   },
   {
    "name": "The Seas",
    "city": "Orlando",
    "state": "FL",
-   "lat": 28.409114,
-   "lon": -81.256232
+   "lat": 28.3753,
+   "lon": -81.55,
+   "coord_precision": "facility"
   },
   {
    "name": "SeaWorld Orlando",
    "city": "Orlando",
    "state": "FL",
-   "lat": 28.407436,
-   "lon": -81.255687
+   "lat": 28.4109,
+   "lon": -81.4626,
+   "coord_precision": "facility"
   },
   {
    "name": "St. Augustine Alligator Farm",
    "city": "St. Augustine",
    "state": "FL",
-   "lat": 29.894652,
-   "lon": -81.311128
+   "lat": 29.8672,
+   "lon": -81.2698,
+   "coord_precision": "facility"
   },
   {
    "name": "Zoo Miami",
    "city": "Miami",
    "state": "FL",
-   "lat": 25.775163,
-   "lon": -80.208615
+   "lat": 25.6113,
+   "lon": -80.4011,
+   "coord_precision": "facility"
   },
   {
    "name": "ZooTampa at Lowry Park",
    "city": "Tampa",
    "state": "FL",
-   "lat": 27.965512,
-   "lon": -82.478917,
+   "lat": 28.0117,
+   "lon": -82.4699,
+   "coord_precision": "facility",
    "species": [
     "African Elephant",
     "African Painted Dog",
@@ -1547,8 +1607,9 @@
    "name": "Zoo Atlanta",
    "city": "Atlanta",
    "state": "GA",
-   "lat": 33.761409,
-   "lon": -84.422675,
+   "lat": 33.7325,
+   "lon": -84.3712,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Savanna Elephant",
@@ -1620,8 +1681,9 @@
    "name": "Georgia Aquarium",
    "city": "Atlanta",
    "state": "GA",
-   "lat": 33.764409,
-   "lon": -84.422675,
+   "lat": 33.7634,
+   "lon": -84.395,
+   "coord_precision": "facility",
    "species": [
     "African Penguin",
     "American Alligator",
@@ -1649,22 +1711,25 @@
    "name": "Honolulu Zoo",
    "city": "Honolulu",
    "state": "HI",
-   "lat": 21.3099,
-   "lon": -157.8581
+   "lat": 21.2666,
+   "lon": -157.8214,
+   "coord_precision": "facility"
   },
   {
    "name": "Idaho Falls Zoo at Tautphaus Park",
    "city": "Idaho Falls",
    "state": "ID",
-   "lat": 43.488851,
-   "lon": -112.036297
+   "lat": 43.4823,
+   "lon": -112.0444,
+   "coord_precision": "facility"
   },
   {
    "name": "Zoo Boise",
    "city": "Boise",
    "state": "ID",
-   "lat": 43.600229,
-   "lon": -116.231656,
+   "lat": 43.6064,
+   "lon": -116.2167,
+   "coord_precision": "facility",
    "species": [
     "African Cape Porcupine",
     "African Lion",
@@ -1726,8 +1791,9 @@
    "name": "Brookfield Zoo Chicago",
    "city": "Brookfield",
    "state": "IL",
-   "lat": 41.825059,
-   "lon": -87.847546,
+   "lat": 41.8338,
+   "lon": -87.8348,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Penguin",
@@ -1841,22 +1907,25 @@
    "name": "Cosley Zoo",
    "city": "Wheaton",
    "state": "IL",
-   "lat": 41.856833,
-   "lon": -88.108126
+   "lat": 41.8569,
+   "lon": -88.1089,
+   "coord_precision": "facility"
   },
   {
    "name": "John G. Shedd Aquarium",
    "city": "Chicago",
    "state": "IL",
-   "lat": 41.838545,
-   "lon": -87.684939
+   "lat": 41.8676,
+   "lon": -87.614,
+   "coord_precision": "facility"
   },
   {
    "name": "Lincoln Park Zoo",
    "city": "Chicago",
    "state": "IL",
-   "lat": 41.835545,
-   "lon": -87.684939,
+   "lat": 41.9214,
+   "lon": -87.6336,
+   "coord_precision": "facility",
    "species": [
     "Aardvark",
     "Abdim's Stork",
@@ -1899,29 +1968,33 @@
    "name": "Miller Park Zoo",
    "city": "Bloomington",
    "state": "IL",
-   "lat": 40.475777,
-   "lon": -88.969912
+   "lat": 40.4775,
+   "lon": -88.9758,
+   "coord_precision": "facility"
   },
   {
    "name": "Peoria Zoo",
    "city": "Peoria",
    "state": "IL",
-   "lat": 40.751641,
-   "lon": -89.617198
+   "lat": 40.6936,
+   "lon": -89.5897,
+   "coord_precision": "facility"
   },
   {
    "name": "Scovill Zoo",
    "city": "Decatur",
    "state": "IL",
-   "lat": 39.855983,
-   "lon": -88.933746
+   "lat": 39.8348,
+   "lon": -88.9337,
+   "coord_precision": "facility"
   },
   {
    "name": "Fort Wayne Zoo",
    "city": "Fort Wayne",
    "state": "IN",
-   "lat": 41.089132,
-   "lon": -85.1439,
+   "lat": 41.0972,
+   "lon": -85.1664,
+   "coord_precision": "facility",
    "species": [
     "Chimpanzee",
     "Dolphin",
@@ -1935,15 +2008,17 @@
    "name": "Indianapolis Zoological Society, Inc.",
    "city": "Indianapolis",
    "state": "IN",
-   "lat": 39.776664,
-   "lon": -86.145935
+   "lat": 39.7682,
+   "lon": -86.1816,
+   "coord_precision": "facility"
   },
   {
    "name": "Mesker Park Zoo & Botanic Garden, Inc.",
    "city": "Evansville",
    "state": "IN",
-   "lat": 37.987737,
-   "lon": -87.534705,
+   "lat": 37.9874,
+   "lon": -87.6336,
+   "coord_precision": "facility",
    "species": [
     "Armadillo",
     "Crane",
@@ -1960,8 +2035,9 @@
    "name": "Potawatomi Zoo",
    "city": "South Bend",
    "state": "IN",
-   "lat": 41.676643,
-   "lon": -86.268809,
+   "lat": 41.681,
+   "lon": -86.2362,
+   "coord_precision": "facility",
    "species": [
     "Addax",
     "African Lion",
@@ -2033,15 +2109,17 @@
    "name": "Blank Park Zoo",
    "city": "Des Moines",
    "state": "IA",
-   "lat": 41.57259,
-   "lon": -93.610243
+   "lat": 41.5409,
+   "lon": -93.6131,
+   "coord_precision": "facility"
   },
   {
    "name": "National Mississippi River Museum & Aquarium",
    "city": "Dubuque",
    "state": "IA",
-   "lat": 42.498901,
-   "lon": -90.707258,
+   "lat": 42.5066,
+   "lon": -90.6635,
+   "coord_precision": "facility",
    "species": [
     "Alligator Gar",
     "American Alligator",
@@ -2074,78 +2152,89 @@
    "name": "David Traylor Zoo of Emporia",
    "city": "Emporia",
    "state": "KS",
-   "lat": 38.402869,
-   "lon": -96.192906
+   "lat": 38.4083,
+   "lon": -96.2027,
+   "coord_precision": "facility"
   },
   {
    "name": "Hutchinson Zoo",
    "city": "Hutchinson",
    "state": "KS",
-   "lat": 38.067291,
-   "lon": -97.90952
+   "lat": 38.0628,
+   "lon": -97.9286,
+   "coord_precision": "facility"
   },
   {
    "name": "Lee Richardson Zoo",
    "city": "Garden City",
    "state": "KS",
-   "lat": 37.975022,
-   "lon": -100.85087
+   "lat": 37.9637,
+   "lon": -100.8627,
+   "coord_precision": "facility"
   },
   {
    "name": "Rolling Hills Zoo",
    "city": "Salina",
    "state": "KS",
-   "lat": 38.813085,
-   "lon": -97.614477
+   "lat": 38.8495,
+   "lon": -97.7,
+   "coord_precision": "facility"
   },
   {
    "name": "Sedgwick County Zoo",
    "city": "Wichita",
    "state": "KS",
-   "lat": 37.690638,
-   "lon": -97.345836
+   "lat": 37.7222,
+   "lon": -97.3957,
+   "coord_precision": "facility"
   },
   {
    "name": "Sunset Zoological Park",
    "city": "Manhattan",
    "state": "KS",
-   "lat": 39.188307,
-   "lon": -96.605864
+   "lat": 39.1872,
+   "lon": -96.5793,
+   "coord_precision": "facility"
   },
   {
    "name": "Topeka Zoo and Conservation Center",
    "city": "Topeka",
    "state": "KS",
-   "lat": 39.03468,
-   "lon": -95.694825
+   "lat": 39.0696,
+   "lon": -95.6816,
+   "coord_precision": "facility"
   },
   {
    "name": "Louisville Zoological Garden",
    "city": "Louisville",
    "state": "KY",
-   "lat": 38.224728,
-   "lon": -85.740614
+   "lat": 38.2113,
+   "lon": -85.6992,
+   "coord_precision": "facility"
   },
   {
    "name": "Newport Aquarium",
    "city": "Newport",
    "state": "KY",
-   "lat": 39.0861,
-   "lon": -84.486933
+   "lat": 39.0942,
+   "lon": -84.496,
+   "coord_precision": "facility"
   },
   {
    "name": "Audubon Aquarium & Insectarium",
    "city": "New Orleans",
    "state": "LA",
-   "lat": 30.05492,
-   "lon": -89.934502
+   "lat": 29.9509,
+   "lon": -90.0626,
+   "coord_precision": "facility"
   },
   {
    "name": "Audubon Zoo",
    "city": "New Orleans",
    "state": "LA",
-   "lat": 30.05192,
-   "lon": -89.934502,
+   "lat": 29.9269,
+   "lon": -90.1289,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Painted Dog",
@@ -2223,8 +2312,9 @@
    "name": "BREC's Baton Rouge Zoo",
    "city": "Baton Rouge",
    "state": "LA",
-   "lat": 30.440443,
-   "lon": -91.133166,
+   "lat": 30.5731,
+   "lon": -91.0987,
+   "coord_precision": "facility",
    "species": [
     "Abdim's Stork",
     "Aldabra Giant Tortoise",
@@ -2356,8 +2446,9 @@
    "name": "Maryland Zoo in Baltimore",
    "city": "Baltimore",
    "state": "MD",
-   "lat": 39.301532,
-   "lon": -76.610476,
+   "lat": 39.3257,
+   "lon": -76.6489,
+   "coord_precision": "facility",
    "species": [
     "American Toad",
     "Black Rat Snake",
@@ -2375,8 +2466,9 @@
    "name": "National Aquarium",
    "city": "Baltimore",
    "state": "MD",
-   "lat": 39.298532,
-   "lon": -76.610476,
+   "lat": 39.2853,
+   "lon": -76.6083,
+   "coord_precision": "facility",
    "species": [
     "American Bullfrog",
     "Anemone",
@@ -2393,8 +2485,9 @@
    "name": "Buttonwood Park Zoo",
    "city": "New Bedford",
    "state": "MA",
-   "lat": 41.661303,
-   "lon": -70.937913,
+   "lat": 41.6473,
+   "lon": -70.9352,
+   "coord_precision": "facility",
    "species": [
     "American Beaver",
     "American Bison",
@@ -2473,29 +2566,33 @@
    "name": "Capron Park Zoo",
    "city": "Attleboro",
    "state": "MA",
-   "lat": 41.931653,
-   "lon": -71.294503
+   "lat": 41.9275,
+   "lon": -71.301,
+   "coord_precision": "facility"
   },
   {
    "name": "Franklin Park Zoo",
    "city": "Boston",
    "state": "MA",
-   "lat": 42.340051,
-   "lon": -71.018253
+   "lat": 42.3025,
+   "lon": -71.085,
+   "coord_precision": "facility"
   },
   {
    "name": "Museum of Science",
    "city": "Boston",
    "state": "MA",
-   "lat": 42.337801,
-   "lon": -71.016954
+   "lat": 42.3678,
+   "lon": -71.0712,
+   "coord_precision": "facility"
   },
   {
    "name": "New England Aquarium",
    "city": "Boston",
    "state": "MA",
-   "lat": 42.337801,
-   "lon": -71.019552,
+   "lat": 42.3592,
+   "lon": -71.0498,
+   "coord_precision": "facility",
    "species": [
     "African Penguin",
     "Anemonefish",
@@ -2522,22 +2619,25 @@
    "name": "Walter D. Stone Memorial Zoo",
    "city": "Stoneham",
    "state": "MA",
-   "lat": 42.474208,
-   "lon": -71.097665
+   "lat": 42.4729,
+   "lon": -71.1086,
+   "coord_precision": "facility"
   },
   {
    "name": "Binder Park Zoo",
    "city": "Battle Creek",
    "state": "MI",
-   "lat": 42.299176,
-   "lon": -85.229267
+   "lat": 42.2497,
+   "lon": -85.2266,
+   "coord_precision": "facility"
   },
   {
    "name": "Detroit Zoological Society",
    "city": "Royal Oak",
    "state": "MI",
-   "lat": 42.507816,
-   "lon": -83.15389,
+   "lat": 42.4756,
+   "lon": -83.151,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "Butterfly",
@@ -2557,15 +2657,17 @@
    "name": "John Ball Zoo",
    "city": "Grand Rapids",
    "state": "MI",
-   "lat": 42.961156,
-   "lon": -85.65557
+   "lat": 42.965,
+   "lon": -85.6878,
+   "coord_precision": "facility"
   },
   {
    "name": "Potter Park Zoological Gardens",
    "city": "Lansing",
    "state": "MI",
-   "lat": 42.714341,
-   "lon": -84.560889,
+   "lat": 42.7148,
+   "lon": -84.5443,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Spurred Tortoise",
@@ -2617,29 +2719,33 @@
    "name": "Saginaw Children's Zoo",
    "city": "Saginaw",
    "state": "MI",
-   "lat": 43.419945,
-   "lon": -83.950172
+   "lat": 43.4205,
+   "lon": -83.9476,
+   "coord_precision": "facility"
   },
   {
    "name": "SEA LIFE Michigan Aquarium",
    "city": "Auburn Hills",
    "state": "MI",
-   "lat": 42.67472,
-   "lon": -83.243606
+   "lat": 42.6589,
+   "lon": -83.238,
+   "coord_precision": "facility"
   },
   {
    "name": "Como Park Zoo and Conservatory",
    "city": "St Paul",
    "state": "MN",
-   "lat": 44.948901,
-   "lon": -93.104063
+   "lat": 44.9819,
+   "lon": -93.1517,
+   "coord_precision": "facility"
   },
   {
    "name": "Lake Superior Zoo",
    "city": "Duluth",
    "state": "MN",
-   "lat": 46.774458,
-   "lon": -92.134135,
+   "lat": 46.7218,
+   "lon": -92.1929,
+   "coord_precision": "facility",
    "species": [
     "African Bullfrog",
     "African Lion",
@@ -2770,8 +2876,9 @@
    "name": "Minnesota Zoological Garden",
    "city": "Apple Valley",
    "state": "MN",
-   "lat": 44.745301,
-   "lon": -93.199413,
+   "lat": 44.7689,
+   "lon": -93.1966,
+   "coord_precision": "facility",
    "species": [
     "African Fruit Bat",
     "African Penguin",
@@ -2853,22 +2960,25 @@
    "name": "Hattiesburg Zoo",
    "city": "Hattiesburg",
    "state": "MS",
-   "lat": 31.307305,
-   "lon": -89.317434
+   "lat": 31.327,
+   "lon": -89.2911,
+   "coord_precision": "facility"
   },
   {
    "name": "Butterfly House",
    "city": "Chesterfield",
    "state": "MO",
-   "lat": 38.658126,
-   "lon": -90.57595
+   "lat": 38.6478,
+   "lon": -90.5306,
+   "coord_precision": "facility"
   },
   {
    "name": "Dickerson Park Zoo",
    "city": "Springfield",
    "state": "MO",
-   "lat": 37.195657,
-   "lon": -93.292642,
+   "lat": 37.2418,
+   "lon": -93.301,
+   "coord_precision": "facility",
    "species": [
     "Black Bear",
     "Cheetah",
@@ -2891,22 +3001,25 @@
    "name": "Johnny Morris' Wonders of Wildlife National Museum & Aquarium",
    "city": "Springfield",
    "state": "MO",
-   "lat": 37.192657,
-   "lon": -93.292642
+   "lat": 37.2074,
+   "lon": -93.2837,
+   "coord_precision": "facility"
   },
   {
    "name": "Kansas City Zoo",
    "city": "Kansas City",
    "state": "MO",
-   "lat": 39.123861,
-   "lon": -94.555117
+   "lat": 39.0001,
+   "lon": -94.5266,
+   "coord_precision": "facility"
   },
   {
    "name": "Saint Louis Zoo",
    "city": "St. Louis",
    "state": "MO",
-   "lat": 38.635699,
-   "lon": -90.244582,
+   "lat": 38.6357,
+   "lon": -90.2912,
+   "coord_precision": "facility",
    "species": [
     "Addax",
     "African painted dog",
@@ -3035,22 +3148,25 @@
    "name": "SEA LIFE Kansas City Aquarium",
    "city": "Kansas City",
    "state": "MO",
-   "lat": 39.120861,
-   "lon": -94.555117
+   "lat": 39.0991,
+   "lon": -94.5806,
+   "coord_precision": "facility"
   },
   {
    "name": "Grizzly & Wolf Discovery Center",
    "city": "West Yellowstone",
    "state": "MT",
-   "lat": 44.662183,
-   "lon": -111.107022
+   "lat": 44.6634,
+   "lon": -111.0917,
+   "coord_precision": "facility"
   },
   {
    "name": "ZooMontana",
    "city": "Billings",
    "state": "MT",
-   "lat": 45.788538,
-   "lon": -108.552475,
+   "lat": 45.7402,
+   "lon": -108.636,
+   "coord_precision": "facility",
    "species": [
     "Alpaca",
     "American Badger",
@@ -3104,15 +3220,17 @@
    "name": "Lee G. Simmons Conservation Park & Wildlife Safari",
    "city": "Ashland",
    "state": "NE",
-   "lat": 41.039852,
-   "lon": -96.37254
+   "lat": 41.0556,
+   "lon": -96.425,
+   "coord_precision": "facility"
   },
   {
    "name": "Lincoln Children's Zoo",
    "city": "Lincoln",
    "state": "NE",
-   "lat": 40.808943,
-   "lon": -96.677895,
+   "lat": 40.799,
+   "lon": -96.7032,
+   "coord_precision": "facility",
    "species": [
     "African Serval",
     "African Spurred Tortoise",
@@ -3135,57 +3253,65 @@
    "name": "Omaha's Henry Doorly Zoo & Aquarium",
    "city": "Omaha",
    "state": "NE",
-   "lat": 41.262705,
-   "lon": -96.053475
+   "lat": 41.2225,
+   "lon": -95.9335,
+   "coord_precision": "facility"
   },
   {
    "name": "Shark Reef Aquarium at Mandalay Bay",
    "city": "Las Vegas",
    "state": "NV",
-   "lat": 36.233499,
-   "lon": -115.264037
+   "lat": 36.0905,
+   "lon": -115.1758,
+   "coord_precision": "facility"
   },
   {
    "name": "Adventure Aquarium",
    "city": "Camden",
    "state": "NJ",
-   "lat": 39.936787,
-   "lon": -75.106644
+   "lat": 39.9456,
+   "lon": -75.1338,
+   "coord_precision": "facility"
   },
   {
    "name": "Cape May County Park Zoo",
    "city": "Cape May Court House",
    "state": "NJ",
-   "lat": 39.079177,
-   "lon": -74.822549
+   "lat": 39.0827,
+   "lon": -74.8366,
+   "coord_precision": "facility"
   },
   {
    "name": "Jenkinson's Aquarium",
    "city": "Point Pleasant Beach",
    "state": "NJ",
-   "lat": 40.092566,
-   "lon": -74.045173
+   "lat": 40.09,
+   "lon": -74.0454,
+   "coord_precision": "facility"
   },
   {
    "name": "Turtle Back Zoo",
    "city": "West Orange",
    "state": "NJ",
-   "lat": 40.7987,
-   "lon": -74.239
+   "lat": 40.783,
+   "lon": -74.258,
+   "coord_precision": "facility"
   },
   {
    "name": "Albuquerque Biological Park",
    "city": "Albuquerque",
    "state": "NM",
-   "lat": 35.10478,
-   "lon": -106.646809
+   "lat": 35.1086,
+   "lon": -106.6814,
+   "coord_precision": "facility"
   },
   {
    "name": "Aquarium of Niagara",
    "city": "Niagara Falls",
    "state": "NY",
-   "lat": 43.092841,
-   "lon": -79.014743,
+   "lat": 43.0915,
+   "lon": -79.0598,
+   "coord_precision": "facility",
    "species": [
     "Clownfish",
     "Eel",
@@ -3201,8 +3327,9 @@
    "name": "Bronx Zoo/WCS",
    "city": "Bronx",
    "state": "NY",
-   "lat": 40.8448,
-   "lon": -73.8648,
+   "lat": 40.8506,
+   "lon": -73.877,
+   "coord_precision": "facility",
    "species": [
     "Aardvark",
     "African brush-tailed porcupine",
@@ -3430,8 +3557,9 @@
    "name": "Buffalo Zoo",
    "city": "Buffalo",
    "state": "NY",
-   "lat": 42.892492,
-   "lon": -78.859686,
+   "lat": 42.9389,
+   "lon": -78.8556,
+   "coord_precision": "facility",
    "species": [
     "Addax",
     "African Lion",
@@ -3566,8 +3694,9 @@
    "name": "Central Park Zoo",
    "city": "New York",
    "state": "NY",
-   "lat": 40.662712,
-   "lon": -73.938677,
+   "lat": 40.7679,
+   "lon": -73.9719,
+   "coord_precision": "facility",
    "species": [
     "African pygmy goose",
     "Atlantic puffin",
@@ -3626,8 +3755,9 @@
    "name": "New York Aquarium",
    "city": "Brooklyn",
    "state": "NY",
-   "lat": 40.6797,
-   "lon": -73.9442,
+   "lat": 40.574,
+   "lon": -73.9758,
+   "coord_precision": "facility",
    "species": [
     "Atlantic horseshoe crab",
     "Bonnethead shark",
@@ -3651,8 +3781,9 @@
    "name": "Prospect Park Zoo",
    "city": "Brooklyn",
    "state": "NY",
-   "lat": 40.6767,
-   "lon": -73.9442,
+   "lat": 40.6651,
+   "lon": -73.9659,
+   "coord_precision": "facility",
    "species": [
     "Alpaca",
     "Black-footed cat",
@@ -3686,8 +3817,9 @@
    "name": "Queens Zoo",
    "city": "Queens",
    "state": "NY",
-   "lat": 40.7282,
-   "lon": -73.7949,
+   "lat": 40.7434,
+   "lon": -73.8475,
+   "coord_precision": "facility",
    "species": [
     "American Alligator",
     "American Bison",
@@ -3724,15 +3856,17 @@
    "name": "Rosamond Gifford Zoo at Burnet Park",
    "city": "Syracuse",
    "state": "NY",
-   "lat": 43.040998,
-   "lon": -76.143554
+   "lat": 43.0496,
+   "lon": -76.1768,
+   "coord_precision": "facility"
   },
   {
    "name": "Seneca Park Zoo",
    "city": "Rochester",
    "state": "NY",
-   "lat": 43.169927,
-   "lon": -77.616891,
+   "lat": 43.2149,
+   "lon": -77.6184,
+   "coord_precision": "facility",
    "species": [
     "African Bullfrog",
     "African Bush Viper",
@@ -3808,43 +3942,49 @@
    "name": "Staten Island Zoo",
    "city": "Staten Island",
    "state": "NY",
-   "lat": 40.5795,
-   "lon": -74.1502
+   "lat": 40.6256,
+   "lon": -74.1162,
+   "coord_precision": "facility"
   },
   {
    "name": "Trevor-Lovejoy Zoo",
    "city": "Millbrook",
    "state": "NY",
-   "lat": 41.784862,
-   "lon": -73.692092
+   "lat": 41.7806,
+   "lon": -73.6855,
+   "coord_precision": "facility"
   },
   {
    "name": "Utica Zoo",
    "city": "Utica",
    "state": "NY",
-   "lat": 43.096382,
-   "lon": -75.225983
+   "lat": 43.0857,
+   "lon": -75.2444,
+   "coord_precision": "facility"
   },
   {
    "name": "Greensboro Science Center",
    "city": "Greensboro",
    "state": "NC",
-   "lat": 36.09485,
-   "lon": -79.823624
+   "lat": 36.1417,
+   "lon": -79.839,
+   "coord_precision": "facility"
   },
   {
    "name": "Museum of Life and Science",
    "city": "Durham",
    "state": "NC",
-   "lat": 35.978061,
-   "lon": -78.899497
+   "lat": 36.026,
+   "lon": -78.9098,
+   "coord_precision": "facility"
   },
   {
    "name": "North Carolina Aquarium at Fort Fisher",
    "city": "Kure Beach",
    "state": "NC",
-   "lat": 33.999336,
-   "lon": -77.90758,
+   "lat": 33.9568,
+   "lon": -77.9322,
+   "coord_precision": "facility",
    "species": [
     "Alligator",
     "Bullfrog",
@@ -3863,22 +4003,25 @@
    "name": "North Carolina Aquarium at Pine Knoll Shores",
    "city": "Pine Knoll Shores",
    "state": "NC",
-   "lat": 34.697208,
-   "lon": -76.831913
+   "lat": 34.7032,
+   "lon": -76.8209,
+   "coord_precision": "facility"
   },
   {
    "name": "North Carolina Aquarium on Roanoke Island",
    "city": "Manteo",
    "state": "NC",
-   "lat": 35.898596,
-   "lon": -75.651279
+   "lat": 35.8784,
+   "lon": -75.71,
+   "coord_precision": "facility"
   },
   {
    "name": "North Carolina Zoo",
    "city": "Asheboro",
    "state": "NC",
-   "lat": 35.718418,
-   "lon": -79.814447,
+   "lat": 35.6242,
+   "lon": -79.7594,
+   "coord_precision": "facility",
    "species": [
     "Alligator",
     "Baboon",
@@ -3907,22 +4050,25 @@
    "name": "SEA LIFE Charlotte-Concord Aquarium",
    "city": "Concord",
    "state": "NC",
-   "lat": 35.392094,
-   "lon": -80.63551
+   "lat": 35.3712,
+   "lon": -80.6789,
+   "coord_precision": "facility"
   },
   {
    "name": "Western North Carolina Nature Center",
    "city": "Asheville",
    "state": "NC",
-   "lat": 35.570972,
-   "lon": -82.552725
+   "lat": 35.5734,
+   "lon": -82.4868,
+   "coord_precision": "facility"
   },
   {
    "name": "Dakota Zoo",
    "city": "Bismarck",
    "state": "ND",
-   "lat": 46.814583,
-   "lon": -100.770089,
+   "lat": 46.8167,
+   "lon": -100.8064,
+   "coord_precision": "facility",
    "species": [
     "African Penguin",
     "African Spurred Tortoise",
@@ -4013,8 +4159,9 @@
    "name": "Red River Zoo",
    "city": "Fargo",
    "state": "ND",
-   "lat": 46.8647,
-   "lon": -96.82908,
+   "lat": 46.8417,
+   "lon": -96.8533,
+   "coord_precision": "facility",
    "species": [
     "Bactrian Camel",
     "Grey Wolf",
@@ -4030,15 +4177,17 @@
    "name": "Roosevelt Park Zoo",
    "city": "Minot",
    "state": "ND",
-   "lat": 48.236125,
-   "lon": -101.277533
+   "lat": 48.2238,
+   "lon": -101.2887,
+   "coord_precision": "facility"
   },
   {
    "name": "Akron Zoological Park",
    "city": "Akron",
    "state": "OH",
-   "lat": 41.080456,
-   "lon": -81.521429,
+   "lat": 41.0716,
+   "lon": -81.5464,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Pygmy Goat",
@@ -4108,15 +4257,17 @@
    "name": "Boonshoft Museum of Discovery",
    "city": "Dayton",
    "state": "OH",
-   "lat": 39.784743,
-   "lon": -84.199632
+   "lat": 39.7988,
+   "lon": -84.1979,
+   "coord_precision": "facility"
   },
   {
    "name": "Cincinnati Zoo and Botanical Garden",
    "city": "Cincinnati",
    "state": "OH",
-   "lat": 39.140183,
-   "lon": -84.505829,
+   "lat": 39.1437,
+   "lon": -84.5085,
+   "coord_precision": "facility",
    "species": [
     "Aardvark",
     "African Lion",
@@ -4265,15 +4416,17 @@
    "name": "Cleveland Metroparks Zoo",
    "city": "Cleveland",
    "state": "OH",
-   "lat": 41.478462,
-   "lon": -81.679435
+   "lat": 41.4453,
+   "lon": -81.7124,
+   "coord_precision": "facility"
   },
   {
    "name": "Columbus Zoo & Aquarium",
    "city": "Powell",
    "state": "OH",
-   "lat": 40.167687,
-   "lon": -83.081555,
+   "lat": 40.1535,
+   "lon": -83.0931,
+   "coord_precision": "facility",
    "species": [
     "Aardvark",
     "African Gray Parrot",
@@ -4360,15 +4513,17 @@
    "name": "Toledo Zoological Gardens",
    "city": "Toledo",
    "state": "OH",
-   "lat": 41.664071,
-   "lon": -83.581861
+   "lat": 41.623,
+   "lon": -83.5795,
+   "coord_precision": "facility"
   },
   {
    "name": "The Wilds",
    "city": "Cumberland",
    "state": "OH",
-   "lat": 39.853281,
-   "lon": -81.658723,
+   "lat": 39.8205,
+   "lon": -81.7357,
+   "coord_precision": "facility",
    "species": [
     "African Painted Dog",
     "Bactrian Camel",
@@ -4394,15 +4549,17 @@
    "name": "Oklahoma City Zoo and Botanical Garden",
    "city": "Oklahoma City",
    "state": "OK",
-   "lat": 35.467079,
-   "lon": -97.513657
+   "lat": 35.5249,
+   "lon": -97.4736,
+   "coord_precision": "facility"
   },
   {
    "name": "Tulsa Zoo",
    "city": "Tulsa",
    "state": "OK",
-   "lat": 36.127949,
-   "lon": -95.902316,
+   "lat": 36.1916,
+   "lon": -95.8946,
+   "coord_precision": "facility",
    "species": [
     "African Penguin",
     "Aldabra Tortoise",
@@ -4588,8 +4745,9 @@
    "name": "High Desert Museum",
    "city": "Bend",
    "state": "OR",
-   "lat": 44.056683,
-   "lon": -121.307991,
+   "lat": 43.9966,
+   "lon": -121.3173,
+   "coord_precision": "facility",
    "species": [
     "Bobcat",
     "Bull Trout",
@@ -4615,8 +4773,9 @@
    "name": "Oregon Coast Aquarium",
    "city": "Newport",
    "state": "OR",
-   "lat": 44.621411,
-   "lon": -124.043824,
+   "lat": 44.6217,
+   "lon": -124.0498,
+   "coord_precision": "facility",
    "species": [
     "Bluestreak Cleaner Wrasse",
     "Brown Pelican",
@@ -4638,8 +4797,9 @@
    "name": "Oregon Zoo",
    "city": "Portland",
    "state": "OR",
-   "lat": 45.536951,
-   "lon": -122.649971,
+   "lat": 45.5097,
+   "lon": -122.7152,
+   "coord_precision": "facility",
    "species": [
     "Tortoise",
     "Turtle"
@@ -4649,57 +4809,65 @@
    "name": "Wildlife Safari",
    "city": "Winston",
    "state": "OR",
-   "lat": 43.120109,
-   "lon": -123.424531
+   "lat": 43.1361,
+   "lon": -123.4047,
+   "coord_precision": "facility"
   },
   {
    "name": "Clyde Peeling's Reptiland",
    "city": "Allenwood",
    "state": "PA",
-   "lat": 41.108096,
-   "lon": -76.898157
+   "lat": 41.187,
+   "lon": -76.989,
+   "coord_precision": "facility"
   },
   {
    "name": "Elmwood Park Zoo",
    "city": "Norristown",
    "state": "PA",
-   "lat": 40.122076,
-   "lon": -75.33987
+   "lat": 40.1428,
+   "lon": -75.346,
+   "coord_precision": "facility"
   },
   {
    "name": "Lehigh Valley Zoo",
    "city": "Schnecksville",
    "state": "PA",
-   "lat": 40.670888,
-   "lon": -75.620714
+   "lat": 40.6783,
+   "lon": -75.6406,
+   "coord_precision": "facility"
   },
   {
    "name": "National Aviary",
    "city": "Pittsburgh",
    "state": "PA",
-   "lat": 40.441436,
-   "lon": -79.975676
+   "lat": 40.4533,
+   "lon": -80.0084,
+   "coord_precision": "facility"
   },
   {
    "name": "Philadelphia Zoo",
    "city": "Philadelphia",
    "state": "PA",
-   "lat": 40.009376,
-   "lon": -75.133346
+   "lat": 39.9744,
+   "lon": -75.1965,
+   "coord_precision": "facility"
   },
   {
    "name": "Pittsburgh Zoo & Aquarium",
    "city": "Pittsburgh",
    "state": "PA",
-   "lat": 40.438436,
-   "lon": -79.975676
+   "lat": 40.4849,
+   "lon": -79.9118,
+   "coord_precision": "facility"
   },
   {
    "name": "ZOOAMERICA NA Wildlife Park",
    "city": "Hershey",
    "state": "PA",
-   "lat": 40.28001,
-   "lon": -76.644328,
+   "lat": 40.2902,
+   "lon": -76.6563,
+   "coord_precision": "facility",
    "species": [
     "Alligator Snapping Turtle",
     "American Elk",
@@ -4760,43 +4928,49 @@
    "name": "Roger Williams Park Zoo",
    "city": "Providence",
    "state": "RI",
-   "lat": 41.823056,
-   "lon": -71.418784
+   "lat": 41.7822,
+   "lon": -71.4144,
+   "coord_precision": "facility"
   },
   {
    "name": "Brookgreen Gardens",
    "city": "Murrells Inlet",
    "state": "SC",
-   "lat": 33.55725,
-   "lon": -79.057165
+   "lat": 33.5191,
+   "lon": -79.0918,
+   "coord_precision": "facility"
   },
   {
    "name": "Greenville Zoo",
    "city": "Greenville",
    "state": "SC",
-   "lat": 34.836902,
-   "lon": -82.362997
+   "lat": 34.8438,
+   "lon": -82.3815,
+   "coord_precision": "facility"
   },
   {
    "name": "Ripley's Aquarium of Myrtle Beach",
    "city": "Myrtle Beach",
    "state": "SC",
-   "lat": 33.71039,
-   "lon": -78.886024
+   "lat": 33.6884,
+   "lon": -78.8856,
+   "coord_precision": "facility"
   },
   {
    "name": "Riverbanks Zoo and Garden",
    "city": "Columbia",
    "state": "SC",
-   "lat": 34.040519,
-   "lon": -80.906099
+   "lat": 34.0096,
+   "lon": -81.0731,
+   "coord_precision": "facility"
   },
   {
    "name": "South Carolina Aquarium",
    "city": "Charleston",
    "state": "SC",
-   "lat": 32.828017,
-   "lon": -79.972896,
+   "lat": 32.7884,
+   "lon": -79.9251,
+   "coord_precision": "facility",
    "species": [
     "Atlantic Spadefish",
     "Atlantic Tripletail",
@@ -4834,8 +5008,9 @@
    "name": "Great Plains Zoo",
    "city": "Sioux Falls",
    "state": "SD",
-   "lat": 43.540696,
-   "lon": -96.731962,
+   "lat": 43.523,
+   "lon": -96.7311,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Wild Dog",
@@ -4887,15 +5062,17 @@
    "name": "Chattanooga Zoo at Warner Park",
    "city": "Chattanooga",
    "state": "TN",
-   "lat": 35.067458,
-   "lon": -85.248386
+   "lat": 35.0509,
+   "lon": -85.2818,
+   "coord_precision": "facility"
   },
   {
    "name": "Memphis Zoo",
    "city": "Memphis",
    "state": "TN",
-   "lat": 35.109026,
-   "lon": -89.967455,
+   "lat": 35.1496,
+   "lon": -90.0099,
+   "coord_precision": "facility",
    "species": [
     "Aardvark",
     "Abyssinian ground-hornbill",
@@ -5020,8 +5197,9 @@
    "name": "Nashville Zoo",
    "city": "Nashville",
    "state": "TN",
-   "lat": 36.1718,
-   "lon": -86.785002,
+   "lat": 36.1067,
+   "lon": -86.7556,
+   "coord_precision": "facility",
    "species": [
     "African elephant",
     "Alligator snapping turtle",
@@ -5045,15 +5223,17 @@
    "name": "Ripley's Aquarium of the Smokies",
    "city": "Gatlinburg",
    "state": "TN",
-   "lat": 35.724979,
-   "lon": -83.493805
+   "lat": 35.71,
+   "lon": -83.5237,
+   "coord_precision": "facility"
   },
   {
    "name": "Tennessee Aquarium",
    "city": "Chattanooga",
    "state": "TN",
-   "lat": 35.064458,
-   "lon": -85.248386,
+   "lat": 35.0556,
+   "lon": -85.3105,
+   "coord_precision": "facility",
    "species": [
     "African Shell-dweller Cichlid",
     "African Tigerfish",
@@ -5070,8 +5250,9 @@
    "name": "Zoo Knoxville",
    "city": "Knoxville",
    "state": "TN",
-   "lat": 35.97068,
-   "lon": -83.94927,
+   "lat": 35.9914,
+   "lon": -83.877,
+   "coord_precision": "facility",
    "species": [
     "American Guinea Hog",
     "Black Bear",
@@ -5088,22 +5269,25 @@
    "name": "Abilene Zoological Gardens",
    "city": "Abilene",
    "state": "TX",
-   "lat": 32.454514,
-   "lon": -99.738147
+   "lat": 32.4337,
+   "lon": -99.7188,
+   "coord_precision": "facility"
   },
   {
    "name": "Baylor University Bear Habitat",
    "city": "Waco",
    "state": "TX",
-   "lat": 31.559494,
-   "lon": -97.18975
+   "lat": 31.5478,
+   "lon": -97.1142,
+   "coord_precision": "facility"
   },
   {
    "name": "Caldwell Zoo",
    "city": "Tyler",
    "state": "TX",
-   "lat": 32.317258,
-   "lon": -95.305886,
+   "lat": 32.3739,
+   "lon": -95.3032,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "Bison",
@@ -5118,22 +5302,25 @@
    "name": "Cameron Park Zoo",
    "city": "Waco",
    "state": "TX",
-   "lat": 31.556494,
-   "lon": -97.18975
+   "lat": 31.5728,
+   "lon": -97.1631,
+   "coord_precision": "facility"
   },
   {
    "name": "Dallas World Aquarium",
    "city": "Dallas",
    "state": "TX",
-   "lat": 32.794833,
-   "lon": -96.766513
+   "lat": 32.7838,
+   "lon": -96.8085,
+   "coord_precision": "facility"
   },
   {
    "name": "Dallas Zoo",
    "city": "Dallas",
    "state": "TX",
-   "lat": 32.791833,
-   "lon": -96.766513,
+   "lat": 32.7415,
+   "lon": -96.8158,
+   "coord_precision": "facility",
    "species": [
     "Addax",
     "Addra gazelle",
@@ -5186,8 +5373,9 @@
    "name": "Fort Worth Zoo",
    "city": "Fort Worth",
    "state": "TX",
-   "lat": 32.781954,
-   "lon": -97.348573,
+   "lat": 32.7297,
+   "lon": -97.3589,
+   "coord_precision": "facility",
    "species": [
     "African fish eagle",
     "African leopard",
@@ -5286,8 +5474,9 @@
    "name": "Fossil Rim Wildlife Center",
    "city": "Glen Rose",
    "state": "TX",
-   "lat": 32.246824,
-   "lon": -97.748052,
+   "lat": 32.2418,
+   "lon": -97.7822,
+   "coord_precision": "facility",
    "species": [
     "Addax",
     "African Spurred Tortoise",
@@ -5348,15 +5537,17 @@
    "name": "Gladys Porter Zoo",
    "city": "Brownsville",
    "state": "TX",
-   "lat": 25.995689,
-   "lon": -97.450848
+   "lat": 25.9176,
+   "lon": -97.4948,
+   "coord_precision": "facility"
   },
   {
    "name": "Houston Zoo, Inc.",
    "city": "Houston",
    "state": "TX",
-   "lat": 29.787243,
-   "lon": -95.388806,
+   "lat": 29.7148,
+   "lon": -95.3905,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Painted Dog",
@@ -5438,29 +5629,33 @@
    "name": "Landry's Houston Aquarium, Inc.",
    "city": "Houston",
    "state": "TX",
-   "lat": 29.784243,
-   "lon": -95.388806
+   "lat": 29.7656,
+   "lon": -95.3631,
+   "coord_precision": "facility"
   },
   {
    "name": "Longneck Manor",
    "city": "Fredericksburg",
    "state": "TX",
-   "lat": 30.26568,
-   "lon": -98.875676
+   "lat": 30.2752,
+   "lon": -98.872,
+   "coord_precision": "facility"
   },
   {
    "name": "Moody Gardens Rainforest and Aquarium",
    "city": "Galveston",
    "state": "TX",
-   "lat": 29.186328,
-   "lon": -94.965758
+   "lat": 29.2772,
+   "lon": -94.8556,
+   "coord_precision": "facility"
   },
   {
    "name": "San Antonio Zoological Society",
    "city": "San Antonio",
    "state": "TX",
-   "lat": 29.464309,
-   "lon": -98.524635,
+   "lat": 29.4651,
+   "lon": -98.4719,
+   "coord_precision": "facility",
    "species": [
     "African Wild Dog",
     "Asian Small-clawed Otter",
@@ -5507,43 +5702,49 @@
    "name": "SEA LIFE Grapevine Aquarium",
    "city": "Grapevine",
    "state": "TX",
-   "lat": 32.934969,
-   "lon": -97.075912
+   "lat": 32.9343,
+   "lon": -97.0436,
+   "coord_precision": "facility"
   },
   {
    "name": "SeaWorld San Antonio",
    "city": "San Antonio",
    "state": "TX",
-   "lat": 29.461309,
-   "lon": -98.524635
+   "lat": 29.457,
+   "lon": -98.7012,
+   "coord_precision": "facility"
   },
   {
    "name": "Texas State Aquarium",
    "city": "Corpus Christi",
    "state": "TX",
-   "lat": 27.754252,
-   "lon": -97.173385
+   "lat": 27.8157,
+   "lon": -97.3911,
+   "coord_precision": "facility"
   },
   {
    "name": "Loveland Living Planet Aquarium",
    "city": "Draper",
    "state": "UT",
-   "lat": 40.49715,
-   "lon": -111.864636
+   "lat": 40.5489,
+   "lon": -111.8789,
+   "coord_precision": "facility"
   },
   {
    "name": "Tracy Aviary",
    "city": "Salt Lake City",
    "state": "UT",
-   "lat": 40.778428,
-   "lon": -111.930991
+   "lat": 40.7472,
+   "lon": -111.8783,
+   "coord_precision": "facility"
   },
   {
    "name": "Utah's Hogle Zoo",
    "city": "Salt Lake City",
    "state": "UT",
-   "lat": 40.775428,
-   "lon": -111.930991,
+   "lat": 40.7503,
+   "lon": -111.8136,
+   "coord_precision": "facility",
    "species": [
     "Beaver",
     "Black-footed Cat",
@@ -5571,8 +5772,9 @@
    "name": "Virginia Aquarium and Marine Science Center",
    "city": "Virginia Beach",
    "state": "VA",
-   "lat": 36.779525,
-   "lon": -76.029142,
+   "lat": 36.8472,
+   "lon": -76.0093,
+   "coord_precision": "facility",
    "species": [
     "Atlantic Purple Sea Urchin",
     "Great Barracuda",
@@ -5596,8 +5798,9 @@
    "name": "Virginia Living Museum",
    "city": "Newport News",
    "state": "VA",
-   "lat": 37.076136,
-   "lon": -76.52198,
+   "lat": 37.0863,
+   "lon": -76.4781,
+   "coord_precision": "facility",
    "species": [
     "American Alligator",
     "Atlantic Croaker",
@@ -5654,29 +5857,33 @@
    "name": "Virginia Zoological Park",
    "city": "Norfolk",
    "state": "VA",
-   "lat": 36.923015,
-   "lon": -76.244641
+   "lat": 36.8868,
+   "lon": -76.2737,
+   "coord_precision": "facility"
   },
   {
    "name": "Northwest Trek Wildlife Park",
    "city": "Eatonville",
    "state": "WA",
-   "lat": 46.868224,
-   "lon": -122.269568
+   "lat": 46.902,
+   "lon": -122.244,
+   "coord_precision": "facility"
   },
   {
    "name": "Point Defiance Zoo and Aquarium",
    "city": "Tacoma",
    "state": "WA",
-   "lat": 47.252199,
-   "lon": -122.459832
+   "lat": 47.3081,
+   "lon": -122.5152,
+   "coord_precision": "facility"
   },
   {
    "name": "Seattle Aquarium",
    "city": "Seattle",
    "state": "WA",
-   "lat": 47.620835,
-   "lon": -122.351538,
+   "lat": 47.6075,
+   "lon": -122.3422,
+   "coord_precision": "facility",
    "species": [
     "Anemone",
     "Barnacle",
@@ -5726,8 +5933,9 @@
    "name": "Woodland Park Zoo",
    "city": "Seattle",
    "state": "WA",
-   "lat": 47.617835,
-   "lon": -122.351538,
+   "lat": 47.6685,
+   "lon": -122.354,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "Brown Bear",
@@ -5748,15 +5956,17 @@
    "name": "Oglebay's Good Zoo",
    "city": "Wheeling",
    "state": "WV",
-   "lat": 40.073753,
-   "lon": -80.696027
+   "lat": 40.0958,
+   "lon": -80.6792,
+   "coord_precision": "facility"
   },
   {
    "name": "Henry Vilas Zoo",
    "city": "Madison",
    "state": "WI",
-   "lat": 43.087815,
-   "lon": -89.429856,
+   "lat": 43.0648,
+   "lon": -89.4099,
+   "coord_precision": "facility",
    "species": [
     "Aardvark",
     "African Lion",
@@ -5779,8 +5989,9 @@
    "name": "International Crane Foundation",
    "city": "Baraboo",
    "state": "WI",
-   "lat": 43.469408,
-   "lon": -89.737289,
+   "lat": 43.4645,
+   "lon": -89.7348,
+   "coord_precision": "facility",
    "species": [
     "Black Crowned Crane",
     "Black-necked Crane",
@@ -5803,8 +6014,9 @@
    "name": "Milwaukee County Zoological Gardens",
    "city": "Milwaukee",
    "state": "WI",
-   "lat": 43.063348,
-   "lon": -87.966695,
+   "lat": 42.9954,
+   "lon": -88.0291,
+   "coord_precision": "facility",
    "species": [
     "African Lion",
     "African Penguin",
@@ -5899,15 +6111,17 @@
    "name": "Northeastern Wisconsin (NEW) Zoo",
    "city": "Green Bay",
    "state": "WI",
-   "lat": 44.521542,
-   "lon": -87.986568
+   "lat": 44.5747,
+   "lon": -88.071,
+   "coord_precision": "facility"
   },
   {
    "name": "Racine Zoo",
    "city": "Racine",
    "state": "WI",
-   "lat": 42.725569,
-   "lon": -87.814224
+   "lat": 42.7308,
+   "lon": -87.7869,
+   "coord_precision": "facility"
   }
  ]
 }

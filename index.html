@@ -439,10 +439,9 @@
         <select id="state-filter"><option value="">All states</option></select>
 
         <p class="footer-note">
-          Markers show city centroids; AZA does not publish street addresses. Built from the
+          Markers are at each zoo's actual address. Built from the
           <a href="https://www.aza.org/inst-status">AZA member directory</a>,
-          each zoo's own animal pages, and the
-          <a href="https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html">Census places gazetteer</a>.
+          each zoo's own animal pages, Wikipedia for the larger zoos that don't publish A–Z lists, and a hand-curated coordinate file.
         </p>
       </div>
 
@@ -484,24 +483,24 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
 }).addTo(map);
 
-const COLORS = { aza: getComputedStyle(document.documentElement).getPropertyValue('--aza').trim() };
+const COLORS = { aza: getComputedStyle(document.documentElement).getPropertyValue('--moss').trim() || '#1f5e3e' };
 const ICON_AZA = L.divIcon({
   className: '',
-  html: `<div style="width:11px;height:11px;border-radius:50%;background:${COLORS.aza};border:1.5px solid white;box-shadow:0 0 0 1px rgba(0,0,0,0.25);"></div>`,
-  iconSize: [11, 11],
-  iconAnchor: [5.5, 5.5],
-});
-const ICON_HIGHLIGHT = L.divIcon({
-  className: '',
-  html: `<div style="width:14px;height:14px;border-radius:50%;background:${COLORS.aza};border:2px solid #b04826;box-shadow:0 0 8px rgba(176,72,38,0.7);"></div>`,
+  html: `<div style="width:14px;height:14px;border-radius:50%;background:${COLORS.aza};border:2px solid #fbf7ec;box-shadow:0 0 0 1px rgba(28,26,23,0.35), 0 1px 3px rgba(0,0,0,0.25);"></div>`,
   iconSize: [14, 14],
   iconAnchor: [7, 7],
 });
+const ICON_HIGHLIGHT = L.divIcon({
+  className: '',
+  html: `<div style="width:18px;height:18px;border-radius:50%;background:${COLORS.aza};border:2.5px solid #b04826;box-shadow:0 0 10px rgba(176,72,38,0.8), 0 1px 3px rgba(0,0,0,0.25);"></div>`,
+  iconSize: [18, 18],
+  iconAnchor: [9, 9],
+});
 const ICON_UNKNOWN = L.divIcon({
   className: '',
-  html: `<div style="width:9px;height:9px;border-radius:50%;background:transparent;border:1.5px dashed ${COLORS.aza};opacity:0.55;"></div>`,
-  iconSize: [9, 9],
-  iconAnchor: [4.5, 4.5],
+  html: `<div style="width:12px;height:12px;border-radius:50%;background:transparent;border:1.5px dashed ${COLORS.aza};opacity:0.6;"></div>`,
+  iconSize: [12, 12],
+  iconAnchor: [6, 6],
 });
 
 const cluster = L.markerClusterGroup({
@@ -827,11 +826,11 @@ function setupPrograms(data) {
 }
 
 Promise.all([
-  fetch('data/facilities.json').then(r => r.json()),
-  fetch('data/species_index.json').then(r => r.json()).catch(() => []),
-  fetch('data/individuals.json').then(r => r.ok ? r.json() : null).catch(() => null),
-  fetch('data/animal_news.json').then(r => r.ok ? r.json() : null).catch(() => null),
-  fetch('data/ssp_data.json').then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch('data/facilities.json?v=' + Date.now()).then(r => r.json()),
+  fetch('data/species_index.json?v=' + Date.now()).then(r => r.json()).catch(() => []),
+  fetch('data/individuals.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch('data/animal_news.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch('data/ssp_data.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null),
 ]).then(([facData, speciesData, indData, newsData, sspData]) => {
   allFacilities = facData.facilities;
   speciesIndex = speciesData;
