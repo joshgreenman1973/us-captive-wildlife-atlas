@@ -1,6 +1,178 @@
 {
-  "_note": "Animal birth/death/transfer announcements from major AZA zoos. Source date: 2026-05-07.",
-  "_zoos_scraped": [],
-  "_zoos_blocked": [],
-  "events": []
+  "_note": "Animal birth/death/hatch/arrival/departure announcements from major AZA-accredited US zoos and aquariums. Source date: 2026-05-07. Compiled from official zoo press pages and supplementary news searches where official pages were inaccessible. Where exact dates were unavailable, year/month is given.",
+  "_zoos_scraped": [
+    "Lincoln Park Zoo",
+    "Cincinnati Zoo and Botanical Garden",
+    "Houston Zoo, Inc.",
+    "Philadelphia Zoo",
+    "Zoo Atlanta",
+    "Denver Zoo Conservation Alliance",
+    "North Carolina Zoo",
+    "Fort Worth Zoo",
+    "Audubon Zoo",
+    "Columbus Zoo & Aquarium",
+    "Woodland Park Zoo",
+    "Brookfield Zoo Chicago",
+    "Saint Louis Zoo",
+    "Detroit Zoological Society",
+    "San Diego Zoo",
+    "San Diego Zoo Safari Park",
+    "Bronx Zoo/WCS",
+    "Smithsonian's National Zoo and Conservation Biology Institute",
+    "Disney's Animal Kingdom",
+    "Cleveland Metroparks Zoo",
+    "Indianapolis Zoological Society Inc.",
+    "Oregon Zoo",
+    "SeaWorld San Diego",
+    "SeaWorld Orlando",
+    "Nashville Zoo",
+    "Memphis Zoo",
+    "Dallas Zoo"
+  ],
+  "_zoos_blocked": [
+    "Brookfield Zoo Chicago (direct page 403/TLS, used news search)",
+    "Saint Louis Zoo (ECONNREFUSED, used news search)",
+    "Detroit Zoological Society (news page returned no content, used search)",
+    "Memphis Zoo (403/404, used news search)",
+    "Dallas Zoo (403, used news search)",
+    "Disney's Animal Kingdom (no scrapeable feed, used news search)",
+    "SeaWorld San Diego (used news search)",
+    "SeaWorld Orlando (used news search)",
+    "Cleveland Metroparks Zoo (404, used news search)",
+    "Bronx Zoo/WCS (newsroom returned no relevant items, used search)",
+    "San Diego Zoo / Safari Park (story-hub returned empty, used search)",
+    "Smithsonian's National Zoo (403, used search)",
+    "Georgia Aquarium (no content visible)",
+    "Shedd Aquarium (403)",
+    "National Aquarium (no datable events on stories page)",
+    "New England Aquarium (no birth/death announcements visible)",
+    "Monterey Bay Aquarium (404)",
+    "Nashville Zoo (403, used news search)",
+    "Indianapolis Zoological Society Inc. (zoo-news page navigation only, used search)"
+  ],
+  "events": [
+    {"zoo": "Lincoln Park Zoo", "date": "2026-04-08", "type": "arrival", "species": "Sichuan takin", "name": "Porter and Taiyang", "headline": "New Arrivals: Porter and Taiyang, Sichuan Takins", "url": "https://www.lpzoo.org/new-arrivals-porter-and-taiyang-sichuan-takins/"},
+    {"zoo": "Lincoln Park Zoo", "date": "2026-03-20", "type": "birth", "species": "Eastern black rhinoceros", "name": null, "headline": "New Arrival: Eastern Black Rhinoceros Calf", "url": "https://www.lpzoo.org/new-arrival-eastern-black-rhinoceros-calf/"},
+    {"zoo": "Lincoln Park Zoo", "date": "2026-02-17", "type": "arrival", "species": "Red panda", "name": "Qi", "headline": "New Arrival: Qi, Red Panda", "url": "https://www.lpzoo.org/new-arrival-qi-red-panda/"},
+    {"zoo": "Lincoln Park Zoo", "date": "2026-01-29", "type": "birth", "species": "Eastern massasauga rattlesnake", "name": null, "headline": "New Arrivals: Eastern Massasauga Rattlesnakes", "url": "https://www.lpzoo.org/new-arrivals-eastern-massasauga-rattlesnakes/"},
+
+    {"zoo": "Cincinnati Zoo and Botanical Garden", "date": "2026-03-24", "type": "arrival", "species": "Manatee", "name": "Calliope", "headline": "Calliope's Remarkable Journey", "url": "https://cincinnatizoo.org/calliopes-remarkable-journey/"},
+    {"zoo": "Cincinnati Zoo and Botanical Garden", "date": "2026-03-16", "type": "birth", "species": "Bonobo", "name": "Daisy", "headline": "Like Father, Like Daughter: Meet Daisy the Bonobo's Dad!", "url": "https://cincinnatizoo.org/like-father-like-daughter-meet-daisy-the-bonobos-dad/"},
+    {"zoo": "Cincinnati Zoo and Botanical Garden", "date": "2026-03-12", "type": "birth", "species": "Giraffe", "name": "Tessa (mother)", "headline": "Giraffe Tessa Expecting at Cincinnati Zoo's Giraffe Ridge", "url": "https://cincinnatizoo.org/giraffe-tessa-expecting-at-cincinnati-zoos-giraffe-ridge/"},
+    {"zoo": "Cincinnati Zoo and Botanical Garden", "date": "2026-02-18", "type": "departure", "species": "Manatee", "name": null, "headline": "Mass Manatee Release Includes Three Former Cincinnati Zoo Residents", "url": "https://cincinnatizoo.org/mass-manatee-release-includes-three-former-cincinnati-zoo-residents/"},
+
+    {"zoo": "Houston Zoo, Inc.", "date": "2026-05-07", "type": "birth", "species": "Howler monkey", "name": "Tuve", "headline": "Houston Zoo Welcomes Two Baby Primates Ahead of Mother's Day", "url": "https://www.houstonzoo.org/blog/houston-zoo-welcomes-two-baby-primates-ahead-of-mothers-day/"},
+    {"zoo": "Houston Zoo, Inc.", "date": "2026-05-07", "type": "birth", "species": "Gibbon", "name": null, "headline": "Houston Zoo Welcomes Two Baby Primates Ahead of Mother's Day", "url": "https://www.houstonzoo.org/blog/houston-zoo-welcomes-two-baby-primates-ahead-of-mothers-day/"},
+    {"zoo": "Houston Zoo, Inc.", "date": "2026-04-24", "type": "death", "species": null, "name": "Luni Tune", "headline": "Remembering Luni Tune", "url": "https://www.houstonzoo.org/blog/remembering-luni-tune/"},
+    {"zoo": "Houston Zoo, Inc.", "date": "2026-04-16", "type": "departure", "species": null, "name": "Tucker and Nelson", "headline": "Houston Zoo's Tucker and Nelson Head to New Home After Years of Impact", "url": "https://www.houstonzoo.org/blog/houston-zoos-tucker-and-nelson-head-to-new-home/"},
+    {"zoo": "Houston Zoo, Inc.", "date": "2026-02-06", "type": "death", "species": "Zebu", "name": "Zamir", "headline": "Remembering Zamir the Zebu", "url": "https://www.houstonzoo.org/blog/remembering-zamir-the-zebu/"},
+
+    {"zoo": "Philadelphia Zoo", "date": "2026-03-25", "type": "death", "species": null, "name": "Khumbie", "headline": "Remembering Khumbie", "url": "https://www.philadelphiazoo.org/news/remembering-khumbie/"},
+    {"zoo": "Philadelphia Zoo", "date": "2025-04-23", "type": "hatch", "species": "Galapagos tortoise", "name": null, "headline": "Four Critically Endangered Galapagos Tortoises Hatch at Philadelphia Zoo, First Successful Hatching of this Species in Zoo's History", "url": "https://www.philadelphiazoo.org/news/four-critically-endangered-galapagos-tortoises-hatch-at-philadelphia-zoo/"},
+    {"zoo": "Philadelphia Zoo", "date": "2025-07", "type": "hatch", "species": "Galapagos tortoise", "name": null, "headline": "Nine More Critically Endangered Galapagos Tortoises Hatch at Philadelphia Zoo, Totaling 16 Babies", "url": "https://www.philadelphiazoo.org/news/nine-more-critically-endangered-galapagos-tortoises-hatch-at-philadelphia-zoo/"},
+
+    {"zoo": "Zoo Atlanta", "date": "2026-05-04", "type": "arrival", "species": "Warthog", "name": "Anakin", "headline": "May the Fourth be with him: Zoo Atlanta welcomes Anakin the warthog", "url": "https://zooatlanta.org/may-the-fourth-be-with-him-zoo-atlanta-welcomes-anakin-the-warthog/"},
+    {"zoo": "Zoo Atlanta", "date": "2026-04-29", "type": "birth", "species": "Southern three-banded armadillo", "name": null, "headline": "Zoo Atlanta welcomes first-ever southern three-banded armadillo birth", "url": "https://zooatlanta.org/zoo-atlanta-welcomes-first-ever-southern-three-branded-armadillo-birth/"},
+    {"zoo": "Zoo Atlanta", "date": "2026-04-15", "type": "arrival", "species": "Clouded leopard", "name": "Boon", "headline": "Zoo Atlanta welcomes Boon the clouded leopard", "url": "https://zooatlanta.org/zoo-atlanta-welcomes-boon-the-clouded-leopard/"},
+    {"zoo": "Zoo Atlanta", "date": "2026-03-26", "type": "arrival", "species": "Siamese crocodile", "name": "Seng", "headline": "Zoo Atlanta welcomes Seng the Siamese crocodile", "url": "https://zooatlanta.org/zoo-atlanta-welcomes-seng-the-siamese-crocodile/"},
+
+    {"zoo": "Denver Zoo Conservation Alliance", "date": "2025-08-07", "type": "death", "species": "California sea lion", "name": "Nick", "headline": "News about California Sea Lion Nick", "url": "https://denverzoo.org/zootales/news-about-california-sea-lion-nick/"},
+
+    {"zoo": "North Carolina Zoo", "date": "2025-12-01", "type": "death", "species": "African bull elephant", "name": "C'sar", "headline": "North Carolina Zoo Mourns Death of Oldest African Bull Elephant in the U.S.", "url": "https://nczoo.org/news/north-carolina-zoo-mourns-death-oldest-african-bull-elephant-us"},
+    {"zoo": "North Carolina Zoo", "date": "2025-07-15", "type": "death", "species": "Giraffe", "name": "Leia", "headline": "North Carolina Zoo Grieves Giraffe Leia", "url": "https://nczoo.org/news/north-carolina-zoo-grieves-giraffe-leia"},
+
+    {"zoo": "Fort Worth Zoo", "date": "2025-08-18", "type": "birth", "species": "Asian elephant", "name": "Lady Bird", "headline": "Our Elephant Herd Has Grown by One Tiny Trunk", "url": "https://www.fortworthzoo.org/new-at-the-zoo/posts/our-elephant-herd-has-grown-by-one-tiny-trunk"},
+    {"zoo": "Fort Worth Zoo", "date": "2025-05-17", "type": "birth", "species": "Porcupine", "name": "Penelope", "headline": "Porcupette Penelope born", "url": "https://www.fortworthzoo.org/new-at-the-zoo"},
+    {"zoo": "Fort Worth Zoo", "date": "2026", "type": "birth", "species": "Lion", "name": null, "headline": "Seeing Double: Two Lion Cubs Born at the Fort Worth Zoo", "url": "https://www.fortworthzoo.org/new-at-the-zoo/posts/seeing-double-two-lion-cubs-born-at-the-fort-worth-zoo"},
+    {"zoo": "Fort Worth Zoo", "date": "2025", "type": "birth", "species": "Reticulated giraffe", "name": null, "headline": "We've Welcomed a Short Stack to African Savanna!", "url": "https://www.fortworthzoo.org/new-at-the-zoo/posts/weve-welcomed-a-short-stack-to-african-savanna"},
+    {"zoo": "Fort Worth Zoo", "date": "2025", "type": "hatch", "species": "African fish eagle", "name": null, "headline": "The Eagle Has Landed! Meet Our First African Fish Eagle Chick", "url": "https://www.fortworthzoo.org/new-at-the-zoo/posts/the-eagle-has-landed-meet-our-first-african-fish-eagle-chick"},
+    {"zoo": "Fort Worth Zoo", "date": "2025", "type": "birth", "species": "Lesser flamingo", "name": null, "headline": "Lesser Flamingo Flock Grows at the Fort Worth Zoo", "url": "https://www.fortworthzoo.org/new-at-the-zoo/posts/lesser-flamingo-flock-grows-at-the-fort-worth-zoo"},
+
+    {"zoo": "Audubon Zoo", "date": "2026-04-30", "type": "arrival", "species": "Hartmann's mountain zebra", "name": null, "headline": "Audubon Zoo Welcomes Three Zebra", "url": "https://newsroom.audubonnatureinstitute.org/audubon-zoo-welcomes-three-zebra/"},
+    {"zoo": "Audubon Zoo", "date": "2026-02-11", "type": "hatch", "species": "African penguin", "name": "Jupiter", "headline": "Audubon Aquarium's Penguin Chick is Named", "url": "https://newsroom.audubonnatureinstitute.org/audubon-aquariums-penguin-chick-is-named/"},
+    {"zoo": "Audubon Zoo", "date": "2026-01-19", "type": "birth", "species": "Okapi", "name": null, "headline": "First okapi calf born at Freeport-McMoRan Audubon Species Survival Center", "url": "https://newsroom.audubonnatureinstitute.org/"},
+    {"zoo": "Audubon Zoo", "date": "2025-10-19", "type": "birth", "species": "African lion", "name": "Nandi, Zawadi, Tatu", "headline": "Three African lion cubs born at Audubon Zoo in New Orleans", "url": "https://www.nola.com/entertainment_life/audubon-zoo-three-lion-cubs/article_fe2066a5-1adb-4fae-a597-a7d5c8139d03.html"},
+    {"zoo": "Audubon Zoo", "date": "2025-07-20", "type": "birth", "species": "Capybara", "name": null, "headline": "Three capybara pups born at New Orleans zoo", "url": "https://www.upi.com/Odd_News/2025/07/30/Audubon-Nature-Institute-capybara-pups/3071753899067/"},
+
+    {"zoo": "Columbus Zoo & Aquarium", "date": "2026-04-30", "type": "birth", "species": "Rhinoceros", "name": null, "headline": "The Wilds Opens for the 2026 Summer Season with New Rhino Calves", "url": "https://www.columbuszoo.org/news/wilds-opens-2026-summer-season-new-rhino-calves-unique-experiences-and-seasonal-activities"},
+    {"zoo": "Columbus Zoo & Aquarium", "date": "2026-04-07", "type": "birth", "species": "Southern white rhinoceros", "name": null, "headline": "Second Rhino Calf of 2026 Born at The Wilds", "url": "https://www.columbuszoo.org/news/second-rhino-calf-2026-born-wilds-highlighting-rhino-conservation-efforts-ohio"},
+    {"zoo": "Columbus Zoo & Aquarium", "date": "2026-03-19", "type": "birth", "species": "Masai giraffe", "name": null, "headline": "Columbus Zoo and Aquarium Welcomes New Masai Giraffe Calf", "url": "https://www.columbuszoo.org/news/columbus-zoo-and-aquarium-welcomes-new-masai-giraffe-calf"},
+    {"zoo": "Columbus Zoo & Aquarium", "date": "2026-03-10", "type": "birth", "species": "Southern white rhinoceros", "name": null, "headline": "The Wilds Welcomes First Rhino Calf of 2026", "url": "https://www.columbuszoo.org/news/wilds-welcomes-first-rhino-calf-2026-continuing-more-two-decades-conservation-breeding-success"},
+    {"zoo": "Columbus Zoo & Aquarium", "date": "2026-02-18", "type": "departure", "species": "Manatee", "name": null, "headline": "Over 20 Rehabilitated Manatees Return to Florida Waters", "url": "https://www.columbuszoo.org/news/over-20-rehabilitated-manatees-return-florida-waters-after-several-years-rehabiliation"},
+
+    {"zoo": "Woodland Park Zoo", "date": "2026-04-17", "type": "arrival", "species": "Hooded vulture", "name": null, "headline": "Rare and Remarkable: Woodland Park Zoo Welcomes Two Critically Endangered Hooded Vultures", "url": "https://zoo.org/press/rare-and-remarkable-woodland-park-zoo-welcomes-two-critically-endangered-hooded-vultures/"},
+    {"zoo": "Woodland Park Zoo", "date": "2026-01-14", "type": "birth", "species": "African lion", "name": null, "headline": "Woodland Park Zoo welcomes 2 baby lions, first born in over a decade", "url": "https://www.seattletimes.com/seattle-news/woodland-park-zoo-welcomes-2-baby-lions-first-born-in-over-decade/"},
+    {"zoo": "Woodland Park Zoo", "date": "2025-07-24", "type": "birth", "species": "African porcupine", "name": null, "headline": "African porcupines (and porcupettes) abound at the zoo", "url": "https://zoo.org/press/african-porcupines-and-porcupettes-abound-at-the-zoo/"},
+    {"zoo": "Woodland Park Zoo", "date": "2025-01-08", "type": "birth", "species": "Sloth bear", "name": null, "headline": "Female Sloth Bear born at Woodland Park Zoo", "url": "https://www.zoo.org/pressroom"},
+
+    {"zoo": "Brookfield Zoo Chicago", "date": "2026-02-20", "type": "birth", "species": "Pangolin", "name": null, "headline": "Pangolin Pup Born at Brookfield Zoo Already Has Impeccable Timing", "url": "https://news.wttw.com/2026/02/20/pangolin-pup-born-brookfield-zoo-already-has-impeccable-timing"},
+    {"zoo": "Brookfield Zoo Chicago", "date": "2025-06-07", "type": "birth", "species": "Bottlenose dolphin", "name": null, "headline": "2025 Dolphin Calf Born at Brookfield Zoo Chicago", "url": "https://www.brookfieldzoo.org/2025/bottlenosedolphinbirth"},
+    {"zoo": "Brookfield Zoo Chicago", "date": "2025-06-12", "type": "death", "species": "Bottlenose dolphin", "name": null, "headline": "Brookfield Zoo Mourning 'Devastating Loss' of 4-Day-Old Dolphin Calf", "url": "https://news.wttw.com/2025/06/12/brookfield-zoo-mourning-devastating-loss-4-day-old-dolphin-calf"},
+
+    {"zoo": "Saint Louis Zoo", "date": "2026-02-27", "type": "birth", "species": "Bactrian camel", "name": "Ruby", "headline": "First Bactrian camel calf born at WildCare Park", "url": "https://stlzoo.org/news"},
+    {"zoo": "Saint Louis Zoo", "date": "2025-12-11", "type": "death", "species": "Sichuan takin", "name": "Xing", "headline": "Xing, a takin at the St. Louis Zoo, has died", "url": "https://www.stltoday.com/life-entertainment/local/article_6a0e39d1-8593-4f4f-a84e-e350f5c6ed96.html"},
+    {"zoo": "Saint Louis Zoo", "date": "2025-06-06", "type": "birth", "species": "Banteng", "name": "Rutabega", "headline": "First banteng calf at WildCare Park born", "url": "https://stlzoo.org/news"},
+    {"zoo": "Saint Louis Zoo", "date": "2025-03", "type": "arrival", "species": "Polar bear", "name": null, "headline": "Twin polar bears transferred from Toledo Zoo", "url": "https://stlzoo.org/news"},
+    {"zoo": "Saint Louis Zoo", "date": "2025", "type": "birth", "species": "Orangutan", "name": "Forest", "headline": "First orangutan born at the zoo in nine years", "url": "https://stlzoo.org/news"},
+
+    {"zoo": "Detroit Zoological Society", "date": "2024-08-08", "type": "birth", "species": "Western lowland gorilla", "name": "Motema", "headline": "Detroit Zoo Welcomes First-Ever Baby Gorilla", "url": "https://detroitzoo.org/wp-content/uploads/2024/08/Baby-Gorilla-News-Release_FINAL.pdf"},
+
+    {"zoo": "San Diego Zoo", "date": "2025-11-20", "type": "death", "species": "Galapagos tortoise", "name": "Gramma", "headline": "San Diego Zoo's oldest resident, a Galapagos tortoise believed to be about 141, dies", "url": "https://www.cbc.ca/news/world/galapagos-tortoise-gramma-dies-9.6991238"},
+
+    {"zoo": "San Diego Zoo Safari Park", "date": "2026-01-24", "type": "birth", "species": "Cheetah", "name": null, "headline": "San Diego Zoo Safari Park welcomes four cheetah cubs", "url": "https://abc7.com/post/san-diego-zoo-safari-park-welcomes-cheetah-cubs-ultimate/18697958/"},
+    {"zoo": "San Diego Zoo Safari Park", "date": "2025-04-30", "type": "birth", "species": "Masai giraffe", "name": null, "headline": "San Diego Zoo Safari Park welcomes birth of Masai giraffe calf", "url": "https://timesofsandiego.com/life/2025/04/30/san-diego-zoo-safari-park-welcomes-birth-of-masai-giraffe-calf/"},
+    {"zoo": "San Diego Zoo Safari Park", "date": "2025-09", "type": "birth", "species": "Reticulated giraffe", "name": "Subeera and Matope", "headline": "San Diego Zoo Safari Park announces names of two baby giraffes", "url": "https://associatednewsagency.com/2025/09/18/san-diego-zoo-safari-park-announces-names-of-two-baby-giraffes/"},
+    {"zoo": "San Diego Zoo Safari Park", "date": "2025", "type": "birth", "species": "Pudu", "name": null, "headline": "Pudu, world's smallest deer, born at San Diego Zoo Safari Park", "url": "https://fox5sandiego.com/san-diego-zoo/pudu-worlds-smallest-deer-born-at-san-diego-zoo-safari-park/"},
+
+    {"zoo": "Bronx Zoo/WCS", "date": "2026-02-15", "type": "death", "species": "Western lowland gorilla", "name": "Ntondo", "headline": "Ntondo, A Western Lowland Gorilla at the Bronx Zoo Featured in the Docuseries, THE ZOO, Dies at 32", "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/25882/Ntondo-A-Western-Lowland-Gorilla-at-the-Bronx-Zoo-Featured-in-the-Docuseries-THE-ZOO-Dies-at-32.aspx"},
+    {"zoo": "Bronx Zoo/WCS", "date": "2025-12-13", "type": "birth", "species": "Pygmy slow loris", "name": null, "headline": "Bronx Zoo Debuts Endangered Pygmy Slow Loris Baby, First Primate Born in New World of Darkness Exhibit", "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/25831/Bronx-Zoo-Debuts-Endangered-Pygmy-Slow-Loris-Baby-First-Primate-Born-in-New-World-of-Darkness-Exhibit.aspx"},
+
+    {"zoo": "Smithsonian's National Zoo and Conservation Biology Institute", "date": "2026-05", "type": "death", "species": "African lion", "name": "Shera", "headline": "21-year-old African lion dies at Smithsonian National Zoo", "url": "https://wtop.com/dc/2026/05/21-year-old-african-lion-dies-at-smithsonian-national-zoo/"},
+    {"zoo": "Smithsonian's National Zoo and Conservation Biology Institute", "date": "2026-02-02", "type": "birth", "species": "Asian elephant", "name": "Linh Mai", "headline": "First baby elephant born at Smithsonian's National Zoo in nearly 25 years", "url": "https://nationalzoo.si.edu/animals/news/animal-care-stories-shaped-2025-smithsonians-national-zoo"},
+    {"zoo": "Smithsonian's National Zoo and Conservation Biology Institute", "date": "2026-01-18", "type": "death", "species": "Gray seal", "name": "Gunther", "headline": "American Trail keepers mourn loss of Gunther, 33-year-old male gray seal", "url": "https://nationalzoo.si.edu/animals/news/animal-care-stories-shaped-2025-smithsonians-national-zoo"},
+    {"zoo": "Smithsonian's National Zoo and Conservation Biology Institute", "date": "2025", "type": "birth", "species": "Sloth bear", "name": null, "headline": "Two sloth bear cubs welcomed, first since 2013", "url": "https://nationalzoo.si.edu/animals/news/animal-care-stories-shaped-2025-smithsonians-national-zoo"},
+    {"zoo": "Smithsonian's National Zoo and Conservation Biology Institute", "date": "2025", "type": "birth", "species": "Cheetah", "name": null, "headline": "Four cheetah cubs born at Conservation Biology Institute", "url": "https://www.smithsonianmag.com/blogs/national-zoo-conservation-biology-institute/2025/12/22/small-stories-big-science-2025-in-review-at-the-smithsonians-conservation-biology-institute/"},
+    {"zoo": "Smithsonian's National Zoo and Conservation Biology Institute", "date": "2025", "type": "birth", "species": "Red panda", "name": null, "headline": "Red panda cub born at Conservation Biology Institute", "url": "https://www.smithsonianmag.com/blogs/national-zoo-conservation-biology-institute/2025/12/22/small-stories-big-science-2025-in-review-at-the-smithsonians-conservation-biology-institute/"},
+    {"zoo": "Smithsonian's National Zoo and Conservation Biology Institute", "date": "2025", "type": "hatch", "species": "Whooping crane", "name": null, "headline": "Whooping crane colt hatched at Conservation Biology Institute", "url": "https://www.smithsonianmag.com/blogs/national-zoo-conservation-biology-institute/2025/12/22/small-stories-big-science-2025-in-review-at-the-smithsonians-conservation-biology-institute/"},
+
+    {"zoo": "Disney's Animal Kingdom", "date": "2026-05", "type": "birth", "species": "Masai giraffe", "name": null, "headline": "Masai Giraffe Baby Joins Recent Animals Born at Walt Disney World", "url": "https://wdwnt.com/2026/05/masai-giraffe-baby-joins-recent-animals-born-at-walt-disney-world/"},
+    {"zoo": "Disney's Animal Kingdom", "date": "2026-05", "type": "birth", "species": "Nyala", "name": "Parker", "headline": "Male nyala calf Parker settles into Disney's Animal Kingdom Lodge", "url": "https://www.mousesteps.com/2026/05/02/new-walt-disney-world-baby-animals-arrive-to-disneys-animal-kingdom-and-animal-kingdom-lodge/"},
+    {"zoo": "Disney's Animal Kingdom", "date": "2026", "type": "birth", "species": "Ankole cattle", "name": "Mabel", "headline": "First Ankole calf born at Walt Disney World in more than 20 years", "url": "https://www.mousesteps.com/2026/05/02/new-walt-disney-world-baby-animals-arrive-to-disneys-animal-kingdom-and-animal-kingdom-lodge/"},
+    {"zoo": "Disney's Animal Kingdom", "date": "2025-02-13", "type": "birth", "species": "Masai giraffe", "name": "Tucker", "headline": "Tucker the Masai giraffe born to mom Mara", "url": "https://www.wdw-magazine.com/baby-animals-at-disneys-animal-kingdom/"},
+    {"zoo": "Disney's Animal Kingdom", "date": "2024-09-26", "type": "birth", "species": "Sumatran tiger", "name": "Bakso", "headline": "Sumatran tiger cub Bakso born", "url": "https://www.practicallyperfectpixiedust.com/post/baby-animals-animal-kingdom-guide"},
+    {"zoo": "Disney's Animal Kingdom", "date": "2024-12", "type": "birth", "species": "Asian small-clawed otter", "name": "Butternut, Biscuit, Potato", "headline": "Otter-ly Adorable: Baby Otters Born at Disney's Animal Kingdom", "url": "https://blogmickey.com/2025/01/baby-otters-born-at-animal-kingdom/"},
+
+    {"zoo": "Cleveland Metroparks Zoo", "date": "2026-04-16", "type": "death", "species": "Fosa", "name": null, "headline": "Cleveland Metroparks Zoo shares passing of 24-year-old fosa", "url": "https://www.cleveland19.com/2026/04/16/cleveland-metroparks-zoo-shares-passing-24-year-old-animal/"},
+    {"zoo": "Cleveland Metroparks Zoo", "date": "2026-02-16", "type": "death", "species": "Sloth bear", "name": "Suhani", "headline": "Cleveland Metroparks Zoo announces passing of female sloth bear", "url": "https://spectrumnews1.com/oh/columbus/news/2026/02/16/cleveland-metroparks-zoo-announces-passing-of-female-sloth-bear"},
+    {"zoo": "Cleveland Metroparks Zoo", "date": "2025-09-13", "type": "birth", "species": "Eastern black rhinoceros", "name": null, "headline": "Critically endangered Eastern black rhino calf born", "url": "https://www.clevelandmetroparks.com/news-press"},
+
+    {"zoo": "Indianapolis Zoological Society Inc.", "date": "2025-10-29", "type": "birth", "species": "Bottlenose dolphin", "name": null, "headline": "Dolphin calf born at Indianapolis Zoo", "url": "https://www.wishtv.com/news/local-news/dolphin-calf-dies-indianapolis/"},
+    {"zoo": "Indianapolis Zoological Society Inc.", "date": "2025-11-01", "type": "death", "species": "Bottlenose dolphin", "name": null, "headline": "Dolphin calf dies just days after birth at Indianapolis Zoo", "url": "https://www.wishtv.com/news/local-news/dolphin-calf-dies-indianapolis/"},
+
+    {"zoo": "Oregon Zoo", "date": "2025-02-01", "type": "birth", "species": "Asian elephant", "name": "Tula-Tu", "headline": "Pachyderms pending: A pair of XL babies is on the way at zoo", "url": "https://www.oregonzoo.org/news/pachyderms-pending-pair-xl-babies-way-zoo"},
+
+    {"zoo": "SeaWorld San Diego", "date": "2026-02", "type": "hatch", "species": "King penguin", "name": null, "headline": "Three new king penguin chicks hatched in February and April", "url": "https://seaworld.com/san-diego/animals/baby-boom/"},
+    {"zoo": "SeaWorld San Diego", "date": "2025-11-05", "type": "birth", "species": "Bottlenose dolphin", "name": null, "headline": "Bottlenose dolphin Melanie gives birth to third calf", "url": "https://seaworld.com/san-diego/blog/baby-dolphin/"},
+    {"zoo": "SeaWorld San Diego", "date": "2025-01", "type": "birth", "species": "Bottlenose dolphin", "name": "Jupiter and Phin", "headline": "SeaWorld San Diego Welcomes 2 Baby Dolphins", "url": "https://patch.com/california/san-diego/seaworld-san-diego-celebrates-birth-dolphin-calves"},
+    {"zoo": "SeaWorld San Diego", "date": "2026", "type": "arrival", "species": "Southern sea otter", "name": "Jane", "headline": "Jane, 4-month-old southern sea otter pup, rescued from Monterey", "url": "https://seaworld.com/san-diego/animals/baby-boom/"},
+
+    {"zoo": "SeaWorld Orlando", "date": "2025", "type": "birth", "species": "Smalltooth sawfish", "name": null, "headline": "World's second birth in human care of critically endangered sawfish pups", "url": "https://seaworld.com/orlando/media-room/press-releases/"},
+
+    {"zoo": "Nashville Zoo", "date": "2025-12-09", "type": "birth", "species": "Serval", "name": "Xander and Theo", "headline": "Twin serval cats born at Nashville Zoo", "url": "https://www.wsmv.com/2025/12/09/twin-serval-cats-born-nashville-zoo/"},
+    {"zoo": "Nashville Zoo", "date": "2025-08-27", "type": "death", "species": "Masai giraffe", "name": "Nasha", "headline": "Nashville Zoo mourns loss of giraffe matriarch Nasha", "url": "https://nashvillebanner.com/2025/08/27/nashville-zoo-giraffe-dies/"},
+    {"zoo": "Nashville Zoo", "date": "2025-07-18", "type": "birth", "species": "Clouded leopard", "name": "Gemma", "headline": "Nashville Zoo announces birth of 45th clouded leopard cub", "url": "https://www.nashvillezoo.org/our-blog/category/animal-news"},
+    {"zoo": "Nashville Zoo", "date": "2025-04-04", "type": "death", "species": "Clouded leopard", "name": null, "headline": "Clouded leopard cub passes away due to intestinal bleeding", "url": "https://www.nashvillezoo.org/our-blog/category/animal-news"},
+    {"zoo": "Nashville Zoo", "date": "2025-02-25", "type": "birth", "species": "Clouded leopard", "name": null, "headline": "Clouded leopard cub born", "url": "https://www.nashvillezoo.org/our-blog/category/animal-news"},
+    {"zoo": "Nashville Zoo", "date": "2025-11", "type": "arrival", "species": "Meerkat", "name": "Muffuletta", "headline": "New female meerkat Muffuletta joins mob", "url": "https://www.nashvillezoo.org/our-blog/category/animal-news"},
+    {"zoo": "Nashville Zoo", "date": "2026", "type": "birth", "species": "Southern pudu", "name": null, "headline": "Nashville Zoo announces birth of tiny southern pudu", "url": "https://abcnews.go.com/US/video/nashville-zoo-announces-birth-tiny-southern-pudu-121676268"},
+
+    {"zoo": "Memphis Zoo", "date": "2025-12-16", "type": "birth", "species": "Sumatran orangutan", "name": "Ruhana (Ru)", "headline": "Memphis Zoo announces birth of endangered baby orangutan", "url": "https://www.actionnews5.com/2025/12/27/memphis-zoo-welcomes-baby-orangutan/"},
+    {"zoo": "Memphis Zoo", "date": "2025-11-17", "type": "birth", "species": "Giraffe", "name": "Rahisi", "headline": "Giraffe born at Memphis Zoo", "url": "https://www.actionnews5.com/2025/11/21/giraffe-born-memphis-zoo/"},
+    {"zoo": "Memphis Zoo", "date": "2025-11-07", "type": "birth", "species": "Colobus monkey", "name": "Lincoln", "headline": "Memphis Zoo welcomes new baby monkey", "url": "https://www.actionnews5.com/2025/11/07/memphis-zoo-welcomes-new-baby-monkey/"},
+    {"zoo": "Memphis Zoo", "date": "2025-10-28", "type": "birth", "species": "Tamandua (anteater)", "name": "Bonnie", "headline": "Name announced for Memphis Zoo's newest baby anteater", "url": "https://www.actionnews5.com/2025/11/19/name-announced-memphis-zoos-newest-baby-anteater/"},
+    {"zoo": "Memphis Zoo", "date": "2025-05-21", "type": "birth", "species": "Red river hog", "name": null, "headline": "Three new red river hog piglets born at Memphis Zoo, first piglet birth since 2016", "url": "https://www.actionnews5.com/2025/06/06/three-new-red-river-hog-piglets-born-memphis-zoo-first-piglet-birth-since-2016/"},
+
+    {"zoo": "Dallas Zoo", "date": "2025-11-05", "type": "death", "species": "Western lowland gorilla", "name": "Zola", "headline": "Dallas Zoo mourns death of Zola, cherished gorilla", "url": "https://www.cbsnews.com/texas/news/dallas-zoo-gorilla-zola-death-breakdancing-whitney-houston/"},
+    {"zoo": "Dallas Zoo", "date": "2025-09-24", "type": "birth", "species": "Giraffe", "name": null, "headline": "Newest giraffe born September 24 to mom Katie", "url": "https://www.facebook.com/DallasZoo/posts/meet-our-newest-long-legged-little-giraffe-born-september-24-to-mom-katie-and-da/1217809167043826/"}
+  ]
 }
