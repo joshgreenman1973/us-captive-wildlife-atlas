@@ -419,10 +419,17 @@
     border-color: var(--rust);
     animation: pulse 1.2s ease-in-out infinite;
   }
+  .sound-btn.loading {
+    background: var(--ochre);
+    color: var(--paper);
+    border-color: var(--ochre);
+  }
+  .sound-btn.loading svg { animation: spin 0.9s linear infinite; transform-origin: 50% 50%; }
   @keyframes pulse {
     0%, 100% { box-shadow: 0 0 0 0 rgba(176, 72, 38, 0.5); }
     50% { box-shadow: 0 0 0 6px rgba(176, 72, 38, 0); }
   }
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
   .sound-btn svg { width: 10px; height: 10px; display: block; }
   .species-tag {
     display: inline-flex;
@@ -622,13 +629,31 @@ function pickAudioURL(sound) {
   return [sound.url, sound.url_mp3].filter(Boolean);
 }
 
+// Cache of preloaded Audio objects keyed by species name. Started on hover.
+const _audioCache = new Map();
+
+function preloadSound(speciesName) {
+  const sound = findSound(speciesName);
+  if (!sound) return null;
+  if (_audioCache.has(speciesName)) return _audioCache.get(speciesName);
+  const candidates = pickAudioURL(sound);
+  // Pre-fetch the first candidate. The browser will start downloading.
+  const a = new Audio();
+  a.preload = 'auto';
+  a.src = candidates[0];
+  a.volume = 0.85;
+  const entry = { audio: a, candidates, sound };
+  _audioCache.set(speciesName, entry);
+  return entry;
+}
+
 function playSound(speciesName, btnEl) {
   const sound = findSound(speciesName);
   if (!sound) return;
   if (currentAudio) {
     currentAudio.pause();
     currentAudio.currentTime = 0;
-    if (currentPlayingButton) currentPlayingButton.classList.remove('playing');
+    if (currentPlayingButton) currentPlayingButton.classList.remove('playing', 'loading');
   }
   if (currentPlayingButton === btnEl) {
     currentAudio = null;
@@ -636,26 +661,51 @@ function playSound(speciesName, btnEl) {
     return;
   }
 
-  const candidates = pickAudioURL(sound);
-  btnEl.classList.add('playing');
+  // Use cached pre-loaded audio if available
+  const entry = preloadSound(speciesName);
+  const candidates = entry.candidates;
+  let audio = entry.audio;
+  let attemptIdx = 0;
+
+  // Visual state: loading until canplay/playing fires
+  btnEl.classList.add('loading');
   currentPlayingButton = btnEl;
 
-  function tryNext(idx) {
-    if (idx >= candidates.length) {
-      btnEl.classList.remove('playing');
-      btnEl.title = 'Could not play this clip in your browser. Open the source link to listen on Wikimedia.';
+  function attachListeners() {
+    audio.oncanplay = () => {
+      btnEl.classList.remove('loading');
+      btnEl.classList.add('playing');
+    };
+    audio.onplaying = () => {
+      btnEl.classList.remove('loading');
+      btnEl.classList.add('playing');
+    };
+    audio.onended = () => {
+      btnEl.classList.remove('playing', 'loading');
       currentAudio = null; currentPlayingButton = null;
-      return;
-    }
-    const audio = new Audio(candidates[idx]);
-    audio.volume = 0.85;
-    audio.onended = () => { btnEl.classList.remove('playing'); currentAudio = null; currentPlayingButton = null; };
-    audio.onerror = () => { tryNext(idx + 1); };
-    audio.play().then(() => {
-      currentAudio = audio;
-    }).catch(() => { tryNext(idx + 1); });
+    };
+    audio.onerror = () => {
+      attemptIdx++;
+      if (attemptIdx >= candidates.length) {
+        btnEl.classList.remove('playing', 'loading');
+        btnEl.title = 'Could not play this clip in your browser. Open the source link to listen on Wikimedia.';
+        currentAudio = null; currentPlayingButton = null;
+        return;
+      }
+      audio = new Audio(candidates[attemptIdx]);
+      audio.volume = 0.85;
+      attachListeners();
+      audio.play().catch(() => audio.dispatchEvent(new Event('error')));
+    };
   }
-  tryNext(0);
+  attachListeners();
+  audio.currentTime = 0;
+  audio.play().then(() => {
+    currentAudio = audio;
+  }).catch((err) => {
+    // play() can reject for autoplay reasons or load errors; treat like onerror
+    audio.dispatchEvent(new Event('error'));
+  });
 }
 
 const SPEAKER_SVG = '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3 5h2.5L9 2v12L5.5 11H3V5z"/><path d="M11.5 4.5a4 4 0 0 1 0 7" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/></svg>';
@@ -672,6 +722,18 @@ document.addEventListener('click', (e) => {
   e.preventDefault();
   e.stopPropagation();
   playSound(btn.dataset.species, btn);
+});
+// Hover/focus preload: as soon as the user moves toward a sound button,
+// start downloading so playback is instant on click.
+document.addEventListener('mouseover', (e) => {
+  const btn = e.target.closest('.sound-btn');
+  if (!btn) return;
+  preloadSound(btn.dataset.species);
+}, true);
+document.addEventListener('focusin', (e) => {
+  const btn = e.target.closest('.sound-btn');
+  if (!btn) return;
+  preloadSound(btn.dataset.species);
 });
 
 const SOURCE_LABELS = {
