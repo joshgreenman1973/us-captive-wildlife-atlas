@@ -1,46 +1,45 @@
 # U.S. Captive Wildlife Atlas
 
-Interactive map of every exhibitor and dealer licensed by the U.S. Department of Agriculture (USDA) plus every zoo and aquarium accredited by the Association of Zoos and Aquariums (AZA) in the United States, ~2,500 facilities, with notes on what's missing and why.
+Interactive map of every zoo and aquarium in the United States accredited by the Association of Zoos and Aquariums (AZA), 215 facilities, with species lists for 137 of them and notes on what's missing and why.
 
 **Live map:** https://joshgreenman1973.github.io/us-captive-wildlife-atlas/
 
-There is no single official registry of wild animals held in captivity in the U.S. This atlas combines the most authoritative public datasets available and lists the gaps.
+There is no single official registry of wild animals held in captivity in the U.S. This atlas combines public datasets and lists the gaps.
 
-## What's on the map (Phase 1)
+## What's on the map
 
-- **USDA Class C exhibitors** (~2,100) — zoos, aquariums, roadside zoos, drive-through safaris, educational exhibitors, circuses
-- **USDA Class B dealers** (~600) — animal dealers
-- **AZA-accredited institutions** (215) — zoos and aquariums meeting AZA's accreditation standards
+- **AZA-accredited institutions** (215), each at street-level coordinates hand-curated from the zoo's published address
+- **Species lists** for 137 of them, from each zoo's own animal pages or, where the zoo doesn't publish an A–Z list, its Wikipedia article. Every popup says which.
+- **Named individuals** (243), from zoos' "meet our animals" pages and Ceta-Base for cetaceans
+- **Recent events** (97 births, deaths, hatchings and transfers) from zoos' press and blog pages
+- **Species Survival Plan (SSP) and Saving Animals From Extinction (SAFE) programs** for 48 species
 
 ## What's NOT on the map (and why)
 
 See [methodology.html](https://joshgreenman1973.github.io/us-captive-wildlife-atlas/methodology.html) for full caveats. Briefly:
 
+- **Non-AZA zoos and roadside facilities.** An earlier version included the 2,500+ exhibitors and dealers licensed by the U.S. Department of Agriculture (USDA). That list was dropped: it is full of regulated pet operations (kennels, catteries, puppy mills), and most non-AZA exhibitors don't publish their inventories.
 - **ZIMS (Species360)** data is excluded — institution-level publishing is prohibited by Species360's terms.
-- **Privately held exotic animals** are mostly invisible. The 2022 Big Cat Public Safety Act registry (planned Phase 5) is the one exception.
-- **Research lab animals** are tracked separately via APHIS annual reports.
-- **AWA-excluded animals** (research-bred birds/rats/mice, fish, reptiles, amphibians, invertebrates) aren't itemized in USDA inspection reports.
-- **Sanctuaries** that don't exhibit publicly may not require USDA licenses.
-
-Locations are city-centroid only because the USDA's public list redacts street addresses.
+- **Privately held exotic animals** are mostly invisible. The 2022 Big Cat Public Safety Act registry is planned for a later phase but not shown.
 
 ## Sources
 
-- [USDA APHIS Public Search Tool](https://www.aphis.usda.gov/awa/public-search) — active licensees & registrants Excel
 - [AZA Institution Status directory](https://www.aza.org/inst-status)
-- [2023 U.S. Census Gazetteer Files](https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html) — city centroids
+- Each zoo's own animal pages, with Wikipedia as a fallback
+- [2023 U.S. Census Gazetteer Files](https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html) — city centroids, used only where no curated coordinate exists
 
 ## Reproducing the dataset
 
+Run in this order; each step rewrites `data/facilities.json`:
+
 ```
 python3 scripts/build_dataset.py
+python3 scripts/build_species_index.py
+python3 scripts/build_source_links.py
 ```
 
-Reads `data/usda-licensees-raw.xlsx`, `data/aza-institutions.txt` and `data/places_gazetteer.txt`; writes `data/facilities.json`.
+`build_dataset.py` reads `data/aza-institutions.txt`, `data/zoo-coordinates.json` and `data/places_gazetteer.txt` and writes `data/facilities.json`. `build_species_index.py` merges `data/zoo-species-raw.json` and `data/wikipedia-supplemental.json` into `data/species_index.json` and attaches species lists to the facilities. `build_source_links.py` adds each facility's source URLs.
 
 ## Roadmap
 
-- **Phase 2** — AZA SSP/studbook participation lists (~500 managed species; highest-confidence species layer)
-- **Phase 3** — Scrape "Our Animals" pages from the largest 50–100 zoos
-- **Phase 4** — LLM-parse USDA inspection report PDFs for species observed
-- **Phase 5** — Big Cat Public Safety Act registry + GFAS-accredited sanctuaries
+- Big Cat Public Safety Act registry and sanctuaries accredited by the Global Federation of Animal Sanctuaries (GFAS)
