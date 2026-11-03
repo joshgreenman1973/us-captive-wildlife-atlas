@@ -1,10 +1,10 @@
 # U.S. Captive Wildlife Atlas
 
-Interactive map of every USDA-licensed exhibitor and dealer plus every AZA-accredited zoo and aquarium in the United States — ~2,500 facilities — with full transparency about what's missing and why.
+Interactive map of every exhibitor and dealer licensed by the U.S. Department of Agriculture (USDA) plus every zoo and aquarium accredited by the Association of Zoos and Aquariums (AZA) in the United States, ~2,500 facilities, with notes on what's missing and why.
 
 **Live map:** https://joshgreenman1973.github.io/us-captive-wildlife-atlas/
 
-There is no single official registry of wild animals held in captivity in the U.S. This atlas combines the most authoritative public datasets available and is honest about the gaps.
+There is no single official registry of wild animals held in captivity in the U.S. This atlas combines the most authoritative public datasets available and lists the gaps.
 
 ## What's on the map (Phase 1)
 
@@ -36,7 +36,7 @@ Locations are city-centroid only because the USDA's public list redacts street a
 python3 scripts/build_dataset.py
 ```
 
-Reads `data/usda-licensees-raw.xlsx`, `data/aza-institutions.txt`, and `data/places_gazetteer.txt`; writes `data/facilities.json`.
+Reads `data/usda-licensees-raw.xlsx`, `data/aza-institutions.txt` and `data/places_gazetteer.txt`; writes `data/facilities.json`.
 
 ## Roadmap
 
